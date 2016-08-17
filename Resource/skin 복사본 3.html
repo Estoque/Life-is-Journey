@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" media="screen" type="text/css" href="./style.css" />	
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>	
+	<meta charset="UTF-8">
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+	<title>[##_title_##] - [##_page_title_##]</title>	
+</head>
+<body id="[##_body_id_##]">
+<s_t3>
+<!-- !헤더 시작 ##########################-->			
+		<header>
+			<h1 class="blogName"><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+			<div class="blogMenu">
+				[##_blog_menu_##]
+			</div>
+		</header>
+<!-- !헤더 끝 ##########################-->
+<!-- !열시작 -->
+	<div class="row">
+		<script type="text/javascript">			
+			document.getElementById("tistorytoolbarid").remove();
+		</script>
+<!-- 컨텐츠 시작				 -->
+			<div id="content" class="mainBody">					
+<!-- !미디어로그 시작 ##########################-->					
+				<s_media>
+				    [##_media_content_##]
+					<script type="text/javascript">
+						document.getElementById("mediaLogNest").remove();
+					</script>
+				</s_media>
+<!-- !미디어로그 끝 ##########################-->															
+<!-- !검색결과 ##########################-->					
+				<s_list>
+					<script type="text/javascript">
+						var d = document.getElementById("tt-body-category");
+						d.className = d.className + "[##_list_conform_##]";										
+					</script>
+					<script type="text/javascript">
+						strDate='[##_list_conform_##]'.substr(0,4);
+						var e = document.getElementById("tt-body-archive");
+						e.className = e.className + strDate;										
+					</script>
+					<h3><span class="searchResult">Search Result</span><span class="categoryName">[##_list_conform_##]</span> [##_list_count_##]</h3>
+					<div class="tumbList flexible_img_col" id="masonry">
+						<ul>
+						<s_list_rep>
+							<li class="box">
+								<a href="[##_list_rep_link_##]"><span class="thumb"><img alt="" class="dno"><span id="str">Loading..</span></span><strong>[##_list_rep_title_##]<span class="cmt">[##_list_rep_rp_cnt_##]</span></strong><p>[##_list_rep_regdate_##]</p></a>
+							</li>
+						</s_list_rep>
+						</ul>
+					</div>
+				</s_list>
+<!-- !검색결과 끝 ##########################-->						
+<!-- !방명록 ##########################-->
+				<s_guest>
+					<div id="guestbook">
+						<h3>Guestbook</h3>
+						<img src="http://lorempixel.com/728/90/cats" alt="광고################"/>
+						<p>디스커스</p>
+					</div><!-- guestbook close -->
+				</s_guest>
+<!-- !방명록 끝 ##########################-->
+<!-- !공지 ##########################-->
+				<s_notice_rep>
+					<script type="text/javascript">
+						var d = document.getElementById("tt-body-notice");
+						d.className = d.className + "[##_notice_rep_link_##]";										
+					</script>				
+					<h2 class="noticeTitle"><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>	
+					[##_notice_rep_desc_##]
+				</s_notice_rep>
+<!-- !공지끝 ##########################-->					
+<!-- !본문 시작 ##########################-->	
+				<s_article_rep>
+						<section class="header">
+							<h2 class="articleTitle"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+							<h3 class="subtitle"></h3>
+						</section>
+					<img src="[##_image_##]" alt="Profile" class="profilePic" />
+							<h3 class="ownerName">[##_blogger_##]</h3>
+							<p class="ownerInfo">[##_desc_##]</p>
+							<p class="contact">Contact Me: <a href="mailto:incusx@naver.com" target="_top">incusx@naver.com</a></p>								
+<!-- !본문영역 시작														 -->
+					<div class="articleBody">
+						<img src="http://lorempixel.com/728/90/cats" />
+						<!-- !관리도구 시작 ##########################-->
+						<s_ad_div>
+							<div class="admin">
+								<a href="[##_s_ad_m_link_##]">수정</a> <br />
+								<a href="#" onclick="[##_s_ad_m_onclick_##]">창으로</a> <br />
+								([##_s_ad_s1_label_##])<br />
+								↓﻿<br />
+								<a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> <br />
+								<a href="#" onclick="[##_s_ad_t_onclick_##]">트랙백</a> <br />
+								<a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
+							</div>
+						</s_ad_div>
+						<!-- !관리도구 끝 ##########################-->																								
+								<span class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a> 
+									<script type="text/javascript">
+										var d = document.getElementById("tt-body-page");
+										d.className = d.className + "[##_article_rep_category_##]";										
+									</script>
+								</span>
+								<span class="year">
+									<script type="text/javascript">
+										strDate='[##_article_rep_date_##]'.substr(0,4);
+										document.write(strDate)
+									</script>								
+								</span>
+								<span class="date">
+									<script type="text/javascript">
+										strDate='[##_article_rep_date_##]'.substr(5,5);
+										document.write(strDate)
+									</script> 								
+								</span>
+								<span class="time">
+									<script type="text/javascript">
+										strDate='[##_article_rep_date_##]'.substr(10,15);
+										document.write(strDate)
+									</script> 								
+								</span>
+<!-- !본문 시작 ##########################-->											
+								<div class="article clearfix">
+									[##_article_rep_desc_##]
+									<p>메타블로그 위젯</p>
+									<p>소셜 버튼</p>									
+								</div>
+<!-- !본문 끝 ##########################-->										
+						<!-- !태그 시작 ##########################-->	
+						<s_tag_label>
+							<div class="tagTrail">
+								[##_tag_label_rep_##]
+							</div>
+						</s_tag_label>
+						<!-- !태그 끝 ##########################-->
+						<img src="http://lorempixel.com/728/90/cats" alt="광고################" />
+						<!-- !코맨트 시작 ##########################-->
+						<p>디스커스 댓글</p>
+						<!-- !코맨트 끝 ##########################-->
+<!-- !본문영역 끝						 -->
+					</div><!-- entry close -->
+				</s_article_rep>
+<!-- !본문 끝 ##########################-->
+			</div>
+<!-- 컨텐츠 끝			 -->
+<!-- !사이드바 시작 ##########################-->
+			<nav id="sidebar">
+				<s_sidebar>
+					<!-- 기본 사이드바 -->
+<!-- !프로필 ##########################-->							
+					<s_sidebar_element>
+					<!-- 블로그 프로필 모듈 -->
+						<img src="[##_image_##]" alt="Profile" />
+								<h3 class="ownerName">[##_blogger_##]</h3>
+								<p class="ownerInfo">[##_desc_##]</p>						
+					</s_sidebar_element>
+<!-- !검색 ##########################-->
+					<s_sidebar_element>
+					<!-- 검색 모듈 -->
+						<div id="search">
+							<s_search>
+								<input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"/>
+								<!-- <button value="검색" type="button" onclick="[##_search_onclick_submit_##]" class="submit"/></button> -->
+							</s_search>
+						</div>
+					</s_sidebar_element>
+					<s_sidebar_element>
+						<div class="googleSide">
+							<img src="http://lorempixel.com/1200/250/cats" alt="광고################"/>
+						</div>
+					</s_sidebar_element>
+<!-- !카테고리 ##########################-->
+					<s_sidebar_element>
+					<!-- 카테고리 모듈 -->
+						<div id="category" class="categoryList">							
+							[##_category_list_##]
+						</div>
+					</s_sidebar_element>
+<!-- !공지 ##########################-->
+					<s_sidebar_element>
+					<!-- 공지사항 모듈 -->
+						<s_rct_notice>
+							<div id="noticeSide">
+								<h3 class="sideTitle">Notice</h3>
+								<ul>
+									<s_rct_notice_rep>
+										<li><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a> </li>
+									</s_rct_notice_rep>
+								</ul>
+							</div>
+						</s_rct_notice>
+					</s_sidebar_element>					
+<!-- !포스팅 ##########################-->
+					<s_sidebar_element>
+					<!-- 최근 포스트 모듈 -->
+						<div id="recentPost">
+							<h3 class="sideTitle">Recent Posts</h3>
+							<ul>
+								<s_rctps_rep>
+									<li>
+										<a href="[##_rctps_rep_link_##]"> [##_rctps_rep_title_##].</a>
+										<span class="rpCount">[##_rctps_rep_rp_cnt_##]</span>
+									</li>
+								</s_rctps_rep>
+							</ul>
+						</div>
+					</s_sidebar_element>
+<!-- !아카이브 ##########################-->
+					<s_sidebar_element>
+					<!-- 최근 보관함 모듈 -->
+						<div id="archive">
+							<h3 class="sideTitle">Archive</h3>
+							<ul>
+								<s_archive_rep>
+									<li>
+										<a href="[##_archive_rep_link_##]">[##_archive_rep_date_##] </a>
+										<span class="arCount">([##_archive_rep_count_##])</span>
+									</li>
+								</s_archive_rep>
+							</ul>
+						</div>
+					</s_sidebar_element>
+<!-- !달력 ##########################-->
+					<s_sidebar_element>
+					<!-- 달력 모듈 -->
+						<div id="calendar">
+							[##_calendar_##]
+						</div>
+					</s_sidebar_element>
+<!-- !링크 ##########################-->
+					<s_sidebar_element>
+					<!-- 링크 모듈 -->
+						<div id="link">
+							<h3 class="sideTitle">Link</h3>
+							<ul>
+								<s_link_rep>
+									<li>
+										<a href="[##_link_url_##]" onclick="window.open(this.href); return false"> [##_link_site_##].</a>
+									</li>
+								</s_link_rep>
+							</ul>
+						</div>
+					</s_sidebar_element>
+<!-- !카운터 ##########################-->
+				</s_sidebar>
+			</nav><!-- sidebar close -->
+<!-- !사이드바 끝 ##########################-->
+<!-- !페이지 시작 ##########################-->
+			<s_paging>
+				<div id="paging" class="pagination-centered">
+					<a [##_prev_page_##] class="[##_no_more_prev_##]" id="prevPage">&lt</a>
+
+						<s_paging_rep>
+						<a [##_paging_rep_link_##] class="num"> [##_paging_rep_link_num_##]</a>
+						</s_paging_rep>
+
+					<a [##_next_page_##] class="[##_no_more_next_##]" id="nextPage">&gt</a>
+				</div>
+			</s_paging>
+<!-- !페이지 끝 ##########################-->					
+	</div>
+<!-- !열 끝 -->	
+<!-- !푸터 시작 ##########################-->			
+	<footer>
+		<!-- !타이틀2 ##########################-->	
+		<h1 class="blogName"><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+			<!-- !카운터2 시작 ##########################-->
+			<p class="counter">[##_count_today_##]/[##_count_yesterday_##]/[##_count_total_##]</p>
+			<!-- !카운터2 끝 ##########################-->	
+			<p>Designed by Estoque / Developed by Estoque</p>
+			<p>Copyright © Estoque 2012 All rights reserved.</p>
+			<p>F you Internet Explorer and Eat my siht MS</p>
+			<p>소셜 도구</p>
+	</footer>
+<!-- !푸터 끝 ##########################-->	
+<script type="text/javascript">
+	document.getElementById("ttCanvas").removeAttribute("id"); ;
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+	var $all = $(".tab_line ul li a").eq(0);
+	if($all.length > 0){
+		$all.parent().find("ul").eq(0).prepend('<li class="on"><a href="/category">'+$all.html()+'</a></li>');
+		$all.remove();
+
+		var url = (window.location.href).replace("http://","");
+
+		var uarr = url.split("/");
+		var s = false;
+		if(uarr.length > 1){
+			if(uarr[1] == "entry"){
+				s = true;
+				var tmp = "com"+$("div.ect a#category").attr("href");
+				uarr = tmp.split("/");
+			}
+		}
+		
+		if(uarr.length > 2 && !s){
+			if(uarr[2].length > 0) s = true;
+		}
+		if(s){
+			var cate = $('.tab_line ul li a[href*="'+uarr[2]+'"]');
+			if(cate.length > 0){
+				$(".tab_line ul li.on").removeClass("on");
+				cate.addClass("on");
+			}
+			uarr[2] = decodeURIComponent(uarr[2]);
+			cate = $('.tab_line ul li a[href*="'+uarr[2]+'"]');
+			if(cate.length > 0){
+				$(".tab_line ul li.on").removeClass("on");
+				cate.parent().addClass("on");
+			}
+		}
+
+		$(".tab_line ul li a").mouseenter(function(){
+			$(this).parent().find("ul").show();
+			if(ie7 == 1){
+				$(this).parent().find("ul").css("margin-left",-$(this).parent().width());
+			}
+		}).mouseleave(function(){
+			$(this).parent().find("ul").hide();
+		});
+
+		$(".tab_line ul li ul li ul").mouseenter(function(){
+			$(this).show();
+		}).mouseleave(function(){
+			$(this).hide();
+		});
+	}
+});
+</script>
+<script src="http://ts.daumcdn.net/custom/blog/151/1517349/skin/images/ygal2.js"></script>
+</s_t3>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!-- 날짜 -->
+<script type="text/javascript">
+	strDate='[##_article_rep_date_##]'.substr(5,5);
+	document.write(strDate)
+</script> 
+
+<!-- 년도 -->
+<script type="text/javascript">
+	strDate='[##_article_rep_date_##]'.substr(0,4);
+	document.write(strDate)
+</script>
+
+
