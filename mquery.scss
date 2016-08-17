@@ -1,0 +1,34 @@
+// Small screens 모바일
+@media only screen { 
+	body#tt-body-page {
+
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body#tt-body-page {
+
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body#tt-body-page {
+
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body#tt-body-page {
+
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-page {
+
+	}
+} /* min-width 1921px, xlarge screens */
