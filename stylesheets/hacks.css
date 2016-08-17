@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* swhack */
+.NIU {
+	width:/*@post-width:290=*/920px/*@*/;
+	width:/*@post-width=*/630px/*@*/;
+	height: /*@title-height=*/109px/*@*/;
+	background-color:/*@title-background-color=*/transparent/*@*/;
+	background-image: /*@title-background-image=*/url("http://i1.daumcdn.net/cfs.tistory/v/0/blog/style/template/image/title/24.jpg")/*@*/;
+	background-repeat: /*@title-background-image-repeat=*/repeat/*@*/;
+	background-position: /*@title-background-image-position=*/right top/*@*/;
+	color:/*@title-color=color:#000000;*/ #fff;/*@*/
+	padding-top:/*@title-height:-65=*/44px/*@*/;
+	font-family:/*@title-font-family=*/Helvetica Neue, Helvetica, Arial, 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif/*@*/;
+	font-size:/*@title-font-size=*/16px/*@*/; 
+	width:/*@post-width:-44=*/586px/*@*/;
+	 width: /*@post-width:-180=*/450px/*@*/ !important;
+	 margin-bottom:10px; width:/*@post-width:-50=*/580px/*@*/;
+	 width:/*@post-width:-90=*/540px/*@*/;  
+  /*@post-title-color=color:#333;*/color: #333;/*@*/
+  /*@post-title-font-family=font-family:;*/font-family: Helvetica Neue, Helvetica, Arial, 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;/*@*/
+  font-size: /*@post-title-font-size=*/inherit/*@*/;	 
+  color:/*@post-body-color=color:#666666;*/ #666666;/*@*/
+  font-family:/*@post-body-font-family=font-family:;*/ Helvetica Neue, Helvetica, Arial, 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;/*@*/
+  font-size: /*@post-body-font-size=*/inherit/*@*/;  
+	background-color:/*@background-color=*/#C4CDDC/*@*/;
+	background-image: /*@background-image=*/url("http://cfile23.uf.tistory.com/original/277BA23C53652746270C78")/*@*/;
+	background-repeat: /*@background-image-repeat=*/no-repeat/*@*/;
+	background-position: /*@background-image-position=*/center center/*@*/;  
+}
+/* 안드로이드 - 사파리4, 안드로이드 2.3+, IE9+ */
+@media screen and (min-width:0\0) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center; }
+}
+/* 크롬 28- 사파리 6- 오페라 14+ */
+body#tt-body-page header.header { (;background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center;); } 
+body#tt-body-page header.header { [;background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center;]; }
+::i-block-chrome, .header { (;background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center;); } 
+::i-block-chrome, .header { [;background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center;]; }
+/* 크롬 22-28 */
+@media \\0 screen {
+	::i-block-chrome,body#tt-body-page header.header {
+	  background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center; }
+}
+/* 크롬 29+ 오페라 16+ */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+	::i-block-chrome, body#tt-body-page header.header {
+	  background: url(http://cfile25.uf.tistory.com/image/24337C3B5328CB8C300CEE) no-repeat center center; }
+}
+/* 파이어폭스 1.5/2 */
+body#tt-body-page:empty .header {
+	 background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center;
+}
+/* 파이어폭스 2+ */
+body#tt-body-page:last-child .header, x:-moz-any-link {
+	background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center;
+}
+/* 파이어폭스 3+ */
+body#tt-body-page:last-child .header, x:-moz-any-link, x:default {
+	background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center;
+}
+/* 파이어폭스 3.5+ */
+body#tt-body-page:not(:-moz-handler-blocked) .header {
+	background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center;
+}
+/* 파이어폭스 3- */
+@media \0 all {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+}
+/* 파이어폭스 3+ */
+@-moz-document url-prefix() {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+}
+/* 파이어폭스 3.6+ */
+@media screen and (-moz-images-in-menus:0) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+}
+/* 파이어폭스 4+ */
+@media screen and (min--moz-device-pixel-ratio:0) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+}
+/* 파이어폭스 8+ */
+@media all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+}
+@media all and (min--moz-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+}
+/* 파이어폭스 11+ */
+@media all and (min--moz-device-pixel-ratio:0) { @media (min-width: 0px) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+} }
+@media all and (-moz-images-in-menus:0) { @media (min-width: 0px) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile28.uf.tistory.com/image/2451AE4E536E6EC5138B6A) no-repeat center center; }	
+} }
+/* IE10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile6.uf.tistory.com/image/23577A4E536E6EC6128C86) no-repeat center center; }	
+}
+/* IE11/10 */
+	_::-ms-reveal,body#tt-body-page header.header {
+	  background: url(http://cfile6.uf.tistory.com/image/23577A4E536E6EC6128C86) no-repeat center center; }	
+	_::-ms-reveal, body#tt-body-page header.header {
+	  background: url(http://cfile6.uf.tistory.com/image/23577A4E536E6EC6128C86) no-repeat center center; }		  
+/* IE,사파리 */
+/*
+@media screen { @media (min-width: 0px) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile6.uf.tistory.com/image/23577A4E536E6EC6128C86) no-repeat center center; }	
+} }
+*/
+/* 사파리2/3.1 오페라 9.25 */
+*|html[xmlns*=""] body#tt-body-page header.header {
+	background: url(http://cfile24.uf.tistory.com/image/27582B4E536E6EC71127FD) no-repeat center center;
+}
+/* 오페라 9.27-, 사파리2 */
+html:first-child body#tt-body-page header.header {
+	background: url(http://cfile24.uf.tistory.com/image/27582B4E536E6EC71127FD) no-repeat center center;
+}
+/* 오페라 9.5, 10, 11, 12 */
+_:-o-prefocus, body#tt-body-page:last-child .header {
+	background: url(http://cfile24.uf.tistory.com/image/27582B4E536E6EC71127FD) no-repeat center center;
+}
+/* 오페라 11- */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile24.uf.tistory.com/image/27582B4E536E6EC71127FD) no-repeat center center; }	
+}
+/* 오페라 12 */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile24.uf.tistory.com/image/27582B4E536E6EC71127FD) no-repeat center center; }	
+}
+/* 오페라 29+, 16_ */
+/*
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile24.uf.tistory.com/image/27582B4E536E6EC71127FD) no-repeat center center; }	
+}
+*/
+/* 사파리 2-3 */
+html[xmlns*=""] body#tt-body-page:last-child .header {
+	background: url(http://cfile9.uf.tistory.com/image/23587E4E536E6EC8128A8B) no-repeat center center;
+} 
+html[xmlns*=""]:root body#tt-body-page header.header  {
+	background: url(http://cfile9.uf.tistory.com/image/23587E4E536E6EC8128A8B) no-repeat center center;
+}
+/* iPhone / mobile webkit */
+@media screen and (max-device-width: 480px) {
+	body#tt-body-page header.header {
+	  background: url(http://cfile9.uf.tistory.com/image/23587E4E536E6EC8128A8B) no-repeat center center; }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari 5+ ONLY */
+    ::i-block-chrome, body#tt-body-page header.header {
+     background: url(http://cfile9.uf.tistory.com/image/23587E4E536E6EC8128A8B) no-repeat center center;
+    }
+    /* Safari only override */
+    ::i-block-chrome,body#tt-body-page header.header {
+     background: url(http://cfile9.uf.tistory.com/image/23587E4E536E6EC8128A8B) no-repeat center center;
+    }    
+}

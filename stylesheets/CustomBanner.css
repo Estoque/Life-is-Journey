@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* !패턴있음 */
+/* line 11, ../sass/CustomBanner.scss */
+body#tt-body-page.Diary header {
+  background: url(http://cfile2.uf.tistory.com/image/2374463C5380458F385BDA) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 22, ../sass/CustomBanner.scss */
+body#tt-body-page.Books header {
+  background: url(http://cfile28.uf.tistory.com/image/27208D3A53803ABE188177) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 33, ../sass/CustomBanner.scss */
+body#tt-body-page.iOS.Full.theme header, body#tt-body-page.iOS.Lockscreen.theme header, body#tt-body-page.iOS.iWidgets header, body#tt-body-page.iOS.Tweak.theme header, body#tt-body-page.iOS.Kakaotalk.theme header, body#tt-body-page.iOS.Dreamboard.theme header, body#tt-body-page.iOS.Custom.fonts header {
+  background: url(http://cfile25.uf.tistory.com/image/271D0F3A53803ABF09DBFD) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 44, ../sass/CustomBanner.scss */
+body#tt-body-page.IT header {
+  background: url(http://cfile30.uf.tistory.com/image/24424D3A53803AC0140C55) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 55, ../sass/CustomBanner.scss */
+body#tt-body-page.iOS.Theme.Bible header {
+  background: url(http://cfile22.uf.tistory.com/image/2160D33A53803AC210BDBC) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 66, ../sass/CustomBanner.scss */
+body#tt-body-page.Tutorials header {
+  background: url(http://cfile3.uf.tistory.com/image/2244BB395432EA283143F8) no-repeat center 30%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 76, ../sass/CustomBanner.scss */
+body#tt-body-page.Movies header {
+  background: url(http://cfile3.uf.tistory.com/image/2313B23A53803AC037D363) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 87, ../sass/CustomBanner.scss */
+body#tt-body-page.Notice header {
+  background: url(http://cfile5.uf.tistory.com/image/27785B335432EA25281889) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 97, ../sass/CustomBanner.scss */
+body#tt-body-page.IT.Column header {
+  background: url(http://cfile7.uf.tistory.com/image/233AD64F5334242A38A73E) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 107, ../sass/CustomBanner.scss */
+body#tt-body-page.블로그.운영일지 {
+  /* !네비게이션	 */
+  /* !이미지헤더 배경	 */
+  /* !바디	 */ }
+  /* line 113, ../sass/CustomBanner.scss */
+  body#tt-body-page.블로그.운영일지 nav h1.blogName a {
+    color: #222222; }
+    /* line 115, ../sass/CustomBanner.scss */
+    body#tt-body-page.블로그.운영일지 nav h1.blogName a:hover {
+      color: #26d673; }
+  /* line 120, ../sass/CustomBanner.scss */
+  body#tt-body-page.블로그.운영일지 nav div.blogMenu {
+    color: rgba(34, 34, 34, 0.8); }
+    /* line 124, ../sass/CustomBanner.scss */
+    body#tt-body-page.블로그.운영일지 nav div.blogMenu ul li a {
+      color: rgba(34, 34, 34, 0.8); }
+      /* line 126, ../sass/CustomBanner.scss */
+      body#tt-body-page.블로그.운영일지 nav div.blogMenu ul li a:hover {
+        color: #222222;
+        border-color: #222222; }
+  /* line 134, ../sass/CustomBanner.scss */
+  body#tt-body-page.블로그.운영일지 nav a#menuToggle {
+    color: rgba(34, 34, 34, 0.8); }
+    /* line 136, ../sass/CustomBanner.scss */
+    body#tt-body-page.블로그.운영일지 nav a#menuToggle:hover {
+      color: #26d673; }
+  /* line 144, ../sass/CustomBanner.scss */
+  body#tt-body-page.블로그.운영일지 header {
+    width: 100%;
+    height: 400px;
+    /* 		background: url(../addon/column.jpg) no-repeat center top; */
+    background: url(http://cfile8.uf.tistory.com/image/267873335432EA232829E7) no-repeat center 30%;
+    /*
+    		background: url(../addon/Free%20stock/IE.jpg) no-repeat center center;
+    		background: url(../addon/Free%20stock/Safari.jpg) no-repeat center center;
+    		background: url(../addon/Free%20stock/Opera.jpg) no-repeat center center;
+    		background: url(../addon/Free%20stock/Firefox.jpg) no-repeat center center;
+    */
+    /* 		background: url(../addon/topgear.jpg) no-repeat center center ; */
+    /* 		background: url(../addon/diary.jpg) no-repeat center center ; */
+    /* 		background: url(../Free%20Image/unsplash_52b6b4db7397c_1.JPG) no-repeat center center; */
+    background-size: cover; }
+    /* line 161, ../sass/CustomBanner.scss */
+    body#tt-body-page.블로그.운영일지 header h2.articleTitle a {
+      text-decoration: none;
+      color: #222222; }
+      /* line 164, ../sass/CustomBanner.scss */
+      body#tt-body-page.블로그.운영일지 header h2.articleTitle a:hover {
+        color: #26d673;
+        text-shadow: white 0 0 0px; }
+
+/* line 175, ../sass/CustomBanner.scss */
+body#tt-body-page.Top.gear header {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI1cHgiIGhlaWdodD0iNXB4IiB2aWV3Qm94PSIwIDAgNSA1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1IDUiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cmVjdCBvcGFjaXR5PSIwLjIiIHdpZHRoPSI0Ljk4NCIgaGVpZ2h0PSI1Ii8+Cjwvc3ZnPg==), url(http://cfile8.uf.tistory.com/image/243C58365328CB9333C1A7) no-repeat center center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover; }
+
+/* line 186, ../sass/CustomBanner.scss */
+body#tt-body-page.Fun header {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI1cHgiIGhlaWdodD0iNXB4IiB2aWV3Qm94PSIwIDAgNSA1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1IDUiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cmVjdCBvcGFjaXR5PSIwLjIiIHdpZHRoPSI0Ljk4NCIgaGVpZ2h0PSI1Ii8+Cjwvc3ZnPg==), url(http://cfile8.uf.tistory.com/original/242036395321682F37ABFA) no-repeat center center fixed;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover; }
+
+/* !보호글 */
+/* line 198, ../sass/CustomBanner.scss */
+body#tt-body-page.protectedSecret header {
+  background: url(http://cfile10.uf.tistory.com/image/227731335432EA2628A5F7) no-repeat center 10%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }

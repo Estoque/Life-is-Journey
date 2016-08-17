@@ -1,0 +1,2096 @@
+@charset "UTF-8";
+/* line 9, ../sass/mac.scss */
+html {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 13, ../sass/mac.scss */
+body.Hackintosh {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  /* !네비게이션	 */
+  /* !스크롤 */
+  /* !이미지헤더 배경	 */
+  /* !프로필	 */
+  /* !본문	 */
+  /* !메타 위젯	 */
+  /* !관리도구	 */
+  /* !카테고리	 */
+  /* !본문	 */
+  /* !소셜 위젯	 */
+  /* !버튼형 위젯	 */
+  /* !태그	 */
+  /* !티스토리 기본댓글 */
+  /* !사이드바	 */
+  /* !페이징	 */
+  /* !푸터	 */
+  /* !맨위로		 */
+  /* !바디	 */ }
+  /* line 24, ../sass/mac.scss */
+  body.Hackintosh h1, body.Hackintosh h2, body.Hackintosh h3, body.Hackintosh h4, body.Hackintosh h5, body.Hackintosh h6 {
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 28, ../sass/mac.scss */
+  body.Hackintosh a {
+    color: #3875d7;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Hackintosh a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Hackintosh a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Hackintosh a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Hackintosh a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body.Hackintosh a:hover {
+      text-decoration: underline; }
+  /* line 35, ../sass/mac.scss */
+  body.Hackintosh ::selection {
+    color: white;
+    background: #3875d7; }
+  /* line 36, ../sass/mac.scss */
+  body.Hackintosh ::-moz-selection {
+    color: white;
+    background: #3875d7; }
+  /* line 38, ../sass/mac.scss */
+  body.Hackintosh header {
+    /* 		  background: url(../addon/mac.jpg) no-repeat center center fixed;  */
+    background: url(http://cfile22.uf.tistory.com/image/255040355328CB8E2F7A98) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px -5px 10px 0px inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px -5px 10px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -5px 10px 0px inset; }
+  /* line 47, ../sass/mac.scss */
+  body.Hackintosh div.row {
+    /* 		background: rgba(#F2F2F2,.9); */
+    -webkit-box-shadow: 0px 0px 5px #222222;
+    -moz-box-shadow: 0px 0px 5px #222222;
+    box-shadow: 0px 0px 5px #222222; }
+  /* line 52, ../sass/mac.scss */
+  body.Hackintosh div.mainBody {
+    background: transparent; }
+  /* line 56, ../sass/mac.scss */
+  body.Hackintosh article.articleBody {
+    background: transparent; }
+  /* line 60, ../sass/mac.scss */
+  body.Hackintosh aside#sidebar {
+    background: transparent; }
+  /* line 64, ../sass/mac.scss */
+  body.Hackintosh div#paging {
+    background: transparent; }
+  /* line 68, ../sass/mac.scss */
+  body.Hackintosh footer {
+    background: #34343B; }
+  /* line 71, ../sass/mac.scss */
+  body.Hackintosh div.profileLayer {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ededed), color-stop(100%, #d8d8d8));
+    background-image: -webkit-linear-gradient(#ededed, #d8d8d8);
+    background-image: -moz-linear-gradient(#ededed, #d8d8d8);
+    background-image: -o-linear-gradient(#ededed, #d8d8d8);
+    background-image: linear-gradient(#ededed, #d8d8d8);
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #BFBFBF; }
+  /* line 78, ../sass/mac.scss */
+  body.Hackintosh nav {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, #b1b1b1));
+    background-image: -webkit-linear-gradient(#e9e9e9, #b1b1b1);
+    background-image: -moz-linear-gradient(#e9e9e9, #b1b1b1);
+    background-image: -o-linear-gradient(#e9e9e9, #b1b1b1);
+    background-image: linear-gradient(#e9e9e9, #b1b1b1);
+    border-bottom: 2px solid rgba(143, 143, 143, 0.8);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 5px 15px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0 5px 15px;
+    clear: both;
+    width: 1920px;
+    height: 100px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 99, ../sass/mac.scss */
+    body.Hackintosh nav h1.blogName {
+      margin: 0;
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-shadow: #D1D2D2 0px 3px; }
+      /* line 105, ../sass/mac.scss */
+      body.Hackintosh nav h1.blogName a {
+        color: #414141;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 111, ../sass/mac.scss */
+        body.Hackintosh nav h1.blogName a:hover {
+          text-shadow: white 0 0 0px;
+          color: #3875d7;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 118, ../sass/mac.scss */
+    body.Hackintosh nav div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 600;
+      color: #414141;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 35px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 130, ../sass/mac.scss */
+      body.Hackintosh nav div.blogMenu ul {
+        list-style: none; }
+        /* line 132, ../sass/mac.scss */
+        body.Hackintosh nav div.blogMenu ul li {
+          float: left;
+          margin-right: 5px; }
+          /* line 135, ../sass/mac.scss */
+          body.Hackintosh nav div.blogMenu ul li a {
+            color: rgba(0, 0, 0, 0.8);
+            padding-bottom: 0px;
+            padding: 2px 10px 5px 10px;
+            text-shadow: #D1D2D2 0px 2px; }
+            /* line 140, ../sass/mac.scss */
+            body.Hackintosh nav div.blogMenu ul li a:hover {
+              color: white;
+              background: #3875d7;
+              text-shadow: #D1D2D2 0px 0px;
+              text-decoration: none;
+              border-bottom: 0px solid red;
+              -webkit-border-radius: 20px;
+              -moz-border-radius: 20px;
+              -ms-border-radius: 20px;
+              -o-border-radius: 20px;
+              border-radius: 20px;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 154, ../sass/mac.scss */
+    body.Hackintosh nav a#menuToggle {
+      color: #414141;
+      text-shadow: #D1D2D2 0px 2px;
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 165, ../sass/mac.scss */
+      body.Hackintosh nav a#menuToggle:hover {
+        text-decoration: none;
+        color: #3875d7;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 172, ../sass/mac.scss */
+    body.Hackintosh nav div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+      -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+      box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px; }
+      /* line 188, ../sass/mac.scss */
+      body.Hackintosh nav div.mobileMenu ul {
+        margin: 0;
+        padding-top: 10px;
+        list-style: none;
+        text-align: center; }
+        /* line 193, ../sass/mac.scss */
+        body.Hackintosh nav div.mobileMenu ul li {
+          margin-bottom: 18px; }
+          /* line 195, ../sass/mac.scss */
+          body.Hackintosh nav div.mobileMenu ul li a {
+            padding: 8px 20px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            color: black;
+            font-weight: 600;
+            letter-spacing: 2px; }
+            /* line 201, ../sass/mac.scss */
+            body.Hackintosh nav div.mobileMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              background: #3875d7; }
+  /* line 212, ../sass/mac.scss */
+  body.Hackintosh nav.tiny {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    clear: both;
+    width: 1920px;
+    height: 60px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 233, ../sass/mac.scss */
+    body.Hackintosh nav.tiny h1.blogName {
+      margin: 0;
+      font-size: 30px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-shadow: #D1D2D2 0px 0px; }
+      /* line 239, ../sass/mac.scss */
+      body.Hackintosh nav.tiny h1.blogName a {
+        color: #414141;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 245, ../sass/mac.scss */
+        body.Hackintosh nav.tiny h1.blogName a:hover {
+          color: #3875d7;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 251, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 600;
+      color: #414141;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 15px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 262, ../sass/mac.scss */
+      body.Hackintosh nav.tiny div.blogMenu ul {
+        list-style: none; }
+        /* line 264, ../sass/mac.scss */
+        body.Hackintosh nav.tiny div.blogMenu ul li {
+          float: left; }
+          /* line 266, ../sass/mac.scss */
+          body.Hackintosh nav.tiny div.blogMenu ul li a {
+            color: #414141;
+            padding-bottom: inherit;
+            text-shadow: #D1D2D2 0px 0px; }
+            /* line 270, ../sass/mac.scss */
+            body.Hackintosh nav.tiny div.blogMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              text-shadow: #D1D2D2 0px 0px;
+              border-bottom: 0px solid #3875d7;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 282, ../sass/mac.scss */
+    body.Hackintosh nav.tiny a#menuToggle {
+      color: rgba(0, 0, 0, 0.8);
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 293, ../sass/mac.scss */
+      body.Hackintosh nav.tiny a#menuToggle:hover {
+        text-decoration: none;
+        color: #3875d7;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 300, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+      -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+      box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px; }
+      /* line 316, ../sass/mac.scss */
+      body.Hackintosh nav.tiny div.mobileMenu ul {
+        margin: 0;
+        padding-top: 10px;
+        list-style: none;
+        text-align: center; }
+        /* line 321, ../sass/mac.scss */
+        body.Hackintosh nav.tiny div.mobileMenu ul li {
+          margin-bottom: 18px; }
+          /* line 323, ../sass/mac.scss */
+          body.Hackintosh nav.tiny div.mobileMenu ul li a {
+            padding: 8px 20px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            color: black;
+            font-weight: 600;
+            letter-spacing: 2px; }
+            /* line 329, ../sass/mac.scss */
+            body.Hackintosh nav.tiny div.mobileMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              background: #3875d7; }
+  /* line 343, ../sass/mac.scss */
+  body.Hackintosh header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0;
+    padding-top: 200px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 351, ../sass/mac.scss */
+    body.Hackintosh header h2.articleTitle {
+      margin: 0;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 600;
+      letter-spacing: 0px; }
+      /* line 357, ../sass/mac.scss */
+      body.Hackintosh header h2.articleTitle a {
+        text-decoration: none;
+        color: #fff;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 362, ../sass/mac.scss */
+        body.Hackintosh header h2.articleTitle a:hover {
+          text-shadow: white 0 0 10px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 368, ../sass/mac.scss */
+    body.Hackintosh header a.disqus_count {
+      position: absolute;
+      bottom: -10px;
+      left: 5%;
+      background: #3875d7;
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 400;
+      padding-top: 15px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease;
+      z-index: 1; }
+      /* line 383, ../sass/mac.scss */
+      body.Hackintosh header a.disqus_count:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 8px 8px 0;
+        border-color: #3875d7 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -8px;
+        bottom: -6px;
+        left: 50%;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+      /* line 397, ../sass/mac.scss */
+      body.Hackintosh header a.disqus_count:hover {
+        background: #34343B;
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 402, ../sass/mac.scss */
+        body.Hackintosh header a.disqus_count:hover:after {
+          border-color: #34343B transparent;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+  /* line 410, ../sass/mac.scss */
+  body.Hackintosh div.profileLayer {
+    display: none;
+    height: 180px;
+    padding-top: 60px; }
+  /* line 416, ../sass/mac.scss */
+  body.Hackintosh img.profilePic {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 100;
+    margin-top: 20px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0 0 10px 10px inset, rgba(0, 0, 0, 0.75) 0 0 5px;
+    -moz-box-shadow: rgba(255, 255, 255, 0.8) 0 0 10px 10px inset, rgba(0, 0, 0, 0.75) 0 0 5px;
+    box-shadow: rgba(255, 255, 255, 0.8) 0 0 10px 10px inset, rgba(0, 0, 0, 0.75) 0 0 5px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 432, ../sass/mac.scss */
+    body.Hackintosh img.profilePic:hover {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+  /* line 437, ../sass/mac.scss */
+  body.Hackintosh h3.ownerName {
+    text-align: center;
+    font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+    color: #000;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0; }
+  /* line 445, ../sass/mac.scss */
+  body.Hackintosh p.ownerInfo {
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+    font-size: 18px;
+    margin: 0; }
+  /* line 452, ../sass/mac.scss */
+  body.Hackintosh p.contact {
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 0px; }
+    /* line 459, ../sass/mac.scss */
+    body.Hackintosh p.contact a {
+      text-decoration: none;
+      color: #000;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 464, ../sass/mac.scss */
+      body.Hackintosh p.contact a:hover {
+        color: #3875d7;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 472, ../sass/mac.scss */
+  body.Hackintosh article.articleBody {
+    padding-left: 5%;
+    padding-right: 2%;
+    position: relative;
+    clear: both;
+    width: 75%;
+    float: right; }
+  /* line 481, ../sass/mac.scss */
+  body.Hackintosh div.metaWidget {
+    clear: both;
+    margin: 20px 0;
+    width: 804px;
+    margin: 20px auto; }
+    /* line 486, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px;
+      margin: 0;
+      float: left; }
+    /* line 493, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px;
+      margin: 0;
+      float: right; }
+  /* line 502, ../sass/mac.scss */
+  body.Hackintosh div.admin {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 20%;
+    width: 50px;
+    overflow: hidden;
+    left: 0;
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 999;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* !구글		 */ }
+    /* line 518, ../sass/mac.scss */
+    body.Hackintosh div.admin a {
+      color: white;
+      text-decoration: none;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 523, ../sass/mac.scss */
+      body.Hackintosh div.admin a:hover {
+        color: #3875d7;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 530, ../sass/mac.scss */
+  body.Hackintosh div.google {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    margin: 40px auto; }
+  /* line 539, ../sass/mac.scss */
+  body.Hackintosh div.category {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    /* !글 작성날짜		 */ }
+    /* line 544, ../sass/mac.scss */
+    body.Hackintosh div.category a {
+      color: #000;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 549, ../sass/mac.scss */
+      body.Hackintosh div.category a:hover {
+        color: #3875d7;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 556, ../sass/mac.scss */
+  body.Hackintosh div.articleDate {
+    float: right;
+    clear: both;
+    margin-top: -35px;
+    display: block;
+    margin-right: 1em; }
+    /* line 562, ../sass/mac.scss */
+    body.Hackintosh div.articleDate div.year {
+      font-size: 22px;
+      font-weight: 400;
+      clear: both;
+      float: left; }
+    /* line 568, ../sass/mac.scss */
+    body.Hackintosh div.articleDate div.date {
+      font-size: 25px;
+      font-weight: 400;
+      clear: both;
+      float: left; }
+    /* line 574, ../sass/mac.scss */
+    body.Hackintosh div.articleDate div.time {
+      float: right;
+      font-size: 50px;
+      font-weight: 600;
+      margin-top: -25px; }
+  /* line 582, ../sass/mac.scss */
+  body.Hackintosh div.article {
+    margin-top: 30px;
+    font-weight: 400; }
+    /* line 585, ../sass/mac.scss */
+    body.Hackintosh div.article div.tt_article_useless_p_margin {
+      -webkit-font-smoothing: subpixel-antialiased;
+      font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+      /* line 588, ../sass/mac.scss */
+      body.Hackintosh div.article div.tt_article_useless_p_margin h1, body.Hackintosh div.article div.tt_article_useless_p_margin h2, body.Hackintosh div.article div.tt_article_useless_p_margin h3, body.Hackintosh div.article div.tt_article_useless_p_margin h4, body.Hackintosh div.article div.tt_article_useless_p_margin h5, body.Hackintosh div.article div.tt_article_useless_p_margin h6 {
+        -webkit-font-smoothing: subpixel-antialiased;
+        font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 595, ../sass/mac.scss */
+  body.Hackintosh div#share-buttons {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    text-align: center; }
+    /* line 600, ../sass/mac.scss */
+    body.Hackintosh div#share-buttons a {
+      color: #414141;
+      font-size: 22px;
+      padding-top: 8px;
+      display: inline-block;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ededed), color-stop(100%, #d8d8d8));
+      background-image: -webkit-linear-gradient(#ededed, #d8d8d8);
+      background-image: -moz-linear-gradient(#ededed, #d8d8d8);
+      background-image: -o-linear-gradient(#ededed, #d8d8d8);
+      background-image: linear-gradient(#ededed, #d8d8d8);
+      -webkit-box-shadow: 0px 0px 2px #222222;
+      -moz-box-shadow: 0px 0px 2px #222222;
+      box-shadow: 0px 0px 2px #222222;
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 611, ../sass/mac.scss */
+      body.Hackintosh div#share-buttons a:hover {
+        color: white;
+        background: #3875d7;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 620, ../sass/mac.scss */
+  body.Hackintosh div#thumbsUp {
+    display: none;
+    margin: 0;
+    padding: 0; }
+    /* line 624, ../sass/mac.scss */
+    body.Hackintosh div#thumbsUp iframe {
+      height: 30px; }
+  /* line 629, ../sass/mac.scss */
+  body.Hackintosh div.tagTrail {
+    margin: 20px;
+    font-weight: 400;
+    text-align: center;
+    clear: both;
+    display: none; }
+    /* line 635, ../sass/mac.scss */
+    body.Hackintosh div.tagTrail a {
+      color: black;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 638, ../sass/mac.scss */
+      body.Hackintosh div.tagTrail a:hover {
+        color: #3875d7;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 647, ../sass/mac.scss */
+  body.Hackintosh div.TcommentList ul {
+    list-style: none;
+    margin: 0; }
+  /* line 651, ../sass/mac.scss */
+  body.Hackintosh div.TcommentList div.Tcomment {
+    width: 100%;
+    padding-left: 80px;
+    display: block;
+    position: relative; }
+    /* line 656, ../sass/mac.scss */
+    body.Hackintosh div.TcommentList div.Tcomment img.defaultPic {
+      position: absolute;
+      left: 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 661, ../sass/mac.scss */
+    body.Hackintosh div.TcommentList div.Tcomment span.Tname {
+      font-weight: 600; }
+    /* line 664, ../sass/mac.scss */
+    body.Hackintosh div.TcommentList div.Tcomment span.Tdate {
+      font-weight: 200; }
+  /* line 668, ../sass/mac.scss */
+  body.Hackintosh div.TcommentList div.TRcomment {
+    width: 100%;
+    padding-left: 160px;
+    display: block;
+    position: relative; }
+    /* line 673, ../sass/mac.scss */
+    body.Hackintosh div.TcommentList div.TRcomment img.defaultPic {
+      position: absolute;
+      left: 80px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 678, ../sass/mac.scss */
+    body.Hackintosh div.TcommentList div.TRcomment span.Tname {
+      font-weight: 600; }
+    /* line 681, ../sass/mac.scss */
+    body.Hackintosh div.TcommentList div.TRcomment span.Tdate {
+      font-weight: 200; }
+  /* line 687, ../sass/mac.scss */
+  body.Hackintosh aside#sidebar {
+    margin-top: 0;
+    padding-left: 2%;
+    padding-right: 5%;
+    position: relative;
+    padding-bottom: 50px;
+    width: 25%;
+    background: #E1E6EB;
+    border-right: 1px solid #B8B8B8;
+    border-bottom: 1px solid #B8B8B8;
+    /* !검색창		 */
+    /* !구글광고		 */
+    /* !카테고리		 */
+    /* !사이드바 제목		 */
+    /* !공지사이드바		 */
+    /* !최근포스팅		 */
+    /* !아카이브		 */
+    /* !달력		 */
+    /*
+    		div#calendar {
+    			font-size: 18px;
+    			font-weight: 100;
+    			border: 1px solid black;
+    			display: none;
+    		}
+    */
+    /* !링크		 */ }
+    /* line 697, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar h1.blogName {
+      display: none; }
+    /* line 700, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar hr.sidehr {
+      display: none; }
+    /* line 703, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.profileSide {
+      display: block; }
+    /* line 708, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#search input {
+      width: 100%;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      border-radius: 20px;
+      height: 40px;
+      background: white;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px -3px inset;
+      -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px -3px inset;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px -3px inset;
+      margin: 20px 0;
+      border: 1px solid #DEDEDE;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+      font-style: italic;
+      outline: 0;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in; }
+      /* line 724, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div#search input:focus {
+        background: white;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px -3px inset;
+        -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px -3px inset;
+        box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px -3px inset;
+        color: #000;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+      /* line 732, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div#search input:hover {
+        box-shadow: #7BA7D1 0 0 5px 0px;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+    /* line 740, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.googleSide {
+      width: 300px; }
+      /* line 742, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div.googleSide img {
+        width: 100%; }
+    /* line 747, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar a#categoryToggle {
+      display: none;
+      margin-top: 20px;
+      padding: 2px 0px 2px 10px;
+      color: #000;
+      display: block;
+      border-top: #E5E5E5 0px solid;
+      border-bottom: #E5E5E5 0px solid;
+      font-size: 16px;
+      font-weight: 600;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease;
+      padding: 2px 0px 2px 10px; }
+      /* line 764, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar a#categoryToggle:hover {
+        color: white;
+        text-decoration: none;
+        text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+        background: #E5E5E5;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #53abe5), color-stop(100%, #3e8bd4));
+        background-image: -webkit-linear-gradient(#53abe5, #3e8bd4);
+        background-image: -moz-linear-gradient(#53abe5, #3e8bd4);
+        background-image: -o-linear-gradient(#53abe5, #3e8bd4);
+        background-image: linear-gradient(#53abe5, #3e8bd4);
+        border-left: 1px #3875d7 solid;
+        padding-right: 0px;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 777, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.categoryList {
+      margin: 10px 0; }
+      /* line 779, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div.categoryList ul {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: left;
+        margin-left: 0;
+        list-style: none; }
+        /* line 786, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div.categoryList ul li a {
+          color: #000;
+          display: block;
+          border-top: #E5E5E5 0px solid;
+          border-bottom: #E5E5E5 0px solid;
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+          padding: 2px 0px 2px 10px; }
+          /* line 798, ../sass/mac.scss */
+          body.Hackintosh aside#sidebar div.categoryList ul li a:hover {
+            color: white;
+            text-decoration: none;
+            text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+            background: #E5E5E5;
+            background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #53abe5), color-stop(100%, #3e8bd4));
+            background-image: -webkit-linear-gradient(#53abe5, #3e8bd4);
+            background-image: -moz-linear-gradient(#53abe5, #3e8bd4);
+            background-image: -o-linear-gradient(#53abe5, #3e8bd4);
+            background-image: linear-gradient(#53abe5, #3e8bd4);
+            border-left: 1px #3875d7 solid;
+            padding-right: 0px;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+        /* line 812, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div.categoryList ul li:hover > ul {
+          display: block; }
+        /* line 817, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div.categoryList ul li ul {
+          display: block;
+          position: static;
+          width: auto;
+          margin-top: 0;
+          right: auto;
+          background: transparent;
+          -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 0px;
+          -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 0px;
+          box-shadow: rgba(0, 0, 0, 0.5) 0 0 0px;
+          font-size: 18px;
+          margin-top: 0px; }
+          /* line 828, ../sass/mac.scss */
+          body.Hackintosh aside#sidebar div.categoryList ul li ul li ul {
+            right: auto; }
+    /* line 837, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar h3.sideTitle {
+      font-size: 20px;
+      font-weight: 600;
+      color: #5F7685; }
+    /* line 844, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#noticeSide ul {
+      list-style: none; }
+      /* line 846, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div#noticeSide ul li {
+        font-size: 14px;
+        font-weight: 400; }
+        /* line 849, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div#noticeSide ul li a {
+          color: #000;
+          text-decoration: none;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 853, ../sass/mac.scss */
+          body.Hackintosh aside#sidebar div#noticeSide ul li a:hover {
+            color: #3875d7;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+    /* line 860, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#recentPost ul {
+      list-style: none; }
+      /* line 862, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div#recentPost ul li {
+        font-size: 14px;
+        font-weight: 400; }
+        /* line 865, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div#recentPost ul li a {
+          color: #000;
+          text-decoration: none;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 869, ../sass/mac.scss */
+          body.Hackintosh aside#sidebar div#recentPost ul li a:hover {
+            color: #3875d7;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+    /* line 876, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#archive ul {
+      list-style: none; }
+      /* line 878, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div#archive ul li {
+        font-size: 14px;
+        font-weight: 400; }
+        /* line 881, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div#archive ul li a {
+          color: #000;
+          text-decoration: none;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 885, ../sass/mac.scss */
+          body.Hackintosh aside#sidebar div#archive ul li a:hover {
+            color: #3875d7;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+    /* line 902, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#link ul {
+      list-style: none; }
+      /* line 904, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div#link ul li {
+        font-size: 16px;
+        font-weight: 400; }
+        /* line 907, ../sass/mac.scss */
+        body.Hackintosh aside#sidebar div#link ul li a {
+          color: #000;
+          text-decoration: none;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 911, ../sass/mac.scss */
+          body.Hackintosh aside#sidebar div#link ul li a:hover {
+            color: #3875d7;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+    /* line 916, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#link select {
+      background: white;
+      color: #000;
+      border: 0px solid #000;
+      height: 20px;
+      padding: 2px;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: justify;
+      outline: 0;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-appearance: listitem !important; }
+  /* line 932, ../sass/mac.scss */
+  body.Hackintosh div#paging {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dededf), color-stop(100%, #aeaeae));
+    background-image: -webkit-linear-gradient(#dededf, #aeaeae);
+    background-image: -moz-linear-gradient(#dededf, #aeaeae);
+    background-image: -o-linear-gradient(#dededf, #aeaeae);
+    background-image: linear-gradient(#dededf, #aeaeae);
+    border-top: #999CA0 1px solid;
+    border-bottom: #757575 1px solid; }
+    /* line 943, ../sass/mac.scss */
+    body.Hackintosh div#paging a {
+      color: #534350;
+      text-decoration: none;
+      text-shadow: 0 2px #CECFCE;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 948, ../sass/mac.scss */
+      body.Hackintosh div#paging a:hover {
+        color: #3875d7;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 950, ../sass/mac.scss */
+    body.Hackintosh div#paging a#prevPage, body.Hackintosh div#paging a#nextPage {
+      font-family: 'entypo', sans-serif; }
+  /* line 955, ../sass/mac.scss */
+  body.Hackintosh footer {
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: block;
+    max-width: 1920px;
+    position: relative;
+    display: block;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px #222222;
+    -moz-box-shadow: 0px 0px 5px #222222;
+    box-shadow: 0px 0px 5px #222222;
+    /* !저작권		 */
+    /* !카운터		 */
+    /* !구분선												 */
+    /* !소셜 아이콘 리스트		 */
+    /* !소셜 SVG	 */ }
+    /* line 969, ../sass/mac.scss */
+    body.Hackintosh footer hr {
+      display: none; }
+    /* line 972, ../sass/mac.scss */
+    body.Hackintosh footer h1 {
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-align: center;
+      margin: 0; }
+      /* line 978, ../sass/mac.scss */
+      body.Hackintosh footer h1 a {
+        text-decoration: none;
+        color: transparent;
+        text-shadow: 0 0 #2C2D32, 0 2px #5C5C60, 0 -2px #1D1D20;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 983, ../sass/mac.scss */
+        body.Hackintosh footer h1 a:hover {
+          text-decoration: none;
+          color: #3875d7;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 991, ../sass/mac.scss */
+    body.Hackintosh footer p {
+      text-align: center;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      margin: 0;
+      color: #F1F1F1;
+      font-weight: 400;
+      text-shadow: 0 1px 5px black; }
+    /* line 1002, ../sass/mac.scss */
+    body.Hackintosh footer .counter {
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-size: 30px;
+      font-weight: 100;
+      text-align: center;
+      margin: 0;
+      margin-top: -5px;
+      margin-bottom: 20px;
+      color: transparent;
+      text-shadow: 0 0 #2C2D32, 0 2px #5C5C60, 0 -2px #1D1D20; }
+    /* line 1013, ../sass/mac.scss */
+    body.Hackintosh footer a {
+      text-align: center; }
+    /* line 1017, ../sass/mac.scss */
+    body.Hackintosh footer div.line {
+      width: 60%;
+      height: 2px;
+      background: rgba(241, 241, 241, 0.5);
+      position: relative;
+      margin: 20px auto;
+      margin-bottom: 10px;
+      display: none !important; }
+    /* line 1028, ../sass/mac.scss */
+    body.Hackintosh footer div.socialIcon {
+      width: 100%;
+      position: relative;
+      display: block;
+      text-align: center;
+      margin-top: 10px; }
+      /* line 1034, ../sass/mac.scss */
+      body.Hackintosh footer div.socialIcon a.social {
+        display: inline-block;
+        text-align: center; }
+        /* line 1037, ../sass/mac.scss */
+        body.Hackintosh footer div.socialIcon a.social .icon {
+          width: 60px;
+          height: 68px; }
+        /* line 1041, ../sass/mac.scss */
+        body.Hackintosh footer div.socialIcon a.social path#hex {
+          fill: transparent;
+          opacity: .8; }
+        /* line 1045, ../sass/mac.scss */
+        body.Hackintosh footer div.socialIcon a.social path#icon {
+          fill: #ABABAD; }
+        /* line 1049, ../sass/mac.scss */
+        body.Hackintosh footer div.socialIcon a.social:hover path#icon {
+          fill: #fff; }
+  /* line 1057, ../sass/mac.scss */
+  body.Hackintosh a.gtt {
+    text-align: center;
+    color: #2C2D32;
+    position: relative;
+    display: block;
+    font-size: 32px;
+    text-shadow: 0 0 #2C2D32, 0 2px #5C5C60, 0 -2px #1D1D20;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 1065, ../sass/mac.scss */
+    body.Hackintosh a.gtt:hover {
+      color: #3875d7;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+
+@media only screen {
+  /* line 1078, ../sass/mac.scss */
+  body.Hackintosh nav {
+    height: 40px; }
+    /* line 1080, ../sass/mac.scss */
+    body.Hackintosh nav h1.blogName {
+      font-size: 20px; }
+    /* line 1083, ../sass/mac.scss */
+    body.Hackintosh nav div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 1087, ../sass/mac.scss */
+    body.Hackintosh nav a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 1091, ../sass/mac.scss */
+    body.Hackintosh nav div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 1096, ../sass/mac.scss */
+  body.Hackintosh nav.tiny {
+    height: 40px; }
+    /* line 1098, ../sass/mac.scss */
+    body.Hackintosh nav.tiny h1.blogName {
+      font-size: 20px; }
+    /* line 1101, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 1105, ../sass/mac.scss */
+    body.Hackintosh nav.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 1109, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 1114, ../sass/mac.scss */
+  body.Hackintosh header {
+    height: 250px;
+    padding-top: 115px; }
+    /* line 1117, ../sass/mac.scss */
+    body.Hackintosh header h2.articleTitle {
+      font-size: 20px; }
+  /* line 1121, ../sass/mac.scss */
+  body.Hackintosh div.category {
+    font-size: 16px; }
+  /* line 1124, ../sass/mac.scss */
+  body.Hackintosh div.articleDate {
+    float: none;
+    clear: both;
+    margin-top: 10px;
+    height: 30px; }
+    /* line 1129, ../sass/mac.scss */
+    body.Hackintosh div.articleDate div.time {
+      float: left; }
+  /* line 1133, ../sass/mac.scss */
+  body.Hackintosh article.articleBody {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%; }
+  /* line 1138, ../sass/mac.scss */
+  body.Hackintosh div.metaWidget {
+    width: 300px; }
+    /* line 1140, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 302px; }
+    /* line 1144, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 302px;
+      display: none; }
+  /* line 1150, ../sass/mac.scss */
+  body.Hackintosh aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+    width: 100%; }
+    /* line 1155, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar a#categoryToggle {
+      display: block; }
+    /* line 1159, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.categoryList {
+      display: none; }
+    /* line 1162, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.googleSide {
+      margin-left: auto; }
+    /* line 1165, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 1169, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 1173, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 1177, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 1181, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#link {
+      display: inline-block;
+      width: 250px; }
+  /* line 1187, ../sass/mac.scss */
+  body.Hackintosh footer ul.social, body.Hackintosh footer div.line {
+    display: none; }
+  /* line 1191, ../sass/mac.scss */
+  body.Hackintosh div.google {
+    width: 300px;
+    margin-left: -20px; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 1201, ../sass/mac.scss */
+  body.Hackintosh nav {
+    height: 60px; }
+    /* line 1203, ../sass/mac.scss */
+    body.Hackintosh nav h1.blogName {
+      font-size: 30px; }
+    /* line 1206, ../sass/mac.scss */
+    body.Hackintosh nav div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 1210, ../sass/mac.scss */
+    body.Hackintosh nav a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 1214, ../sass/mac.scss */
+    body.Hackintosh nav div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 1219, ../sass/mac.scss */
+  body.Hackintosh nav.tiny {
+    height: 60px; }
+    /* line 1221, ../sass/mac.scss */
+    body.Hackintosh nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1224, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 1228, ../sass/mac.scss */
+    body.Hackintosh nav.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 1232, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 1237, ../sass/mac.scss */
+  body.Hackintosh div.category {
+    font-size: 18px; }
+  /* line 1240, ../sass/mac.scss */
+  body.Hackintosh header {
+    height: 325px;
+    padding-top: 170px; }
+    /* line 1243, ../sass/mac.scss */
+    body.Hackintosh header h2.articleTitle {
+      font-size: 30px; }
+  /* line 1247, ../sass/mac.scss */
+  body.Hackintosh div.articleDate {
+    float: right;
+    margin-top: -35px; }
+    /* line 1250, ../sass/mac.scss */
+    body.Hackintosh div.articleDate div.time {
+      float: right; }
+  /* line 1254, ../sass/mac.scss */
+  body.Hackintosh article.articleBody {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1259, ../sass/mac.scss */
+  body.Hackintosh div.metaWidget {
+    width: 402px; }
+    /* line 1261, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1265, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px;
+      display: block; }
+  /* line 1271, ../sass/mac.scss */
+  body.Hackintosh aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    margin-top: 0; }
+    /* line 1276, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 1280, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.googleSide {
+      margin-left: auto; }
+    /* line 1283, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 1287, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 1291, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 1295, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#link {
+      display: inline-block;
+      width: 250px; }
+    /* line 1299, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.categoryList {
+      width: 50%; }
+      /* line 1306, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div.categoryList ul li ul {
+        right: 20%; }
+  /* line 1314, ../sass/mac.scss */
+  body.Hackintosh footer ul.social, body.Hackintosh footer div.line {
+    display: block; }
+  /* line 1318, ../sass/mac.scss */
+  body.Hackintosh div.google {
+    width: 470px;
+    margin-left: auto; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 1328, ../sass/mac.scss */
+  body.Hackintosh nav {
+    height: 80px; }
+    /* line 1330, ../sass/mac.scss */
+    body.Hackintosh nav h1.blogName {
+      font-size: 45px; }
+    /* line 1333, ../sass/mac.scss */
+    body.Hackintosh nav div.blogMenu {
+      margin-top: 25px;
+      display: block; }
+      /* line 1338, ../sass/mac.scss */
+      body.Hackintosh nav div.blogMenu ul li a {
+        padding-bottom: inherit; }
+        /* line 1340, ../sass/mac.scss */
+        body.Hackintosh nav div.blogMenu ul li a:hover {
+          border-bottom: 0px solid #3875d7; }
+    /* line 1347, ../sass/mac.scss */
+    body.Hackintosh nav a#menuToggle {
+      display: none; }
+    /* line 1350, ../sass/mac.scss */
+    body.Hackintosh nav div.mobileMenu {
+      display: none; }
+  /* line 1354, ../sass/mac.scss */
+  body.Hackintosh nav.tiny {
+    height: 60px; }
+    /* line 1356, ../sass/mac.scss */
+    body.Hackintosh nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1359, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.blogMenu {
+      margin-top: 15px;
+      display: block; }
+    /* line 1363, ../sass/mac.scss */
+    body.Hackintosh nav.tiny a#menuToggle {
+      display: none; }
+    /* line 1366, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.mobileMenu {
+      display: none; }
+  /* line 1370, ../sass/mac.scss */
+  body.Hackintosh header {
+    height: 350px;
+    padding-top: 180px; }
+    /* line 1373, ../sass/mac.scss */
+    body.Hackintosh header h2.articleTitle {
+      font-size: 40px; }
+  /* line 1377, ../sass/mac.scss */
+  body.Hackintosh div.category {
+    font-size: 24px; }
+  /* line 1380, ../sass/mac.scss */
+  body.Hackintosh article.articleBody {
+    width: 70%;
+    padding-left: 2%;
+    padding-right: 5%; }
+  /* line 1385, ../sass/mac.scss */
+  body.Hackintosh div.metaWidget {
+    width: 804px; }
+    /* line 1387, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1391, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 1396, ../sass/mac.scss */
+  body.Hackintosh aside#sidebar {
+    padding-left: 5%;
+    padding-right: 2%;
+    width: 30%;
+    margin-top: 0; }
+    /* line 1401, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar h3.sideTitle {
+      font-size: 20px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 1405, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar a#categoryToggle {
+      display: none; }
+    /* line 1409, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.categoryList {
+      display: block; }
+    /* line 1412, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div#calendar {
+      display: none; }
+    /* line 1415, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.googleSide {
+      margin-left: -10%; }
+    /* line 1418, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.categoryList {
+      width: 100%; }
+      /* line 1425, ../sass/mac.scss */
+      body.Hackintosh aside#sidebar div.categoryList ul li ul {
+        right: 90%; }
+  /* line 1432, ../sass/mac.scss */
+  body.Hackintosh div.google {
+    width: 729px; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 1441, ../sass/mac.scss */
+  body.Hackintosh nav {
+    height: 100px; }
+    /* line 1443, ../sass/mac.scss */
+    body.Hackintosh nav h1.blogName {
+      font-size: 58px; }
+    /* line 1446, ../sass/mac.scss */
+    body.Hackintosh nav div.blogMenu {
+      margin-top: 35px; }
+      /* line 1450, ../sass/mac.scss */
+      body.Hackintosh nav div.blogMenu ul li a {
+        padding-bottom: inherit; }
+        /* line 1452, ../sass/mac.scss */
+        body.Hackintosh nav div.blogMenu ul li a:hover {
+          border-bottom: 0px solid #3875d7; }
+  /* line 1460, ../sass/mac.scss */
+  body.Hackintosh nav.tiny {
+    height: 60px; }
+    /* line 1462, ../sass/mac.scss */
+    body.Hackintosh nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1465, ../sass/mac.scss */
+    body.Hackintosh nav.tiny div.blogMenu {
+      margin-top: 15px; }
+      /* line 1469, ../sass/mac.scss */
+      body.Hackintosh nav.tiny div.blogMenu ul li a {
+        padding-bottom: inherit; }
+        /* line 1471, ../sass/mac.scss */
+        body.Hackintosh nav.tiny div.blogMenu ul li a:hover {
+          border-bottom: 0px solid #3875d7; }
+  /* line 1479, ../sass/mac.scss */
+  body.Hackintosh header {
+    height: 400px;
+    padding-top: 210px; }
+    /* line 1482, ../sass/mac.scss */
+    body.Hackintosh header h2.articleTitle {
+      font-size: 50px; }
+  /* line 1486, ../sass/mac.scss */
+  body.Hackintosh div.category {
+    font-size: 36px; }
+  /* line 1489, ../sass/mac.scss */
+  body.Hackintosh article.articleBody {
+    width: 75%; }
+  /* line 1492, ../sass/mac.scss */
+  body.Hackintosh div.metaWidget {
+    width: 804px; }
+    /* line 1494, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1498, ../sass/mac.scss */
+    body.Hackintosh div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 1503, ../sass/mac.scss */
+  body.Hackintosh aside#sidebar {
+    width: 25%;
+    margin-top: 0; }
+    /* line 1507, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar h3.sideTitle {
+      font-size: 20px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 1511, ../sass/mac.scss */
+    body.Hackintosh aside#sidebar div.googleSide {
+      margin-left: -10%; }
+  /* line 1515, ../sass/mac.scss */
+  body.Hackintosh div#paging {
+    width: 100%; }
+  /* line 1518, ../sass/mac.scss */
+  body.Hackintosh footer {
+    width: 100%; }
+  /* line 1521, ../sass/mac.scss */
+  body.Hackintosh div.google {
+    width: 729px; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  /* line 1529, ../sass/mac.scss */
+  body.Hackintosh {
+    /*
+    		article.articleBody {
+    			width: 55%;
+    		}
+    	aside#sidebar {
+    			width: 25%;
+    			margin-top: 0%;
+    		}
+    		div#paging {
+    			width: 20%;
+    		}
+    		footer {
+    			width: 20%;
+    			float: right;
+    			margin-top: -20%;
+    			right: 0;
+    		}	
+    */ } }
+/* min-width 1921px, xlarge screens */

@@ -1,0 +1,761 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* line 8, ../sass/IEfallback.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTJBQkFGRUZFOTIyMTFFMEJDRDNEQzkxOTVGOTNBODAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTJBQkFGRjBFOTIyMTFFMEJDRDNEQzkxOTVGOTNBODAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MkFCQUZFREU5MjIxMUUwQkNEM0RDOTE5NUY5M0E4MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MkFCQUZFRUU5MjIxMUUwQkNEM0RDOTE5NUY5M0E4MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtrV+I8AAAAQSURBVHjaYvj//z8DQIABAAj8Av7bok0WAAAAAElFTkSuQmCC',sizingMethod=crop);
+  zoom: 1; }
+
+/* line 17, ../sass/IEfallback.scss */
+html#ie6, #ie7, #ie5, #ie8 {
+  /*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+  /* 	!끄기	 */
+  /* !디스커스 */
+  /* !끄기	 */
+  /* !열시작	 */
+  /* !푸터	 */
+  /* !맨끝	 */ }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 article, html#ie6 aside, html#ie6 details, html#ie6 figcaption, html#ie6 figure, html#ie6 footer, html#ie6 header, html#ie6 hgroup, html#ie6 nav, html#ie6 section, html#ie6 summary, #ie7 article, #ie7 aside, #ie7 details, #ie7 figcaption, #ie7 figure, #ie7 footer, #ie7 header, #ie7 hgroup, #ie7 nav, #ie7 section, #ie7 summary, #ie5 article, #ie5 aside, #ie5 details, #ie5 figcaption, #ie5 figure, #ie5 footer, #ie5 header, #ie5 hgroup, #ie5 nav, #ie5 section, #ie5 summary, #ie8 article, #ie8 aside, #ie8 details, #ie8 figcaption, #ie8 figure, #ie8 footer, #ie8 header, #ie8 hgroup, #ie8 nav, #ie8 section, #ie8 summary {
+    display: block; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 audio, html#ie6 canvas, html#ie6 video, #ie7 audio, #ie7 canvas, #ie7 video, #ie5 audio, #ie5 canvas, #ie5 video, #ie8 audio, #ie8 canvas, #ie8 video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 audio:not([controls]), #ie7 audio:not([controls]), #ie5 audio:not([controls]), #ie8 audio:not([controls]) {
+    display: none;
+    height: 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 [hidden], #ie7 [hidden], #ie5 [hidden], #ie8 [hidden] {
+    display: none; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 html, #ie7 html, #ie5 html, #ie8 html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 html, html#ie6 button, html#ie6 input, html#ie6 select, html#ie6 textarea, #ie7 html, #ie7 button, #ie7 input, #ie7 select, #ie7 textarea, #ie5 html, #ie5 button, #ie5 input, #ie5 select, #ie5 textarea, #ie8 html, #ie8 button, #ie8 input, #ie8 select, #ie8 textarea {
+    font-family: sans-serif; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 body, #ie7 body, #ie5 body, #ie8 body {
+    margin: 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 a:focus, #ie7 a:focus, #ie5 a:focus, #ie8 a:focus {
+    outline: thin dotted; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 a:active, html#ie6 a:hover, #ie7 a:active, #ie7 a:hover, #ie5 a:active, #ie5 a:hover, #ie8 a:active, #ie8 a:hover {
+    outline: 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 h1, #ie7 h1, #ie5 h1, #ie8 h1 {
+    font-size: 2em;
+    margin: .67em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 h2, #ie7 h2, #ie5 h2, #ie8 h2 {
+    font-size: 1.5em;
+    margin: .83em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 h3, #ie7 h3, #ie5 h3, #ie8 h3 {
+    font-size: 1.17em;
+    margin: 1em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 h4, #ie7 h4, #ie5 h4, #ie8 h4 {
+    font-size: 1em;
+    margin: 1.33em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 h5, #ie7 h5, #ie5 h5, #ie8 h5 {
+    font-size: .83em;
+    margin: 1.67em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 h6, #ie7 h6, #ie5 h6, #ie8 h6 {
+    font-size: .75em;
+    margin: 2.33em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 abbr[title], #ie7 abbr[title], #ie5 abbr[title], #ie8 abbr[title] {
+    border-bottom: 1px dotted; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 b, html#ie6 strong, #ie7 b, #ie7 strong, #ie5 b, #ie5 strong, #ie8 b, #ie8 strong {
+    font-weight: bold; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 blockquote, #ie7 blockquote, #ie5 blockquote, #ie8 blockquote {
+    margin: 1em 40px; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 dfn, #ie7 dfn, #ie5 dfn, #ie8 dfn {
+    font-style: italic; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 mark, #ie7 mark, #ie5 mark, #ie8 mark {
+    background: #ff0;
+    color: #000; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 p, html#ie6 pre, #ie7 p, #ie7 pre, #ie5 p, #ie5 pre, #ie8 p, #ie8 pre {
+    margin: 1em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 code, html#ie6 kbd, html#ie6 pre, html#ie6 samp, #ie7 code, #ie7 kbd, #ie7 pre, #ie7 samp, #ie5 code, #ie5 kbd, #ie5 pre, #ie5 samp, #ie8 code, #ie8 kbd, #ie8 pre, #ie8 samp {
+    font-family: monospace,serif;
+    _font-family: 'courier new',monospace;
+    font-size: 1em; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 pre, #ie7 pre, #ie5 pre, #ie8 pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 q, #ie7 q, #ie5 q, #ie8 q {
+    quotes: none; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 q:before, html#ie6 q:after, #ie7 q:before, #ie7 q:after, #ie5 q:before, #ie5 q:after, #ie8 q:before, #ie8 q:after {
+    content: '';
+    content: none; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 small, #ie7 small, #ie5 small, #ie8 small {
+    font-size: 75%; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 sub, html#ie6 sup, #ie7 sub, #ie7 sup, #ie5 sub, #ie5 sup, #ie8 sub, #ie8 sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 sup, #ie7 sup, #ie5 sup, #ie8 sup {
+    top: -0.5em; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 sub, #ie7 sub, #ie5 sub, #ie8 sub {
+    bottom: -0.25em; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 dl, html#ie6 menu, html#ie6 ol, html#ie6 ul, #ie7 dl, #ie7 menu, #ie7 ol, #ie7 ul, #ie5 dl, #ie5 menu, #ie5 ol, #ie5 ul, #ie8 dl, #ie8 menu, #ie8 ol, #ie8 ul {
+    margin: 1em 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 dd, #ie7 dd, #ie5 dd, #ie8 dd {
+    margin: 0 0 0 40px; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 menu, html#ie6 ol, html#ie6 ul, #ie7 menu, #ie7 ol, #ie7 ul, #ie5 menu, #ie5 ol, #ie5 ul, #ie8 menu, #ie8 ol, #ie8 ul {
+    padding: 0 0 0 40px; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 nav ul, html#ie6 nav ol, #ie7 nav ul, #ie7 nav ol, #ie5 nav ul, #ie5 nav ol, #ie8 nav ul, #ie8 nav ol {
+    list-style: none;
+    list-style-image: none; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 img, #ie7 img, #ie5 img, #ie8 img {
+    border: 0;
+    -ms-interpolation-mode: bicubic; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 svg:not(:root), #ie7 svg:not(:root), #ie5 svg:not(:root), #ie8 svg:not(:root) {
+    overflow: hidden; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 figure, #ie7 figure, #ie5 figure, #ie8 figure {
+    margin: 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 form, #ie7 form, #ie5 form, #ie8 form {
+    margin: 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 fieldset, #ie7 fieldset, #ie5 fieldset, #ie8 fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 legend, #ie7 legend, #ie5 legend, #ie8 legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    *margin-left: -7px; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 button, html#ie6 input, html#ie6 select, html#ie6 textarea, #ie7 button, #ie7 input, #ie7 select, #ie7 textarea, #ie5 button, #ie5 input, #ie5 select, #ie5 textarea, #ie8 button, #ie8 input, #ie8 select, #ie8 textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 button, html#ie6 input, #ie7 button, #ie7 input, #ie5 button, #ie5 input, #ie8 button, #ie8 input {
+    line-height: normal; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 button, html#ie6 html input[type="button"], html#ie6 input[type="reset"], html#ie6 input[type="submit"], #ie7 button, #ie7 html input[type="button"], #ie7 input[type="reset"], #ie7 input[type="submit"], #ie5 button, #ie5 html input[type="button"], #ie5 input[type="reset"], #ie5 input[type="submit"], #ie8 button, #ie8 html input[type="button"], #ie8 input[type="reset"], #ie8 input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    *overflow: visible; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 button[disabled], html#ie6 input[disabled], #ie7 button[disabled], #ie7 input[disabled], #ie5 button[disabled], #ie5 input[disabled], #ie8 button[disabled], #ie8 input[disabled] {
+    cursor: default; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 input[type="checkbox"], html#ie6 input[type="radio"], #ie7 input[type="checkbox"], #ie7 input[type="radio"], #ie5 input[type="checkbox"], #ie5 input[type="radio"], #ie8 input[type="checkbox"], #ie8 input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 input[type="search"], #ie7 input[type="search"], #ie5 input[type="search"], #ie8 input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 input[type="search"]::-webkit-search-cancel-button, html#ie6 input[type="search"]::-webkit-search-decoration, #ie7 input[type="search"]::-webkit-search-cancel-button, #ie7 input[type="search"]::-webkit-search-decoration, #ie5 input[type="search"]::-webkit-search-cancel-button, #ie5 input[type="search"]::-webkit-search-decoration, #ie8 input[type="search"]::-webkit-search-cancel-button, #ie8 input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 button::-moz-focus-inner, html#ie6 input::-moz-focus-inner, #ie7 button::-moz-focus-inner, #ie7 input::-moz-focus-inner, #ie5 button::-moz-focus-inner, #ie5 input::-moz-focus-inner, #ie8 button::-moz-focus-inner, #ie8 input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 textarea, #ie7 textarea, #ie5 textarea, #ie8 textarea {
+    overflow: auto;
+    vertical-align: top; }
+  /* line 19, ../sass/IEfallback.scss */
+  html#ie6 table, #ie7 table, #ie5 table, #ie8 table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  /* line 22, ../sass/IEfallback.scss */
+  html#ie6 div.hero, html#ie6 p.pwd, html#ie6 div.menuContainer, html#ie6 aside.sidebar2, html#ie6 div.articleDate, html#ie6 div#share-buttons, html#ie6 a.categoryFold, html#ie6 div.categoryList, html#ie6 a.gtt, html#ie6 div.socialIcon, html#ie6 div.searchMenu, #ie7 div.hero, #ie7 p.pwd, #ie7 div.menuContainer, #ie7 aside.sidebar2, #ie7 div.articleDate, #ie7 div#share-buttons, #ie7 a.categoryFold, #ie7 div.categoryList, #ie7 a.gtt, #ie7 div.socialIcon, #ie7 div.searchMenu, #ie5 div.hero, #ie5 p.pwd, #ie5 div.menuContainer, #ie5 aside.sidebar2, #ie5 div.articleDate, #ie5 div#share-buttons, #ie5 a.categoryFold, #ie5 div.categoryList, #ie5 a.gtt, #ie5 div.socialIcon, #ie5 div.searchMenu, #ie8 div.hero, #ie8 p.pwd, #ie8 div.menuContainer, #ie8 aside.sidebar2, #ie8 div.articleDate, #ie8 div#share-buttons, #ie8 a.categoryFold, #ie8 div.categoryList, #ie8 a.gtt, #ie8 div.socialIcon, #ie8 div.searchMenu {
+    display: none; }
+  /* line 25, ../sass/IEfallback.scss */
+  html#ie6 div.profileLayer, #ie7 div.profileLayer, #ie5 div.profileLayer, #ie8 div.profileLayer {
+    display: none; }
+  /* line 28, ../sass/IEfallback.scss */
+  html#ie6 aside.right-off-canvas-menu, #ie7 aside.right-off-canvas-menu, #ie5 aside.right-off-canvas-menu, #ie8 aside.right-off-canvas-menu {
+    display: none; }
+  /* line 32, ../sass/IEfallback.scss */
+  html#ie6 aside#sidebar div.profileLayer, #ie7 aside#sidebar div.profileLayer, #ie5 aside#sidebar div.profileLayer, #ie8 aside#sidebar div.profileLayer {
+    display: block; }
+  /* line 35, ../sass/IEfallback.scss */
+  html#ie6 aside#sidebar h1.blogName, html#ie6 aside#sidebar hr.sidehr, #ie7 aside#sidebar h1.blogName, #ie7 aside#sidebar hr.sidehr, #ie5 aside#sidebar h1.blogName, #ie5 aside#sidebar hr.sidehr, #ie8 aside#sidebar h1.blogName, #ie8 aside#sidebar hr.sidehr {
+    display: none; }
+  /* line 40, ../sass/IEfallback.scss */
+  html#ie6 a, #ie7 a, #ie5 a, #ie8 a {
+    color: #81c265;
+    text-decoration: none; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    html#ie6 a:visited, #ie7 a:visited, #ie5 a:visited, #ie8 a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    html#ie6 a:focus, #ie7 a:focus, #ie5 a:focus, #ie8 a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    html#ie6 a:hover, #ie7 a:hover, #ie5 a:hover, #ie8 a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    html#ie6 a:active, #ie7 a:active, #ie5 a:active, #ie8 a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    html#ie6 a:hover, #ie7 a:hover, #ie5 a:hover, #ie8 a:hover {
+      text-decoration: underline; }
+  /* line 45, ../sass/IEfallback.scss */
+  html#ie6 body, #ie7 body, #ie5 body, #ie8 body {
+    font-family: 'Montserrat', Tahoma, dotum, sans-serif;
+    background: #EAEAEA; }
+  /* line 50, ../sass/IEfallback.scss */
+  html#ie6 hr, #ie7 hr, #ie5 hr, #ie8 hr {
+    color: #CCCCCC;
+    border: 1px solid #CCCCCC; }
+  /* line 54, ../sass/IEfallback.scss */
+  html#ie6 img, #ie7 img, #ie5 img, #ie8 img {
+    max-width: 100%; }
+  /* line 57, ../sass/IEfallback.scss */
+  html#ie6 iframe, html#ie6 object, html#ie6 embed, #ie7 iframe, #ie7 object, #ie7 embed, #ie5 iframe, #ie5 object, #ie5 embed, #ie8 iframe, #ie8 object, #ie8 embed {
+    max-width: 100%;
+    max-height: 100%; }
+  /* line 58, ../sass/IEfallback.scss */
+  html#ie6 video, #ie7 video, #ie5 video, #ie8 video {
+    max-width: 100%;
+    height: auto; }
+  /* line 59, ../sass/IEfallback.scss */
+  html#ie6 .imageblock, #ie7 .imageblock, #ie5 .imageblock, #ie8 .imageblock {
+    max-width: 100%;
+    height: auto; }
+  /* line 60, ../sass/IEfallback.scss */
+  html#ie6 .media-container, #ie7 .media-container, #ie5 .media-container, #ie8 .media-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+  /* line 69, ../sass/IEfallback.scss */
+  html#ie6 .media-container iframe,
+  html#ie6 .media-container object,
+  html#ie6 .media-container embed, #ie7 .media-container iframe,
+  #ie7 .media-container object,
+  #ie7 .media-container embed, #ie5 .media-container iframe,
+  #ie5 .media-container object,
+  #ie5 .media-container embed, #ie8 .media-container iframe,
+  #ie8 .media-container object,
+  #ie8 .media-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  /* line 78, ../sass/IEfallback.scss */
+  html#ie6 #disqus_thread, #ie7 #disqus_thread, #ie5 #disqus_thread, #ie8 #disqus_thread {
+    margin: 20px 0; }
+  /* line 82, ../sass/IEfallback.scss */
+  html#ie6 #disqus_count, #ie7 #disqus_count, #ie5 #disqus_count, #ie8 #disqus_count {
+    display: none; }
+  /* line 86, ../sass/IEfallback.scss */
+  html#ie6 h1, html#ie6 h2, html#ie6 h3, html#ie6 h4, html#ie6 h5, html#ie6 h6, #ie7 h1, #ie7 h2, #ie7 h3, #ie7 h4, #ie7 h5, #ie7 h6, #ie5 h1, #ie5 h2, #ie5 h3, #ie5 h4, #ie5 h5, #ie5 h6, #ie8 h1, #ie8 h2, #ie8 h3, #ie8 h4, #ie8 h5, #ie8 h6 {
+    font-family: 'Montserrat', Tahoma, "돋움", dotum, sans-serif; }
+  /* line 92, ../sass/IEfallback.scss */
+  html#ie6 #nav, #ie7 #nav, #ie5 #nav, #ie8 #nav {
+    width: 960px;
+    background: #222;
+    color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    z-index: 100;
+    /* 	!네비게이션	 */ }
+    /* line 101, ../sass/IEfallback.scss */
+    html#ie6 #nav h1.blogName, #ie7 #nav h1.blogName, #ie5 #nav h1.blogName, #ie8 #nav h1.blogName {
+      font-family: 'Montserrat', Tahoma, sans-serif;
+      font-size: 80px;
+      margin: 0;
+      margin-top: 15px;
+      margin-bottom: 26px;
+      margin-left: 20px;
+      padding: 0;
+      font-weight: bold; }
+      /* line 111, ../sass/IEfallback.scss */
+      html#ie6 #nav h1.blogName a, #ie7 #nav h1.blogName a, #ie5 #nav h1.blogName a, #ie8 #nav h1.blogName a {
+        color: white;
+        text-decoration: none; }
+        /* line 114, ../sass/IEfallback.scss */
+        html#ie6 #nav h1.blogName a:hover, #ie7 #nav h1.blogName a:hover, #ie5 #nav h1.blogName a:hover, #ie8 #nav h1.blogName a:hover {
+          color: #81c265; }
+    /* line 119, ../sass/IEfallback.scss */
+    html#ie6 #nav a#menuToggle, html#ie6 #nav div.mobileMenu, #ie7 #nav a#menuToggle, #ie7 #nav div.mobileMenu, #ie5 #nav a#menuToggle, #ie5 #nav div.mobileMenu, #ie8 #nav a#menuToggle, #ie8 #nav div.mobileMenu {
+      display: none; }
+    /* line 122, ../sass/IEfallback.scss */
+    html#ie6 #nav div.blogMenu, #ie7 #nav div.blogMenu, #ie5 #nav div.blogMenu, #ie8 #nav div.blogMenu {
+      background: #343434;
+      width: 960px;
+      height: 50px;
+      border-top: 1px solid #4D4D4D;
+      padding: 0;
+      text-align: center;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin: 0;
+      border-bottom: 1px solid #232323; }
+      /* line 133, ../sass/IEfallback.scss */
+      html#ie6 #nav div.blogMenu ul, #ie7 #nav div.blogMenu ul, #ie5 #nav div.blogMenu ul, #ie8 #nav div.blogMenu ul {
+        clear: both;
+        float: none;
+        height: 50px;
+        font-size: 18pt;
+        margin: 0;
+        margin-left: -20px;
+        padding-top: 5px;
+        display: block; }
+        /* line 142, ../sass/IEfallback.scss */
+        html#ie6 #nav div.blogMenu ul li, #ie7 #nav div.blogMenu ul li, #ie5 #nav div.blogMenu ul li, #ie8 #nav div.blogMenu ul li {
+          float: left;
+          margin-right: 16px; }
+          /* line 145, ../sass/IEfallback.scss */
+          html#ie6 #nav div.blogMenu ul li a, #ie7 #nav div.blogMenu ul li a, #ie5 #nav div.blogMenu ul li a, #ie8 #nav div.blogMenu ul li a {
+            color: white;
+            text-decoration: none; }
+            /* line 148, ../sass/IEfallback.scss */
+            html#ie6 #nav div.blogMenu ul li a:hover, #ie7 #nav div.blogMenu ul li a:hover, #ie5 #nav div.blogMenu ul li a:hover, #ie8 #nav div.blogMenu ul li a:hover {
+              color: #81c265; }
+  /* line 158, ../sass/IEfallback.scss */
+  html#ie6 div.row, #ie7 div.row, #ie5 div.row, #ie8 div.row {
+    width: 960px;
+    margin: 0 auto;
+    background: #F5F5F5;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin-top: 13px;
+    padding: 0;
+    /* !티에디션		 */
+    /* !검색결과		 */
+    /* !방명록 */
+    /* !기본 글		 */
+    /* !버튼형 위젯	 */
+    /* !티스토리 기본댓글 */
+    /* 		!페지네이션 */
+    /* !열끝		 */ }
+    /* line 166, ../sass/IEfallback.scss */
+    html#ie6 div.row div#content, #ie7 div.row div#content, #ie5 div.row div#content, #ie8 div.row div#content {
+      width: 718px;
+      padding: 10px;
+      background: white;
+      display: block;
+      float: left;
+      border-right: 1px solid #CCCCCC;
+      border-bottom: 1px solid #CCCCCC; }
+    /* line 175, ../sass/IEfallback.scss */
+    html#ie6 div.row div.error, #ie7 div.row div.error, #ie5 div.row div.error, #ie8 div.row div.error {
+      display: block;
+      width: 700px;
+      text-align: center;
+      clear: both;
+      float: none; }
+      /* line 181, ../sass/IEfallback.scss */
+      html#ie6 div.row div.error h1.snap, #ie7 div.row div.error h1.snap, #ie5 div.row div.error h1.snap, #ie8 div.row div.error h1.snap {
+        font-size: 48px; }
+      /* line 184, ../sass/IEfallback.scss */
+      html#ie6 div.row div.error p.eng, #ie7 div.row div.error p.eng, #ie5 div.row div.error p.eng, #ie8 div.row div.error p.eng {
+        font-size: 24px; }
+      /* line 187, ../sass/IEfallback.scss */
+      html#ie6 div.row div.error a, #ie7 div.row div.error a, #ie5 div.row div.error a, #ie8 div.row div.error a {
+        color: #222;
+        text-decoration: none;
+        border: 2px solid #222;
+        padding: 4px 6px; }
+        /* line 192, ../sass/IEfallback.scss */
+        html#ie6 div.row div.error a:hover, #ie7 div.row div.error a:hover, #ie5 div.row div.error a:hover, #ie8 div.row div.error a:hover {
+          color: #81c265;
+          border-color: #81c265; }
+    /* line 199, ../sass/IEfallback.scss */
+    html#ie6 div.row section.slider, #ie7 div.row section.slider, #ie5 div.row section.slider, #ie8 div.row section.slider {
+      display: none; }
+    /* line 202, ../sass/IEfallback.scss */
+    html#ie6 div.row div.box-container, #ie7 div.row div.box-container, #ie5 div.row div.box-container, #ie8 div.row div.box-container {
+      display: block;
+      width: 700px;
+      clear: both;
+      float: none; }
+    /* line 208, ../sass/IEfallback.scss */
+    html#ie6 div.row a.box, #ie7 div.row a.box, #ie5 div.row a.box, #ie8 div.row a.box {
+      display: block;
+      clear: both;
+      float: none;
+      color: #222222;
+      width: 700px;
+      height: 250px;
+      border-top: 1px solid #CCCCCC;
+      padding: 10px 0; }
+      /* line 217, ../sass/IEfallback.scss */
+      html#ie6 div.row a.box:hover, #ie7 div.row a.box:hover, #ie5 div.row a.box:hover, #ie8 div.row a.box:hover {
+        color: #81c265; }
+      /* line 220, ../sass/IEfallback.scss */
+      html#ie6 div.row a.box div.cover, #ie7 div.row a.box div.cover, #ie5 div.row a.box div.cover, #ie8 div.row a.box div.cover {
+        float: left;
+        width: 330px;
+        display: block; }
+        /* line 224, ../sass/IEfallback.scss */
+        html#ie6 div.row a.box div.cover h3.title, #ie7 div.row a.box div.cover h3.title, #ie5 div.row a.box div.cover h3.title, #ie8 div.row a.box div.cover h3.title {
+          display: none; }
+        /* line 227, ../sass/IEfallback.scss */
+        html#ie6 div.row a.box div.cover img, #ie7 div.row a.box div.cover img, #ie5 div.row a.box div.cover img, #ie8 div.row a.box div.cover img {
+          width: 320px;
+          margin: 0 auto;
+          border: 1px solid #ddd; }
+      /* line 233, ../sass/IEfallback.scss */
+      html#ie6 div.row a.box div.infoWrap, #ie7 div.row a.box div.infoWrap, #ie5 div.row a.box div.infoWrap, #ie8 div.row a.box div.infoWrap {
+        float: right;
+        width: 350px;
+        display: block;
+        padding-right: 20px; }
+        /* line 238, ../sass/IEfallback.scss */
+        html#ie6 div.row a.box div.infoWrap h3, #ie7 div.row a.box div.infoWrap h3, #ie5 div.row a.box div.infoWrap h3, #ie8 div.row a.box div.infoWrap h3 {
+          font-size: 24px;
+          margin: 0; }
+        /* line 242, ../sass/IEfallback.scss */
+        html#ie6 div.row a.box div.infoWrap p.contetns, #ie7 div.row a.box div.infoWrap p.contetns, #ie5 div.row a.box div.infoWrap p.contetns, #ie8 div.row a.box div.infoWrap p.contetns {
+          color: #999999; }
+    /* line 249, ../sass/IEfallback.scss */
+    html#ie6 div.row div.searchMenu, #ie7 div.row div.searchMenu, #ie5 div.row div.searchMenu, #ie8 div.row div.searchMenu {
+      display: none; }
+    /* line 253, ../sass/IEfallback.scss */
+    html#ie6 div.row .tumbList ul, #ie7 div.row .tumbList ul, #ie5 div.row .tumbList ul, #ie8 div.row .tumbList ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      /* line 258, ../sass/IEfallback.scss */
+      html#ie6 div.row .tumbList ul li a, #ie7 div.row .tumbList ul li a, #ie5 div.row .tumbList ul li a, #ie8 div.row .tumbList ul li a {
+        text-decoration: none;
+        color: #222222; }
+      /* line 262, ../sass/IEfallback.scss */
+      html#ie6 div.row .tumbList ul li span#str, html#ie6 div.row .tumbList ul li img, #ie7 div.row .tumbList ul li span#str, #ie7 div.row .tumbList ul li img, #ie5 div.row .tumbList ul li span#str, #ie5 div.row .tumbList ul li img, #ie8 div.row .tumbList ul li span#str, #ie8 div.row .tumbList ul li img {
+        display: none; }
+      /* line 265, ../sass/IEfallback.scss */
+      html#ie6 div.row .tumbList ul li h4.title, #ie7 div.row .tumbList ul li h4.title, #ie5 div.row .tumbList ul li h4.title, #ie8 div.row .tumbList ul li h4.title {
+        font-size: 18pt;
+        margin: 0; }
+      /* line 269, ../sass/IEfallback.scss */
+      html#ie6 div.row .tumbList ul li p.comment, #ie7 div.row .tumbList ul li p.comment, #ie5 div.row .tumbList ul li p.comment, #ie8 div.row .tumbList ul li p.comment {
+        display: none; }
+    /* line 277, ../sass/IEfallback.scss */
+    html#ie6 div.row article#guestbook h1.title, #ie7 div.row article#guestbook h1.title, #ie5 div.row article#guestbook h1.title, #ie8 div.row article#guestbook h1.title {
+      font-family: 'Montserrat', Tahoma, "돋움", dotum, sans-serif; }
+    /* line 283, ../sass/IEfallback.scss */
+    html#ie6 div.row header.header h2.articleTitle, #ie7 div.row header.header h2.articleTitle, #ie5 div.row header.header h2.articleTitle, #ie8 div.row header.header h2.articleTitle {
+      font-size: 40px;
+      font-family: 'Montserrat', Tahoma, "돋움", dotum, sans-serif; }
+      /* line 286, ../sass/IEfallback.scss */
+      html#ie6 div.row header.header h2.articleTitle a, #ie7 div.row header.header h2.articleTitle a, #ie5 div.row header.header h2.articleTitle a, #ie8 div.row header.header h2.articleTitle a {
+        color: #222222;
+        text-decoration: none; }
+        /* line 289, ../sass/IEfallback.scss */
+        html#ie6 div.row header.header h2.articleTitle a:hover, #ie7 div.row header.header h2.articleTitle a:hover, #ie5 div.row header.header h2.articleTitle a:hover, #ie8 div.row header.header h2.articleTitle a:hover {
+          color: #81c265; }
+    /* line 295, ../sass/IEfallback.scss */
+    html#ie6 div.row div.admin, #ie7 div.row div.admin, #ie5 div.row div.admin, #ie8 div.row div.admin {
+      background: #222222;
+      color: white;
+      width: 100px;
+      position: fixed;
+      top: 0;
+      left: 0; }
+      /* line 302, ../sass/IEfallback.scss */
+      html#ie6 div.row div.admin a, #ie7 div.row div.admin a, #ie5 div.row div.admin a, #ie8 div.row div.admin a {
+        color: white;
+        text-decoration: none; }
+    /* line 307, ../sass/IEfallback.scss */
+    html#ie6 div.row div.category, #ie7 div.row div.category, #ie5 div.row div.category, #ie8 div.row div.category {
+      float: left; }
+      /* line 309, ../sass/IEfallback.scss */
+      html#ie6 div.row div.category a, #ie7 div.row div.category a, #ie5 div.row div.category a, #ie8 div.row div.category a {
+        color: #222222;
+        text-decoration: none;
+        font-style: italic; }
+        /* line 313, ../sass/IEfallback.scss */
+        html#ie6 div.row div.category a:hover, #ie7 div.row div.category a:hover, #ie5 div.row div.category a:hover, #ie8 div.row div.category a:hover {
+          color: #81c265; }
+    /* line 318, ../sass/IEfallback.scss */
+    html#ie6 div.row div.IE-articleDate, #ie7 div.row div.IE-articleDate, #ie5 div.row div.IE-articleDate, #ie8 div.row div.IE-articleDate {
+      text-align: right;
+      float: none; }
+    /* line 322, ../sass/IEfallback.scss */
+    html#ie6 div.row div.googleA, #ie7 div.row div.googleA, #ie5 div.row div.googleA, #ie8 div.row div.googleA {
+      width: 700px;
+      clear: both;
+      float: none; }
+    /* line 327, ../sass/IEfallback.scss */
+    html#ie6 div.row div.article, #ie7 div.row div.article, #ie5 div.row div.article, #ie8 div.row div.article {
+      clear: both;
+      margin-top: 20px;
+      color: #222222;
+      font-weight: 400;
+      font-family: "돋움", 'dotum', sans-serif; }
+    /* line 335, ../sass/IEfallback.scss */
+    html#ie6 div.row div#thumbsUp, #ie7 div.row div#thumbsUp, #ie5 div.row div#thumbsUp, #ie8 div.row div#thumbsUp {
+      margin: 0;
+      padding: 0; }
+      /* line 338, ../sass/IEfallback.scss */
+      html#ie6 div.row div#thumbsUp iframe, #ie7 div.row div#thumbsUp iframe, #ie5 div.row div#thumbsUp iframe, #ie8 div.row div#thumbsUp iframe {
+        height: 30px; }
+    /* line 343, ../sass/IEfallback.scss */
+    html#ie6 div.row div.tagTrail, #ie7 div.row div.tagTrail, #ie5 div.row div.tagTrail, #ie8 div.row div.tagTrail {
+      margin: 10px 0; }
+      /* line 345, ../sass/IEfallback.scss */
+      html#ie6 div.row div.tagTrail a, #ie7 div.row div.tagTrail a, #ie5 div.row div.tagTrail a, #ie8 div.row div.tagTrail a {
+        color: #222222; }
+        /* line 347, ../sass/IEfallback.scss */
+        html#ie6 div.row div.tagTrail a:hover, #ie7 div.row div.tagTrail a:hover, #ie5 div.row div.tagTrail a:hover, #ie8 div.row div.tagTrail a:hover {
+          color: #81c265; }
+    /* line 353, ../sass/IEfallback.scss */
+    html#ie6 div.row div.TcommentList, #ie7 div.row div.TcommentList, #ie5 div.row div.TcommentList, #ie8 div.row div.TcommentList {
+      margin: 0;
+      padding: 0;
+      margin: 10px 0; }
+      /* line 357, ../sass/IEfallback.scss */
+      html#ie6 div.row div.TcommentList ul, #ie7 div.row div.TcommentList ul, #ie5 div.row div.TcommentList ul, #ie8 div.row div.TcommentList ul {
+        list-style: none;
+        margin: 0;
+        margin-left: -40px; }
+      /* line 362, ../sass/IEfallback.scss */
+      html#ie6 div.row div.TcommentList div.Tcomment, #ie7 div.row div.TcommentList div.Tcomment, #ie5 div.row div.TcommentList div.Tcomment, #ie8 div.row div.TcommentList div.Tcomment {
+        padding-left: 80px;
+        display: block;
+        position: relative; }
+        /* line 366, ../sass/IEfallback.scss */
+        html#ie6 div.row div.TcommentList div.Tcomment img.defaultPic, #ie7 div.row div.TcommentList div.Tcomment img.defaultPic, #ie5 div.row div.TcommentList div.Tcomment img.defaultPic, #ie8 div.row div.TcommentList div.Tcomment img.defaultPic {
+          position: absolute;
+          left: 0; }
+        /* line 370, ../sass/IEfallback.scss */
+        html#ie6 div.row div.TcommentList div.Tcomment span.Tname, #ie7 div.row div.TcommentList div.Tcomment span.Tname, #ie5 div.row div.TcommentList div.Tcomment span.Tname, #ie8 div.row div.TcommentList div.Tcomment span.Tname {
+          font-weight: 600; }
+          /* line 372, ../sass/IEfallback.scss */
+          html#ie6 div.row div.TcommentList div.Tcomment span.Tname a, #ie7 div.row div.TcommentList div.Tcomment span.Tname a, #ie5 div.row div.TcommentList div.Tcomment span.Tname a, #ie8 div.row div.TcommentList div.Tcomment span.Tname a {
+            color: #222222; }
+            /* line 374, ../sass/IEfallback.scss */
+            html#ie6 div.row div.TcommentList div.Tcomment span.Tname a:hover, #ie7 div.row div.TcommentList div.Tcomment span.Tname a:hover, #ie5 div.row div.TcommentList div.Tcomment span.Tname a:hover, #ie8 div.row div.TcommentList div.Tcomment span.Tname a:hover {
+              color: #81c265; }
+          /* line 378, ../sass/IEfallback.scss */
+          html#ie6 div.row div.TcommentList div.Tcomment span.Tname img, #ie7 div.row div.TcommentList div.Tcomment span.Tname img, #ie5 div.row div.TcommentList div.Tcomment span.Tname img, #ie8 div.row div.TcommentList div.Tcomment span.Tname img {
+            position: absolute;
+            left: 0;
+            background-color: white; }
+          /* line 383, ../sass/IEfallback.scss */
+          html#ie6 div.row div.TcommentList div.Tcomment span.Tname span.tistoryProfileLayerTrigger, #ie7 div.row div.TcommentList div.Tcomment span.Tname span.tistoryProfileLayerTrigger, #ie5 div.row div.TcommentList div.Tcomment span.Tname span.tistoryProfileLayerTrigger, #ie8 div.row div.TcommentList div.Tcomment span.Tname span.tistoryProfileLayerTrigger {
+            display: none; }
+        /* line 387, ../sass/IEfallback.scss */
+        html#ie6 div.row div.TcommentList div.Tcomment span.Tdate, #ie7 div.row div.TcommentList div.Tcomment span.Tdate, #ie5 div.row div.TcommentList div.Tcomment span.Tdate, #ie8 div.row div.TcommentList div.Tcomment span.Tdate {
+          font-weight: 200; }
+      /* line 391, ../sass/IEfallback.scss */
+      html#ie6 div.row div.TcommentList div.TRcomment, #ie7 div.row div.TcommentList div.TRcomment, #ie5 div.row div.TcommentList div.TRcomment, #ie8 div.row div.TcommentList div.TRcomment {
+        padding-left: 160px;
+        display: block;
+        position: relative; }
+        /* line 395, ../sass/IEfallback.scss */
+        html#ie6 div.row div.TcommentList div.TRcomment img.defaultPic, #ie7 div.row div.TcommentList div.TRcomment img.defaultPic, #ie5 div.row div.TcommentList div.TRcomment img.defaultPic, #ie8 div.row div.TcommentList div.TRcomment img.defaultPic {
+          position: absolute;
+          left: 80px; }
+        /* line 399, ../sass/IEfallback.scss */
+        html#ie6 div.row div.TcommentList div.TRcomment span.Tname, #ie7 div.row div.TcommentList div.TRcomment span.Tname, #ie5 div.row div.TcommentList div.TRcomment span.Tname, #ie8 div.row div.TcommentList div.TRcomment span.Tname {
+          font-weight: 600; }
+          /* line 401, ../sass/IEfallback.scss */
+          html#ie6 div.row div.TcommentList div.TRcomment span.Tname a, #ie7 div.row div.TcommentList div.TRcomment span.Tname a, #ie5 div.row div.TcommentList div.TRcomment span.Tname a, #ie8 div.row div.TcommentList div.TRcomment span.Tname a {
+            color: #222222; }
+            /* line 403, ../sass/IEfallback.scss */
+            html#ie6 div.row div.TcommentList div.TRcomment span.Tname a:hover, #ie7 div.row div.TcommentList div.TRcomment span.Tname a:hover, #ie5 div.row div.TcommentList div.TRcomment span.Tname a:hover, #ie8 div.row div.TcommentList div.TRcomment span.Tname a:hover {
+              color: #81c265; }
+          /* line 407, ../sass/IEfallback.scss */
+          html#ie6 div.row div.TcommentList div.TRcomment span.Tname img, #ie7 div.row div.TcommentList div.TRcomment span.Tname img, #ie5 div.row div.TcommentList div.TRcomment span.Tname img, #ie8 div.row div.TcommentList div.TRcomment span.Tname img {
+            position: absolute;
+            left: 80px;
+            background-color: white; }
+          /* line 412, ../sass/IEfallback.scss */
+          html#ie6 div.row div.TcommentList div.TRcomment span.Tname span.tistoryProfileLayerTrigger, #ie7 div.row div.TcommentList div.TRcomment span.Tname span.tistoryProfileLayerTrigger, #ie5 div.row div.TcommentList div.TRcomment span.Tname span.tistoryProfileLayerTrigger, #ie8 div.row div.TcommentList div.TRcomment span.Tname span.tistoryProfileLayerTrigger {
+            display: none; }
+        /* line 416, ../sass/IEfallback.scss */
+        html#ie6 div.row div.TcommentList div.TRcomment span.Tdate, #ie7 div.row div.TcommentList div.TRcomment span.Tdate, #ie5 div.row div.TcommentList div.TRcomment span.Tdate, #ie8 div.row div.TcommentList div.TRcomment span.Tdate {
+          font-weight: 200; }
+    /* line 421, ../sass/IEfallback.scss */
+    html#ie6 div.row aside#sidebar, #ie7 div.row aside#sidebar, #ie5 div.row aside#sidebar, #ie8 div.row aside#sidebar {
+      width: 230px;
+      display: block;
+      position: relative;
+      /*
+      			div.googleA {
+      				display: none;
+      			}
+      */
+      /* 		!사이드바 끝	 */ }
+      /* line 425, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div.profileSide, #ie7 div.row aside#sidebar div.profileSide, #ie5 div.row aside#sidebar div.profileSide, #ie8 div.row aside#sidebar div.profileSide {
+        display: none; }
+      /* line 428, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div.IE-profileSide, #ie7 div.row aside#sidebar div.IE-profileSide, #ie5 div.row aside#sidebar div.IE-profileSide, #ie8 div.row aside#sidebar div.IE-profileSide {
+        padding: 10px;
+        padding-bottom: 1px;
+        background: #81c265;
+        color: white; }
+        /* line 433, ../sass/IEfallback.scss */
+        html#ie6 div.row aside#sidebar div.IE-profileSide img.profilePic, #ie7 div.row aside#sidebar div.IE-profileSide img.profilePic, #ie5 div.row aside#sidebar div.IE-profileSide img.profilePic, #ie8 div.row aside#sidebar div.IE-profileSide img.profilePic {
+          width: 180px;
+          margin: auto;
+          display: block; }
+        /* line 438, ../sass/IEfallback.scss */
+        html#ie6 div.row aside#sidebar div.IE-profileSide h3.ownerName, #ie7 div.row aside#sidebar div.IE-profileSide h3.ownerName, #ie5 div.row aside#sidebar div.IE-profileSide h3.ownerName, #ie8 div.row aside#sidebar div.IE-profileSide h3.ownerName {
+          color: white;
+          text-align: center;
+          margin: 0;
+          margin: 10px 0; }
+        /* line 444, ../sass/IEfallback.scss */
+        html#ie6 div.row aside#sidebar div.IE-profileSide p.ownerInfo, #ie7 div.row aside#sidebar div.IE-profileSide p.ownerInfo, #ie5 div.row aside#sidebar div.IE-profileSide p.ownerInfo, #ie8 div.row aside#sidebar div.IE-profileSide p.ownerInfo {
+          color: #E8E8E8;
+          text-align: center;
+          margin: 0; }
+      /* line 457, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div#search input, #ie7 div.row aside#sidebar div#search input, #ie5 div.row aside#sidebar div#search input, #ie8 div.row aside#sidebar div#search input {
+        background: white;
+        border: 1px solid #CCCCCC;
+        margin: 0;
+        width: 210px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 13px;
+        margin-bottom: 15px; }
+      /* line 468, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar h3.sideTitle, #ie7 div.row aside#sidebar h3.sideTitle, #ie5 div.row aside#sidebar h3.sideTitle, #ie8 div.row aside#sidebar h3.sideTitle {
+        background: #E8E8E8;
+        color: #999999;
+        font-size: 24px;
+        padding: 2px 5px;
+        margin: 0; }
+      /* line 475, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div.IE-categoryList, #ie7 div.row aside#sidebar div.IE-categoryList, #ie5 div.row aside#sidebar div.IE-categoryList, #ie8 div.row aside#sidebar div.IE-categoryList {
+        margin: 10px 0; }
+      /* line 478, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div#noticeSide, html#ie6 div.row aside#sidebar div#recentPost, html#ie6 div.row aside#sidebar div#archive, #ie7 div.row aside#sidebar div#noticeSide, #ie7 div.row aside#sidebar div#recentPost, #ie7 div.row aside#sidebar div#archive, #ie5 div.row aside#sidebar div#noticeSide, #ie5 div.row aside#sidebar div#recentPost, #ie5 div.row aside#sidebar div#archive, #ie8 div.row aside#sidebar div#noticeSide, #ie8 div.row aside#sidebar div#recentPost, #ie8 div.row aside#sidebar div#archive {
+        margin: 0;
+        padding: 0; }
+        /* line 481, ../sass/IEfallback.scss */
+        html#ie6 div.row aside#sidebar div#noticeSide ul, html#ie6 div.row aside#sidebar div#recentPost ul, html#ie6 div.row aside#sidebar div#archive ul, #ie7 div.row aside#sidebar div#noticeSide ul, #ie7 div.row aside#sidebar div#recentPost ul, #ie7 div.row aside#sidebar div#archive ul, #ie5 div.row aside#sidebar div#noticeSide ul, #ie5 div.row aside#sidebar div#recentPost ul, #ie5 div.row aside#sidebar div#archive ul, #ie8 div.row aside#sidebar div#noticeSide ul, #ie8 div.row aside#sidebar div#recentPost ul, #ie8 div.row aside#sidebar div#archive ul {
+          margin: 0;
+          list-style: none;
+          padding: 0; }
+          /* line 485, ../sass/IEfallback.scss */
+          html#ie6 div.row aside#sidebar div#noticeSide ul li, html#ie6 div.row aside#sidebar div#recentPost ul li, html#ie6 div.row aside#sidebar div#archive ul li, #ie7 div.row aside#sidebar div#noticeSide ul li, #ie7 div.row aside#sidebar div#recentPost ul li, #ie7 div.row aside#sidebar div#archive ul li, #ie5 div.row aside#sidebar div#noticeSide ul li, #ie5 div.row aside#sidebar div#recentPost ul li, #ie5 div.row aside#sidebar div#archive ul li, #ie8 div.row aside#sidebar div#noticeSide ul li, #ie8 div.row aside#sidebar div#recentPost ul li, #ie8 div.row aside#sidebar div#archive ul li {
+            border-top: 1px solid #C5C5C5;
+            background: #DDDDDD;
+            padding: 1px 6px;
+            margin: 0; }
+            /* line 490, ../sass/IEfallback.scss */
+            html#ie6 div.row aside#sidebar div#noticeSide ul li a, html#ie6 div.row aside#sidebar div#recentPost ul li a, html#ie6 div.row aside#sidebar div#archive ul li a, #ie7 div.row aside#sidebar div#noticeSide ul li a, #ie7 div.row aside#sidebar div#recentPost ul li a, #ie7 div.row aside#sidebar div#archive ul li a, #ie5 div.row aside#sidebar div#noticeSide ul li a, #ie5 div.row aside#sidebar div#recentPost ul li a, #ie5 div.row aside#sidebar div#archive ul li a, #ie8 div.row aside#sidebar div#noticeSide ul li a, #ie8 div.row aside#sidebar div#recentPost ul li a, #ie8 div.row aside#sidebar div#archive ul li a {
+              color: #ACACAC;
+              font-size: 16px; }
+              /* line 493, ../sass/IEfallback.scss */
+              html#ie6 div.row aside#sidebar div#noticeSide ul li a:hover, html#ie6 div.row aside#sidebar div#recentPost ul li a:hover, html#ie6 div.row aside#sidebar div#archive ul li a:hover, #ie7 div.row aside#sidebar div#noticeSide ul li a:hover, #ie7 div.row aside#sidebar div#recentPost ul li a:hover, #ie7 div.row aside#sidebar div#archive ul li a:hover, #ie5 div.row aside#sidebar div#noticeSide ul li a:hover, #ie5 div.row aside#sidebar div#recentPost ul li a:hover, #ie5 div.row aside#sidebar div#archive ul li a:hover, #ie8 div.row aside#sidebar div#noticeSide ul li a:hover, #ie8 div.row aside#sidebar div#recentPost ul li a:hover, #ie8 div.row aside#sidebar div#archive ul li a:hover {
+                color: #81c265;
+                text-decoration: none; }
+      /* line 502, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div#recentPost span.rpCount, #ie7 div.row aside#sidebar div#recentPost span.rpCount, #ie5 div.row aside#sidebar div#recentPost span.rpCount, #ie8 div.row aside#sidebar div#recentPost span.rpCount {
+        color: #ACACAC;
+        font-size: 16px; }
+      /* line 508, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div#archive span.arCount, #ie7 div.row aside#sidebar div#archive span.arCount, #ie5 div.row aside#sidebar div#archive span.arCount, #ie8 div.row aside#sidebar div#archive span.arCount {
+        color: #ACACAC;
+        font-size: 16px; }
+      /* line 514, ../sass/IEfallback.scss */
+      html#ie6 div.row aside#sidebar div#link select, #ie7 div.row aside#sidebar div#link select, #ie5 div.row aside#sidebar div#link select, #ie8 div.row aside#sidebar div#link select {
+        margin: 10px 10px;
+        width: 220px; }
+    /* line 522, ../sass/IEfallback.scss */
+    html#ie6 div.row div#paging, #ie7 div.row div#paging, #ie5 div.row div#paging, #ie8 div.row div#paging {
+      text-align: center;
+      width: 960px;
+      height: 35px;
+      display: block;
+      clear: both;
+      float: none;
+      padding-top: 10px;
+      border-bottom: 1px solid #222; }
+      /* line 531, ../sass/IEfallback.scss */
+      html#ie6 div.row div#paging a, #ie7 div.row div#paging a, #ie5 div.row div#paging a, #ie8 div.row div#paging a {
+        color: #222222; }
+        /* line 533, ../sass/IEfallback.scss */
+        html#ie6 div.row div#paging a:hover, #ie7 div.row div#paging a:hover, #ie5 div.row div#paging a:hover, #ie8 div.row div#paging a:hover {
+          color: #81c265; }
+  /* line 541, ../sass/IEfallback.scss */
+  html#ie6 footer, #ie7 footer, #ie5 footer, #ie8 footer {
+    width: 960px !important;
+    height: 200px;
+    margin: 0 auto;
+    background: #222222;
+    color: white !important;
+    display: block;
+    padding: 10px 20px 30px 20px;
+    border-top: 1px solid #4D4D4D; }
+    /* line 550, ../sass/IEfallback.scss */
+    html#ie6 footer h1, #ie7 footer h1, #ie5 footer h1, #ie8 footer h1 {
+      margin: 0;
+      font-size: 46px;
+      font-weight: bold; }
+      /* line 554, ../sass/IEfallback.scss */
+      html#ie6 footer h1 a, #ie7 footer h1 a, #ie5 footer h1 a, #ie8 footer h1 a {
+        color: white !important;
+        text-decoration: none !important; }
+        /* line 557, ../sass/IEfallback.scss */
+        html#ie6 footer h1 a:hover, #ie7 footer h1 a:hover, #ie5 footer h1 a:hover, #ie8 footer h1 a:hover {
+          color: #81c265;
+          text-decoration: none; }
+    /* line 563, ../sass/IEfallback.scss */
+    html#ie6 footer hr, #ie7 footer hr, #ie5 footer hr, #ie8 footer hr {
+      display: none; }
+    /* line 566, ../sass/IEfallback.scss */
+    html#ie6 footer p.counter, #ie7 footer p.counter, #ie5 footer p.counter, #ie8 footer p.counter {
+      color: #888888;
+      font-size: 18px;
+      line-height: 32px; }
+    /* line 571, ../sass/IEfallback.scss */
+    html#ie6 footer p, #ie7 footer p, #ie5 footer p, #ie8 footer p {
+      color: #575757;
+      margin: 0;
+      font-size: 18px; }
+
+/* line 581, ../sass/IEfallback.scss */
+html#ie6 aside#sidebar, #ie7 aside#sidebar {
+  display: inline;
+  float: left; }

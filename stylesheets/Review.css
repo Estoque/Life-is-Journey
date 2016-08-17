@@ -1,0 +1,1552 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat-Bold"), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff) format("woff"); }
+
+/* line 23, ../sass/Review.scss */
+html {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 30, ../sass/Review.scss */
+body.Review {
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  background: white;
+  /* !헤더	   */
+  /* !이미지헤더 배경	 */
+  /* !프로필	 */
+  /* !본문	 */
+  /* !메타 위젯	 */
+  /* !관리도구	 */
+  /* !카테고리	 */
+  /* !본문	 */
+  /* !소셜 도구	 */
+  /* !버튼형 위젯	 */
+  /* !태그	 */
+  /* !티스토리 기본댓글 */
+  /* 사이드바		 */
+  /* !페이징	 */
+  /* !푸터	 */
+  /* !맨위로		 */
+  /* !바디	 */ }
+  /* line 42, ../sass/Review.scss */
+  body.Review h1, body.Review h2, body.Review h3, body.Review h4, body.Review h5, body.Review h6 {
+    font-family: "Montserrat" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 46, ../sass/Review.scss */
+  body.Review a {
+    color: #26d673;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Review a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Review a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Review a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Review a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body.Review a:hover {
+      text-decoration: underline; }
+  /* line 53, ../sass/Review.scss */
+  body.Review div.off-canvas-wrap {
+    padding: 0;
+    margin: 0;
+    position: relative; }
+  /* line 59, ../sass/Review.scss */
+  body.Review div.inner-wrap {
+    padding: 0;
+    margin: 0;
+    position: relative; }
+  /* line 65, ../sass/Review.scss */
+  body.Review ::selection {
+    color: white;
+    background: #26d673; }
+  /* line 66, ../sass/Review.scss */
+  body.Review ::-moz-selection {
+    color: white;
+    background: #26d673; }
+  /* line 68, ../sass/Review.scss */
+  body.Review div.hero {
+    width: auto;
+    height: 50%;
+    /* 			background: url(../Free%20Image/06.jpg) no-repeat center center; */
+    background: url(http://cfile27.uf.tistory.com/image/274B383F53294854262CA5) no-repeat center center;
+    background-size: cover;
+    background-color: rgba(34, 34, 34, 0.5);
+    position: relative;
+    margin-right: 320px; }
+    /* line 77, ../sass/Review.scss */
+    body.Review div.hero div {
+      display: none; }
+  /* line 82, ../sass/Review.scss */
+  body.Review nav {
+    background: rgba(34, 34, 34, 0.5);
+    /* 		  border-bottom: 1px solid $black; */
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    /* !상단메뉴			 */ }
+    /* line 92, ../sass/Review.scss */
+    body.Review nav h1.blogName {
+      margin: 0;
+      font-size: 32px;
+      font-family: "Pacifico", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-align: center; }
+      /* line 98, ../sass/Review.scss */
+      body.Review nav h1.blogName a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 103, ../sass/Review.scss */
+        body.Review nav h1.blogName a:hover {
+          text-shadow: white 0 0 5px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 110, ../sass/Review.scss */
+    body.Review nav div.blogMenu {
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      text-align: center;
+      position: relative;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 121, ../sass/Review.scss */
+      body.Review nav div.blogMenu ul {
+        list-style: none;
+        position: relative;
+        margin: auto;
+        clear: both;
+        display: inline-block;
+        float: none;
+        padding: 0 20px; }
+        /* line 129, ../sass/Review.scss */
+        body.Review nav div.blogMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 132, ../sass/Review.scss */
+          body.Review nav div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            padding-bottom: 10px; }
+            /* line 135, ../sass/Review.scss */
+            body.Review nav div.blogMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              border-bottom: 5px solid #26D673;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 146, ../sass/Review.scss */
+    body.Review nav a#menuToggle {
+      display: none; }
+    /* line 149, ../sass/Review.scss */
+    body.Review nav div.mobileMenu {
+      display: none; }
+  /* line 153, ../sass/Review.scss */
+  body.Review div.mainBody {
+    width: 100%;
+    padding-right: 320px; }
+  /* line 158, ../sass/Review.scss */
+  body.Review header {
+    width: 100%;
+    padding: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+    margin: 0;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 167, ../sass/Review.scss */
+    body.Review header h2.articleTitle {
+      margin: 0;
+      text-align: left;
+      font-size: 48px;
+      font-weight: 600;
+      letter-spacing: 0px; }
+      /* line 173, ../sass/Review.scss */
+      body.Review header h2.articleTitle a {
+        text-decoration: none;
+        color: #222222;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 178, ../sass/Review.scss */
+        body.Review header h2.articleTitle a:hover {
+          color: #26d673;
+          text-shadow: white 0 0 10px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 185, ../sass/Review.scss */
+    body.Review header h3 {
+      margin: 0;
+      text-align: center;
+      font-size: 29px;
+      font-weight: 200;
+      letter-spacing: 0px;
+      color: rgba(255, 255, 255, 0.7); }
+    /* line 193, ../sass/Review.scss */
+    body.Review header a.disqus_count {
+      position: absolute;
+      top: 10px;
+      right: 4%;
+      background: #26d673;
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 400;
+      padding-top: 15px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 207, ../sass/Review.scss */
+      body.Review header a.disqus_count:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 8px 8px 0;
+        border-color: #26d673 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -8px;
+        bottom: -6px;
+        left: 50%;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+      /* line 221, ../sass/Review.scss */
+      body.Review header a.disqus_count:hover {
+        background: #f4f4f4;
+        color: #26d673;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 226, ../sass/Review.scss */
+        body.Review header a.disqus_count:hover:after {
+          border-color: #f4f4f4 transparent;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+  /* line 234, ../sass/Review.scss */
+  body.Review div.profileLayer {
+    display: none; }
+  /* line 238, ../sass/Review.scss */
+  body.Review article.articleBody {
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+    /* 		clear: both; */
+    width: 100%; }
+  /* line 247, ../sass/Review.scss */
+  body.Review div.metaWidget {
+    clear: both;
+    margin: 20px 0;
+    width: 100%;
+    margin: 20px auto; }
+  /* line 256, ../sass/Review.scss */
+  body.Review div.admin {
+    position: fixed;
+    background: rgba(34, 34, 34, 0.5);
+    top: 20%;
+    width: 50px;
+    overflow: hidden;
+    left: 0;
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 999;
+    border-top: 2px solid #222222;
+    border-right: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* !구글		 */ }
+    /* line 272, ../sass/Review.scss */
+    body.Review div.admin a {
+      color: white;
+      text-decoration: none;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 277, ../sass/Review.scss */
+      body.Review div.admin a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 284, ../sass/Review.scss */
+  body.Review div.google {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    margin: 20px auto; }
+  /* line 293, ../sass/Review.scss */
+  body.Review div.category {
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+    /* !글 작성날짜		 */ }
+    /* line 298, ../sass/Review.scss */
+    body.Review div.category a {
+      color: #222222;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 303, ../sass/Review.scss */
+      body.Review div.category a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 310, ../sass/Review.scss */
+  body.Review div.articleDate {
+    float: right;
+    clear: both;
+    margin-top: -35px;
+    display: block;
+    margin-right: 1em; }
+    /* line 316, ../sass/Review.scss */
+    body.Review div.articleDate div.year {
+      font-size: 22px;
+      font-weight: 200;
+      clear: both;
+      float: left; }
+    /* line 322, ../sass/Review.scss */
+    body.Review div.articleDate div.date {
+      font-size: 25px;
+      font-weight: 200;
+      clear: both;
+      float: left; }
+    /* line 328, ../sass/Review.scss */
+    body.Review div.articleDate div.time {
+      float: right;
+      font-size: 50px;
+      font-weight: 200;
+      margin-top: -25px; }
+  /* line 336, ../sass/Review.scss */
+  body.Review div.article {
+    margin-top: 30px;
+    font-weight: 400; }
+    /* line 339, ../sass/Review.scss */
+    body.Review div.article div.tt_article_useless_p_margin {
+      -webkit-font-smoothing: subpixel-antialiased;
+      font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+      /* line 342, ../sass/Review.scss */
+      body.Review div.article div.tt_article_useless_p_margin h1, body.Review div.article div.tt_article_useless_p_margin h2, body.Review div.article div.tt_article_useless_p_margin h3, body.Review div.article div.tt_article_useless_p_margin h4, body.Review div.article div.tt_article_useless_p_margin h5, body.Review div.article div.tt_article_useless_p_margin h6 {
+        -webkit-font-smoothing: subpixel-antialiased;
+        font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 349, ../sass/Review.scss */
+  body.Review div#share-buttons {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    text-align: center; }
+    /* line 354, ../sass/Review.scss */
+    body.Review div#share-buttons a {
+      color: white;
+      font-size: 22px;
+      padding-top: 8px;
+      display: inline-block;
+      background: #222222;
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 364, ../sass/Review.scss */
+      body.Review div#share-buttons a:hover {
+        background: #26d673;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 372, ../sass/Review.scss */
+  body.Review div#thumbsUp {
+    display: none;
+    margin: 0;
+    padding: 0; }
+    /* line 376, ../sass/Review.scss */
+    body.Review div#thumbsUp iframe {
+      height: 30px; }
+  /* line 381, ../sass/Review.scss */
+  body.Review div.tagTrail {
+    margin: 20px;
+    font-weight: 200;
+    text-align: center;
+    clear: both;
+    display: none; }
+    /* line 387, ../sass/Review.scss */
+    body.Review div.tagTrail a {
+      color: #222222;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 390, ../sass/Review.scss */
+      body.Review div.tagTrail a:hover {
+        color: #26d673;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 399, ../sass/Review.scss */
+  body.Review div.TcommentList ul {
+    list-style: none;
+    margin: 0; }
+  /* line 403, ../sass/Review.scss */
+  body.Review div.TcommentList div.Tcomment {
+    width: 100%;
+    padding-left: 80px;
+    display: block;
+    position: relative; }
+    /* line 408, ../sass/Review.scss */
+    body.Review div.TcommentList div.Tcomment img.defaultPic {
+      position: absolute;
+      left: 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 413, ../sass/Review.scss */
+    body.Review div.TcommentList div.Tcomment span.Tname {
+      font-weight: 600; }
+    /* line 416, ../sass/Review.scss */
+    body.Review div.TcommentList div.Tcomment span.Tdate {
+      font-weight: 200; }
+  /* line 420, ../sass/Review.scss */
+  body.Review div.TcommentList div.TRcomment {
+    width: 100%;
+    padding-left: 160px;
+    display: block;
+    position: relative; }
+    /* line 425, ../sass/Review.scss */
+    body.Review div.TcommentList div.TRcomment img.defaultPic {
+      position: absolute;
+      left: 80px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 430, ../sass/Review.scss */
+    body.Review div.TcommentList div.TRcomment span.Tname {
+      font-weight: 600; }
+    /* line 433, ../sass/Review.scss */
+    body.Review div.TcommentList div.TRcomment span.Tdate {
+      font-weight: 200; }
+  /* line 440, ../sass/Review.scss */
+  body.Review aside#sidebar {
+    width: 320px;
+    background: #222222;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 10px 10px 40px 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 100;
+    /* 			!블로그 이름 */
+    /* 			!구분선 */
+    /* 			!사이드바 프로필 */
+    /* !검색창		 */
+    /* 			!카테고리 */
+    /* !사이드바 제목		 */
+    /* !공지사이드바		 */
+    /* !최근포스팅		 */
+    /* !아카이브		 */
+    /* !달력		 */
+    /*
+    			div#calendar {
+    				font-size: 18px;
+    				font-weight: 100;
+    				border: 1px solid white;
+    			}
+    */
+    /* !링크		 */ }
+    /* line 453, ../sass/Review.scss */
+    body.Review aside#sidebar h1.blogName {
+      font-family: "Pacifico", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo ,cursive;
+      text-align: center;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 2.2em; }
+      /* line 459, ../sass/Review.scss */
+      body.Review aside#sidebar h1.blogName a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 464, ../sass/Review.scss */
+        body.Review aside#sidebar h1.blogName a:hover {
+          color: #26d673;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 472, ../sass/Review.scss */
+    body.Review aside#sidebar hr {
+      border: 1px #808080 solid;
+      margin: 0;
+      margin-bottom: 10px; }
+    /* line 478, ../sass/Review.scss */
+    body.Review aside#sidebar div.profileSide {
+      position: relative;
+      float: none;
+      clear: both; }
+      /* line 482, ../sass/Review.scss */
+      body.Review aside#sidebar div.profileSide img {
+        margin: 0 auto;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        position: relative;
+        clear: both;
+        display: block;
+        width: 120px;
+        height: 120px;
+        border: 5px solid rgba(255, 255, 255, 0.8);
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 492, ../sass/Review.scss */
+        body.Review aside#sidebar div.profileSide img:hover {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+      /* line 497, ../sass/Review.scss */
+      body.Review aside#sidebar div.profileSide h3.ownerName {
+        text-align: center;
+        color: white;
+        font-family: "Pacifico", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo ,cursive;
+        font-size: 36px;
+        margin: 0px; }
+      /* line 504, ../sass/Review.scss */
+      body.Review aside#sidebar div.profileSide p.ownerInfo {
+        color: #A3A3A3;
+        font-weight: 400;
+        text-align: center;
+        margin: 0; }
+      /* line 510, ../sass/Review.scss */
+      body.Review aside#sidebar div.profileSide p.contact {
+        color: #A3A3A3;
+        font-weight: 400;
+        text-align: center;
+        margin: 0; }
+    /* line 519, ../sass/Review.scss */
+    body.Review aside#sidebar div#search input {
+      width: 60%;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      border-radius: 20px;
+      height: 40px;
+      background: transparent;
+      color: white;
+      position: relative;
+      display: block;
+      margin: 10px auto;
+      border: 0;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Montserrat" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+      font-style: italic;
+      outline: 0;
+      border: 2px solid white;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in; }
+      /* line 539, ../sass/Review.scss */
+      body.Review aside#sidebar div#search input:focus {
+        border: 2px solid #26d673;
+        background: transparent;
+        color: #fff;
+        width: 100%;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+      /* line 548, ../sass/Review.scss */
+      body.Review aside#sidebar div#search input:hover {
+        box-shadow: #26D673 0 0 0 2px;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+    /* line 556, ../sass/Review.scss */
+    body.Review aside#sidebar div.googleSide {
+      margin-left: 0px; }
+    /* line 560, ../sass/Review.scss */
+    body.Review aside#sidebar a#categoryToggle {
+      display: none;
+      margin: 10px 0;
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      list-style: none;
+      color: #fff;
+      display: block;
+      line-height: 36px;
+      border-top: #E5E5E5 1px solid;
+      border-bottom: #E5E5E5 1px solid;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition-property: background, color;
+      -moz-transition-property: background, color;
+      -o-transition-property: background, color;
+      transition-property: background, color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 578, ../sass/Review.scss */
+      body.Review aside#sidebar a#categoryToggle:hover {
+        color: #26d673;
+        text-decoration: none;
+        background: #E5E5E5;
+        border-left: 1px #26d673 solid;
+        padding-right: 1px;
+        -webkit-transition-property: background, color;
+        -moz-transition-property: background, color;
+        -o-transition-property: background, color;
+        transition-property: background, color;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 589, ../sass/Review.scss */
+    body.Review aside#sidebar div#category {
+      display: none;
+      padding-top: 40px;
+      padding: 0; }
+      /* line 593, ../sass/Review.scss */
+      body.Review aside#sidebar div#category ul {
+        font-weight: 200;
+        font-size: 18px;
+        text-align: center;
+        /* margin-left: 0; */
+        list-style: none; }
+        /* line 600, ../sass/Review.scss */
+        body.Review aside#sidebar div#category ul li a {
+          color: #fff;
+          display: block;
+          border-bottom: #E5E5E5 0px solid;
+          margin-bottom: 0px;
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition-property: background, color;
+          -moz-transition-property: background, color;
+          -o-transition-property: background, color;
+          transition-property: background, color;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 611, ../sass/Review.scss */
+          body.Review aside#sidebar div#category ul li a:hover {
+            color: white;
+            text-decoration: none;
+            background: #26d673;
+            -webkit-transition-property: background, color;
+            -moz-transition-property: background, color;
+            -o-transition-property: background, color;
+            transition-property: background, color;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+        /* line 620, ../sass/Review.scss */
+        body.Review aside#sidebar div#category ul li ul {
+          background: #3c3c3c; }
+          /* line 623, ../sass/Review.scss */
+          body.Review aside#sidebar div#category ul li ul > li a {
+            border-top: #E5E5E5 1px solid; }
+          /* line 626, ../sass/Review.scss */
+          body.Review aside#sidebar div#category ul li ul > li ul {
+            background: #464646; }
+    /* line 637, ../sass/Review.scss */
+    body.Review aside#sidebar h3.sideTitle {
+      color: white;
+      font-size: 32px;
+      font-weight: 200;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+      /* line 642, ../sass/Review.scss */
+      body.Review aside#sidebar h3.sideTitle::first-letter {
+        font-weight: 700; }
+    /* line 647, ../sass/Review.scss */
+    body.Review aside#sidebar div#noticeSide {
+      margin-top: 10px;
+      padding-left: 10px; }
+      /* line 650, ../sass/Review.scss */
+      body.Review aside#sidebar div#noticeSide ul {
+        list-style: none; }
+        /* line 652, ../sass/Review.scss */
+        body.Review aside#sidebar div#noticeSide ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 655, ../sass/Review.scss */
+          body.Review aside#sidebar div#noticeSide ul li a {
+            color: #fff;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 659, ../sass/Review.scss */
+            body.Review aside#sidebar div#noticeSide ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 665, ../sass/Review.scss */
+    body.Review aside#sidebar div#recentPost {
+      padding-left: 10px; }
+      /* line 667, ../sass/Review.scss */
+      body.Review aside#sidebar div#recentPost ul {
+        list-style: none; }
+        /* line 669, ../sass/Review.scss */
+        body.Review aside#sidebar div#recentPost ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 672, ../sass/Review.scss */
+          body.Review aside#sidebar div#recentPost ul li a {
+            color: #fff;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 676, ../sass/Review.scss */
+            body.Review aside#sidebar div#recentPost ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 682, ../sass/Review.scss */
+    body.Review aside#sidebar div#archive {
+      padding-left: 10px; }
+      /* line 684, ../sass/Review.scss */
+      body.Review aside#sidebar div#archive ul {
+        list-style: none; }
+        /* line 686, ../sass/Review.scss */
+        body.Review aside#sidebar div#archive ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 689, ../sass/Review.scss */
+          body.Review aside#sidebar div#archive ul li a {
+            color: #fff;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 693, ../sass/Review.scss */
+            body.Review aside#sidebar div#archive ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+          /* line 695, ../sass/Review.scss */
+          body.Review aside#sidebar div#archive ul li span.arCount {
+            color: #fff; }
+    /* line 710, ../sass/Review.scss */
+    body.Review aside#sidebar div#link {
+      padding-left: 10px; }
+      /* line 712, ../sass/Review.scss */
+      body.Review aside#sidebar div#link ul {
+        list-style: none; }
+        /* line 714, ../sass/Review.scss */
+        body.Review aside#sidebar div#link ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 717, ../sass/Review.scss */
+          body.Review aside#sidebar div#link ul li a {
+            color: #fff;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 721, ../sass/Review.scss */
+            body.Review aside#sidebar div#link ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+      /* line 728, ../sass/Review.scss */
+      body.Review aside#sidebar div#link select {
+        background: transparent;
+        color: #fff;
+        border: 5px solid #fff;
+        height: 40px;
+        padding: 2px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        outline: 0;
+        -webkit-appearance: none; }
+  /* line 743, ../sass/Review.scss */
+  body.Review div#paging {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 20px 320px 20px 0;
+    border-bottom: 1px solid #c5c5c5; }
+    /* line 752, ../sass/Review.scss */
+    body.Review div#paging a {
+      color: #222222;
+      text-decoration: none;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 756, ../sass/Review.scss */
+      body.Review div#paging a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 758, ../sass/Review.scss */
+    body.Review div#paging a#prevPage, body.Review div#paging a#nextPage {
+      font-family: 'entypo', sans-serif; }
+  /* line 763, ../sass/Review.scss */
+  body.Review footer {
+    color: #222222;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 320px;
+    padding-left: 2%;
+    position: relative;
+    background: #f4f4f4;
+    /* !카운터		 */
+    /* !저작권		 */
+    /* !구분선												 */
+    /* !소셜 아이콘 리스트		 */
+    /* !소셜 SVG	 */ }
+    /* line 774, ../sass/Review.scss */
+    body.Review footer hr {
+      display: block; }
+    /* line 777, ../sass/Review.scss */
+    body.Review footer h1 {
+      font-size: 32px;
+      font-family: "Montserrat", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 400;
+      text-align: left;
+      margin: 0; }
+      /* line 783, ../sass/Review.scss */
+      body.Review footer h1 a {
+        color: #222222 !important;
+        text-decoration: none;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 787, ../sass/Review.scss */
+        body.Review footer h1 a:hover {
+          text-decoration: none;
+          color: #26d673;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 795, ../sass/Review.scss */
+    body.Review footer p.counter {
+      font-family: "Montserrat", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-size: 28px;
+      font-weight: 200;
+      text-align: left;
+      margin: 0;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+    /* line 805, ../sass/Review.scss */
+    body.Review footer p {
+      text-align: left;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 200;
+      margin: 0; }
+    /* line 812, ../sass/Review.scss */
+    body.Review footer a {
+      text-align: center; }
+    /* line 816, ../sass/Review.scss */
+    body.Review footer div.line {
+      display: none; }
+    /* line 821, ../sass/Review.scss */
+    body.Review footer div.socialIcon {
+      width: 100%;
+      position: relative;
+      display: block;
+      text-align: left;
+      margin-top: 10px; }
+      /* line 827, ../sass/Review.scss */
+      body.Review footer div.socialIcon a.social {
+        display: inline-block;
+        text-align: left; }
+        /* line 830, ../sass/Review.scss */
+        body.Review footer div.socialIcon a.social .icon {
+          width: 60px;
+          height: 68px; }
+        /* line 834, ../sass/Review.scss */
+        body.Review footer div.socialIcon a.social path#hex {
+          fill: #222;
+          opacity: .8; }
+        /* line 838, ../sass/Review.scss */
+        body.Review footer div.socialIcon a.social path#icon {
+          fill: #fff; }
+        /* line 842, ../sass/Review.scss */
+        body.Review footer div.socialIcon a.social:hover path#hex {
+          opacity: 1; }
+  /* line 850, ../sass/Review.scss */
+  body.Review a.gtt {
+    text-align: center;
+    color: #222222;
+    position: relative;
+    display: block;
+    font-size: 28px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 857, ../sass/Review.scss */
+    body.Review a.gtt:hover {
+      color: #26d673;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+  /* line 865, ../sass/Review.scss */
+  body.Review div.article div.tt_article_useless_p_margin {
+    /*
+    			img {
+    				margin: 1em 0;
+    			}
+    */ }
+    /* line 866, ../sass/Review.scss */
+    body.Review div.article div.tt_article_useless_p_margin div.magellan-container {
+      background: rgba(255, 255, 255, 0.9);
+      padding-right: 320px; }
+      /* line 870, ../sass/Review.scss */
+      body.Review div.article div.tt_article_useless_p_margin div.magellan-container ul {
+        list-style: none;
+        display: inline-block; }
+        /* line 873, ../sass/Review.scss */
+        body.Review div.article div.tt_article_useless_p_margin div.magellan-container ul li {
+          float: left;
+          display: block;
+          margin-right: 1em; }
+          /* line 877, ../sass/Review.scss */
+          body.Review div.article div.tt_article_useless_p_margin div.magellan-container ul li a {
+            color: #222222; }
+            /* line 879, ../sass/Review.scss */
+            body.Review div.article div.tt_article_useless_p_margin div.magellan-container ul li a:hover {
+              text-decoration: none;
+              color: #26d673; }
+        /* line 886, ../sass/Review.scss */
+        body.Review div.article div.tt_article_useless_p_margin div.magellan-container ul li.active a {
+          color: white;
+          background: #26d673;
+          padding: 2px 5px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+          border-radius: 20px; }
+          /* line 891, ../sass/Review.scss */
+          body.Review div.article div.tt_article_useless_p_margin div.magellan-container ul li.active a:hover {
+            text-decoration: none; }
+    /* line 903, ../sass/Review.scss */
+    body.Review div.article div.tt_article_useless_p_margin h3 {
+      font-weight: 400;
+      font-size: 48px; }
+    /* line 907, ../sass/Review.scss */
+    body.Review div.article div.tt_article_useless_p_margin blockquote.tx-quote-tistory {
+      color: #222222;
+      border: 0;
+      margin: 0;
+      position: relative;
+      font-weight: 600; }
+      /* line 913, ../sass/Review.scss */
+      body.Review div.article div.tt_article_useless_p_margin blockquote.tx-quote-tistory:before {
+        content: '“';
+        font-size: 80px;
+        position: absolute;
+        top: -10px;
+        left: 0px;
+        display: block; }
+      /* line 921, ../sass/Review.scss */
+      body.Review div.article div.tt_article_useless_p_margin blockquote.tx-quote-tistory:after {
+        content: '”';
+        font-size: 80px;
+        position: absolute;
+        bottom: -80px;
+        right: 0; }
+      /* line 928, ../sass/Review.scss */
+      body.Review div.article div.tt_article_useless_p_margin blockquote.tx-quote-tistory p {
+        font-weight: 600;
+        font-style: italic;
+        display: block;
+        font-size: 32px;
+        color: #222222;
+        position: relative;
+        margin: 10px 20px;
+        text-align: justify; }
+
+@media only screen {
+  /* line 4, ../sass/_mquery-review.scss */
+  body.Review nav {
+    display: block; }
+  /* line 7, ../sass/_mquery-review.scss */
+  body.Review div.hero {
+    margin-right: 0px; }
+  /* line 10, ../sass/_mquery-review.scss */
+  body.Review div.mainBody {
+    width: 100%;
+    padding-right: 0px; }
+    /* line 13, ../sass/_mquery-review.scss */
+    body.Review div.mainBody div.blogMenu {
+      display: block; }
+  /* line 18, ../sass/_mquery-review.scss */
+  body.Review header h2 {
+    font-size: 24px; }
+  /* line 22, ../sass/_mquery-review.scss */
+  body.Review div.articleDate {
+    float: none;
+    clear: both;
+    margin-top: 10px;
+    height: 30px; }
+    /* line 27, ../sass/_mquery-review.scss */
+    body.Review div.articleDate div.time {
+      float: left; }
+  /* line 31, ../sass/_mquery-review.scss */
+  body.Review aside#sidebar {
+    display: none; }
+  /* line 34, ../sass/_mquery-review.scss */
+  body.Review div#paging {
+    padding: 20px 0px 20px 0;
+    width: 100%; }
+  /* line 38, ../sass/_mquery-review.scss */
+  body.Review footer {
+    width: 100%;
+    padding-right: 0px; }
+    /* line 41, ../sass/_mquery-review.scss */
+    body.Review footer ul.social {
+      display: none; }
+  /* line 47, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin div.magellan-container {
+    padding-right: 4%; }
+  /* line 50, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin h3 {
+    font-size: 24px; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 61, ../sass/_mquery-review.scss */
+  body.Review nav {
+    display: block; }
+  /* line 64, ../sass/_mquery-review.scss */
+  body.Review div.hero {
+    margin-right: 0px; }
+  /* line 67, ../sass/_mquery-review.scss */
+  body.Review div.mainBody {
+    width: 100%;
+    padding-right: 0px; }
+    /* line 70, ../sass/_mquery-review.scss */
+    body.Review div.mainBody div.blogMenu {
+      display: block; }
+  /* line 75, ../sass/_mquery-review.scss */
+  body.Review header h2 {
+    font-size: 24px; }
+  /* line 79, ../sass/_mquery-review.scss */
+  body.Review div.articleDate {
+    float: right;
+    margin-top: -35px; }
+    /* line 82, ../sass/_mquery-review.scss */
+    body.Review div.articleDate div.time {
+      float: right; }
+  /* line 86, ../sass/_mquery-review.scss */
+  body.Review aside#sidebar {
+    display: none; }
+  /* line 89, ../sass/_mquery-review.scss */
+  body.Review div#paging {
+    padding: 20px 0px 20px 0;
+    width: 100%; }
+  /* line 93, ../sass/_mquery-review.scss */
+  body.Review footer {
+    width: 100%;
+    padding-right: 0px; }
+    /* line 96, ../sass/_mquery-review.scss */
+    body.Review footer ul.social {
+      display: block; }
+  /* line 102, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin div.magellan-container {
+    padding-right: 4%; }
+  /* line 105, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin h3 {
+    font-size: 36px; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 116, ../sass/_mquery-review.scss */
+  body.Review nav {
+    display: none; }
+  /* line 119, ../sass/_mquery-review.scss */
+  body.Review div.hero {
+    margin-right: 320px; }
+  /* line 122, ../sass/_mquery-review.scss */
+  body.Review div.mainBody {
+    width: 100%;
+    padding-right: 320px; }
+    /* line 125, ../sass/_mquery-review.scss */
+    body.Review div.mainBody div.blogMenu {
+      display: block; }
+  /* line 130, ../sass/_mquery-review.scss */
+  body.Review header h2 {
+    font-size: 36px; }
+  /* line 134, ../sass/_mquery-review.scss */
+  body.Review aside#sidebar {
+    display: block; }
+  /* line 137, ../sass/_mquery-review.scss */
+  body.Review div#paging {
+    padding: 20px 320px 20px 0;
+    width: 100%; }
+  /* line 141, ../sass/_mquery-review.scss */
+  body.Review footer {
+    width: 100%;
+    padding-right: 320px; }
+    /* line 144, ../sass/_mquery-review.scss */
+    body.Review footer ul.social {
+      display: block; }
+  /* line 150, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin div.magellan-container {
+    padding-right: 320px; }
+  /* line 154, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin h3 {
+    font-size: 48px; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 165, ../sass/_mquery-review.scss */
+  body.Review nav {
+    display: none; }
+  /* line 168, ../sass/_mquery-review.scss */
+  body.Review div.hero {
+    margin-right: 320px; }
+  /* line 171, ../sass/_mquery-review.scss */
+  body.Review div.mainBody {
+    width: 100%;
+    padding-right: 320px; }
+    /* line 174, ../sass/_mquery-review.scss */
+    body.Review div.mainBody div.blogMenu {
+      display: block; }
+  /* line 179, ../sass/_mquery-review.scss */
+  body.Review header h2 {
+    font-size: 48px; }
+  /* line 183, ../sass/_mquery-review.scss */
+  body.Review aside#sidebar {
+    display: block; }
+  /* line 186, ../sass/_mquery-review.scss */
+  body.Review div#paging {
+    padding: 20px 320px 20px 0;
+    width: 100%; }
+  /* line 190, ../sass/_mquery-review.scss */
+  body.Review footer {
+    width: 100%;
+    padding-right: 320px; }
+    /* line 193, ../sass/_mquery-review.scss */
+    body.Review footer ul.social {
+      display: block; }
+  /* line 199, ../sass/_mquery-review.scss */
+  body.Review div.article div.tt_article_useless_p_margin div.magellan-container {
+    padding-right: 320px; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */

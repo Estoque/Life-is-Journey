@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* line 7, ../sass/skingallery.scss */
+body.Gallery {
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+  font-weight: lighter;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  position: relative; }
+  /* line 10, ../sass/skingallery.scss */
+  body.Gallery a {
+    color: #26d673;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Gallery a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Gallery a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Gallery a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Gallery a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body.Gallery a:hover {
+      text-decoration: underline; }
+  /* line 17, ../sass/skingallery.scss */
+  body.Gallery h1, body.Gallery h2, body.Gallery h3, body.Gallery h4, body.Gallery h5, body.Gallery h6 {
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important; }
+  /* line 22, ../sass/skingallery.scss */
+  body.Gallery ::selection {
+    color: white;
+    background: #26d673; }
+  /* line 23, ../sass/skingallery.scss */
+  body.Gallery ::-moz-selection {
+    color: white;
+    background: #26d673; }
+  /* line 29, ../sass/skingallery.scss */
+  body.Gallery div.row {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    /* 		background: url(../addon/skingallery.png); */
+    background: url(skingallery.png);
+    background-color: #181818;
+    margin: 0; }
+  /* line 39, ../sass/skingallery.scss */
+  body.Gallery div#content {
+    padding: 0;
+    width: 100%;
+    height: 100%; }
+  /* line 44, ../sass/skingallery.scss */
+  body.Gallery div.tt_article_useless_p_margin {
+    width: 100%;
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important; }
+    /* line 47, ../sass/skingallery.scss */
+    body.Gallery div.tt_article_useless_p_margin h1, body.Gallery div.tt_article_useless_p_margin h2, body.Gallery div.tt_article_useless_p_margin h3, body.Gallery div.tt_article_useless_p_margin h4, body.Gallery div.tt_article_useless_p_margin h5, body.Gallery div.tt_article_useless_p_margin h6 {
+      font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important; }
+    /* line 51, ../sass/skingallery.scss */
+    body.Gallery div.tt_article_useless_p_margin div.entry-ccl {
+      display: none; }
+    /* line 54, ../sass/skingallery.scss */
+    body.Gallery div.tt_article_useless_p_margin div.white {
+      width: 50%;
+      background: white;
+      float: right; }
+      /* line 58, ../sass/skingallery.scss */
+      body.Gallery div.tt_article_useless_p_margin div.white h1 {
+        font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo !important;
+        font-size: 76px;
+        text-align: right;
+        padding-left: 1em;
+        margin: 0;
+        margin: 5px 40px; }
+      /* line 69, ../sass/skingallery.scss */
+      body.Gallery div.tt_article_useless_p_margin div.white div.desc {
+        background: #F5F5F5;
+        padding: 20px 0;
+        margin-bottom: 60px;
+        display: block; }
+        /* line 75, ../sass/skingallery.scss */
+        body.Gallery div.tt_article_useless_p_margin div.white div.desc div.imgbox {
+          width: 100%;
+          left: -100%;
+          position: absolute; }
+          /* line 79, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.imgbox img {
+            width: 100%; }
+        /* line 83, ../sass/skingallery.scss */
+        body.Gallery div.tt_article_useless_p_margin div.white div.desc h2 {
+          text-align: center;
+          font-size: 50px; }
+          /* line 86, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc h2 span {
+            color: #222;
+            border: 5px solid #222;
+            padding: 2px 5px;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            text-align: center;
+            font-weight: 500; }
+          /* line 95, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc h2:after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 15px 15px 15px 0;
+            border-color: transparent #F5F5F5;
+            display: block;
+            width: 0;
+            z-index: 1;
+            margin-top: -15px;
+            left: -15px;
+            top: 70px; }
+        /* line 109, ../sass/skingallery.scss */
+        body.Gallery div.tt_article_useless_p_margin div.white div.desc p.date {
+          text-align: center;
+          font-weight: 400; }
+          /* line 112, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc p.date span {
+            background: white;
+            font-size: 26px;
+            padding: 5px 10px;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;
+            -ms-border-radius: 40px;
+            -o-border-radius: 40px;
+            border-radius: 40px; }
+        /* line 119, ../sass/skingallery.scss */
+        body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update {
+          width: 35%;
+          height: 100%;
+          padding: 20px 10px;
+          background: #222;
+          color: white;
+          position: relative; }
+          /* line 126, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update h3 {
+            color: white;
+            font-weight: 200;
+            font-size: 36px; }
+          /* line 131, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update h4 {
+            color: white;
+            font-weight: 200; }
+          /* line 135, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update h5 {
+            color: white;
+            font-weight: 900; }
+          /* line 139, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update p {
+            margin: 0; }
+            /* line 141, ../sass/skingallery.scss */
+            body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update p span {
+              margin-right: 5px; }
+          /* line 145, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update a {
+            color: #26d673;
+            font-weight: 400;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 149, ../sass/skingallery.scss */
+            body.Gallery div.tt_article_useless_p_margin div.white div.desc div.update a:hover {
+              color: #00a441;
+              text-decoration: none;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+        /* line 156, ../sass/skingallery.scss */
+        body.Gallery div.tt_article_useless_p_margin div.white div.desc div.behind {
+          width: 65%;
+          position: relative;
+          padding: 20px 20px; }
+          /* line 160, ../sass/skingallery.scss */
+          body.Gallery div.tt_article_useless_p_margin div.white div.desc div.behind h3 {
+            font-weight: 200;
+            font-size: 36px; }
+    /* line 167, ../sass/skingallery.scss */
+    body.Gallery div.tt_article_useless_p_margin div#disqus_thread {
+      padding: 0 20px; }
+  /* line 172, ../sass/skingallery.scss */
+  body.Gallery footer {
+    clear: both;
+    float: none;
+    background: #F5F5F5; }
+    /* line 177, ../sass/skingallery.scss */
+    body.Gallery footer h1 {
+      text-align: center;
+      margin: 0;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo !important; }
+      /* line 181, ../sass/skingallery.scss */
+      body.Gallery footer h1 a {
+        color: #222 !important;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 184, ../sass/skingallery.scss */
+        body.Gallery footer h1 a:hover {
+          color: #26d673 !important;
+          text-decoration: none;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 192, ../sass/skingallery.scss */
+    body.Gallery footer hr {
+      display: none; }
+    /* line 196, ../sass/skingallery.scss */
+    body.Gallery footer div {
+      display: none; }
+    /* line 200, ../sass/skingallery.scss */
+    body.Gallery footer p {
+      display: none; }
+    /* line 204, ../sass/skingallery.scss */
+    body.Gallery footer ul {
+      display: none; }
+  /* line 209, ../sass/skingallery.scss */
+  body.Gallery nav {
+    display: none; }
+  /* line 212, ../sass/skingallery.scss */
+  body.Gallery aside#sidebar {
+    display: none; }
+  /* line 215, ../sass/skingallery.scss */
+  body.Gallery div#paging {
+    display: none; }

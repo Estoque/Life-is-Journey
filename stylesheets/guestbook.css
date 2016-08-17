@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url(http://themes.googleusercontent.com/static/fonts/poiretone/v2/HrI4ZJpJ3Fh0wa5ofYMK8b3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+/* line 14, ../sass/guestbook.scss */
+html {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 18, ../sass/guestbook.scss */
+body#tt-body-guestbook {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  height: 100%;
+  /* 	background: url(../pattern.png), url(../addon/guestbook.jpg) no-repeat center center fixed; */
+  /* 	background: url(pattern.png), url(http://cfile26.uf.tistory.com/image/24523C3B5328CB8B2C4BAF) no-repeat center center fixed; */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI1cHgiIGhlaWdodD0iNXB4IiB2aWV3Qm94PSIwIDAgNSA1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1IDUiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cmVjdCBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjQiIHk9IjEuMDE2IiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjMuMDE2IiB5PSIyIiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjIuMDMxIiB5PSIzIiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjEuMDQ3IiB5PSI0IiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+Cjwvc3ZnPg==), url(http://cfile26.uf.tistory.com/image/24523C3B5328CB8B2C4BAF) no-repeat center center fixed;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+  position: relative;
+  color: white; }
+  /* line 39, ../sass/guestbook.scss */
+  body#tt-body-guestbook h1, body#tt-body-guestbook h2, body#tt-body-guestbook h3, body#tt-body-guestbook h4, body#tt-body-guestbook h5, body#tt-body-guestbook h6 {
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 43, ../sass/guestbook.scss */
+  body#tt-body-guestbook a {
+    color: #26d673;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-guestbook a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-guestbook a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-guestbook a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-guestbook a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body#tt-body-guestbook a:hover {
+      text-decoration: underline; }
+  /* line 50, ../sass/guestbook.scss */
+  body#tt-body-guestbook ::selection {
+    color: white;
+    background: #26d673; }
+  /* line 51, ../sass/guestbook.scss */
+  body#tt-body-guestbook ::-moz-selection {
+    color: white;
+    background: #26d673; }
+  /* line 53, ../sass/guestbook.scss */
+  body#tt-body-guestbook article#guestbook {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(34, 34, 34, 0.8)), color-stop(100%, rgba(34, 34, 34, 0.2)));
+    background-image: -webkit-linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.2));
+    background-image: -moz-linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.2));
+    background-image: -o-linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.2));
+    background-image: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.2));
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 78%;
+    height: 50%;
+    -webkit-box-shadow: rgba(34, 34, 34, 0.55) 0px 10px 32px 0px;
+    -moz-box-shadow: rgba(34, 34, 34, 0.55) 0px 10px 32px 0px;
+    box-shadow: rgba(34, 34, 34, 0.55) 0px 10px 32px 0px;
+    border: 1.5px solid #222222;
+    padding: 15px 20px 10px 20px; }
+    /* line 66, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook h1.title {
+      margin: 0;
+      font-size: 62px;
+      font-family: "Poiret One", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      font-style: normal;
+      float: left;
+      color: white;
+      margin-bottom: 20px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 78, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook a.right-off-canvas-toggle {
+      float: right;
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.8);
+      margin-top: 15px;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase; }
+      /* line 86, ../sass/guestbook.scss */
+      body#tt-body-guestbook article#guestbook a.right-off-canvas-toggle:hover {
+        text-decoration: none;
+        color: #26d673; }
+    /* line 91, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook div.google {
+      float: right;
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 10px; }
+    /* line 97, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook hr {
+      margin: 10px 0;
+      clear: both;
+      color: white;
+      border-color: white;
+      background-color: white; }
+    /* line 104, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook p.pwd {
+      text-align: right;
+      font-weight: 200;
+      color: white; }
+    /* line 109, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook h3.blogName {
+      margin: 0;
+      font-size: 38px;
+      font-family: "Poiret One", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      float: left; }
+      /* line 115, ../sass/guestbook.scss */
+      body#tt-body-guestbook article#guestbook h3.blogName a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 121, ../sass/guestbook.scss */
+        body#tt-body-guestbook article#guestbook h3.blogName a:hover {
+          text-shadow: white 0 0 5px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 127, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 23px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 138, ../sass/guestbook.scss */
+      body#tt-body-guestbook article#guestbook div.blogMenu ul {
+        list-style: none; }
+        /* line 140, ../sass/guestbook.scss */
+        body#tt-body-guestbook article#guestbook div.blogMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 143, ../sass/guestbook.scss */
+          body#tt-body-guestbook article#guestbook div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            padding-bottom: 13px; }
+            /* line 146, ../sass/guestbook.scss */
+            body#tt-body-guestbook article#guestbook div.blogMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              border-bottom: 2px solid white;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 157, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook nav.menuContainer {
+      display: block; }
+  /* line 162, ../sass/guestbook.scss */
+  body#tt-body-guestbook nav {
+    display: none; }
+  /* line 166, ../sass/guestbook.scss */
+  body#tt-body-guestbook footer {
+    display: none; }
+  /* line 169, ../sass/guestbook.scss */
+  body#tt-body-guestbook aside#sidebar {
+    display: none; }
+  /* line 172, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#paging {
+    display: none; }
+
+@media only screen {
+  /* line 180, ../sass/guestbook.scss */
+  body#tt-body-guestbook nav.blogMenu {
+    display: none; }
+  /* line 183, ../sass/guestbook.scss */
+  body#tt-body-guestbook h1.title {
+    font-size: 45px; }
+  /* line 186, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#guestbook {
+    width: 90%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 190, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook div.google {
+      display: none; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 201, ../sass/guestbook.scss */
+  body#tt-body-guestbook nav.blogMenu {
+    display: none; }
+  /* line 204, ../sass/guestbook.scss */
+  body#tt-body-guestbook h1.title {
+    font-size: 62px; }
+  /* line 207, ../sass/guestbook.scss */
+  body#tt-body-guestbook article#guestbook {
+    width: 90%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 218, ../sass/guestbook.scss */
+  body#tt-body-guestbook nav.blogMenu {
+    display: block; }
+  /* line 221, ../sass/guestbook.scss */
+  body#tt-body-guestbook article#guestbook {
+    width: 80%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 225, ../sass/guestbook.scss */
+    body#tt-body-guestbook article#guestbook div.google {
+      display: block; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 236, ../sass/guestbook.scss */
+  body#tt-body-guestbook nav.blogMenu {
+    display: block; }
+  /* line 239, ../sass/guestbook.scss */
+  body#tt-body-guestbook article#guestbook {
+    width: 78%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */

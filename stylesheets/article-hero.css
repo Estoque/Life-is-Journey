@@ -1,0 +1,2019 @@
+@charset "UTF-8";
+/* body.UniAW.iOS7, body.Candy.for, body.Composition, body.TechAesthetic.Released, body.Meltdown.Released, body.Hexagon.iOS7, body.Zen.iOS7  */
+/* line 11, ../sass/article-hero.scss */
+html {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 16, ../sass/article-hero.scss */
+body.UniAW.iOS7, body.Candy.for, body.Composition, body.TechAesthetic.Released, body.Meltdown.Released, body.Hexagon.iOS7, body.Zen.iOS7 {
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  /* 		background: url(../addon/parallax1.jpg) no-repeat center center fixed; */
+  background: url(http://cfile4.uf.tistory.com/image/2426EF355328CB8F3585E8) no-repeat center center fixed;
+  background-size: cover;
+  /* !네비게이션	 */
+  /* !스크롤 */
+  /* !이미지헤더 배경	 */
+  /* !프로필	 */
+  /* !본문	 */
+  /* !메타 위젯	 */
+  /*
+  	div.metaWidget {
+  		clear: both;
+  		margin:  20px 0;
+  		width: 804px;
+  		margin: 20px auto;
+  		div.metaDaum {
+  			width: 100%;
+  			max-width: 402px;
+  			margin: 0;
+  			float: left;	
+  			
+  		}
+  		div.metaMix {
+  			width: 100%;
+  			max-width: 402px;
+  			margin: 0;
+  			float: right;			
+  		}
+  	}
+  */
+  /* !관리도구	 */
+  /* !카테고리	 */
+  /* !본문	 */
+  /* !소셜 도구	 */
+  /* !버튼형 위젯	 */
+  /* !태그	 */
+  /* !티스토리 기본댓글 */
+  /* !사이드바	 */
+  /* !페이징	 */
+  /* !푸터	 */
+  /* !맨위로		 */
+  /* !바디	 */ }
+  /* line 31, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.off-canvas-wrap, body.Candy.for div.off-canvas-wrap, body.Composition div.off-canvas-wrap, body.TechAesthetic.Released div.off-canvas-wrap, body.Meltdown.Released div.off-canvas-wrap, body.Hexagon.iOS7 div.off-canvas-wrap, body.Zen.iOS7 div.off-canvas-wrap {
+    padding: 0;
+    margin: 0;
+    position: relative; }
+  /* line 37, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.inner-wrap, body.Candy.for div.inner-wrap, body.Composition div.inner-wrap, body.TechAesthetic.Released div.inner-wrap, body.Meltdown.Released div.inner-wrap, body.Hexagon.iOS7 div.inner-wrap, body.Zen.iOS7 div.inner-wrap {
+    padding: 0;
+    margin: 0;
+    position: relative; }
+  /* line 43, ../sass/article-hero.scss */
+  body.UniAW.iOS7 h1, body.UniAW.iOS7 h2.articleTitle, body.UniAW.iOS7 h3, body.UniAW.iOS7 h4, body.UniAW.iOS7 h5, body.UniAW.iOS7 h6, body.Candy.for h1, body.Candy.for h2.articleTitle, body.Candy.for h3, body.Candy.for h4, body.Candy.for h5, body.Candy.for h6, body.Composition h1, body.Composition h2.articleTitle, body.Composition h3, body.Composition h4, body.Composition h5, body.Composition h6, body.TechAesthetic.Released h1, body.TechAesthetic.Released h2.articleTitle, body.TechAesthetic.Released h3, body.TechAesthetic.Released h4, body.TechAesthetic.Released h5, body.TechAesthetic.Released h6, body.Meltdown.Released h1, body.Meltdown.Released h2.articleTitle, body.Meltdown.Released h3, body.Meltdown.Released h4, body.Meltdown.Released h5, body.Meltdown.Released h6, body.Hexagon.iOS7 h1, body.Hexagon.iOS7 h2.articleTitle, body.Hexagon.iOS7 h3, body.Hexagon.iOS7 h4, body.Hexagon.iOS7 h5, body.Hexagon.iOS7 h6, body.Zen.iOS7 h1, body.Zen.iOS7 h2.articleTitle, body.Zen.iOS7 h3, body.Zen.iOS7 h4, body.Zen.iOS7 h5, body.Zen.iOS7 h6 {
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 47, ../sass/article-hero.scss */
+  body.UniAW.iOS7 a, body.Candy.for a, body.Composition a, body.TechAesthetic.Released a, body.Meltdown.Released a, body.Hexagon.iOS7 a, body.Zen.iOS7 a {
+    color: #579bd9;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.UniAW.iOS7 a:visited, body.Candy.for a:visited, body.Composition a:visited, body.TechAesthetic.Released a:visited, body.Meltdown.Released a:visited, body.Hexagon.iOS7 a:visited, body.Zen.iOS7 a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.UniAW.iOS7 a:focus, body.Candy.for a:focus, body.Composition a:focus, body.TechAesthetic.Released a:focus, body.Meltdown.Released a:focus, body.Hexagon.iOS7 a:focus, body.Zen.iOS7 a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.UniAW.iOS7 a:hover, body.Candy.for a:hover, body.Composition a:hover, body.TechAesthetic.Released a:hover, body.Meltdown.Released a:hover, body.Hexagon.iOS7 a:hover, body.Zen.iOS7 a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.UniAW.iOS7 a:active, body.Candy.for a:active, body.Composition a:active, body.TechAesthetic.Released a:active, body.Meltdown.Released a:active, body.Hexagon.iOS7 a:active, body.Zen.iOS7 a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body.UniAW.iOS7 a:hover, body.Candy.for a:hover, body.Composition a:hover, body.TechAesthetic.Released a:hover, body.Meltdown.Released a:hover, body.Hexagon.iOS7 a:hover, body.Zen.iOS7 a:hover {
+      text-decoration: underline; }
+  /* line 54, ../sass/article-hero.scss */
+  body.UniAW.iOS7 ::selection, body.Candy.for ::selection, body.Composition ::selection, body.TechAesthetic.Released ::selection, body.Meltdown.Released ::selection, body.Hexagon.iOS7 ::selection, body.Zen.iOS7 ::selection {
+    color: white;
+    background: #579bd9; }
+  /* line 55, ../sass/article-hero.scss */
+  body.UniAW.iOS7 ::-moz-selection, body.Candy.for ::-moz-selection, body.Composition ::-moz-selection, body.TechAesthetic.Released ::-moz-selection, body.Meltdown.Released ::-moz-selection, body.Hexagon.iOS7 ::-moz-selection, body.Zen.iOS7 ::-moz-selection {
+    color: white;
+    background: #579bd9; }
+  /* line 57, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.row, body.Candy.for div.row, body.Composition div.row, body.TechAesthetic.Released div.row, body.Meltdown.Released div.row, body.Hexagon.iOS7 div.row, body.Zen.iOS7 div.row {
+    background: transparent; }
+  /* line 61, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.mainBody, body.Candy.for div.mainBody, body.Composition div.mainBody, body.TechAesthetic.Released div.mainBody, body.Meltdown.Released div.mainBody, body.Hexagon.iOS7 div.mainBody, body.Zen.iOS7 div.mainBody {
+    background: transparent; }
+  /* line 65, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.hero, body.Candy.for div.hero, body.Composition div.hero, body.TechAesthetic.Released div.hero, body.Meltdown.Released div.hero, body.Hexagon.iOS7 div.hero, body.Zen.iOS7 div.hero {
+    width: 100%;
+    height: 100%;
+    /* 		background: url(http://cfile1.uf.tistory.com/original/22731F4852DD3CA10B2B6A) no-repeat center center fixed; */
+    background-size: cover;
+    background-color: rgba(34, 34, 34, 0.5);
+    position: relative;
+    display: block !important; }
+    /* line 73, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.hero div, body.Candy.for div.hero div, body.Composition div.hero div, body.TechAesthetic.Released div.hero div, body.Meltdown.Released div.hero div, body.Hexagon.iOS7 div.hero div, body.Zen.iOS7 div.hero div {
+      color: white;
+      font-size: 3em;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      font-family: "Raleway";
+      font-weight: 100; }
+  /* line 85, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav, body.Candy.for nav, body.Composition nav, body.TechAesthetic.Released nav, body.Meltdown.Released nav, body.Hexagon.iOS7 nav, body.Zen.iOS7 nav {
+    background: none;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(34, 34, 34, 0.5)), color-stop(100%, transparent));
+    background-image: -webkit-linear-gradient(rgba(34, 34, 34, 0.5), transparent);
+    background-image: -moz-linear-gradient(rgba(34, 34, 34, 0.5), transparent);
+    background-image: -o-linear-gradient(rgba(34, 34, 34, 0.5), transparent);
+    background-image: linear-gradient(rgba(34, 34, 34, 0.5), transparent);
+    border-bottom: 0px solid rgba(255, 255, 255, 0.65);
+    clear: both;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 100, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav h1.blogName, body.Candy.for nav h1.blogName, body.Composition nav h1.blogName, body.TechAesthetic.Released nav h1.blogName, body.Meltdown.Released nav h1.blogName, body.Hexagon.iOS7 nav h1.blogName, body.Zen.iOS7 nav h1.blogName {
+      margin: 0;
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100; }
+      /* line 105, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav h1.blogName a, body.Candy.for nav h1.blogName a, body.Composition nav h1.blogName a, body.TechAesthetic.Released nav h1.blogName a, body.Meltdown.Released nav h1.blogName a, body.Hexagon.iOS7 nav h1.blogName a, body.Zen.iOS7 nav h1.blogName a {
+        color: white;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 111, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav h1.blogName a:hover, body.Candy.for nav h1.blogName a:hover, body.Composition nav h1.blogName a:hover, body.TechAesthetic.Released nav h1.blogName a:hover, body.Meltdown.Released nav h1.blogName a:hover, body.Hexagon.iOS7 nav h1.blogName a:hover, body.Zen.iOS7 nav h1.blogName a:hover {
+          color: #579bd9;
+          text-shadow: none;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 118, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.blogMenu, body.Candy.for nav div.blogMenu, body.Composition nav div.blogMenu, body.TechAesthetic.Released nav div.blogMenu, body.Meltdown.Released nav div.blogMenu, body.Hexagon.iOS7 nav div.blogMenu, body.Zen.iOS7 nav div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 35px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 129, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav div.blogMenu ul, body.Candy.for nav div.blogMenu ul, body.Composition nav div.blogMenu ul, body.TechAesthetic.Released nav div.blogMenu ul, body.Meltdown.Released nav div.blogMenu ul, body.Hexagon.iOS7 nav div.blogMenu ul, body.Zen.iOS7 nav div.blogMenu ul {
+        list-style: none; }
+        /* line 131, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav div.blogMenu ul li, body.Candy.for nav div.blogMenu ul li, body.Composition nav div.blogMenu ul li, body.TechAesthetic.Released nav div.blogMenu ul li, body.Meltdown.Released nav div.blogMenu ul li, body.Hexagon.iOS7 nav div.blogMenu ul li, body.Zen.iOS7 nav div.blogMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 134, ../sass/article-hero.scss */
+          body.UniAW.iOS7 nav div.blogMenu ul li a, body.Candy.for nav div.blogMenu ul li a, body.Composition nav div.blogMenu ul li a, body.TechAesthetic.Released nav div.blogMenu ul li a, body.Meltdown.Released nav div.blogMenu ul li a, body.Hexagon.iOS7 nav div.blogMenu ul li a, body.Zen.iOS7 nav div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            padding-bottom: 30px; }
+            /* line 137, ../sass/article-hero.scss */
+            body.UniAW.iOS7 nav div.blogMenu ul li a:hover, body.Candy.for nav div.blogMenu ul li a:hover, body.Composition nav div.blogMenu ul li a:hover, body.TechAesthetic.Released nav div.blogMenu ul li a:hover, body.Meltdown.Released nav div.blogMenu ul li a:hover, body.Hexagon.iOS7 nav div.blogMenu ul li a:hover, body.Zen.iOS7 nav div.blogMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              border-bottom: 5px solid #579bd9;
+              border-color: #579bd9 !important;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 149, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav a#menuToggle, body.Candy.for nav a#menuToggle, body.Composition nav a#menuToggle, body.TechAesthetic.Released nav a#menuToggle, body.Meltdown.Released nav a#menuToggle, body.Hexagon.iOS7 nav a#menuToggle, body.Zen.iOS7 nav a#menuToggle {
+      color: rgba(255, 255, 255, 0.8);
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 159, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav a#menuToggle:hover, body.Candy.for nav a#menuToggle:hover, body.Composition nav a#menuToggle:hover, body.TechAesthetic.Released nav a#menuToggle:hover, body.Meltdown.Released nav a#menuToggle:hover, body.Hexagon.iOS7 nav a#menuToggle:hover, body.Zen.iOS7 nav a#menuToggle:hover {
+        text-decoration: none;
+        color: #579bd9;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 166, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.mobileMenu, body.Candy.for nav div.mobileMenu, body.Composition nav div.mobileMenu, body.TechAesthetic.Released nav div.mobileMenu, body.Meltdown.Released nav div.mobileMenu, body.Hexagon.iOS7 nav div.mobileMenu, body.Zen.iOS7 nav div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%; }
+      /* line 179, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav div.mobileMenu ul, body.Candy.for nav div.mobileMenu ul, body.Composition nav div.mobileMenu ul, body.TechAesthetic.Released nav div.mobileMenu ul, body.Meltdown.Released nav div.mobileMenu ul, body.Hexagon.iOS7 nav div.mobileMenu ul, body.Zen.iOS7 nav div.mobileMenu ul {
+        margin: 0;
+        padding-top: 5px;
+        list-style: none;
+        text-align: center; }
+        /* line 184, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav div.mobileMenu ul li, body.Candy.for nav div.mobileMenu ul li, body.Composition nav div.mobileMenu ul li, body.TechAesthetic.Released nav div.mobileMenu ul li, body.Meltdown.Released nav div.mobileMenu ul li, body.Hexagon.iOS7 nav div.mobileMenu ul li, body.Zen.iOS7 nav div.mobileMenu ul li {
+          margin-bottom: 18px; }
+          /* line 186, ../sass/article-hero.scss */
+          body.UniAW.iOS7 nav div.mobileMenu ul li a, body.Candy.for nav div.mobileMenu ul li a, body.Composition nav div.mobileMenu ul li a, body.TechAesthetic.Released nav div.mobileMenu ul li a, body.Meltdown.Released nav div.mobileMenu ul li a, body.Hexagon.iOS7 nav div.mobileMenu ul li a, body.Zen.iOS7 nav div.mobileMenu ul li a {
+            background: white;
+            padding: 8px 20px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            color: #222222;
+            font-weight: 600;
+            letter-spacing: 2px; }
+            /* line 193, ../sass/article-hero.scss */
+            body.UniAW.iOS7 nav div.mobileMenu ul li a:hover, body.Candy.for nav div.mobileMenu ul li a:hover, body.Composition nav div.mobileMenu ul li a:hover, body.TechAesthetic.Released nav div.mobileMenu ul li a:hover, body.Meltdown.Released nav div.mobileMenu ul li a:hover, body.Hexagon.iOS7 nav div.mobileMenu ul li a:hover, body.Zen.iOS7 nav div.mobileMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              background: #579bd9; }
+  /* line 204, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav.tiny, body.Candy.for nav.tiny, body.Composition nav.tiny, body.TechAesthetic.Released nav.tiny, body.Meltdown.Released nav.tiny, body.Hexagon.iOS7 nav.tiny, body.Zen.iOS7 nav.tiny {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(34, 34, 34, 0.2);
+    clear: both;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 218, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny h1.blogName, body.Candy.for nav.tiny h1.blogName, body.Composition nav.tiny h1.blogName, body.TechAesthetic.Released nav.tiny h1.blogName, body.Meltdown.Released nav.tiny h1.blogName, body.Hexagon.iOS7 nav.tiny h1.blogName, body.Zen.iOS7 nav.tiny h1.blogName {
+      margin: 0;
+      font-size: 30px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100; }
+      /* line 223, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav.tiny h1.blogName a, body.Candy.for nav.tiny h1.blogName a, body.Composition nav.tiny h1.blogName a, body.TechAesthetic.Released nav.tiny h1.blogName a, body.Meltdown.Released nav.tiny h1.blogName a, body.Hexagon.iOS7 nav.tiny h1.blogName a, body.Zen.iOS7 nav.tiny h1.blogName a {
+        color: #222222;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 229, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav.tiny h1.blogName a:hover, body.Candy.for nav.tiny h1.blogName a:hover, body.Composition nav.tiny h1.blogName a:hover, body.TechAesthetic.Released nav.tiny h1.blogName a:hover, body.Meltdown.Released nav.tiny h1.blogName a:hover, body.Hexagon.iOS7 nav.tiny h1.blogName a:hover, body.Zen.iOS7 nav.tiny h1.blogName a:hover {
+          color: #579bd9;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 235, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.blogMenu, body.Candy.for nav.tiny div.blogMenu, body.Composition nav.tiny div.blogMenu, body.TechAesthetic.Released nav.tiny div.blogMenu, body.Meltdown.Released nav.tiny div.blogMenu, body.Hexagon.iOS7 nav.tiny div.blogMenu, body.Zen.iOS7 nav.tiny div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(34, 34, 34, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 15px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 246, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav.tiny div.blogMenu ul, body.Candy.for nav.tiny div.blogMenu ul, body.Composition nav.tiny div.blogMenu ul, body.TechAesthetic.Released nav.tiny div.blogMenu ul, body.Meltdown.Released nav.tiny div.blogMenu ul, body.Hexagon.iOS7 nav.tiny div.blogMenu ul, body.Zen.iOS7 nav.tiny div.blogMenu ul {
+        list-style: none; }
+        /* line 248, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav.tiny div.blogMenu ul li, body.Candy.for nav.tiny div.blogMenu ul li, body.Composition nav.tiny div.blogMenu ul li, body.TechAesthetic.Released nav.tiny div.blogMenu ul li, body.Meltdown.Released nav.tiny div.blogMenu ul li, body.Hexagon.iOS7 nav.tiny div.blogMenu ul li, body.Zen.iOS7 nav.tiny div.blogMenu ul li {
+          float: left; }
+          /* line 250, ../sass/article-hero.scss */
+          body.UniAW.iOS7 nav.tiny div.blogMenu ul li a, body.Candy.for nav.tiny div.blogMenu ul li a, body.Composition nav.tiny div.blogMenu ul li a, body.TechAesthetic.Released nav.tiny div.blogMenu ul li a, body.Meltdown.Released nav.tiny div.blogMenu ul li a, body.Hexagon.iOS7 nav.tiny div.blogMenu ul li a, body.Zen.iOS7 nav.tiny div.blogMenu ul li a {
+            color: rgba(34, 34, 34, 0.8);
+            padding-bottom: 10px; }
+            /* line 253, ../sass/article-hero.scss */
+            body.UniAW.iOS7 nav.tiny div.blogMenu ul li a:hover, body.Candy.for nav.tiny div.blogMenu ul li a:hover, body.Composition nav.tiny div.blogMenu ul li a:hover, body.TechAesthetic.Released nav.tiny div.blogMenu ul li a:hover, body.Meltdown.Released nav.tiny div.blogMenu ul li a:hover, body.Hexagon.iOS7 nav.tiny div.blogMenu ul li a:hover, body.Zen.iOS7 nav.tiny div.blogMenu ul li a:hover {
+              color: #579bd9;
+              text-decoration: none;
+              border-bottom: 5px solid #579bd9;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 264, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny a#menuToggle, body.Candy.for nav.tiny a#menuToggle, body.Composition nav.tiny a#menuToggle, body.TechAesthetic.Released nav.tiny a#menuToggle, body.Meltdown.Released nav.tiny a#menuToggle, body.Hexagon.iOS7 nav.tiny a#menuToggle, body.Zen.iOS7 nav.tiny a#menuToggle {
+      color: rgba(34, 34, 34, 0.8);
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 274, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav.tiny a#menuToggle:hover, body.Candy.for nav.tiny a#menuToggle:hover, body.Composition nav.tiny a#menuToggle:hover, body.TechAesthetic.Released nav.tiny a#menuToggle:hover, body.Meltdown.Released nav.tiny a#menuToggle:hover, body.Hexagon.iOS7 nav.tiny a#menuToggle:hover, body.Zen.iOS7 nav.tiny a#menuToggle:hover {
+        text-decoration: none;
+        color: #579bd9;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 281, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.mobileMenu, body.Candy.for nav.tiny div.mobileMenu, body.Composition nav.tiny div.mobileMenu, body.TechAesthetic.Released nav.tiny div.mobileMenu, body.Meltdown.Released nav.tiny div.mobileMenu, body.Hexagon.iOS7 nav.tiny div.mobileMenu, body.Zen.iOS7 nav.tiny div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid rgba(34, 34, 34, 0.2); }
+      /* line 296, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav.tiny div.mobileMenu ul, body.Candy.for nav.tiny div.mobileMenu ul, body.Composition nav.tiny div.mobileMenu ul, body.TechAesthetic.Released nav.tiny div.mobileMenu ul, body.Meltdown.Released nav.tiny div.mobileMenu ul, body.Hexagon.iOS7 nav.tiny div.mobileMenu ul, body.Zen.iOS7 nav.tiny div.mobileMenu ul {
+        margin: 0;
+        padding-top: 10px;
+        list-style: none;
+        text-align: center; }
+        /* line 301, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav.tiny div.mobileMenu ul li, body.Candy.for nav.tiny div.mobileMenu ul li, body.Composition nav.tiny div.mobileMenu ul li, body.TechAesthetic.Released nav.tiny div.mobileMenu ul li, body.Meltdown.Released nav.tiny div.mobileMenu ul li, body.Hexagon.iOS7 nav.tiny div.mobileMenu ul li, body.Zen.iOS7 nav.tiny div.mobileMenu ul li {
+          margin-bottom: 18px; }
+          /* line 303, ../sass/article-hero.scss */
+          body.UniAW.iOS7 nav.tiny div.mobileMenu ul li a, body.Candy.for nav.tiny div.mobileMenu ul li a, body.Composition nav.tiny div.mobileMenu ul li a, body.TechAesthetic.Released nav.tiny div.mobileMenu ul li a, body.Meltdown.Released nav.tiny div.mobileMenu ul li a, body.Hexagon.iOS7 nav.tiny div.mobileMenu ul li a, body.Zen.iOS7 nav.tiny div.mobileMenu ul li a {
+            background: #222222;
+            padding: 8px 20px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px; }
+            /* line 310, ../sass/article-hero.scss */
+            body.UniAW.iOS7 nav.tiny div.mobileMenu ul li a:hover, body.Candy.for nav.tiny div.mobileMenu ul li a:hover, body.Composition nav.tiny div.mobileMenu ul li a:hover, body.TechAesthetic.Released nav.tiny div.mobileMenu ul li a:hover, body.Meltdown.Released nav.tiny div.mobileMenu ul li a:hover, body.Hexagon.iOS7 nav.tiny div.mobileMenu ul li a:hover, body.Zen.iOS7 nav.tiny div.mobileMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              background: #579bd9; }
+  /* line 323, ../sass/article-hero.scss */
+  body.UniAW.iOS7 header, body.Candy.for header, body.Composition header, body.TechAesthetic.Released header, body.Meltdown.Released header, body.Hexagon.iOS7 header, body.Zen.iOS7 header {
+    width: 100%;
+    height: auto !important;
+    background: white;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 20px 0 !important;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 333, ../sass/article-hero.scss */
+    body.UniAW.iOS7 header h2.articleTitle, body.Candy.for header h2.articleTitle, body.Composition header h2.articleTitle, body.TechAesthetic.Released header h2.articleTitle, body.Meltdown.Released header h2.articleTitle, body.Hexagon.iOS7 header h2.articleTitle, body.Zen.iOS7 header h2.articleTitle {
+      margin: 0;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      margin: 20px 5% !important; }
+      /* line 340, ../sass/article-hero.scss */
+      body.UniAW.iOS7 header h2.articleTitle a, body.Candy.for header h2.articleTitle a, body.Composition header h2.articleTitle a, body.TechAesthetic.Released header h2.articleTitle a, body.Meltdown.Released header h2.articleTitle a, body.Hexagon.iOS7 header h2.articleTitle a, body.Zen.iOS7 header h2.articleTitle a {
+        text-decoration: none;
+        color: #222222;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 345, ../sass/article-hero.scss */
+        body.UniAW.iOS7 header h2.articleTitle a:hover, body.Candy.for header h2.articleTitle a:hover, body.Composition header h2.articleTitle a:hover, body.TechAesthetic.Released header h2.articleTitle a:hover, body.Meltdown.Released header h2.articleTitle a:hover, body.Hexagon.iOS7 header h2.articleTitle a:hover, body.Zen.iOS7 header h2.articleTitle a:hover {
+          text-shadow: white 0 0 10px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 351, ../sass/article-hero.scss */
+    body.UniAW.iOS7 header a.disqus_count, body.Candy.for header a.disqus_count, body.Composition header a.disqus_count, body.TechAesthetic.Released header a.disqus_count, body.Meltdown.Released header a.disqus_count, body.Hexagon.iOS7 header a.disqus_count, body.Zen.iOS7 header a.disqus_count {
+      position: absolute;
+      bottom: -30px;
+      left: 10%;
+      background: #579bd9;
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      padding-top: 15px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 365, ../sass/article-hero.scss */
+      body.UniAW.iOS7 header a.disqus_count:after, body.Candy.for header a.disqus_count:after, body.Composition header a.disqus_count:after, body.TechAesthetic.Released header a.disqus_count:after, body.Meltdown.Released header a.disqus_count:after, body.Hexagon.iOS7 header a.disqus_count:after, body.Zen.iOS7 header a.disqus_count:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 8px 8px 0;
+        border-color: #579bd9 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -8px;
+        bottom: -6px;
+        left: 50%;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+      /* line 379, ../sass/article-hero.scss */
+      body.UniAW.iOS7 header a.disqus_count:hover, body.Candy.for header a.disqus_count:hover, body.Composition header a.disqus_count:hover, body.TechAesthetic.Released header a.disqus_count:hover, body.Meltdown.Released header a.disqus_count:hover, body.Hexagon.iOS7 header a.disqus_count:hover, body.Zen.iOS7 header a.disqus_count:hover {
+        background: #f4f4f4;
+        color: #579bd9;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 384, ../sass/article-hero.scss */
+        body.UniAW.iOS7 header a.disqus_count:hover:after, body.Candy.for header a.disqus_count:hover:after, body.Composition header a.disqus_count:hover:after, body.TechAesthetic.Released header a.disqus_count:hover:after, body.Meltdown.Released header a.disqus_count:hover:after, body.Hexagon.iOS7 header a.disqus_count:hover:after, body.Zen.iOS7 header a.disqus_count:hover:after {
+          border-color: #f4f4f4 transparent;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+  /* line 392, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.profileLayer, body.Candy.for div.profileLayer, body.Composition div.profileLayer, body.TechAesthetic.Released div.profileLayer, body.Meltdown.Released div.profileLayer, body.Hexagon.iOS7 div.profileLayer, body.Zen.iOS7 div.profileLayer {
+    padding: 50px 0;
+    /* 		background: url(../addon/pattern3.png), url(../addon/parallax3.jpg) no-repeat center center fixed; */
+    background: url(pattern3.png), url(http://cfile3.uf.tistory.com/image/252348355328CB90354C75) no-repeat center center fixed;
+    background-size: auto, cover;
+    display: block;
+    height: auto; }
+  /* line 400, ../sass/article-hero.scss */
+  body.UniAW.iOS7 img.profilePic, body.Candy.for img.profilePic, body.Composition img.profilePic, body.TechAesthetic.Released img.profilePic, body.Meltdown.Released img.profilePic, body.Hexagon.iOS7 img.profilePic, body.Zen.iOS7 img.profilePic {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: block;
+    z-index: 100;
+    margin-top: 0px;
+    border: 2px solid white;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 412, ../sass/article-hero.scss */
+    body.UniAW.iOS7 img.profilePic:hover, body.Candy.for img.profilePic:hover, body.Composition img.profilePic:hover, body.TechAesthetic.Released img.profilePic:hover, body.Meltdown.Released img.profilePic:hover, body.Hexagon.iOS7 img.profilePic:hover, body.Zen.iOS7 img.profilePic:hover {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+  /* line 417, ../sass/article-hero.scss */
+  body.UniAW.iOS7 h3.ownerName, body.Candy.for h3.ownerName, body.Composition h3.ownerName, body.TechAesthetic.Released h3.ownerName, body.Meltdown.Released h3.ownerName, body.Hexagon.iOS7 h3.ownerName, body.Zen.iOS7 h3.ownerName {
+    text-align: center;
+    font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 100;
+    margin: 0; }
+  /* line 425, ../sass/article-hero.scss */
+  body.UniAW.iOS7 p.ownerInfo, body.Candy.for p.ownerInfo, body.Composition p.ownerInfo, body.TechAesthetic.Released p.ownerInfo, body.Meltdown.Released p.ownerInfo, body.Hexagon.iOS7 p.ownerInfo, body.Zen.iOS7 p.ownerInfo {
+    text-align: center;
+    font-weight: 400;
+    color: #e5e5e5;
+    font-size: 18px;
+    margin: 0; }
+  /* line 432, ../sass/article-hero.scss */
+  body.UniAW.iOS7 p.contact, body.Candy.for p.contact, body.Composition p.contact, body.TechAesthetic.Released p.contact, body.Meltdown.Released p.contact, body.Hexagon.iOS7 p.contact, body.Zen.iOS7 p.contact {
+    text-align: center;
+    font-weight: 400;
+    color: #e5e5e5;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 0px;
+    line-height: 34px; }
+    /* line 440, ../sass/article-hero.scss */
+    body.UniAW.iOS7 p.contact a, body.Candy.for p.contact a, body.Composition p.contact a, body.TechAesthetic.Released p.contact a, body.Meltdown.Released p.contact a, body.Hexagon.iOS7 p.contact a, body.Zen.iOS7 p.contact a {
+      text-decoration: none;
+      color: #e5e5e5;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 445, ../sass/article-hero.scss */
+      body.UniAW.iOS7 p.contact a:hover, body.Candy.for p.contact a:hover, body.Composition p.contact a:hover, body.TechAesthetic.Released p.contact a:hover, body.Meltdown.Released p.contact a:hover, body.Hexagon.iOS7 p.contact a:hover, body.Zen.iOS7 p.contact a:hover {
+        color: #579bd9;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 454, ../sass/article-hero.scss */
+  body.UniAW.iOS7 article.articleBody, body.Candy.for article.articleBody, body.Composition article.articleBody, body.TechAesthetic.Released article.articleBody, body.Meltdown.Released article.articleBody, body.Hexagon.iOS7 article.articleBody, body.Zen.iOS7 article.articleBody {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    clear: both;
+    width: 100%;
+    background: white;
+    margin-bottom: 10%; }
+  /* line 463, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div#share-buttons, body.Candy.for div#share-buttons, body.Composition div#share-buttons, body.TechAesthetic.Released div#share-buttons, body.Meltdown.Released div#share-buttons, body.Hexagon.iOS7 div#share-buttons, body.Zen.iOS7 div#share-buttons {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    text-align: center; }
+    /* line 468, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div#share-buttons a, body.Candy.for div#share-buttons a, body.Composition div#share-buttons a, body.TechAesthetic.Released div#share-buttons a, body.Meltdown.Released div#share-buttons a, body.Hexagon.iOS7 div#share-buttons a, body.Zen.iOS7 div#share-buttons a {
+      color: white;
+      font-size: 22px;
+      padding-top: 8px;
+      display: inline-block;
+      background: #222222;
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 478, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div#share-buttons a:hover, body.Candy.for div#share-buttons a:hover, body.Composition div#share-buttons a:hover, body.TechAesthetic.Released div#share-buttons a:hover, body.Meltdown.Released div#share-buttons a:hover, body.Hexagon.iOS7 div#share-buttons a:hover, body.Zen.iOS7 div#share-buttons a:hover {
+        background: #579bd9;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 509, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.admin, body.Candy.for div.admin, body.Composition div.admin, body.TechAesthetic.Released div.admin, body.Meltdown.Released div.admin, body.Hexagon.iOS7 div.admin, body.Zen.iOS7 div.admin {
+    position: fixed;
+    background: rgba(34, 34, 34, 0.5);
+    top: 20%;
+    width: 50px;
+    overflow: hidden;
+    left: 0;
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 999;
+    border-top: 2px solid #222222;
+    border-right: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* !구글		 */ }
+    /* line 525, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.admin a, body.Candy.for div.admin a, body.Composition div.admin a, body.TechAesthetic.Released div.admin a, body.Meltdown.Released div.admin a, body.Hexagon.iOS7 div.admin a, body.Zen.iOS7 div.admin a {
+      color: white;
+      text-decoration: none;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 530, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div.admin a:hover, body.Candy.for div.admin a:hover, body.Composition div.admin a:hover, body.TechAesthetic.Released div.admin a:hover, body.Meltdown.Released div.admin a:hover, body.Hexagon.iOS7 div.admin a:hover, body.Zen.iOS7 div.admin a:hover {
+        color: #579bd9;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 537, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.google, body.Candy.for div.google, body.Composition div.google, body.TechAesthetic.Released div.google, body.Meltdown.Released div.google, body.Hexagon.iOS7 div.google, body.Zen.iOS7 div.google {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    margin: 20px auto; }
+  /* line 546, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.category, body.Candy.for div.category, body.Composition div.category, body.TechAesthetic.Released div.category, body.Meltdown.Released div.category, body.Hexagon.iOS7 div.category, body.Zen.iOS7 div.category {
+    font-size: 36px;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+    /* !글 작성날짜		 */ }
+    /* line 551, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.category a, body.Candy.for div.category a, body.Composition div.category a, body.TechAesthetic.Released div.category a, body.Meltdown.Released div.category a, body.Hexagon.iOS7 div.category a, body.Zen.iOS7 div.category a {
+      color: #222222;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 556, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div.category a:hover, body.Candy.for div.category a:hover, body.Composition div.category a:hover, body.TechAesthetic.Released div.category a:hover, body.Meltdown.Released div.category a:hover, body.Hexagon.iOS7 div.category a:hover, body.Zen.iOS7 div.category a:hover {
+        color: #579bd9;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 563, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.articleDate, body.Candy.for div.articleDate, body.Composition div.articleDate, body.TechAesthetic.Released div.articleDate, body.Meltdown.Released div.articleDate, body.Hexagon.iOS7 div.articleDate, body.Zen.iOS7 div.articleDate {
+    float: right;
+    clear: both;
+    margin-top: -35px;
+    display: block;
+    margin-right: 1em; }
+    /* line 569, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.articleDate div.year, body.Candy.for div.articleDate div.year, body.Composition div.articleDate div.year, body.TechAesthetic.Released div.articleDate div.year, body.Meltdown.Released div.articleDate div.year, body.Hexagon.iOS7 div.articleDate div.year, body.Zen.iOS7 div.articleDate div.year {
+      font-size: 22px;
+      font-weight: 200;
+      clear: both;
+      float: left; }
+    /* line 575, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.articleDate div.date, body.Candy.for div.articleDate div.date, body.Composition div.articleDate div.date, body.TechAesthetic.Released div.articleDate div.date, body.Meltdown.Released div.articleDate div.date, body.Hexagon.iOS7 div.articleDate div.date, body.Zen.iOS7 div.articleDate div.date {
+      font-size: 25px;
+      font-weight: 200;
+      clear: both;
+      float: left; }
+    /* line 581, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.articleDate div.time, body.Candy.for div.articleDate div.time, body.Composition div.articleDate div.time, body.TechAesthetic.Released div.articleDate div.time, body.Meltdown.Released div.articleDate div.time, body.Hexagon.iOS7 div.articleDate div.time, body.Zen.iOS7 div.articleDate div.time {
+      float: right;
+      font-size: 50px;
+      font-weight: 200;
+      margin-top: -25px; }
+  /* line 589, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.article, body.Candy.for div.article, body.Composition div.article, body.TechAesthetic.Released div.article, body.Meltdown.Released div.article, body.Hexagon.iOS7 div.article, body.Zen.iOS7 div.article {
+    margin-top: 30px;
+    font-weight: 400; }
+    /* line 592, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.article div.tt_article_useless_p_margin, body.Candy.for div.article div.tt_article_useless_p_margin, body.Composition div.article div.tt_article_useless_p_margin, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin, body.Meltdown.Released div.article div.tt_article_useless_p_margin, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin, body.Zen.iOS7 div.article div.tt_article_useless_p_margin {
+      -webkit-font-smoothing: subpixel-antialiased;
+      font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+      /* line 595, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div.article div.tt_article_useless_p_margin h1, body.UniAW.iOS7 div.article div.tt_article_useless_p_margin h2, body.UniAW.iOS7 div.article div.tt_article_useless_p_margin h3, body.UniAW.iOS7 div.article div.tt_article_useless_p_margin h4, body.UniAW.iOS7 div.article div.tt_article_useless_p_margin h5, body.UniAW.iOS7 div.article div.tt_article_useless_p_margin h6, body.Candy.for div.article div.tt_article_useless_p_margin h1, body.Candy.for div.article div.tt_article_useless_p_margin h2, body.Candy.for div.article div.tt_article_useless_p_margin h3, body.Candy.for div.article div.tt_article_useless_p_margin h4, body.Candy.for div.article div.tt_article_useless_p_margin h5, body.Candy.for div.article div.tt_article_useless_p_margin h6, body.Composition div.article div.tt_article_useless_p_margin h1, body.Composition div.article div.tt_article_useless_p_margin h2, body.Composition div.article div.tt_article_useless_p_margin h3, body.Composition div.article div.tt_article_useless_p_margin h4, body.Composition div.article div.tt_article_useless_p_margin h5, body.Composition div.article div.tt_article_useless_p_margin h6, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin h1, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin h2, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin h3, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin h4, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin h5, body.TechAesthetic.Released div.article div.tt_article_useless_p_margin h6, body.Meltdown.Released div.article div.tt_article_useless_p_margin h1, body.Meltdown.Released div.article div.tt_article_useless_p_margin h2, body.Meltdown.Released div.article div.tt_article_useless_p_margin h3, body.Meltdown.Released div.article div.tt_article_useless_p_margin h4, body.Meltdown.Released div.article div.tt_article_useless_p_margin h5, body.Meltdown.Released div.article div.tt_article_useless_p_margin h6, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin h1, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin h2, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin h3, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin h4, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin h5, body.Hexagon.iOS7 div.article div.tt_article_useless_p_margin h6, body.Zen.iOS7 div.article div.tt_article_useless_p_margin h1, body.Zen.iOS7 div.article div.tt_article_useless_p_margin h2, body.Zen.iOS7 div.article div.tt_article_useless_p_margin h3, body.Zen.iOS7 div.article div.tt_article_useless_p_margin h4, body.Zen.iOS7 div.article div.tt_article_useless_p_margin h5, body.Zen.iOS7 div.article div.tt_article_useless_p_margin h6 {
+        -webkit-font-smoothing: subpixel-antialiased;
+        font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 602, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.more, body.Candy.for div.more, body.Composition div.more, body.TechAesthetic.Released div.more, body.Meltdown.Released div.more, body.Hexagon.iOS7 div.more, body.Zen.iOS7 div.more {
+    position: relative;
+    margin: 20px; }
+    /* line 605, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.more p, body.Candy.for div.more p, body.Composition div.more p, body.TechAesthetic.Released div.more p, body.Meltdown.Released div.more p, body.Hexagon.iOS7 div.more p, body.Zen.iOS7 div.more p {
+      text-align: center;
+      font-size: 28px;
+      background: #E5E5E5;
+      width: 100px;
+      margin: auto;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      -ms-border-radius: 40px;
+      -o-border-radius: 40px;
+      border-radius: 40px;
+      color: #222222; }
+      /* line 613, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div.more p a, body.Candy.for div.more p a, body.Composition div.more p a, body.TechAesthetic.Released div.more p a, body.Meltdown.Released div.more p a, body.Hexagon.iOS7 div.more p a, body.Zen.iOS7 div.more p a {
+        color: #222222;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 616, ../sass/article-hero.scss */
+        body.UniAW.iOS7 div.more p a:hover, body.Candy.for div.more p a:hover, body.Composition div.more p a:hover, body.TechAesthetic.Released div.more p a:hover, body.Meltdown.Released div.more p a:hover, body.Hexagon.iOS7 div.more p a:hover, body.Zen.iOS7 div.more p a:hover {
+          color: #579bd9;
+          text-decoration: none;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+  /* line 626, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div#thumbsUp, body.Candy.for div#thumbsUp, body.Composition div#thumbsUp, body.TechAesthetic.Released div#thumbsUp, body.Meltdown.Released div#thumbsUp, body.Hexagon.iOS7 div#thumbsUp, body.Zen.iOS7 div#thumbsUp {
+    display: none;
+    margin: 0;
+    padding: 0; }
+    /* line 630, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div#thumbsUp iframe, body.Candy.for div#thumbsUp iframe, body.Composition div#thumbsUp iframe, body.TechAesthetic.Released div#thumbsUp iframe, body.Meltdown.Released div#thumbsUp iframe, body.Hexagon.iOS7 div#thumbsUp iframe, body.Zen.iOS7 div#thumbsUp iframe {
+      height: 30px; }
+  /* line 635, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.tagTrail, body.Candy.for div.tagTrail, body.Composition div.tagTrail, body.TechAesthetic.Released div.tagTrail, body.Meltdown.Released div.tagTrail, body.Hexagon.iOS7 div.tagTrail, body.Zen.iOS7 div.tagTrail {
+    margin: 20px;
+    font-weight: 200;
+    text-align: center;
+    clear: both;
+    display: none; }
+    /* line 641, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.tagTrail a, body.Candy.for div.tagTrail a, body.Composition div.tagTrail a, body.TechAesthetic.Released div.tagTrail a, body.Meltdown.Released div.tagTrail a, body.Hexagon.iOS7 div.tagTrail a, body.Zen.iOS7 div.tagTrail a {
+      color: #222222;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 644, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div.tagTrail a:hover, body.Candy.for div.tagTrail a:hover, body.Composition div.tagTrail a:hover, body.TechAesthetic.Released div.tagTrail a:hover, body.Meltdown.Released div.tagTrail a:hover, body.Hexagon.iOS7 div.tagTrail a:hover, body.Zen.iOS7 div.tagTrail a:hover {
+        color: #579bd9;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 653, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.TcommentList ul, body.Candy.for div.TcommentList ul, body.Composition div.TcommentList ul, body.TechAesthetic.Released div.TcommentList ul, body.Meltdown.Released div.TcommentList ul, body.Hexagon.iOS7 div.TcommentList ul, body.Zen.iOS7 div.TcommentList ul {
+    list-style: none;
+    margin: 0; }
+  /* line 657, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.TcommentList div.Tcomment, body.Candy.for div.TcommentList div.Tcomment, body.Composition div.TcommentList div.Tcomment, body.TechAesthetic.Released div.TcommentList div.Tcomment, body.Meltdown.Released div.TcommentList div.Tcomment, body.Hexagon.iOS7 div.TcommentList div.Tcomment, body.Zen.iOS7 div.TcommentList div.Tcomment {
+    width: 100%;
+    padding-left: 80px;
+    display: block;
+    position: relative; }
+    /* line 662, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.TcommentList div.Tcomment img.defaultPic, body.Candy.for div.TcommentList div.Tcomment img.defaultPic, body.Composition div.TcommentList div.Tcomment img.defaultPic, body.TechAesthetic.Released div.TcommentList div.Tcomment img.defaultPic, body.Meltdown.Released div.TcommentList div.Tcomment img.defaultPic, body.Hexagon.iOS7 div.TcommentList div.Tcomment img.defaultPic, body.Zen.iOS7 div.TcommentList div.Tcomment img.defaultPic {
+      position: absolute;
+      left: 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 667, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.TcommentList div.Tcomment span.Tname, body.Candy.for div.TcommentList div.Tcomment span.Tname, body.Composition div.TcommentList div.Tcomment span.Tname, body.TechAesthetic.Released div.TcommentList div.Tcomment span.Tname, body.Meltdown.Released div.TcommentList div.Tcomment span.Tname, body.Hexagon.iOS7 div.TcommentList div.Tcomment span.Tname, body.Zen.iOS7 div.TcommentList div.Tcomment span.Tname {
+      font-weight: 600; }
+    /* line 670, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.TcommentList div.Tcomment span.Tdate, body.Candy.for div.TcommentList div.Tcomment span.Tdate, body.Composition div.TcommentList div.Tcomment span.Tdate, body.TechAesthetic.Released div.TcommentList div.Tcomment span.Tdate, body.Meltdown.Released div.TcommentList div.Tcomment span.Tdate, body.Hexagon.iOS7 div.TcommentList div.Tcomment span.Tdate, body.Zen.iOS7 div.TcommentList div.Tcomment span.Tdate {
+      font-weight: 200; }
+  /* line 674, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.TcommentList div.TRcomment, body.Candy.for div.TcommentList div.TRcomment, body.Composition div.TcommentList div.TRcomment, body.TechAesthetic.Released div.TcommentList div.TRcomment, body.Meltdown.Released div.TcommentList div.TRcomment, body.Hexagon.iOS7 div.TcommentList div.TRcomment, body.Zen.iOS7 div.TcommentList div.TRcomment {
+    width: 100%;
+    padding-left: 160px;
+    display: block;
+    position: relative; }
+    /* line 679, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.TcommentList div.TRcomment img.defaultPic, body.Candy.for div.TcommentList div.TRcomment img.defaultPic, body.Composition div.TcommentList div.TRcomment img.defaultPic, body.TechAesthetic.Released div.TcommentList div.TRcomment img.defaultPic, body.Meltdown.Released div.TcommentList div.TRcomment img.defaultPic, body.Hexagon.iOS7 div.TcommentList div.TRcomment img.defaultPic, body.Zen.iOS7 div.TcommentList div.TRcomment img.defaultPic {
+      position: absolute;
+      left: 80px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 684, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.TcommentList div.TRcomment span.Tname, body.Candy.for div.TcommentList div.TRcomment span.Tname, body.Composition div.TcommentList div.TRcomment span.Tname, body.TechAesthetic.Released div.TcommentList div.TRcomment span.Tname, body.Meltdown.Released div.TcommentList div.TRcomment span.Tname, body.Hexagon.iOS7 div.TcommentList div.TRcomment span.Tname, body.Zen.iOS7 div.TcommentList div.TRcomment span.Tname {
+      font-weight: 600; }
+    /* line 687, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.TcommentList div.TRcomment span.Tdate, body.Candy.for div.TcommentList div.TRcomment span.Tdate, body.Composition div.TcommentList div.TRcomment span.Tdate, body.TechAesthetic.Released div.TcommentList div.TRcomment span.Tdate, body.Meltdown.Released div.TcommentList div.TRcomment span.Tdate, body.Hexagon.iOS7 div.TcommentList div.TRcomment span.Tdate, body.Zen.iOS7 div.TcommentList div.TRcomment span.Tdate {
+      font-weight: 200; }
+  /* line 694, ../sass/article-hero.scss */
+  body.UniAW.iOS7 aside#sidebar, body.Candy.for aside#sidebar, body.Composition aside#sidebar, body.TechAesthetic.Released aside#sidebar, body.Meltdown.Released aside#sidebar, body.Hexagon.iOS7 aside#sidebar, body.Zen.iOS7 aside#sidebar {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    background: white;
+    /* !검색창		 */
+    /* !구글광고		 */
+    /* !카테고리		 */
+    /* !사이드바 제목		 */
+    /* !공지사이드바		 */
+    /* !최근포스팅		 */
+    /* !아카이브		 */
+    /* !달력		 */
+    /*
+    		div#calendar {
+    			display: inline-block;
+    			width: 30%;
+    			font-size: 18px;
+    			font-weight: 100;
+    			border: 1px solid $black;
+    		}
+    */
+    /* !링크		 */ }
+    /* line 701, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar h1.blogName, body.Candy.for aside#sidebar h1.blogName, body.Composition aside#sidebar h1.blogName, body.TechAesthetic.Released aside#sidebar h1.blogName, body.Meltdown.Released aside#sidebar h1.blogName, body.Hexagon.iOS7 aside#sidebar h1.blogName, body.Zen.iOS7 aside#sidebar h1.blogName {
+      display: block;
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-align: center;
+      margin-top: -10%;
+      margin-bottom: 5%; }
+      /* line 709, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar h1.blogName a, body.Candy.for aside#sidebar h1.blogName a, body.Composition aside#sidebar h1.blogName a, body.TechAesthetic.Released aside#sidebar h1.blogName a, body.Meltdown.Released aside#sidebar h1.blogName a, body.Hexagon.iOS7 aside#sidebar h1.blogName a, body.Zen.iOS7 aside#sidebar h1.blogName a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 714, ../sass/article-hero.scss */
+        body.UniAW.iOS7 aside#sidebar h1.blogName a:hover, body.Candy.for aside#sidebar h1.blogName a:hover, body.Composition aside#sidebar h1.blogName a:hover, body.TechAesthetic.Released aside#sidebar h1.blogName a:hover, body.Meltdown.Released aside#sidebar h1.blogName a:hover, body.Hexagon.iOS7 aside#sidebar h1.blogName a:hover, body.Zen.iOS7 aside#sidebar h1.blogName a:hover {
+          text-shadow: white 0 0 5px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 720, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar hr.sidehr, body.Candy.for aside#sidebar hr.sidehr, body.Composition aside#sidebar hr.sidehr, body.TechAesthetic.Released aside#sidebar hr.sidehr, body.Meltdown.Released aside#sidebar hr.sidehr, body.Hexagon.iOS7 aside#sidebar hr.sidehr, body.Zen.iOS7 aside#sidebar hr.sidehr {
+      display: none; }
+    /* line 723, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div.profileSide, body.Candy.for aside#sidebar div.profileSide, body.Composition aside#sidebar div.profileSide, body.TechAesthetic.Released aside#sidebar div.profileSide, body.Meltdown.Released aside#sidebar div.profileSide, body.Hexagon.iOS7 aside#sidebar div.profileSide, body.Zen.iOS7 aside#sidebar div.profileSide {
+      display: none; }
+    /* line 728, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#search input, body.Candy.for aside#sidebar div#search input, body.Composition aside#sidebar div#search input, body.TechAesthetic.Released aside#sidebar div#search input, body.Meltdown.Released aside#sidebar div#search input, body.Hexagon.iOS7 aside#sidebar div#search input, body.Zen.iOS7 aside#sidebar div#search input {
+      width: 50%;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      border-radius: 20px;
+      height: 40px;
+      background: #E5E5E5;
+      margin: 20px auto;
+      border: 0;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+      font-style: italic;
+      display: block;
+      outline: 0;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in; }
+      /* line 744, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#search input:focus, body.Candy.for aside#sidebar div#search input:focus, body.Composition aside#sidebar div#search input:focus, body.TechAesthetic.Released aside#sidebar div#search input:focus, body.Meltdown.Released aside#sidebar div#search input:focus, body.Hexagon.iOS7 aside#sidebar div#search input:focus, body.Zen.iOS7 aside#sidebar div#search input:focus {
+        background: #579bd9;
+        color: #fff;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+      /* line 751, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#search input:hover, body.Candy.for aside#sidebar div#search input:hover, body.Composition aside#sidebar div#search input:hover, body.TechAesthetic.Released aside#sidebar div#search input:hover, body.Meltdown.Released aside#sidebar div#search input:hover, body.Hexagon.iOS7 aside#sidebar div#search input:hover, body.Zen.iOS7 aside#sidebar div#search input:hover {
+        box-shadow: #579bd9 0 0 0 2px;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+    /* line 759, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div.googleSide, body.Candy.for aside#sidebar div.googleSide, body.Composition aside#sidebar div.googleSide, body.TechAesthetic.Released aside#sidebar div.googleSide, body.Meltdown.Released aside#sidebar div.googleSide, body.Hexagon.iOS7 aside#sidebar div.googleSide, body.Zen.iOS7 aside#sidebar div.googleSide {
+      width: 100%; }
+      /* line 761, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div.googleSide img, body.Candy.for aside#sidebar div.googleSide img, body.Composition aside#sidebar div.googleSide img, body.TechAesthetic.Released aside#sidebar div.googleSide img, body.Meltdown.Released aside#sidebar div.googleSide img, body.Hexagon.iOS7 aside#sidebar div.googleSide img, body.Zen.iOS7 aside#sidebar div.googleSide img {
+        width: 100%; }
+    /* line 766, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar a#categoryToggle, body.Candy.for aside#sidebar a#categoryToggle, body.Composition aside#sidebar a#categoryToggle, body.TechAesthetic.Released aside#sidebar a#categoryToggle, body.Meltdown.Released aside#sidebar a#categoryToggle, body.Hexagon.iOS7 aside#sidebar a#categoryToggle, body.Zen.iOS7 aside#sidebar a#categoryToggle {
+      display: none;
+      margin: 10px 0;
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      list-style: none;
+      color: #222222;
+      display: block;
+      line-height: 36px;
+      border-top: #E5E5E5 1px solid;
+      border-bottom: #E5E5E5 1px solid;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition-property: background, color;
+      -moz-transition-property: background, color;
+      -o-transition-property: background, color;
+      transition-property: background, color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 784, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar a#categoryToggle:hover, body.Candy.for aside#sidebar a#categoryToggle:hover, body.Composition aside#sidebar a#categoryToggle:hover, body.TechAesthetic.Released aside#sidebar a#categoryToggle:hover, body.Meltdown.Released aside#sidebar a#categoryToggle:hover, body.Hexagon.iOS7 aside#sidebar a#categoryToggle:hover, body.Zen.iOS7 aside#sidebar a#categoryToggle:hover {
+        color: #579bd9;
+        text-decoration: none;
+        background: #E5E5E5;
+        border-left: 1px #579bd9 solid;
+        padding-right: 1px;
+        -webkit-transition-property: background, color;
+        -moz-transition-property: background, color;
+        -o-transition-property: background, color;
+        transition-property: background, color;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 795, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#category, body.Candy.for aside#sidebar div#category, body.Composition aside#sidebar div#category, body.TechAesthetic.Released aside#sidebar div#category, body.Meltdown.Released aside#sidebar div#category, body.Hexagon.iOS7 aside#sidebar div#category, body.Zen.iOS7 aside#sidebar div#category {
+      text-align: center;
+      display: none; }
+      /* line 798, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#category ul, body.Candy.for aside#sidebar div#category ul, body.Composition aside#sidebar div#category ul, body.TechAesthetic.Released aside#sidebar div#category ul, body.Meltdown.Released aside#sidebar div#category ul, body.Hexagon.iOS7 aside#sidebar div#category ul, body.Zen.iOS7 aside#sidebar div#category ul {
+        list-style: none;
+        margin: 0; }
+        /* line 801, ../sass/article-hero.scss */
+        body.UniAW.iOS7 aside#sidebar div#category ul li, body.Candy.for aside#sidebar div#category ul li, body.Composition aside#sidebar div#category ul li, body.TechAesthetic.Released aside#sidebar div#category ul li, body.Meltdown.Released aside#sidebar div#category ul li, body.Hexagon.iOS7 aside#sidebar div#category ul li, body.Zen.iOS7 aside#sidebar div#category ul li {
+          font-weight: 600; }
+          /* line 804, ../sass/article-hero.scss */
+          body.UniAW.iOS7 aside#sidebar div#category ul li a, body.Candy.for aside#sidebar div#category ul li a, body.Composition aside#sidebar div#category ul li a, body.TechAesthetic.Released aside#sidebar div#category ul li a, body.Meltdown.Released aside#sidebar div#category ul li a, body.Hexagon.iOS7 aside#sidebar div#category ul li a, body.Zen.iOS7 aside#sidebar div#category ul li a {
+            color: #222222;
+            border-bottom: 1px solid #c5c5c5;
+            width: 100%;
+            display: block; }
+            /* line 809, ../sass/article-hero.scss */
+            body.UniAW.iOS7 aside#sidebar div#category ul li a:hover, body.Candy.for aside#sidebar div#category ul li a:hover, body.Composition aside#sidebar div#category ul li a:hover, body.TechAesthetic.Released aside#sidebar div#category ul li a:hover, body.Meltdown.Released aside#sidebar div#category ul li a:hover, body.Hexagon.iOS7 aside#sidebar div#category ul li a:hover, body.Zen.iOS7 aside#sidebar div#category ul li a:hover {
+              color: #579bd9;
+              text-decoration: none;
+              background: #f4f4f4; }
+          /* line 816, ../sass/article-hero.scss */
+          body.UniAW.iOS7 aside#sidebar div#category ul li ul li, body.Candy.for aside#sidebar div#category ul li ul li, body.Composition aside#sidebar div#category ul li ul li, body.TechAesthetic.Released aside#sidebar div#category ul li ul li, body.Meltdown.Released aside#sidebar div#category ul li ul li, body.Hexagon.iOS7 aside#sidebar div#category ul li ul li, body.Zen.iOS7 aside#sidebar div#category ul li ul li {
+            font-weight: 400;
+            width: auto; }
+            /* line 819, ../sass/article-hero.scss */
+            body.UniAW.iOS7 aside#sidebar div#category ul li ul li ul, body.Candy.for aside#sidebar div#category ul li ul li ul, body.Composition aside#sidebar div#category ul li ul li ul, body.TechAesthetic.Released aside#sidebar div#category ul li ul li ul, body.Meltdown.Released aside#sidebar div#category ul li ul li ul, body.Hexagon.iOS7 aside#sidebar div#category ul li ul li ul, body.Zen.iOS7 aside#sidebar div#category ul li ul li ul {
+              -moz-column-count: 4;
+              /* Firefox */
+              -webkit-column-count: 4;
+              /* Safari and Chrome */
+              column-count: 4;
+              -moz-column-gap: 40px;
+              /* Firefox */
+              -webkit-column-gap: 40px;
+              /* Safari and Chrome */
+              column-gap: 40px;
+              -moz-column-rule: 1px outset #579bd9;
+              /* Firefox */
+              -webkit-column-rule: 1px outset #579bd9;
+              /* Safari and Chrome */
+              column-rule: 1px outset #579bd9; }
+              /* line 831, ../sass/article-hero.scss */
+              body.UniAW.iOS7 aside#sidebar div#category ul li ul li ul li, body.Candy.for aside#sidebar div#category ul li ul li ul li, body.Composition aside#sidebar div#category ul li ul li ul li, body.TechAesthetic.Released aside#sidebar div#category ul li ul li ul li, body.Meltdown.Released aside#sidebar div#category ul li ul li ul li, body.Hexagon.iOS7 aside#sidebar div#category ul li ul li ul li, body.Zen.iOS7 aside#sidebar div#category ul li ul li ul li {
+                font-weight: 200; }
+    /* line 841, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar h3.sideTitle, body.Candy.for aside#sidebar h3.sideTitle, body.Composition aside#sidebar h3.sideTitle, body.TechAesthetic.Released aside#sidebar h3.sideTitle, body.Meltdown.Released aside#sidebar h3.sideTitle, body.Hexagon.iOS7 aside#sidebar h3.sideTitle, body.Zen.iOS7 aside#sidebar h3.sideTitle {
+      font-size: 40px;
+      font-weight: 200; }
+    /* line 846, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#noticeSide, body.Candy.for aside#sidebar div#noticeSide, body.Composition aside#sidebar div#noticeSide, body.TechAesthetic.Released aside#sidebar div#noticeSide, body.Meltdown.Released aside#sidebar div#noticeSide, body.Hexagon.iOS7 aside#sidebar div#noticeSide, body.Zen.iOS7 aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 30%; }
+      /* line 849, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#noticeSide ul, body.Candy.for aside#sidebar div#noticeSide ul, body.Composition aside#sidebar div#noticeSide ul, body.TechAesthetic.Released aside#sidebar div#noticeSide ul, body.Meltdown.Released aside#sidebar div#noticeSide ul, body.Hexagon.iOS7 aside#sidebar div#noticeSide ul, body.Zen.iOS7 aside#sidebar div#noticeSide ul {
+        list-style: none; }
+        /* line 851, ../sass/article-hero.scss */
+        body.UniAW.iOS7 aside#sidebar div#noticeSide ul li, body.Candy.for aside#sidebar div#noticeSide ul li, body.Composition aside#sidebar div#noticeSide ul li, body.TechAesthetic.Released aside#sidebar div#noticeSide ul li, body.Meltdown.Released aside#sidebar div#noticeSide ul li, body.Hexagon.iOS7 aside#sidebar div#noticeSide ul li, body.Zen.iOS7 aside#sidebar div#noticeSide ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 854, ../sass/article-hero.scss */
+          body.UniAW.iOS7 aside#sidebar div#noticeSide ul li a, body.Candy.for aside#sidebar div#noticeSide ul li a, body.Composition aside#sidebar div#noticeSide ul li a, body.TechAesthetic.Released aside#sidebar div#noticeSide ul li a, body.Meltdown.Released aside#sidebar div#noticeSide ul li a, body.Hexagon.iOS7 aside#sidebar div#noticeSide ul li a, body.Zen.iOS7 aside#sidebar div#noticeSide ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 858, ../sass/article-hero.scss */
+            body.UniAW.iOS7 aside#sidebar div#noticeSide ul li a:hover, body.Candy.for aside#sidebar div#noticeSide ul li a:hover, body.Composition aside#sidebar div#noticeSide ul li a:hover, body.TechAesthetic.Released aside#sidebar div#noticeSide ul li a:hover, body.Meltdown.Released aside#sidebar div#noticeSide ul li a:hover, body.Hexagon.iOS7 aside#sidebar div#noticeSide ul li a:hover, body.Zen.iOS7 aside#sidebar div#noticeSide ul li a:hover {
+              color: #579bd9;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 864, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#recentPost, body.Candy.for aside#sidebar div#recentPost, body.Composition aside#sidebar div#recentPost, body.TechAesthetic.Released aside#sidebar div#recentPost, body.Meltdown.Released aside#sidebar div#recentPost, body.Hexagon.iOS7 aside#sidebar div#recentPost, body.Zen.iOS7 aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 30%; }
+      /* line 867, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#recentPost ul, body.Candy.for aside#sidebar div#recentPost ul, body.Composition aside#sidebar div#recentPost ul, body.TechAesthetic.Released aside#sidebar div#recentPost ul, body.Meltdown.Released aside#sidebar div#recentPost ul, body.Hexagon.iOS7 aside#sidebar div#recentPost ul, body.Zen.iOS7 aside#sidebar div#recentPost ul {
+        list-style: none; }
+        /* line 869, ../sass/article-hero.scss */
+        body.UniAW.iOS7 aside#sidebar div#recentPost ul li, body.Candy.for aside#sidebar div#recentPost ul li, body.Composition aside#sidebar div#recentPost ul li, body.TechAesthetic.Released aside#sidebar div#recentPost ul li, body.Meltdown.Released aside#sidebar div#recentPost ul li, body.Hexagon.iOS7 aside#sidebar div#recentPost ul li, body.Zen.iOS7 aside#sidebar div#recentPost ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 872, ../sass/article-hero.scss */
+          body.UniAW.iOS7 aside#sidebar div#recentPost ul li a, body.Candy.for aside#sidebar div#recentPost ul li a, body.Composition aside#sidebar div#recentPost ul li a, body.TechAesthetic.Released aside#sidebar div#recentPost ul li a, body.Meltdown.Released aside#sidebar div#recentPost ul li a, body.Hexagon.iOS7 aside#sidebar div#recentPost ul li a, body.Zen.iOS7 aside#sidebar div#recentPost ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 876, ../sass/article-hero.scss */
+            body.UniAW.iOS7 aside#sidebar div#recentPost ul li a:hover, body.Candy.for aside#sidebar div#recentPost ul li a:hover, body.Composition aside#sidebar div#recentPost ul li a:hover, body.TechAesthetic.Released aside#sidebar div#recentPost ul li a:hover, body.Meltdown.Released aside#sidebar div#recentPost ul li a:hover, body.Hexagon.iOS7 aside#sidebar div#recentPost ul li a:hover, body.Zen.iOS7 aside#sidebar div#recentPost ul li a:hover {
+              color: #579bd9;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 882, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#archive, body.Candy.for aside#sidebar div#archive, body.Composition aside#sidebar div#archive, body.TechAesthetic.Released aside#sidebar div#archive, body.Meltdown.Released aside#sidebar div#archive, body.Hexagon.iOS7 aside#sidebar div#archive, body.Zen.iOS7 aside#sidebar div#archive {
+      display: inline-block;
+      width: 30%; }
+      /* line 885, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#archive ul, body.Candy.for aside#sidebar div#archive ul, body.Composition aside#sidebar div#archive ul, body.TechAesthetic.Released aside#sidebar div#archive ul, body.Meltdown.Released aside#sidebar div#archive ul, body.Hexagon.iOS7 aside#sidebar div#archive ul, body.Zen.iOS7 aside#sidebar div#archive ul {
+        list-style: none; }
+        /* line 887, ../sass/article-hero.scss */
+        body.UniAW.iOS7 aside#sidebar div#archive ul li, body.Candy.for aside#sidebar div#archive ul li, body.Composition aside#sidebar div#archive ul li, body.TechAesthetic.Released aside#sidebar div#archive ul li, body.Meltdown.Released aside#sidebar div#archive ul li, body.Hexagon.iOS7 aside#sidebar div#archive ul li, body.Zen.iOS7 aside#sidebar div#archive ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 890, ../sass/article-hero.scss */
+          body.UniAW.iOS7 aside#sidebar div#archive ul li a, body.Candy.for aside#sidebar div#archive ul li a, body.Composition aside#sidebar div#archive ul li a, body.TechAesthetic.Released aside#sidebar div#archive ul li a, body.Meltdown.Released aside#sidebar div#archive ul li a, body.Hexagon.iOS7 aside#sidebar div#archive ul li a, body.Zen.iOS7 aside#sidebar div#archive ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 894, ../sass/article-hero.scss */
+            body.UniAW.iOS7 aside#sidebar div#archive ul li a:hover, body.Candy.for aside#sidebar div#archive ul li a:hover, body.Composition aside#sidebar div#archive ul li a:hover, body.TechAesthetic.Released aside#sidebar div#archive ul li a:hover, body.Meltdown.Released aside#sidebar div#archive ul li a:hover, body.Hexagon.iOS7 aside#sidebar div#archive ul li a:hover, body.Zen.iOS7 aside#sidebar div#archive ul li a:hover {
+              color: #579bd9;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 913, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#link, body.Candy.for aside#sidebar div#link, body.Composition aside#sidebar div#link, body.TechAesthetic.Released aside#sidebar div#link, body.Meltdown.Released aside#sidebar div#link, body.Hexagon.iOS7 aside#sidebar div#link, body.Zen.iOS7 aside#sidebar div#link {
+      display: inline-block;
+      width: 30%; }
+      /* line 916, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#link ul, body.Candy.for aside#sidebar div#link ul, body.Composition aside#sidebar div#link ul, body.TechAesthetic.Released aside#sidebar div#link ul, body.Meltdown.Released aside#sidebar div#link ul, body.Hexagon.iOS7 aside#sidebar div#link ul, body.Zen.iOS7 aside#sidebar div#link ul {
+        list-style: none; }
+        /* line 918, ../sass/article-hero.scss */
+        body.UniAW.iOS7 aside#sidebar div#link ul li, body.Candy.for aside#sidebar div#link ul li, body.Composition aside#sidebar div#link ul li, body.TechAesthetic.Released aside#sidebar div#link ul li, body.Meltdown.Released aside#sidebar div#link ul li, body.Hexagon.iOS7 aside#sidebar div#link ul li, body.Zen.iOS7 aside#sidebar div#link ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 921, ../sass/article-hero.scss */
+          body.UniAW.iOS7 aside#sidebar div#link ul li a, body.Candy.for aside#sidebar div#link ul li a, body.Composition aside#sidebar div#link ul li a, body.TechAesthetic.Released aside#sidebar div#link ul li a, body.Meltdown.Released aside#sidebar div#link ul li a, body.Hexagon.iOS7 aside#sidebar div#link ul li a, body.Zen.iOS7 aside#sidebar div#link ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 925, ../sass/article-hero.scss */
+            body.UniAW.iOS7 aside#sidebar div#link ul li a:hover, body.Candy.for aside#sidebar div#link ul li a:hover, body.Composition aside#sidebar div#link ul li a:hover, body.TechAesthetic.Released aside#sidebar div#link ul li a:hover, body.Meltdown.Released aside#sidebar div#link ul li a:hover, body.Hexagon.iOS7 aside#sidebar div#link ul li a:hover, body.Zen.iOS7 aside#sidebar div#link ul li a:hover {
+              color: #579bd9;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+      /* line 932, ../sass/article-hero.scss */
+      body.UniAW.iOS7 aside#sidebar div#link select, body.Candy.for aside#sidebar div#link select, body.Composition aside#sidebar div#link select, body.TechAesthetic.Released aside#sidebar div#link select, body.Meltdown.Released aside#sidebar div#link select, body.Hexagon.iOS7 aside#sidebar div#link select, body.Zen.iOS7 aside#sidebar div#link select {
+        background: transparent;
+        color: #222222;
+        border: 5px solid #222222;
+        height: 40px;
+        padding: 2px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        outline: 0;
+        -webkit-appearance: none; }
+  /* line 947, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div#paging, body.Candy.for div#paging, body.Composition div#paging, body.TechAesthetic.Released div#paging, body.Meltdown.Released div#paging, body.Hexagon.iOS7 div#paging, body.Zen.iOS7 div#paging {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5% 10px;
+    /* 		background: url(../addon/parallax2.jpg) no-repeat center center fixed; */
+    background: url(http://cfile30.uf.tistory.com/image/2738D7355328CB9030E55F) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; }
+    /* line 959, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div#paging a, body.Candy.for div#paging a, body.Composition div#paging a, body.TechAesthetic.Released div#paging a, body.Meltdown.Released div#paging a, body.Hexagon.iOS7 div#paging a, body.Zen.iOS7 div#paging a {
+      color: #fff;
+      text-decoration: none;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 963, ../sass/article-hero.scss */
+      body.UniAW.iOS7 div#paging a:hover, body.Candy.for div#paging a:hover, body.Composition div#paging a:hover, body.TechAesthetic.Released div#paging a:hover, body.Meltdown.Released div#paging a:hover, body.Hexagon.iOS7 div#paging a:hover, body.Zen.iOS7 div#paging a:hover {
+        color: #579bd9;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 965, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div#paging a#prevPage, body.UniAW.iOS7 div#paging a#nextPage, body.Candy.for div#paging a#prevPage, body.Candy.for div#paging a#nextPage, body.Composition div#paging a#prevPage, body.Composition div#paging a#nextPage, body.TechAesthetic.Released div#paging a#prevPage, body.TechAesthetic.Released div#paging a#nextPage, body.Meltdown.Released div#paging a#prevPage, body.Meltdown.Released div#paging a#nextPage, body.Hexagon.iOS7 div#paging a#prevPage, body.Hexagon.iOS7 div#paging a#nextPage, body.Zen.iOS7 div#paging a#prevPage, body.Zen.iOS7 div#paging a#nextPage {
+      font-family: 'entypo', sans-serif; }
+  /* line 970, ../sass/article-hero.scss */
+  body.UniAW.iOS7 footer, body.Candy.for footer, body.Composition footer, body.TechAesthetic.Released footer, body.Meltdown.Released footer, body.Hexagon.iOS7 footer, body.Zen.iOS7 footer {
+    background: #222222;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    display: block;
+    /* !카운터		 */
+    /* !저작권		 */
+    /* !구분선												 */
+    /* !소셜 아이콘 리스트		 */
+    /* !소셜 SVG	 */ }
+    /* line 980, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer hr, body.Candy.for footer hr, body.Composition footer hr, body.TechAesthetic.Released footer hr, body.Meltdown.Released footer hr, body.Hexagon.iOS7 footer hr, body.Zen.iOS7 footer hr {
+      display: none; }
+    /* line 983, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer h1.blogName, body.Candy.for footer h1.blogName, body.Composition footer h1.blogName, body.TechAesthetic.Released footer h1.blogName, body.Meltdown.Released footer h1.blogName, body.Hexagon.iOS7 footer h1.blogName, body.Zen.iOS7 footer h1.blogName {
+      font-size: 45px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-align: center;
+      margin: 0; }
+      /* line 989, ../sass/article-hero.scss */
+      body.UniAW.iOS7 footer h1.blogName a, body.Candy.for footer h1.blogName a, body.Composition footer h1.blogName a, body.TechAesthetic.Released footer h1.blogName a, body.Meltdown.Released footer h1.blogName a, body.Hexagon.iOS7 footer h1.blogName a, body.Zen.iOS7 footer h1.blogName a {
+        color: white !important;
+        text-decoration: none !important;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 993, ../sass/article-hero.scss */
+        body.UniAW.iOS7 footer h1.blogName a:hover, body.Candy.for footer h1.blogName a:hover, body.Composition footer h1.blogName a:hover, body.TechAesthetic.Released footer h1.blogName a:hover, body.Meltdown.Released footer h1.blogName a:hover, body.Hexagon.iOS7 footer h1.blogName a:hover, body.Zen.iOS7 footer h1.blogName a:hover {
+          color: #579bd9 !important;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 1000, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer p.counter, body.Candy.for footer p.counter, body.Composition footer p.counter, body.TechAesthetic.Released footer p.counter, body.Meltdown.Released footer p.counter, body.Hexagon.iOS7 footer p.counter, body.Zen.iOS7 footer p.counter {
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-size: 22px;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+      margin-top: -5px;
+      margin-bottom: 20px; }
+    /* line 1010, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer p, body.Candy.for footer p, body.Composition footer p, body.TechAesthetic.Released footer p, body.Meltdown.Released footer p, body.Hexagon.iOS7 footer p, body.Zen.iOS7 footer p {
+      text-align: center;
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 400;
+      margin: 0; }
+    /* line 1017, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer a, body.Candy.for footer a, body.Composition footer a, body.TechAesthetic.Released footer a, body.Meltdown.Released footer a, body.Hexagon.iOS7 footer a, body.Zen.iOS7 footer a {
+      text-align: center; }
+    /* line 1021, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer div.line, body.Candy.for footer div.line, body.Composition footer div.line, body.TechAesthetic.Released footer div.line, body.Meltdown.Released footer div.line, body.Hexagon.iOS7 footer div.line, body.Zen.iOS7 footer div.line {
+      width: 60%;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.5);
+      position: relative;
+      margin: 20px auto; }
+    /* line 1030, ../sass/article-hero.scss */
+    body.UniAW.iOS7 footer div.socialIcon, body.Candy.for footer div.socialIcon, body.Composition footer div.socialIcon, body.TechAesthetic.Released footer div.socialIcon, body.Meltdown.Released footer div.socialIcon, body.Hexagon.iOS7 footer div.socialIcon, body.Zen.iOS7 footer div.socialIcon {
+      width: 100%;
+      position: relative;
+      display: block;
+      text-align: center;
+      margin-top: 10px; }
+      /* line 1036, ../sass/article-hero.scss */
+      body.UniAW.iOS7 footer div.socialIcon a.social, body.Candy.for footer div.socialIcon a.social, body.Composition footer div.socialIcon a.social, body.TechAesthetic.Released footer div.socialIcon a.social, body.Meltdown.Released footer div.socialIcon a.social, body.Hexagon.iOS7 footer div.socialIcon a.social, body.Zen.iOS7 footer div.socialIcon a.social {
+        display: inline-block;
+        text-align: center; }
+        /* line 1039, ../sass/article-hero.scss */
+        body.UniAW.iOS7 footer div.socialIcon a.social .icon, body.Candy.for footer div.socialIcon a.social .icon, body.Composition footer div.socialIcon a.social .icon, body.TechAesthetic.Released footer div.socialIcon a.social .icon, body.Meltdown.Released footer div.socialIcon a.social .icon, body.Hexagon.iOS7 footer div.socialIcon a.social .icon, body.Zen.iOS7 footer div.socialIcon a.social .icon {
+          width: 60px;
+          height: 68px; }
+        /* line 1043, ../sass/article-hero.scss */
+        body.UniAW.iOS7 footer div.socialIcon a.social path#hex, body.Candy.for footer div.socialIcon a.social path#hex, body.Composition footer div.socialIcon a.social path#hex, body.TechAesthetic.Released footer div.socialIcon a.social path#hex, body.Meltdown.Released footer div.socialIcon a.social path#hex, body.Hexagon.iOS7 footer div.socialIcon a.social path#hex, body.Zen.iOS7 footer div.socialIcon a.social path#hex {
+          fill: #fff;
+          opacity: .8; }
+        /* line 1047, ../sass/article-hero.scss */
+        body.UniAW.iOS7 footer div.socialIcon a.social path#icon, body.Candy.for footer div.socialIcon a.social path#icon, body.Composition footer div.socialIcon a.social path#icon, body.TechAesthetic.Released footer div.socialIcon a.social path#icon, body.Meltdown.Released footer div.socialIcon a.social path#icon, body.Hexagon.iOS7 footer div.socialIcon a.social path#icon, body.Zen.iOS7 footer div.socialIcon a.social path#icon {
+          fill: #222; }
+        /* line 1051, ../sass/article-hero.scss */
+        body.UniAW.iOS7 footer div.socialIcon a.social:hover path#hex, body.Candy.for footer div.socialIcon a.social:hover path#hex, body.Composition footer div.socialIcon a.social:hover path#hex, body.TechAesthetic.Released footer div.socialIcon a.social:hover path#hex, body.Meltdown.Released footer div.socialIcon a.social:hover path#hex, body.Hexagon.iOS7 footer div.socialIcon a.social:hover path#hex, body.Zen.iOS7 footer div.socialIcon a.social:hover path#hex {
+          opacity: 1; }
+  /* line 1059, ../sass/article-hero.scss */
+  body.UniAW.iOS7 a.gtt, body.Candy.for a.gtt, body.Composition a.gtt, body.TechAesthetic.Released a.gtt, body.Meltdown.Released a.gtt, body.Hexagon.iOS7 a.gtt, body.Zen.iOS7 a.gtt {
+    text-align: center;
+    color: white;
+    position: relative;
+    display: block;
+    font-size: 28px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 1066, ../sass/article-hero.scss */
+    body.UniAW.iOS7 a.gtt:hover, body.Candy.for a.gtt:hover, body.Composition a.gtt:hover, body.TechAesthetic.Released a.gtt:hover, body.Meltdown.Released a.gtt:hover, body.Hexagon.iOS7 a.gtt:hover, body.Zen.iOS7 a.gtt:hover {
+      color: #579bd9;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+
+@media only screen {
+  /* line 1079, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav, body.Candy.for nav, body.Composition nav, body.TechAesthetic.Released nav, body.Meltdown.Released nav, body.Hexagon.iOS7 nav, body.Zen.iOS7 nav {
+    height: 40px; }
+    /* line 1081, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav h1.blogName, body.Candy.for nav h1.blogName, body.Composition nav h1.blogName, body.TechAesthetic.Released nav h1.blogName, body.Meltdown.Released nav h1.blogName, body.Hexagon.iOS7 nav h1.blogName, body.Zen.iOS7 nav h1.blogName {
+      font-size: 20px; }
+    /* line 1084, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.blogMenu, body.Candy.for nav div.blogMenu, body.Composition nav div.blogMenu, body.TechAesthetic.Released nav div.blogMenu, body.Meltdown.Released nav div.blogMenu, body.Hexagon.iOS7 nav div.blogMenu, body.Zen.iOS7 nav div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 1088, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav a#menuToggle, body.Candy.for nav a#menuToggle, body.Composition nav a#menuToggle, body.TechAesthetic.Released nav a#menuToggle, body.Meltdown.Released nav a#menuToggle, body.Hexagon.iOS7 nav a#menuToggle, body.Zen.iOS7 nav a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 1092, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.mobileMenu, body.Candy.for nav div.mobileMenu, body.Composition nav div.mobileMenu, body.TechAesthetic.Released nav div.mobileMenu, body.Meltdown.Released nav div.mobileMenu, body.Hexagon.iOS7 nav div.mobileMenu, body.Zen.iOS7 nav div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 1097, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav.tiny, body.Candy.for nav.tiny, body.Composition nav.tiny, body.TechAesthetic.Released nav.tiny, body.Meltdown.Released nav.tiny, body.Hexagon.iOS7 nav.tiny, body.Zen.iOS7 nav.tiny {
+    height: 40px; }
+    /* line 1099, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny h1.blogName, body.Candy.for nav.tiny h1.blogName, body.Composition nav.tiny h1.blogName, body.TechAesthetic.Released nav.tiny h1.blogName, body.Meltdown.Released nav.tiny h1.blogName, body.Hexagon.iOS7 nav.tiny h1.blogName, body.Zen.iOS7 nav.tiny h1.blogName {
+      font-size: 20px; }
+    /* line 1102, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.blogMenu, body.Candy.for nav.tiny div.blogMenu, body.Composition nav.tiny div.blogMenu, body.TechAesthetic.Released nav.tiny div.blogMenu, body.Meltdown.Released nav.tiny div.blogMenu, body.Hexagon.iOS7 nav.tiny div.blogMenu, body.Zen.iOS7 nav.tiny div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 1106, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny a#menuToggle, body.Candy.for nav.tiny a#menuToggle, body.Composition nav.tiny a#menuToggle, body.TechAesthetic.Released nav.tiny a#menuToggle, body.Meltdown.Released nav.tiny a#menuToggle, body.Hexagon.iOS7 nav.tiny a#menuToggle, body.Zen.iOS7 nav.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 1110, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.mobileMenu, body.Candy.for nav.tiny div.mobileMenu, body.Composition nav.tiny div.mobileMenu, body.TechAesthetic.Released nav.tiny div.mobileMenu, body.Meltdown.Released nav.tiny div.mobileMenu, body.Hexagon.iOS7 nav.tiny div.mobileMenu, body.Zen.iOS7 nav.tiny div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 1115, ../sass/article-hero.scss */
+  body.UniAW.iOS7 header, body.Candy.for header, body.Composition header, body.TechAesthetic.Released header, body.Meltdown.Released header, body.Hexagon.iOS7 header, body.Zen.iOS7 header {
+    height: 250px;
+    padding-top: 115px; }
+    /* line 1118, ../sass/article-hero.scss */
+    body.UniAW.iOS7 header h2.articleTitle, body.Candy.for header h2.articleTitle, body.Composition header h2.articleTitle, body.TechAesthetic.Released header h2.articleTitle, body.Meltdown.Released header h2.articleTitle, body.Hexagon.iOS7 header h2.articleTitle, body.Zen.iOS7 header h2.articleTitle {
+      font-size: 20px; }
+  /* line 1122, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.category, body.Candy.for div.category, body.Composition div.category, body.TechAesthetic.Released div.category, body.Meltdown.Released div.category, body.Hexagon.iOS7 div.category, body.Zen.iOS7 div.category {
+    font-size: 16px; }
+  /* line 1125, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.articleDate, body.Candy.for div.articleDate, body.Composition div.articleDate, body.TechAesthetic.Released div.articleDate, body.Meltdown.Released div.articleDate, body.Hexagon.iOS7 div.articleDate, body.Zen.iOS7 div.articleDate {
+    float: none;
+    clear: both;
+    margin-top: 10px;
+    height: 30px; }
+    /* line 1130, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.articleDate div.time, body.Candy.for div.articleDate div.time, body.Composition div.articleDate div.time, body.TechAesthetic.Released div.articleDate div.time, body.Meltdown.Released div.articleDate div.time, body.Hexagon.iOS7 div.articleDate div.time, body.Zen.iOS7 div.articleDate div.time {
+      float: left; }
+  /* line 1134, ../sass/article-hero.scss */
+  body.UniAW.iOS7 article.articleBody, body.Candy.for article.articleBody, body.Composition article.articleBody, body.TechAesthetic.Released article.articleBody, body.Meltdown.Released article.articleBody, body.Hexagon.iOS7 article.articleBody, body.Zen.iOS7 article.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1138, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.metaWidget, body.Candy.for div.metaWidget, body.Composition div.metaWidget, body.TechAesthetic.Released div.metaWidget, body.Meltdown.Released div.metaWidget, body.Hexagon.iOS7 div.metaWidget, body.Zen.iOS7 div.metaWidget {
+    width: 300px; }
+    /* line 1140, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaDaum, body.Candy.for div.metaWidget div.metaDaum, body.Composition div.metaWidget div.metaDaum, body.TechAesthetic.Released div.metaWidget div.metaDaum, body.Meltdown.Released div.metaWidget div.metaDaum, body.Hexagon.iOS7 div.metaWidget div.metaDaum, body.Zen.iOS7 div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 302px; }
+    /* line 1144, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaMix, body.Candy.for div.metaWidget div.metaMix, body.Composition div.metaWidget div.metaMix, body.TechAesthetic.Released div.metaWidget div.metaMix, body.Meltdown.Released div.metaWidget div.metaMix, body.Hexagon.iOS7 div.metaWidget div.metaMix, body.Zen.iOS7 div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 302px;
+      display: none; }
+  /* line 1150, ../sass/article-hero.scss */
+  body.UniAW.iOS7 aside#sidebar, body.Candy.for aside#sidebar, body.Composition aside#sidebar, body.TechAesthetic.Released aside#sidebar, body.Meltdown.Released aside#sidebar, body.Hexagon.iOS7 aside#sidebar, body.Zen.iOS7 aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0; }
+    /* line 1154, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#noticeSide, body.Candy.for aside#sidebar div#noticeSide, body.Composition aside#sidebar div#noticeSide, body.TechAesthetic.Released aside#sidebar div#noticeSide, body.Meltdown.Released aside#sidebar div#noticeSide, body.Hexagon.iOS7 aside#sidebar div#noticeSide, body.Zen.iOS7 aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 1158, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#recentPost, body.Candy.for aside#sidebar div#recentPost, body.Composition aside#sidebar div#recentPost, body.TechAesthetic.Released aside#sidebar div#recentPost, body.Meltdown.Released aside#sidebar div#recentPost, body.Hexagon.iOS7 aside#sidebar div#recentPost, body.Zen.iOS7 aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 1162, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#archive, body.Candy.for aside#sidebar div#archive, body.Composition aside#sidebar div#archive, body.TechAesthetic.Released aside#sidebar div#archive, body.Meltdown.Released aside#sidebar div#archive, body.Hexagon.iOS7 aside#sidebar div#archive, body.Zen.iOS7 aside#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 1166, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#calendar, body.Candy.for aside#sidebar div#calendar, body.Composition aside#sidebar div#calendar, body.TechAesthetic.Released aside#sidebar div#calendar, body.Meltdown.Released aside#sidebar div#calendar, body.Hexagon.iOS7 aside#sidebar div#calendar, body.Zen.iOS7 aside#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 1170, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#link, body.Candy.for aside#sidebar div#link, body.Composition aside#sidebar div#link, body.TechAesthetic.Released aside#sidebar div#link, body.Meltdown.Released aside#sidebar div#link, body.Hexagon.iOS7 aside#sidebar div#link, body.Zen.iOS7 aside#sidebar div#link {
+      display: inline-block;
+      width: 250px; }
+  /* line 1176, ../sass/article-hero.scss */
+  body.UniAW.iOS7 footer ul.social, body.UniAW.iOS7 footer div.line, body.Candy.for footer ul.social, body.Candy.for footer div.line, body.Composition footer ul.social, body.Composition footer div.line, body.TechAesthetic.Released footer ul.social, body.TechAesthetic.Released footer div.line, body.Meltdown.Released footer ul.social, body.Meltdown.Released footer div.line, body.Hexagon.iOS7 footer ul.social, body.Hexagon.iOS7 footer div.line, body.Zen.iOS7 footer ul.social, body.Zen.iOS7 footer div.line {
+    display: none; }
+  /* line 1180, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.google, body.Candy.for div.google, body.Composition div.google, body.TechAesthetic.Released div.google, body.Meltdown.Released div.google, body.Hexagon.iOS7 div.google, body.Zen.iOS7 div.google {
+    margin-left: -20px; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 1189, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav, body.Candy.for nav, body.Composition nav, body.TechAesthetic.Released nav, body.Meltdown.Released nav, body.Hexagon.iOS7 nav, body.Zen.iOS7 nav {
+    height: 60px; }
+    /* line 1191, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav h1.blogName, body.Candy.for nav h1.blogName, body.Composition nav h1.blogName, body.TechAesthetic.Released nav h1.blogName, body.Meltdown.Released nav h1.blogName, body.Hexagon.iOS7 nav h1.blogName, body.Zen.iOS7 nav h1.blogName {
+      font-size: 30px; }
+    /* line 1194, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.blogMenu, body.Candy.for nav div.blogMenu, body.Composition nav div.blogMenu, body.TechAesthetic.Released nav div.blogMenu, body.Meltdown.Released nav div.blogMenu, body.Hexagon.iOS7 nav div.blogMenu, body.Zen.iOS7 nav div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 1198, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav a#menuToggle, body.Candy.for nav a#menuToggle, body.Composition nav a#menuToggle, body.TechAesthetic.Released nav a#menuToggle, body.Meltdown.Released nav a#menuToggle, body.Hexagon.iOS7 nav a#menuToggle, body.Zen.iOS7 nav a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 1202, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.mobileMenu, body.Candy.for nav div.mobileMenu, body.Composition nav div.mobileMenu, body.TechAesthetic.Released nav div.mobileMenu, body.Meltdown.Released nav div.mobileMenu, body.Hexagon.iOS7 nav div.mobileMenu, body.Zen.iOS7 nav div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 1207, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav.tiny, body.Candy.for nav.tiny, body.Composition nav.tiny, body.TechAesthetic.Released nav.tiny, body.Meltdown.Released nav.tiny, body.Hexagon.iOS7 nav.tiny, body.Zen.iOS7 nav.tiny {
+    height: 60px; }
+    /* line 1209, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny h1.blogName, body.Candy.for nav.tiny h1.blogName, body.Composition nav.tiny h1.blogName, body.TechAesthetic.Released nav.tiny h1.blogName, body.Meltdown.Released nav.tiny h1.blogName, body.Hexagon.iOS7 nav.tiny h1.blogName, body.Zen.iOS7 nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1212, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.blogMenu, body.Candy.for nav.tiny div.blogMenu, body.Composition nav.tiny div.blogMenu, body.TechAesthetic.Released nav.tiny div.blogMenu, body.Meltdown.Released nav.tiny div.blogMenu, body.Hexagon.iOS7 nav.tiny div.blogMenu, body.Zen.iOS7 nav.tiny div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 1216, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny a#menuToggle, body.Candy.for nav.tiny a#menuToggle, body.Composition nav.tiny a#menuToggle, body.TechAesthetic.Released nav.tiny a#menuToggle, body.Meltdown.Released nav.tiny a#menuToggle, body.Hexagon.iOS7 nav.tiny a#menuToggle, body.Zen.iOS7 nav.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 1220, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.mobileMenu, body.Candy.for nav.tiny div.mobileMenu, body.Composition nav.tiny div.mobileMenu, body.TechAesthetic.Released nav.tiny div.mobileMenu, body.Meltdown.Released nav.tiny div.mobileMenu, body.Hexagon.iOS7 nav.tiny div.mobileMenu, body.Zen.iOS7 nav.tiny div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 1225, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.category, body.Candy.for div.category, body.Composition div.category, body.TechAesthetic.Released div.category, body.Meltdown.Released div.category, body.Hexagon.iOS7 div.category, body.Zen.iOS7 div.category {
+    font-size: 18px; }
+  /* line 1228, ../sass/article-hero.scss */
+  body.UniAW.iOS7 header, body.Candy.for header, body.Composition header, body.TechAesthetic.Released header, body.Meltdown.Released header, body.Hexagon.iOS7 header, body.Zen.iOS7 header {
+    height: 325px;
+    padding-top: 165px; }
+    /* line 1231, ../sass/article-hero.scss */
+    body.UniAW.iOS7 header h2.articleTitle, body.Candy.for header h2.articleTitle, body.Composition header h2.articleTitle, body.TechAesthetic.Released header h2.articleTitle, body.Meltdown.Released header h2.articleTitle, body.Hexagon.iOS7 header h2.articleTitle, body.Zen.iOS7 header h2.articleTitle {
+      font-size: 30px; }
+  /* line 1235, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.articleDate, body.Candy.for div.articleDate, body.Composition div.articleDate, body.TechAesthetic.Released div.articleDate, body.Meltdown.Released div.articleDate, body.Hexagon.iOS7 div.articleDate, body.Zen.iOS7 div.articleDate {
+    float: right;
+    margin-top: -35px; }
+    /* line 1238, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.articleDate div.time, body.Candy.for div.articleDate div.time, body.Composition div.articleDate div.time, body.TechAesthetic.Released div.articleDate div.time, body.Meltdown.Released div.articleDate div.time, body.Hexagon.iOS7 div.articleDate div.time, body.Zen.iOS7 div.articleDate div.time {
+      float: right; }
+  /* line 1242, ../sass/article-hero.scss */
+  body.UniAW.iOS7 article.articleBody, body.Candy.for article.articleBody, body.Composition article.articleBody, body.TechAesthetic.Released article.articleBody, body.Meltdown.Released article.articleBody, body.Hexagon.iOS7 article.articleBody, body.Zen.iOS7 article.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1246, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.metaWidget, body.Candy.for div.metaWidget, body.Composition div.metaWidget, body.TechAesthetic.Released div.metaWidget, body.Meltdown.Released div.metaWidget, body.Hexagon.iOS7 div.metaWidget, body.Zen.iOS7 div.metaWidget {
+    width: 402px; }
+    /* line 1248, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaDaum, body.Candy.for div.metaWidget div.metaDaum, body.Composition div.metaWidget div.metaDaum, body.TechAesthetic.Released div.metaWidget div.metaDaum, body.Meltdown.Released div.metaWidget div.metaDaum, body.Hexagon.iOS7 div.metaWidget div.metaDaum, body.Zen.iOS7 div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1252, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaMix, body.Candy.for div.metaWidget div.metaMix, body.Composition div.metaWidget div.metaMix, body.TechAesthetic.Released div.metaWidget div.metaMix, body.Meltdown.Released div.metaWidget div.metaMix, body.Hexagon.iOS7 div.metaWidget div.metaMix, body.Zen.iOS7 div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px;
+      display: block; }
+  /* line 1258, ../sass/article-hero.scss */
+  body.UniAW.iOS7 aside#sidebar, body.Candy.for aside#sidebar, body.Composition aside#sidebar, body.TechAesthetic.Released aside#sidebar, body.Meltdown.Released aside#sidebar, body.Hexagon.iOS7 aside#sidebar, body.Zen.iOS7 aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+    /*
+    			div.categoryList {
+    				width: 50%;
+    				ul {
+    					li {
+    						a{
+    							
+    						}
+    						ul{
+    							right:20%;							
+    						}	
+    					}
+    				}				
+    			}
+    */ }
+    /* line 1262, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#noticeSide, body.Candy.for aside#sidebar div#noticeSide, body.Composition aside#sidebar div#noticeSide, body.TechAesthetic.Released aside#sidebar div#noticeSide, body.Meltdown.Released aside#sidebar div#noticeSide, body.Hexagon.iOS7 aside#sidebar div#noticeSide, body.Zen.iOS7 aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 1266, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#recentPost, body.Candy.for aside#sidebar div#recentPost, body.Composition aside#sidebar div#recentPost, body.TechAesthetic.Released aside#sidebar div#recentPost, body.Meltdown.Released aside#sidebar div#recentPost, body.Hexagon.iOS7 aside#sidebar div#recentPost, body.Zen.iOS7 aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 1270, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#archive, body.Candy.for aside#sidebar div#archive, body.Composition aside#sidebar div#archive, body.TechAesthetic.Released aside#sidebar div#archive, body.Meltdown.Released aside#sidebar div#archive, body.Hexagon.iOS7 aside#sidebar div#archive, body.Zen.iOS7 aside#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 1274, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#calendar, body.Candy.for aside#sidebar div#calendar, body.Composition aside#sidebar div#calendar, body.TechAesthetic.Released aside#sidebar div#calendar, body.Meltdown.Released aside#sidebar div#calendar, body.Hexagon.iOS7 aside#sidebar div#calendar, body.Zen.iOS7 aside#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 1278, ../sass/article-hero.scss */
+    body.UniAW.iOS7 aside#sidebar div#link, body.Candy.for aside#sidebar div#link, body.Composition aside#sidebar div#link, body.TechAesthetic.Released aside#sidebar div#link, body.Meltdown.Released aside#sidebar div#link, body.Hexagon.iOS7 aside#sidebar div#link, body.Zen.iOS7 aside#sidebar div#link {
+      display: inline-block;
+      width: 250px; }
+  /* line 1299, ../sass/article-hero.scss */
+  body.UniAW.iOS7 footer ul.social, body.UniAW.iOS7 footer div.line, body.Candy.for footer ul.social, body.Candy.for footer div.line, body.Composition footer ul.social, body.Composition footer div.line, body.TechAesthetic.Released footer ul.social, body.TechAesthetic.Released footer div.line, body.Meltdown.Released footer ul.social, body.Meltdown.Released footer div.line, body.Hexagon.iOS7 footer ul.social, body.Hexagon.iOS7 footer div.line, body.Zen.iOS7 footer ul.social, body.Zen.iOS7 footer div.line {
+    display: block; }
+  /* line 1303, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.google, body.Candy.for div.google, body.Composition div.google, body.TechAesthetic.Released div.google, body.Meltdown.Released div.google, body.Hexagon.iOS7 div.google, body.Zen.iOS7 div.google {
+    margin-left: auto; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 1312, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav, body.Candy.for nav, body.Composition nav, body.TechAesthetic.Released nav, body.Meltdown.Released nav, body.Hexagon.iOS7 nav, body.Zen.iOS7 nav {
+    height: 80px; }
+    /* line 1314, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav h1.blogName, body.Candy.for nav h1.blogName, body.Composition nav h1.blogName, body.TechAesthetic.Released nav h1.blogName, body.Meltdown.Released nav h1.blogName, body.Hexagon.iOS7 nav h1.blogName, body.Zen.iOS7 nav h1.blogName {
+      font-size: 45px; }
+    /* line 1317, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.blogMenu, body.Candy.for nav div.blogMenu, body.Composition nav div.blogMenu, body.TechAesthetic.Released nav div.blogMenu, body.Meltdown.Released nav div.blogMenu, body.Hexagon.iOS7 nav div.blogMenu, body.Zen.iOS7 nav div.blogMenu {
+      margin-top: 25px;
+      display: block; }
+      /* line 1322, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav div.blogMenu ul li a, body.Candy.for nav div.blogMenu ul li a, body.Composition nav div.blogMenu ul li a, body.TechAesthetic.Released nav div.blogMenu ul li a, body.Meltdown.Released nav div.blogMenu ul li a, body.Hexagon.iOS7 nav div.blogMenu ul li a, body.Zen.iOS7 nav div.blogMenu ul li a {
+        padding-bottom: 20px; }
+        /* line 1324, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav div.blogMenu ul li a:hover, body.Candy.for nav div.blogMenu ul li a:hover, body.Composition nav div.blogMenu ul li a:hover, body.TechAesthetic.Released nav div.blogMenu ul li a:hover, body.Meltdown.Released nav div.blogMenu ul li a:hover, body.Hexagon.iOS7 nav div.blogMenu ul li a:hover, body.Zen.iOS7 nav div.blogMenu ul li a:hover {
+          border-bottom: 5px solid #26D673; }
+    /* line 1331, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav a#menuToggle, body.Candy.for nav a#menuToggle, body.Composition nav a#menuToggle, body.TechAesthetic.Released nav a#menuToggle, body.Meltdown.Released nav a#menuToggle, body.Hexagon.iOS7 nav a#menuToggle, body.Zen.iOS7 nav a#menuToggle {
+      display: none; }
+    /* line 1334, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.mobileMenu, body.Candy.for nav div.mobileMenu, body.Composition nav div.mobileMenu, body.TechAesthetic.Released nav div.mobileMenu, body.Meltdown.Released nav div.mobileMenu, body.Hexagon.iOS7 nav div.mobileMenu, body.Zen.iOS7 nav div.mobileMenu {
+      display: none; }
+  /* line 1338, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav.tiny, body.Candy.for nav.tiny, body.Composition nav.tiny, body.TechAesthetic.Released nav.tiny, body.Meltdown.Released nav.tiny, body.Hexagon.iOS7 nav.tiny, body.Zen.iOS7 nav.tiny {
+    height: 60px; }
+    /* line 1340, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny h1.blogName, body.Candy.for nav.tiny h1.blogName, body.Composition nav.tiny h1.blogName, body.TechAesthetic.Released nav.tiny h1.blogName, body.Meltdown.Released nav.tiny h1.blogName, body.Hexagon.iOS7 nav.tiny h1.blogName, body.Zen.iOS7 nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1343, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.blogMenu, body.Candy.for nav.tiny div.blogMenu, body.Composition nav.tiny div.blogMenu, body.TechAesthetic.Released nav.tiny div.blogMenu, body.Meltdown.Released nav.tiny div.blogMenu, body.Hexagon.iOS7 nav.tiny div.blogMenu, body.Zen.iOS7 nav.tiny div.blogMenu {
+      margin-top: 15px;
+      display: block; }
+    /* line 1347, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny a#menuToggle, body.Candy.for nav.tiny a#menuToggle, body.Composition nav.tiny a#menuToggle, body.TechAesthetic.Released nav.tiny a#menuToggle, body.Meltdown.Released nav.tiny a#menuToggle, body.Hexagon.iOS7 nav.tiny a#menuToggle, body.Zen.iOS7 nav.tiny a#menuToggle {
+      display: none; }
+    /* line 1350, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.mobileMenu, body.Candy.for nav.tiny div.mobileMenu, body.Composition nav.tiny div.mobileMenu, body.TechAesthetic.Released nav.tiny div.mobileMenu, body.Meltdown.Released nav.tiny div.mobileMenu, body.Hexagon.iOS7 nav.tiny div.mobileMenu, body.Zen.iOS7 nav.tiny div.mobileMenu {
+      display: none; }
+  /* line 1354, ../sass/article-hero.scss */
+  body.UniAW.iOS7 header, body.Candy.for header, body.Composition header, body.TechAesthetic.Released header, body.Meltdown.Released header, body.Hexagon.iOS7 header, body.Zen.iOS7 header {
+    height: 350px;
+    padding-top: 175px; }
+    /* line 1357, ../sass/article-hero.scss */
+    body.UniAW.iOS7 header h2.articleTitle, body.Candy.for header h2.articleTitle, body.Composition header h2.articleTitle, body.TechAesthetic.Released header h2.articleTitle, body.Meltdown.Released header h2.articleTitle, body.Hexagon.iOS7 header h2.articleTitle, body.Zen.iOS7 header h2.articleTitle {
+      font-size: 40px; }
+  /* line 1361, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.category, body.Candy.for div.category, body.Composition div.category, body.TechAesthetic.Released div.category, body.Meltdown.Released div.category, body.Hexagon.iOS7 div.category, body.Zen.iOS7 div.category {
+    font-size: 24px; }
+  /* line 1364, ../sass/article-hero.scss */
+  body.UniAW.iOS7 article.articleBody, body.Candy.for article.articleBody, body.Composition article.articleBody, body.TechAesthetic.Released article.articleBody, body.Meltdown.Released article.articleBody, body.Hexagon.iOS7 article.articleBody, body.Zen.iOS7 article.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1368, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.metaWidget, body.Candy.for div.metaWidget, body.Composition div.metaWidget, body.TechAesthetic.Released div.metaWidget, body.Meltdown.Released div.metaWidget, body.Hexagon.iOS7 div.metaWidget, body.Zen.iOS7 div.metaWidget {
+    width: 804px; }
+    /* line 1370, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaDaum, body.Candy.for div.metaWidget div.metaDaum, body.Composition div.metaWidget div.metaDaum, body.TechAesthetic.Released div.metaWidget div.metaDaum, body.Meltdown.Released div.metaWidget div.metaDaum, body.Hexagon.iOS7 div.metaWidget div.metaDaum, body.Zen.iOS7 div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1374, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaMix, body.Candy.for div.metaWidget div.metaMix, body.Composition div.metaWidget div.metaMix, body.TechAesthetic.Released div.metaWidget div.metaMix, body.Meltdown.Released div.metaWidget div.metaMix, body.Hexagon.iOS7 div.metaWidget div.metaMix, body.Zen.iOS7 div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 1379, ../sass/article-hero.scss */
+  body.UniAW.iOS7 aside#sidebar, body.Candy.for aside#sidebar, body.Composition aside#sidebar, body.TechAesthetic.Released aside#sidebar, body.Meltdown.Released aside#sidebar, body.Hexagon.iOS7 aside#sidebar, body.Zen.iOS7 aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+    /*
+    			div.categoryList {
+    				width: 100%;
+    				ul {
+    					li {
+    						a{
+    							
+    						}
+    						ul{
+    							right:90%;							
+    						}	
+    					}
+    				}
+    			}	
+    */ } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 1406, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav, body.Candy.for nav, body.Composition nav, body.TechAesthetic.Released nav, body.Meltdown.Released nav, body.Hexagon.iOS7 nav, body.Zen.iOS7 nav {
+    height: 100px; }
+    /* line 1408, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav h1.blogName, body.Candy.for nav h1.blogName, body.Composition nav h1.blogName, body.TechAesthetic.Released nav h1.blogName, body.Meltdown.Released nav h1.blogName, body.Hexagon.iOS7 nav h1.blogName, body.Zen.iOS7 nav h1.blogName {
+      font-size: 58px; }
+    /* line 1411, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav div.blogMenu, body.Candy.for nav div.blogMenu, body.Composition nav div.blogMenu, body.TechAesthetic.Released nav div.blogMenu, body.Meltdown.Released nav div.blogMenu, body.Hexagon.iOS7 nav div.blogMenu, body.Zen.iOS7 nav div.blogMenu {
+      margin-top: 35px; }
+      /* line 1415, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav div.blogMenu ul li a, body.Candy.for nav div.blogMenu ul li a, body.Composition nav div.blogMenu ul li a, body.TechAesthetic.Released nav div.blogMenu ul li a, body.Meltdown.Released nav div.blogMenu ul li a, body.Hexagon.iOS7 nav div.blogMenu ul li a, body.Zen.iOS7 nav div.blogMenu ul li a {
+        padding-bottom: 30px; }
+        /* line 1417, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav div.blogMenu ul li a:hover, body.Candy.for nav div.blogMenu ul li a:hover, body.Composition nav div.blogMenu ul li a:hover, body.TechAesthetic.Released nav div.blogMenu ul li a:hover, body.Meltdown.Released nav div.blogMenu ul li a:hover, body.Hexagon.iOS7 nav div.blogMenu ul li a:hover, body.Zen.iOS7 nav div.blogMenu ul li a:hover {
+          border-bottom: 5px solid #26D673; }
+  /* line 1425, ../sass/article-hero.scss */
+  body.UniAW.iOS7 nav.tiny, body.Candy.for nav.tiny, body.Composition nav.tiny, body.TechAesthetic.Released nav.tiny, body.Meltdown.Released nav.tiny, body.Hexagon.iOS7 nav.tiny, body.Zen.iOS7 nav.tiny {
+    height: 60px; }
+    /* line 1427, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny h1.blogName, body.Candy.for nav.tiny h1.blogName, body.Composition nav.tiny h1.blogName, body.TechAesthetic.Released nav.tiny h1.blogName, body.Meltdown.Released nav.tiny h1.blogName, body.Hexagon.iOS7 nav.tiny h1.blogName, body.Zen.iOS7 nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1430, ../sass/article-hero.scss */
+    body.UniAW.iOS7 nav.tiny div.blogMenu, body.Candy.for nav.tiny div.blogMenu, body.Composition nav.tiny div.blogMenu, body.TechAesthetic.Released nav.tiny div.blogMenu, body.Meltdown.Released nav.tiny div.blogMenu, body.Hexagon.iOS7 nav.tiny div.blogMenu, body.Zen.iOS7 nav.tiny div.blogMenu {
+      margin-top: 15px; }
+      /* line 1434, ../sass/article-hero.scss */
+      body.UniAW.iOS7 nav.tiny div.blogMenu ul li a, body.Candy.for nav.tiny div.blogMenu ul li a, body.Composition nav.tiny div.blogMenu ul li a, body.TechAesthetic.Released nav.tiny div.blogMenu ul li a, body.Meltdown.Released nav.tiny div.blogMenu ul li a, body.Hexagon.iOS7 nav.tiny div.blogMenu ul li a, body.Zen.iOS7 nav.tiny div.blogMenu ul li a {
+        padding-bottom: 10px; }
+        /* line 1436, ../sass/article-hero.scss */
+        body.UniAW.iOS7 nav.tiny div.blogMenu ul li a:hover, body.Candy.for nav.tiny div.blogMenu ul li a:hover, body.Composition nav.tiny div.blogMenu ul li a:hover, body.TechAesthetic.Released nav.tiny div.blogMenu ul li a:hover, body.Meltdown.Released nav.tiny div.blogMenu ul li a:hover, body.Hexagon.iOS7 nav.tiny div.blogMenu ul li a:hover, body.Zen.iOS7 nav.tiny div.blogMenu ul li a:hover {
+          border-bottom: 5px solid #26D673; }
+  /* line 1444, ../sass/article-hero.scss */
+  body.UniAW.iOS7 header, body.Candy.for header, body.Composition header, body.TechAesthetic.Released header, body.Meltdown.Released header, body.Hexagon.iOS7 header, body.Zen.iOS7 header {
+    height: 400px;
+    padding-top: 190px; }
+    /* line 1447, ../sass/article-hero.scss */
+    body.UniAW.iOS7 header h2.articleTitle, body.Candy.for header h2.articleTitle, body.Composition header h2.articleTitle, body.TechAesthetic.Released header h2.articleTitle, body.Meltdown.Released header h2.articleTitle, body.Hexagon.iOS7 header h2.articleTitle, body.Zen.iOS7 header h2.articleTitle {
+      font-size: 60px; }
+  /* line 1451, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.category, body.Candy.for div.category, body.Composition div.category, body.TechAesthetic.Released div.category, body.Meltdown.Released div.category, body.Hexagon.iOS7 div.category, body.Zen.iOS7 div.category {
+    font-size: 36px; }
+  /* line 1454, ../sass/article-hero.scss */
+  body.UniAW.iOS7 article.articleBody, body.Candy.for article.articleBody, body.Composition article.articleBody, body.TechAesthetic.Released article.articleBody, body.Meltdown.Released article.articleBody, body.Hexagon.iOS7 article.articleBody, body.Zen.iOS7 article.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1458, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div.metaWidget, body.Candy.for div.metaWidget, body.Composition div.metaWidget, body.TechAesthetic.Released div.metaWidget, body.Meltdown.Released div.metaWidget, body.Hexagon.iOS7 div.metaWidget, body.Zen.iOS7 div.metaWidget {
+    width: 804px; }
+    /* line 1460, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaDaum, body.Candy.for div.metaWidget div.metaDaum, body.Composition div.metaWidget div.metaDaum, body.TechAesthetic.Released div.metaWidget div.metaDaum, body.Meltdown.Released div.metaWidget div.metaDaum, body.Hexagon.iOS7 div.metaWidget div.metaDaum, body.Zen.iOS7 div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1464, ../sass/article-hero.scss */
+    body.UniAW.iOS7 div.metaWidget div.metaMix, body.Candy.for div.metaWidget div.metaMix, body.Composition div.metaWidget div.metaMix, body.TechAesthetic.Released div.metaWidget div.metaMix, body.Meltdown.Released div.metaWidget div.metaMix, body.Hexagon.iOS7 div.metaWidget div.metaMix, body.Zen.iOS7 div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 1469, ../sass/article-hero.scss */
+  body.UniAW.iOS7 aside#sidebar, body.Candy.for aside#sidebar, body.Composition aside#sidebar, body.TechAesthetic.Released aside#sidebar, body.Meltdown.Released aside#sidebar, body.Hexagon.iOS7 aside#sidebar, body.Zen.iOS7 aside#sidebar {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0; }
+  /* line 1475, ../sass/article-hero.scss */
+  body.UniAW.iOS7 div#paging, body.Candy.for div#paging, body.Composition div#paging, body.TechAesthetic.Released div#paging, body.Meltdown.Released div#paging, body.Hexagon.iOS7 div#paging, body.Zen.iOS7 div#paging {
+    width: 100%; }
+  /* line 1478, ../sass/article-hero.scss */
+  body.UniAW.iOS7 footer, body.Candy.for footer, body.Composition footer, body.TechAesthetic.Released footer, body.Meltdown.Released footer, body.Hexagon.iOS7 footer, body.Zen.iOS7 footer {
+    width: 100%; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  /* line 1487, ../sass/article-hero.scss */
+  body.UniAW.iOS7 article.articleBody, body.Candy.for article.articleBody, body.Composition article.articleBody, body.TechAesthetic.Released article.articleBody, body.Meltdown.Released article.articleBody, body.Hexagon.iOS7 article.articleBody, body.Zen.iOS7 article.articleBody {
+    padding-left: 15%;
+    padding-right: 15%; }
+  /* line 1491, ../sass/article-hero.scss */
+  body.UniAW.iOS7 aside#sidebar, body.Candy.for aside#sidebar, body.Composition aside#sidebar, body.TechAesthetic.Released aside#sidebar, body.Meltdown.Released aside#sidebar, body.Hexagon.iOS7 aside#sidebar, body.Zen.iOS7 aside#sidebar {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 0; } }
+/* min-width 1921px, xlarge screens */

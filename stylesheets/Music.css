@@ -1,0 +1,731 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Playball"), local("Playball-Regular"), url(http://themes.googleusercontent.com/static/fonts/playball/v4/QS5qjU-Gc2sqWEq5kDfWQXYhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Titillium WebThin"), local("TitilliumWeb-Thin"), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr-K9kSItTeDn2USN0q77Oh4.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Titillium Web"), local("TitilliumWeb-Regular"), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Titillium WebSemiBold"), local("TitilliumWeb-SemiBold"), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wprx3QmhlKDgQgT1VN2Ed1WFo.woff) format("woff"); }
+
+/* line 30, ../sass/Music.scss */
+html {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 34, ../sass/Music.scss */
+body.Music {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* 	background: url(../addon/music.jpg) no-repeat center center fixed; */
+  background: url(http://cfile27.uf.tistory.com/image/270878355328CB8F38D3EE) no-repeat center center fixed;
+  font-family: "Titillium Web" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  /* !상단네비바 */
+  /* !전체 열	 */
+  /* !글영역	 */
+  /* !제목	 */
+  /* !프로필 레이어	 */
+  /* !관리도구	 */
+  /* !카테고리	 */
+  /* !글작성날짜	 */
+  /* !본문	 */
+  /* !소셜 도구	 */
+  /*
+  	div.more {
+  		position: relative;
+  		margin: 20px;
+  		p {
+  			text-align: center;
+  			font-size: 28px;
+  			background: rgba(white,.8);
+  			width: 100px;
+  			margin: auto;
+  			@include border-radius(40px);
+  			color: #000;
+  			a {
+  				color: #000;
+  				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+  				&:hover {
+  					color: $lime-green;
+  					text-decoration: none;
+  					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+  				}
+  			}			
+  		}
+  
+  	}
+  */
+  /* !버튼형 위젯	 */
+  /* !태그	 */
+  /* !티스토리 기본댓글 */
+  /* !페이징	 */
+  /* !푸터	 */
+  /* !맨위로		 */
+  /* !바디끝	 */ }
+  /* line 51, ../sass/Music.scss */
+  body.Music h1, body.Music h2, body.Music h3, body.Music h4, body.Music h5, body.Music h6 {
+    font-family: "Titillium Web" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 55, ../sass/Music.scss */
+  body.Music p {
+    color: rgba(255, 255, 255, 0.8); }
+  /* line 59, ../sass/Music.scss */
+  body.Music a {
+    color: #ff008d;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Music a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Music a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Music a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Music a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body.Music a:hover {
+      text-decoration: underline; }
+  /* line 66, ../sass/Music.scss */
+  body.Music ::selection {
+    color: white;
+    background: #ff008d; }
+  /* line 67, ../sass/Music.scss */
+  body.Music ::-moz-selection {
+    color: white;
+    background: #ff008d; }
+  /* line 70, ../sass/Music.scss */
+  body.Music nav {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 10%;
+    height: 40px;
+    color: #fff;
+    clear: both;
+    position: relative; }
+    /* line 79, ../sass/Music.scss */
+    body.Music nav h1.blogName {
+      display: none; }
+    /* line 82, ../sass/Music.scss */
+    body.Music nav div.blogMenu {
+      display: block;
+      padding-top: 10px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+      margin: auto; }
+      /* line 90, ../sass/Music.scss */
+      body.Music nav div.blogMenu ul {
+        list-style: none;
+        position: relative;
+        margin: auto;
+        clear: both;
+        display: inline-block;
+        float: none; }
+        /* line 97, ../sass/Music.scss */
+        body.Music nav div.blogMenu ul li {
+          float: left;
+          display: block;
+          margin-left: 1em;
+          text-align: center; }
+          /* line 102, ../sass/Music.scss */
+          body.Music nav div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 105, ../sass/Music.scss */
+            body.Music nav div.blogMenu ul li a:hover {
+              color: #ff008d;
+              text-decoration: none;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 114, ../sass/Music.scss */
+    body.Music nav a#menuToggle {
+      display: none; }
+    /* line 117, ../sass/Music.scss */
+    body.Music nav div.mobileMenu {
+      display: none; }
+  /* line 122, ../sass/Music.scss */
+  body.Music div.row {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 10; }
+  /* line 131, ../sass/Music.scss */
+  body.Music article.articleBody {
+    padding: 0 4%; }
+  /* line 135, ../sass/Music.scss */
+  body.Music header {
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    background: none; }
+    /* line 140, ../sass/Music.scss */
+    body.Music header h2.articleTitle {
+      font-family: "Playball", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-size: 55px; }
+      /* line 143, ../sass/Music.scss */
+      body.Music header h2.articleTitle a {
+        color: rgba(255, 255, 255, 0.8);
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 146, ../sass/Music.scss */
+        body.Music header h2.articleTitle a:hover {
+          color: #ff008d;
+          text-decoration: none;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 153, ../sass/Music.scss */
+    body.Music header a.disqus_count {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.5);
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      color: black;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 200;
+      padding-top: 15px;
+      left: -30px;
+      top: 0;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease;
+      z-index: 1; }
+      /* line 168, ../sass/Music.scss */
+      body.Music header a.disqus_count:hover {
+        background: #f4f4f4;
+        color: #ff008d;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 177, ../sass/Music.scss */
+  body.Music div.profileLayer {
+    display: none; }
+  /* line 181, ../sass/Music.scss */
+  body.Music div.admin {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0;
+    width: 50px;
+    overflow: hidden;
+    left: 0;
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 999;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px; }
+    /* line 197, ../sass/Music.scss */
+    body.Music div.admin a {
+      color: white;
+      text-decoration: none;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 202, ../sass/Music.scss */
+      body.Music div.admin a:hover {
+        color: #ff008d;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 209, ../sass/Music.scss */
+  body.Music div.category {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 10px; }
+    /* line 215, ../sass/Music.scss */
+    body.Music div.category a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 220, ../sass/Music.scss */
+      body.Music div.category a:hover {
+        color: #ff008d;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 227, ../sass/Music.scss */
+  body.Music div.articleDate {
+    margin-top: 10px;
+    display: block; }
+    /* line 230, ../sass/Music.scss */
+    body.Music div.articleDate div.year {
+      font-size: 12px;
+      font-weight: 200; }
+    /* line 234, ../sass/Music.scss */
+    body.Music div.articleDate div.date {
+      font-size: 24px;
+      font-weight: 200; }
+    /* line 238, ../sass/Music.scss */
+    body.Music div.articleDate div.time {
+      font-size: 36px;
+      font-weight: 200; }
+  /* line 244, ../sass/Music.scss */
+  body.Music div.article {
+    margin-top: 20px; }
+    /* line 246, ../sass/Music.scss */
+    body.Music div.article h1, body.Music div.article h2, body.Music div.article h3, body.Music div.article h4, body.Music div.article h5, body.Music div.article h6 {
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 400; }
+    /* line 250, ../sass/Music.scss */
+    body.Music div.article p {
+      font-size: 18px;
+      font-weight: 400; }
+    /* line 254, ../sass/Music.scss */
+    body.Music div.article div.tt_article_useless_p_margin {
+      -webkit-font-smoothing: subpixel-antialiased;
+      font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+      /* line 257, ../sass/Music.scss */
+      body.Music div.article div.tt_article_useless_p_margin h1, body.Music div.article div.tt_article_useless_p_margin h2, body.Music div.article div.tt_article_useless_p_margin h3, body.Music div.article div.tt_article_useless_p_margin h4, body.Music div.article div.tt_article_useless_p_margin h5, body.Music div.article div.tt_article_useless_p_margin h6 {
+        -webkit-font-smoothing: subpixel-antialiased;
+        font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 265, ../sass/Music.scss */
+  body.Music div#share-buttons {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    text-align: center; }
+    /* line 270, ../sass/Music.scss */
+    body.Music div#share-buttons a {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 22px;
+      padding-top: 8px;
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.5);
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 280, ../sass/Music.scss */
+      body.Music div#share-buttons a:hover {
+        color: white;
+        background: #ff008d;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 314, ../sass/Music.scss */
+  body.Music div#thumbsUp {
+    display: none;
+    margin: 0;
+    padding: 0; }
+    /* line 318, ../sass/Music.scss */
+    body.Music div#thumbsUp iframe {
+      height: 30px; }
+  /* line 323, ../sass/Music.scss */
+  body.Music div.tagTrail {
+    margin: 20px 0;
+    font-weight: 200;
+    text-align: center;
+    clear: both;
+    display: none;
+    font-size: 12px; }
+    /* line 330, ../sass/Music.scss */
+    body.Music div.tagTrail a {
+      color: rgba(255, 255, 255, 0.8);
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 333, ../sass/Music.scss */
+      body.Music div.tagTrail a:hover {
+        color: #ff008d;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 343, ../sass/Music.scss */
+  body.Music div.TcommentList ul {
+    list-style: none;
+    margin: 0; }
+  /* line 347, ../sass/Music.scss */
+  body.Music div.TcommentList div.Tcomment {
+    width: 100%;
+    padding-left: 80px;
+    display: block;
+    position: relative; }
+    /* line 352, ../sass/Music.scss */
+    body.Music div.TcommentList div.Tcomment img.defaultPic {
+      position: absolute;
+      left: 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 357, ../sass/Music.scss */
+    body.Music div.TcommentList div.Tcomment span.Tname {
+      font-weight: 600; }
+    /* line 360, ../sass/Music.scss */
+    body.Music div.TcommentList div.Tcomment span.Tdate {
+      font-weight: 200; }
+  /* line 364, ../sass/Music.scss */
+  body.Music div.TcommentList div.TRcomment {
+    width: 100%;
+    padding-left: 160px;
+    display: block;
+    position: relative; }
+    /* line 369, ../sass/Music.scss */
+    body.Music div.TcommentList div.TRcomment img.defaultPic {
+      position: absolute;
+      left: 80px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 374, ../sass/Music.scss */
+    body.Music div.TcommentList div.TRcomment span.Tname {
+      font-weight: 600; }
+    /* line 377, ../sass/Music.scss */
+    body.Music div.TcommentList div.TRcomment span.Tdate {
+      font-weight: 200; }
+  /* line 384, ../sass/Music.scss */
+  body.Music div#paging {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 10px; }
+    /* line 392, ../sass/Music.scss */
+    body.Music div#paging a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 396, ../sass/Music.scss */
+      body.Music div#paging a:hover {
+        color: #ff008d;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 398, ../sass/Music.scss */
+    body.Music div#paging a#prevPage, body.Music div#paging a#nextPage {
+      font-family: 'entypo', sans-serif; }
+  /* line 402, ../sass/Music.scss */
+  body.Music aside#sidebar {
+    display: none; }
+  /* line 406, ../sass/Music.scss */
+  body.Music footer {
+    /* !저작권		 */
+    /* !구분선												 */
+    /* !소셜 아이콘 리스트		 */ }
+    /* line 407, ../sass/Music.scss */
+    body.Music footer hr {
+      display: none; }
+    /* line 410, ../sass/Music.scss */
+    body.Music footer h1 {
+      font-size: 48px;
+      font-family: "Playball", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 200;
+      text-align: right;
+      margin: 0;
+      position: fixed;
+      right: 10px;
+      bottom: 5px; }
+      /* line 419, ../sass/Music.scss */
+      body.Music footer h1 a {
+        color: rgba(255, 255, 255, 0.8) !important;
+        text-decoration: none;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 423, ../sass/Music.scss */
+        body.Music footer h1 a:hover {
+          color: white !important;
+          text-decoration: none;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 431, ../sass/Music.scss */
+    body.Music footer p {
+      display: none; }
+    /* line 435, ../sass/Music.scss */
+    body.Music footer div.line {
+      display: none; }
+    /* line 439, ../sass/Music.scss */
+    body.Music footer div.socialIcon {
+      display: none; }
+    /* line 442, ../sass/Music.scss */
+    body.Music footer a.gtt {
+      display: none; }
+  /* line 447, ../sass/Music.scss */
+  body.Music div.gtt {
+    position: fixed;
+    top: 50%;
+    width: 4%;
+    left: 0.5%;
+    opacity: .5;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 456, ../sass/Music.scss */
+    body.Music div.gtt:hover {
+      opacity: 1;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+
+@media only screen {
+  /* line 468, ../sass/Music.scss */
+  body.Music nav {
+    width: 90%;
+    margin-left: 2%; }
+  /* line 472, ../sass/Music.scss */
+  body.Music div.row {
+    width: 90%;
+    margin-left: 2%; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 482, ../sass/Music.scss */
+  body.Music nav {
+    width: 80%;
+    margin-left: 5%; }
+  /* line 486, ../sass/Music.scss */
+  body.Music div.row {
+    width: 80%;
+    margin-left: 5%; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 496, ../sass/Music.scss */
+  body.Music nav {
+    width: 60%;
+    margin-left: 8%; }
+  /* line 500, ../sass/Music.scss */
+  body.Music div.row {
+    width: 60%;
+    margin-left: 8%; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 510, ../sass/Music.scss */
+  body.Music nav {
+    width: 50%;
+    margin-left: 10%; }
+  /* line 514, ../sass/Music.scss */
+  body.Music div.row {
+    width: 50%;
+    margin-left: 10%; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */

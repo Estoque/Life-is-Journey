@@ -1,0 +1,91 @@
+@media only screen {
+  /* line 9, ../sass/mquery-article.scss */
+  body#tt-body-page header {
+    height: 40px; }
+  /* line 13, ../sass/mquery-article.scss */
+  body#tt-body-page div.articleBody {
+    width: 100%; }
+  /* line 16, ../sass/mquery-article.scss */
+  body#tt-body-page nav#sidebar {
+    width: 100%; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 25, ../sass/mquery-article.scss */
+  body#tt-body-page header {
+    height: 60px; }
+  /* line 28, ../sass/mquery-article.scss */
+  body#tt-body-page div.articleBody {
+    width: 100%; }
+  /* line 31, ../sass/mquery-article.scss */
+  body#tt-body-page nav#sidebar {
+    width: 100%;
+    margin-top: 0; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 41, ../sass/mquery-article.scss */
+  body#tt-body-page header {
+    height: 60px; }
+  /* line 44, ../sass/mquery-article.scss */
+  body#tt-body-page div.articleBody {
+    width: 80%; }
+  /* line 47, ../sass/mquery-article.scss */
+  body#tt-body-page nav#sidebar {
+    width: 20%;
+    margin-top: -13%; }
+    /* line 50, ../sass/mquery-article.scss */
+    body#tt-body-page nav#sidebar h3.sideTitle {
+      font-size: 20px;
+      font-weight: 200;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 62, ../sass/mquery-article.scss */
+  body#tt-body-page header {
+    height: 100px; }
+    /* line 64, ../sass/mquery-article.scss */
+    body#tt-body-page header h1.blogName {
+      font-size: 58px; }
+  /* line 68, ../sass/mquery-article.scss */
+  body#tt-body-page div.articleBody {
+    width: 75%; }
+  /* line 71, ../sass/mquery-article.scss */
+  body#tt-body-page nav#sidebar {
+    width: 25%;
+    margin-top: -10%; }
+    /* line 75, ../sass/mquery-article.scss */
+    body#tt-body-page nav#sidebar h3.sideTitle {
+      font-size: 40px;
+      font-weight: 100;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  /* line 87, ../sass/mquery-article.scss */
+  body#tt-body-page div.articleBody {
+    width: 65%; }
+  /* line 90, ../sass/mquery-article.scss */
+  body#tt-body-page nav#sidebar {
+    width: 35%;
+    margin-top: -5%; } }
+/* min-width 1921px, xlarge screens */

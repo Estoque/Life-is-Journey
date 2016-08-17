@@ -1,0 +1,2030 @@
+@charset "UTF-8";
+/* !스프라이트 */
+/* line 82, images/*.png */
+.images-sprite, body#tt-body-page.CARS footer a.twitter, body#tt-body-page.CARS footer a.facebook, body#tt-body-page.CARS footer a.fav, body#tt-body-page.CARS footer a.rss, body#tt-body-page.CARS footer a.youtube, body#tt-body-page.CARS footer a.tistory {
+  background: url('images-s1f962c6a4a.png') no-repeat; }
+
+/* line 12, ../sass/fullwith-photo.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif; }
+
+/* line 16, ../sass/fullwith-photo.scss */
+body {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  background: white; }
+
+/* line 30, ../sass/fullwith-photo.scss */
+body#tt-body-page.CARS {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  background: #ddd;
+  /* !네비게이션	 */
+  /* !스크롤 */
+  /* !이미지헤더 배경	 */
+  /* !프로필	 */
+  /* !본문	 */
+  /* !메타 위젯	 */
+  /* !관리도구	 */
+  /* !카테고리	 */
+  /* !본문	 */
+  /* !태그	 */
+  /* !사이드바	 */
+  /* !페이징	 */
+  /* !푸터	 */
+  /* !맨위로		 */
+  /* !바디	 */ }
+  /* line 41, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS a {
+    color: #26d673;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-page.CARS a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-page.CARS a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-page.CARS a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-page.CARS a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body#tt-body-page.CARS a:hover {
+      text-decoration: underline; }
+  /* line 48, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS ::selection {
+    color: white;
+    background: #26d673; }
+  /* line 49, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS ::-moz-selection {
+    color: white;
+    background: #26d673; }
+  /* line 51, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS section.header {
+    /* 		background: url(../addon/pattern4.png), url(../addon/car.jpg) no-repeat center center; */
+    background: url(pattern4.png), url(car.jpg) no-repeat center center;
+    background-size: auto, cover; }
+  /* line 58, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.row {
+    background: white; }
+  /* line 62, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.65);
+    clear: both;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 76, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header h1.blogName {
+      margin: 0;
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100; }
+      /* line 81, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header h1.blogName a {
+        color: white;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 87, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header h1.blogName a:hover {
+          text-shadow: white 0 0 5px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 93, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 35px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 104, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header div.blogMenu ul {
+        list-style: none; }
+        /* line 106, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header div.blogMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 109, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS header div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            padding-bottom: 30px; }
+            /* line 112, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS header div.blogMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              border-bottom: 5px solid #26d673;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 123, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header a#menuToggle {
+      color: rgba(255, 255, 255, 0.8);
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 300;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 133, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header a#menuToggle:hover {
+        text-decoration: none;
+        color: #26d673;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 140, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5); }
+      /* line 154, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header div.mobileMenu ul {
+        list-style: none; }
+        /* line 156, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header div.mobileMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 159, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS header div.mobileMenu ul li a {
+            color: rgba(255, 255, 255, 0.8); }
+            /* line 161, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS header div.mobileMenu ul li a:hover {
+              color: #26d673;
+              text-decoration: none;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+  /* line 173, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header.tiny {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    clear: both;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 187, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny h1.blogName {
+      margin: 0;
+      font-size: 30px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100; }
+      /* line 192, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header.tiny h1.blogName a {
+        color: black;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 198, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header.tiny h1.blogName a:hover {
+          color: #26d673;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 204, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 15px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 215, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header.tiny div.blogMenu ul {
+        list-style: none; }
+        /* line 217, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header.tiny div.blogMenu ul li {
+          float: left; }
+          /* line 219, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS header.tiny div.blogMenu ul li a {
+            color: rgba(0, 0, 0, 0.8);
+            padding-bottom: 10px; }
+            /* line 222, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS header.tiny div.blogMenu ul li a:hover {
+              color: #26d673;
+              text-decoration: none;
+              border-bottom: 5px solid #26d673;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 233, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny a#menuToggle {
+      color: rgba(0, 0, 0, 0.8);
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 300;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 243, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header.tiny a#menuToggle:hover {
+        text-decoration: none;
+        color: #26d673;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 250, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9); }
+      /* line 264, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header.tiny div.mobileMenu ul {
+        list-style: none; }
+        /* line 266, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header.tiny div.mobileMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 269, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS header.tiny div.mobileMenu ul li a {
+            color: rgba(0, 0, 0, 0.8); }
+            /* line 271, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS header.tiny div.mobileMenu ul li a:hover {
+              color: #26d673;
+              text-decoration: none;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+  /* line 287, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS section.header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0;
+    padding-top: 200px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 295, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS section.header h2 {
+      margin: 0;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 100;
+      letter-spacing: 0px; }
+      /* line 301, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS section.header h2 a {
+        text-decoration: none;
+        color: #fff;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 306, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS section.header h2 a:hover {
+          text-shadow: white 0 0 10px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 312, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS section.header h3 {
+      margin: 0;
+      text-align: center;
+      font-size: 29px;
+      font-weight: 200;
+      letter-spacing: 0px;
+      color: rgba(255, 255, 255, 0.7); }
+  /* line 322, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS img.profilePic {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: block;
+    z-index: 100;
+    margin-top: -60px; }
+  /* line 333, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS h3.ownerName {
+    text-align: center;
+    font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+    color: #000;
+    font-size: 38px;
+    font-weight: 100;
+    margin: 0; }
+  /* line 341, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS p.ownerInfo {
+    text-align: center;
+    font-weight: 200;
+    color: #A3A3A3;
+    font-size: 18px;
+    margin: 0; }
+  /* line 348, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS p.contact {
+    text-align: center;
+    font-weight: 200;
+    color: #A3A3A3;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 0px; }
+    /* line 355, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS p.contact a {
+      text-decoration: none;
+      color: #A3A3A3;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 360, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS p.contact a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 368, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleBody {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    clear: both;
+    width: 100%; }
+  /* line 376, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.metaWidget {
+    clear: both;
+    margin: 20px 0;
+    width: 804px;
+    margin: 20px auto; }
+    /* line 381, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px;
+      margin: 0;
+      float: left; }
+    /* line 388, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px;
+      margin: 0;
+      float: right; }
+  /* line 397, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.admin {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 20%;
+    width: 50px;
+    overflow: hidden;
+    left: 0;
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 999;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* !구글		 */ }
+    /* line 413, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.admin a {
+      color: white;
+      text-decoration: none;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 418, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS div.admin a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 425, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.google {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    margin: 20px auto; }
+  /* line 434, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.category {
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: block;
+    /* !글 작성날짜		 */ }
+    /* line 439, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.category a {
+      color: #000;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 444, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS div.category a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 451, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleDate {
+    float: right;
+    clear: both;
+    margin-top: -35px;
+    display: block;
+    margin-right: 1em; }
+    /* line 457, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.articleDate div.year {
+      font-size: 22px;
+      font-weight: 100;
+      clear: both;
+      float: left; }
+    /* line 463, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.articleDate div.date {
+      font-size: 25px;
+      font-weight: 100;
+      clear: both;
+      float: left; }
+    /* line 469, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.articleDate div.time {
+      float: right;
+      font-size: 50px;
+      font-weight: 100;
+      margin-top: -25px; }
+  /* line 477, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.article {
+    margin-top: 30px;
+    font-weight: 400; }
+  /* line 482, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.tagTrail {
+    font-weight: 200;
+    text-align: center;
+    clear: both; }
+  /* line 488, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS nav#sidebar {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    /* !검색창		 */
+    /* !구글광고		 */
+    /* !카테고리		 */
+    /* !사이드바 제목		 */
+    /* !공지사이드바		 */
+    /* !최근포스팅		 */
+    /* !아카이브		 */
+    /* !달력		 */
+    /* !링크		 */ }
+    /* line 494, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar h1.blogName {
+      display: none; }
+    /* line 497, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar hr.sidehr {
+      display: none; }
+    /* line 500, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div.profileSide {
+      display: none; }
+    /* line 505, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#search input {
+      width: 50%;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      border-radius: 20px;
+      height: 40px;
+      background: #E5E5E5;
+      margin: 20px auto;
+      border: 0;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: 200;
+      font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+      font-style: italic;
+      display: block;
+      outline: 0;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in; }
+      /* line 521, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#search input:focus {
+        background: #26d673;
+        color: #fff;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+      /* line 528, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#search input:hover {
+        box-shadow: #26d673 0 0 0 2px;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+    /* line 536, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div.googleSide {
+      width: 100%; }
+      /* line 538, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div.googleSide img {
+        width: 100%; }
+    /* line 543, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div.categoryList {
+      margin: 10px 0; }
+      /* line 545, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div.categoryList ul {
+        font-weight: 200;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0;
+        list-style: none; }
+        /* line 552, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div.categoryList ul li a {
+          color: #000;
+          display: block;
+          border-top: #E5E5E5 1px solid;
+          border-bottom: #E5E5E5 1px solid;
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition-property: background, color;
+          -moz-transition-property: background, color;
+          -o-transition-property: background, color;
+          transition-property: background, color;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 563, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS nav#sidebar div.categoryList ul li a:hover {
+            color: #26d673;
+            text-decoration: none;
+            background: #E5E5E5;
+            border-left: 1px #26d673 solid;
+            padding-right: 1px;
+            -webkit-transition-property: background, color;
+            -moz-transition-property: background, color;
+            -o-transition-property: background, color;
+            transition-property: background, color;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+        /* line 575, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div.categoryList ul li:hover > ul {
+          display: block; }
+        /* line 580, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div.categoryList ul li ul {
+          display: none;
+          position: absolute;
+          width: 300px;
+          margin-top: -10px;
+          background: rgba(255, 255, 255, 0.8);
+          -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;
+          -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;
+          box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;
+          font-size: 18px;
+          margin-top: 0px; }
+          /* line 590, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS nav#sidebar div.categoryList ul li ul li ul {
+            margin-top: -30px;
+            left: 100%; }
+    /* line 600, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar h3.sideTitle {
+      font-size: 40px;
+      font-weight: 100; }
+    /* line 605, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#noticeSide {
+      display: inline-block;
+      width: 30%; }
+      /* line 608, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#noticeSide ul {
+        list-style: none; }
+        /* line 610, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div#noticeSide ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 613, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS nav#sidebar div#noticeSide ul li a {
+            color: #000;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 617, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS nav#sidebar div#noticeSide ul li a:hover {
+              color: #26d673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 623, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#recentPost {
+      display: inline-block;
+      width: 30%; }
+      /* line 626, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#recentPost ul {
+        list-style: none; }
+        /* line 628, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div#recentPost ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 631, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS nav#sidebar div#recentPost ul li a {
+            color: #000;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 635, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS nav#sidebar div#recentPost ul li a:hover {
+              color: #26d673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 641, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#archive {
+      display: inline-block;
+      width: 30%; }
+      /* line 644, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#archive ul {
+        list-style: none; }
+        /* line 646, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div#archive ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 649, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS nav#sidebar div#archive ul li a {
+            color: #000;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 653, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS nav#sidebar div#archive ul li a:hover {
+              color: #26d673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 662, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#calendar {
+      display: inline-block;
+      width: 30%;
+      font-size: 18px;
+      font-weight: 100;
+      border: 1px solid black; }
+    /* line 670, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#link {
+      display: inline-block;
+      width: 30%; }
+      /* line 673, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#link ul {
+        list-style: none; }
+        /* line 675, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS nav#sidebar div#link ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 678, ../sass/fullwith-photo.scss */
+          body#tt-body-page.CARS nav#sidebar div#link ul li a {
+            color: #000;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 682, ../sass/fullwith-photo.scss */
+            body#tt-body-page.CARS nav#sidebar div#link ul li a:hover {
+              color: #26d673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+      /* line 689, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS nav#sidebar div#link select {
+        background: transparent;
+        color: #000;
+        border: 5px solid #000;
+        height: 40px;
+        padding: 2px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        outline: 0;
+        -webkit-appearance: none; }
+  /* line 704, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div#paging {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 20px 0; }
+    /* line 712, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div#paging a {
+      color: #000;
+      text-decoration: none;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 716, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS div#paging a:hover {
+        color: #26d673;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 720, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS footer {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    position: relative;
+    /* !카운터		 */
+    /* !저작권		 */
+    /* !소셜 아이콘		 */
+    /* !구분선												 */
+    /* !소셜 아이콘 리스트		 */ }
+    /* line 728, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer hr {
+      display: none; }
+    /* line 731, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer h1 {
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-align: center;
+      margin: 0; }
+      /* line 737, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer h1 a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 741, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS footer h1 a:hover {
+          color: #26d673;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 748, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer p.counter {
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-size: 30px;
+      font-weight: 100;
+      text-align: center;
+      margin: 0;
+      margin-top: -5px;
+      margin-bottom: 20px; }
+    /* line 758, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer p {
+      text-align: center;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 100;
+      margin: 0; }
+    /* line 765, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a {
+      text-align: center; }
+    /* line 769, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a.twitter {
+      background-position: 0 -197px;
+      width: 61px;
+      height: 50px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-left: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 771, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer a.twitter:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 773, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a.facebook {
+      background-position: 0 -98px;
+      width: 25px;
+      height: 49px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 775, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer a.facebook:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 777, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a.fav {
+      background-position: 0 0;
+      width: 64px;
+      height: 49px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 779, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer a.fav:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 781, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a.rss {
+      background-position: 0 -247px;
+      width: 50px;
+      height: 51px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 783, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer a.rss:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 785, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a.youtube {
+      background-position: 0 -147px;
+      width: 71px;
+      height: 50px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 787, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer a.youtube:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 789, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer a.tistory {
+      background-position: 0 -49px;
+      width: 60px;
+      height: 49px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 791, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer a.tistory:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 794, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer div.line {
+      width: 60%;
+      height: 2px;
+      background: rgba(255, 255, 255, 0.5);
+      position: relative;
+      margin: 20px auto;
+      margin-bottom: 10px; }
+    /* line 803, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS footer ul.social {
+      list-style: none;
+      margin: 0;
+      clear: both;
+      height: 100px;
+      width: 436px;
+      margin: 0 auto; }
+      /* line 810, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS footer ul.social li {
+        float: left;
+        margin-right: 1em; }
+        /* line 813, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS footer ul.social li:first-child {
+          margin-left: 1em; }
+        /* line 816, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS footer ul.social li:last-child {
+          margin-right: 0; }
+  /* line 823, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.gtt {
+    position: fixed;
+    top: 50%;
+    width: 4%;
+    left: 0.5%;
+    opacity: .5;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 832, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.gtt:hover {
+      opacity: 1;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+
+@media only screen {
+  /* line 845, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header {
+    height: 40px; }
+    /* line 847, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header h1.blogName {
+      font-size: 20px; }
+    /* line 850, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 854, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 858, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 863, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header.tiny {
+    height: 40px; }
+    /* line 865, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny h1.blogName {
+      font-size: 20px; }
+    /* line 868, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 872, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 876, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 881, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS section.header {
+    height: 250px;
+    padding-top: 115px; }
+    /* line 884, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS section.header h2 {
+      font-size: 20px;
+      font-weight: 200; }
+  /* line 889, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.category {
+    font-size: 16px; }
+  /* line 892, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleDate {
+    float: none;
+    clear: both;
+    margin-top: 10px;
+    height: 30px; }
+    /* line 897, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.articleDate div.time {
+      float: left; }
+  /* line 901, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 905, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.metaWidget {
+    width: 300px; }
+    /* line 907, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 302px; }
+    /* line 911, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 302px;
+      display: none; }
+  /* line 917, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS nav#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0; }
+    /* line 921, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 925, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 929, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 933, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 937, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#link {
+      display: inline-block;
+      width: 250px; }
+  /* line 943, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS footer ul.social, body#tt-body-page.CARS footer div.line {
+    display: none; }
+  /* line 947, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.google {
+    margin-left: -20px; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 956, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header {
+    height: 60px; }
+    /* line 958, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header h1.blogName {
+      font-size: 30px; }
+    /* line 961, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 965, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 969, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 974, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header.tiny {
+    height: 60px; }
+    /* line 976, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 979, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 983, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 987, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 992, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.category {
+    font-size: 18px; }
+  /* line 995, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS section.header {
+    height: 325px;
+    padding-top: 165px; }
+    /* line 998, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS section.header h2 {
+      font-size: 30px; }
+  /* line 1002, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleDate {
+    float: right;
+    margin-top: -35px; }
+    /* line 1005, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.articleDate div.time {
+      float: right; }
+  /* line 1009, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1013, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.metaWidget {
+    width: 402px; }
+    /* line 1015, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1019, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px;
+      display: block; }
+  /* line 1025, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS nav#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+    /*
+    			div.categoryList {
+    				width: 50%;
+    				ul {
+    					li {
+    						a{
+    							
+    						}
+    						ul{
+    							right:20%;							
+    						}	
+    					}
+    				}				
+    			}
+    */ }
+    /* line 1029, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 1033, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 1037, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 1041, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 1045, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS nav#sidebar div#link {
+      display: inline-block;
+      width: 250px; }
+  /* line 1066, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS footer ul.social, body#tt-body-page.CARS footer div.line {
+    display: block; }
+  /* line 1070, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.google {
+    margin-left: auto; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 1079, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header {
+    height: 80px; }
+    /* line 1081, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header h1.blogName {
+      font-size: 45px; }
+    /* line 1084, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.blogMenu {
+      margin-top: 25px;
+      display: block; }
+      /* line 1089, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header div.blogMenu ul li a {
+        padding-bottom: 20px; }
+        /* line 1091, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header div.blogMenu ul li a:hover {
+          border-bottom: 5px solid #26D673; }
+    /* line 1098, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header a#menuToggle {
+      display: none; }
+    /* line 1101, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.mobileMenu {
+      display: none; }
+  /* line 1105, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header.tiny {
+    height: 60px; }
+    /* line 1107, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1110, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.blogMenu {
+      margin-top: 15px;
+      display: block; }
+    /* line 1114, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny a#menuToggle {
+      display: none; }
+    /* line 1117, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.mobileMenu {
+      display: none; }
+  /* line 1121, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS section.header {
+    height: 350px;
+    padding-top: 175px; }
+    /* line 1124, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS section.header h2 {
+      font-size: 40px;
+      font-weight: 100; }
+  /* line 1129, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.category {
+    font-size: 24px; }
+  /* line 1132, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 1136, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.metaWidget {
+    width: 804px; }
+    /* line 1138, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1142, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 1147, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS nav#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+    /*
+    			div.categoryList {
+    				width: 100%;
+    				ul {
+    					li {
+    						a{
+    							
+    						}
+    						ul{
+    							right:90%;							
+    						}	
+    					}
+    				}
+    			}	
+    */ } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 1174, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header {
+    height: 100px; }
+    /* line 1176, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header h1.blogName {
+      font-size: 58px; }
+    /* line 1179, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header div.blogMenu {
+      margin-top: 35px; }
+      /* line 1183, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header div.blogMenu ul li a {
+        padding-bottom: 30px; }
+        /* line 1185, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header div.blogMenu ul li a:hover {
+          border-bottom: 5px solid #26D673; }
+  /* line 1193, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS header.tiny {
+    height: 60px; }
+    /* line 1195, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 1198, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS header.tiny div.blogMenu {
+      margin-top: 15px; }
+      /* line 1202, ../sass/fullwith-photo.scss */
+      body#tt-body-page.CARS header.tiny div.blogMenu ul li a {
+        padding-bottom: 10px; }
+        /* line 1204, ../sass/fullwith-photo.scss */
+        body#tt-body-page.CARS header.tiny div.blogMenu ul li a:hover {
+          border-bottom: 5px solid #26D673; }
+  /* line 1212, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS section.header {
+    height: 400px;
+    padding-top: 190px; }
+    /* line 1215, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS section.header h2 {
+      font-size: 60px; }
+  /* line 1219, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.category {
+    font-size: 36px; }
+  /* line 1222, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleBody {
+    padding-left: 10%;
+    padding-right: 10%; }
+  /* line 1226, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.metaWidget {
+    width: 804px; }
+    /* line 1228, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 1232, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 1237, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS nav#sidebar {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0; }
+  /* line 1243, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div#paging {
+    width: 100%; }
+  /* line 1246, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS footer {
+    width: 100%; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  /* line 1255, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.articleBody {
+    padding-left: 15%;
+    padding-right: 15%; }
+  /* line 1259, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS nav#sidebar {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 0; } }
+/* min-width 1921px, xlarge screens */
+@media only screen {
+  /* line 1272, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS span.imageblock {
+    display: inline-block;
+    width: 111%;
+    height: auto;
+    max-width: 111%;
+    position: relative;
+    right: 0;
+    margin-left: -5.5%;
+    margin-right: 0;
+    padding: 0; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 1289, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS span.imageblock {
+    display: inline-block;
+    width: 111.5%;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-left: -6%;
+    margin-right: 0;
+    max-width: 111.5%;
+    padding: 0; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 1306, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS span.imageblock {
+    display: inline-block;
+    width: 111.2%;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-left: -5.55%;
+    margin-right: 0;
+    max-width: 111.1%;
+    padding: 0; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 1323, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS span.imageblock {
+    display: inline-block;
+    width: 125% !important;
+    position: relative;
+    height: auto;
+    right: 0;
+    margin-left: -12.5%;
+    margin-right: auto;
+    max-width: 125%; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */
+/* !슬라이더 */
+/* line 1344, ../sass/fullwith-photo.scss */
+div.tt-gallery-box {
+  text-align: center !important;
+  width: 125% !important;
+  height: auto;
+  background: black;
+  right: 0;
+  margin-left: -12.5%;
+  margin-right: auto;
+  max-width: 125%;
+  position: relative; }
+  /* line 1355, ../sass/fullwith-photo.scss */
+  div.tt-gallery-box:hover div.galleryControl {
+    display: block; }
+  /* line 1360, ../sass/fullwith-photo.scss */
+  div.tt-gallery-box div.galleryControl {
+    font-family: Raleway, sans-serif !important;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    overflow: auto;
+    margin: auto !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 55px !important;
+    color: white;
+    font-weight: 100 !important;
+    display: none;
+    padding: 0 20%; }
+    /* line 1377, ../sass/fullwith-photo.scss */
+    div.tt-gallery-box div.galleryControl a {
+      width: 100px;
+      height: 100px;
+      display: block; }
+      /* line 1382, ../sass/fullwith-photo.scss */
+      div.tt-gallery-box div.galleryControl a:first-child {
+        float: left;
+        position: absolute;
+        background: url(left.png); }
+      /* line 1387, ../sass/fullwith-photo.scss */
+      div.tt-gallery-box div.galleryControl a:nth-child(2) {
+        margin: auto;
+        background: url(zoom.png); }
+      /* line 1392, ../sass/fullwith-photo.scss */
+      div.tt-gallery-box div.galleryControl a:last-child {
+        float: right;
+        margin-top: -100px;
+        background: url(right.png); }
+      /* line 1397, ../sass/fullwith-photo.scss */
+      div.tt-gallery-box div.galleryControl a:hover {
+        -webkit-box-shadow: 0 0 1px 2px #26d673;
+        -moz-box-shadow: 0 0 1px 2px #26d673;
+        box-shadow: 0 0 1px 2px #26d673; }
+      /* line 1401, ../sass/fullwith-photo.scss */
+      div.tt-gallery-box div.galleryControl a img {
+        display: none; }
+  /* line 1406, ../sass/fullwith-photo.scss */
+  div.tt-gallery-box img {
+    width: 100%; }
+  /* line 1409, ../sass/fullwith-photo.scss */
+  div.tt-gallery-box div.galleryCaption {
+    display: none; }
+
+@media only screen {
+  /* line 1417, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.tt-gallery-box {
+    width: 111% !important;
+    height: auto;
+    max-width: 111%;
+    position: relative;
+    right: 0;
+    margin-left: -5.5%;
+    margin-right: auto;
+    padding: 0; }
+    /* line 1427, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.tt-gallery-box div.galleryControl {
+      height: 170px; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 1437, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.tt-gallery-box {
+    width: 111.5% !important;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-left: -6%;
+    margin-right: auto;
+    max-width: 111.5%;
+    padding: 0; }
+    /* line 1447, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.tt-gallery-box div.galleryControl {
+      height: 170px; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 1457, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.tt-gallery-box {
+    width: 111.2% !important;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-left: -5.55%;
+    margin-right: auto;
+    max-width: 111.1%;
+    padding: 0; }
+    /* line 1467, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.tt-gallery-box div.galleryControl {
+      height: 170px; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 1477, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.tt-gallery-box {
+    width: 125% !important;
+    height: auto;
+    right: 0;
+    margin-left: -12.5%;
+    margin-right: auto;
+    max-width: 125%;
+    position: relative; }
+    /* line 1486, ../sass/fullwith-photo.scss */
+    body#tt-body-page.CARS div.tt-gallery-box div.galleryControl {
+      height: 200px; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */
+@media only screen {
+  /* line 1503, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.flex-video {
+    display: inline-block;
+    width: 111%;
+    height: auto;
+    max-width: 111%;
+    position: relative;
+    right: 0;
+    margin-left: -5.5%;
+    margin-right: 0; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 1519, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.flex-video {
+    display: inline-block;
+    width: 111.5%;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-left: -6%;
+    margin-right: 0;
+    max-width: 111.5%; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 1535, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.flex-video {
+    display: inline-block;
+    width: 111.2%;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-left: -5.55%;
+    margin-right: 0;
+    max-width: 111.1%; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 1551, ../sass/fullwith-photo.scss */
+  body#tt-body-page.CARS div.flex-video {
+    display: inline-block;
+    width: 125% !important;
+    position: relative;
+    height: auto;
+    right: 0;
+    margin-left: -12.5%;
+    margin-right: auto;
+    max-width: 125%; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */

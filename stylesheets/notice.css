@@ -1,0 +1,1724 @@
+@charset "UTF-8";
+/* line 9, ../sass/notice.scss */
+html {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 14, ../sass/notice.scss */
+body#tt-body-notice {
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  background: #ddd;
+  /* !네비게이션	 */
+  /* !스크롤 */
+  /* !이미지헤더 배경	 */
+  /* !프로필	 */
+  /* !본문	 */
+  /* !메타 위젯	 */
+  /* !관리도구	 */
+  /* !카테고리	 */
+  /*
+  	div.category {
+  		font-size: 36px;
+  		font-weight: 400;
+  		text-transform: uppercase;
+  		display: block;
+  		a {
+  			color: $black;
+  			text-decoration: none;
+  			@include transition-property(all);
+  			@include transition-duration(.2s); @include transition-timing-function(ease);
+  			&:hover {
+  				color: #26D673;
+  				@include transition-duration(.2s); @include transition-timing-function(ease);
+  			}
+  		}
+  
+  	}
+  */
+  /* !글 작성날짜		 */
+  /*
+  	div.articleDate {
+  		float: right;
+  		clear: both;
+  		margin-top: -35px;
+  		display: block;
+  		margin-right: 1em;
+  		div.year {
+  			font-size: 22px;
+  			font-weight: 400;
+  			clear: both;
+  			float: left;
+  		}
+  		div.date {
+  			font-size: 25px;
+  			font-weight: 400;
+  			clear: both;
+  			float: left;
+  		}
+  		div.time {
+  			float: right;
+  			font-size: 50px;
+  			font-weight: 400;
+  			margin-top: -25px;
+  		}
+  	}
+  */
+  /* !본문	 */
+  /* !태그	 */
+  /* !사이드바	 */
+  /* !페이징	 */
+  /* !푸터	 */
+  /* !맨위로		 */
+  /* !바디	 */ }
+  /* line 26, ../sass/notice.scss */
+  body#tt-body-notice h1, body#tt-body-notice h2, body#tt-body-notice h3, body#tt-body-notice h4, body#tt-body-notice h5, body#tt-body-notice h6 {
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 31, ../sass/notice.scss */
+  body#tt-body-notice a {
+    color: #26d673;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-notice a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-notice a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-notice a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body#tt-body-notice a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body#tt-body-notice a:hover {
+      text-decoration: underline; }
+  /* line 38, ../sass/notice.scss */
+  body#tt-body-notice ::selection {
+    color: white;
+    background: #26D673; }
+  /* line 39, ../sass/notice.scss */
+  body#tt-body-notice ::-moz-selection {
+    color: white;
+    background: #26D673; }
+  /* line 41, ../sass/notice.scss */
+  body#tt-body-notice div.row {
+    background: white; }
+  /* line 45, ../sass/notice.scss */
+  body#tt-body-notice div.tt_article_useless_p_margin {
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+    /* line 48, ../sass/notice.scss */
+    body#tt-body-notice div.tt_article_useless_p_margin h1, body#tt-body-notice div.tt_article_useless_p_margin h2, body#tt-body-notice div.tt_article_useless_p_margin h3, body#tt-body-notice div.tt_article_useless_p_margin h4, body#tt-body-notice div.tt_article_useless_p_margin h5, body#tt-body-notice div.tt_article_useless_p_margin h6 {
+      -webkit-font-smoothing: subpixel-antialiased;
+      font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif; }
+  /* line 54, ../sass/notice.scss */
+  body#tt-body-notice nav {
+    background: rgba(255, 255, 255, 0.95);
+    /* 		border-bottom: 1px solid rgba($black,.65); */
+    clear: both;
+    width: 1920px;
+    height: 100px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 74, ../sass/notice.scss */
+    body#tt-body-notice nav h1.blogName {
+      margin: 0;
+      font-size: 58px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100; }
+      /* line 79, ../sass/notice.scss */
+      body#tt-body-notice nav h1.blogName a {
+        color: #222222;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 85, ../sass/notice.scss */
+        body#tt-body-notice nav h1.blogName a:hover {
+          color: #26d673;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 91, ../sass/notice.scss */
+    body#tt-body-notice nav div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(34, 34, 34, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 35px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 102, ../sass/notice.scss */
+      body#tt-body-notice nav div.blogMenu ul {
+        list-style: none; }
+        /* line 104, ../sass/notice.scss */
+        body#tt-body-notice nav div.blogMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 107, ../sass/notice.scss */
+          body#tt-body-notice nav div.blogMenu ul li a {
+            color: rgba(34, 34, 34, 0.8);
+            padding-bottom: 30px; }
+            /* line 110, ../sass/notice.scss */
+            body#tt-body-notice nav div.blogMenu ul li a:hover {
+              color: #26d673;
+              text-decoration: none;
+              border-bottom: 5px solid #26D673;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 121, ../sass/notice.scss */
+    body#tt-body-notice nav a#menuToggle {
+      color: #222222;
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 131, ../sass/notice.scss */
+      body#tt-body-notice nav a#menuToggle:hover {
+        text-decoration: none;
+        color: #26d673;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 138, ../sass/notice.scss */
+    body#tt-body-notice nav div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%; }
+      /* line 151, ../sass/notice.scss */
+      body#tt-body-notice nav div.mobileMenu ul {
+        margin: 0;
+        padding-top: 5px;
+        list-style: none;
+        text-align: center; }
+        /* line 156, ../sass/notice.scss */
+        body#tt-body-notice nav div.mobileMenu ul li {
+          margin-bottom: 18px; }
+          /* line 158, ../sass/notice.scss */
+          body#tt-body-notice nav div.mobileMenu ul li a {
+            background: white;
+            padding: 8px 20px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            color: #222222;
+            font-weight: 600;
+            letter-spacing: 2px; }
+            /* line 165, ../sass/notice.scss */
+            body#tt-body-notice nav div.mobileMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              background: #26d673; }
+  /* line 176, ../sass/notice.scss */
+  body#tt-body-notice nav.tiny {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(34, 34, 34, 0.2);
+    clear: both;
+    width: 1920px;
+    height: 60px;
+    margin: 0;
+    padding: 5px 2% 0 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 196, ../sass/notice.scss */
+    body#tt-body-notice nav.tiny h1.blogName {
+      margin: 0;
+      font-size: 30px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100; }
+      /* line 201, ../sass/notice.scss */
+      body#tt-body-notice nav.tiny h1.blogName a {
+        color: #222222;
+        float: left;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 207, ../sass/notice.scss */
+        body#tt-body-notice nav.tiny h1.blogName a:hover {
+          color: #26D673;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 213, ../sass/notice.scss */
+    body#tt-body-notice nav.tiny div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(34, 34, 34, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 15px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 224, ../sass/notice.scss */
+      body#tt-body-notice nav.tiny div.blogMenu ul {
+        list-style: none; }
+        /* line 226, ../sass/notice.scss */
+        body#tt-body-notice nav.tiny div.blogMenu ul li {
+          float: left; }
+          /* line 228, ../sass/notice.scss */
+          body#tt-body-notice nav.tiny div.blogMenu ul li a {
+            color: rgba(34, 34, 34, 0.8);
+            padding-bottom: 15px; }
+            /* line 231, ../sass/notice.scss */
+            body#tt-body-notice nav.tiny div.blogMenu ul li a:hover {
+              color: #26d673;
+              text-decoration: none;
+              border-bottom: 2px solid #26D673;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 242, ../sass/notice.scss */
+    body#tt-body-notice nav.tiny a#menuToggle {
+      color: rgba(34, 34, 34, 0.8);
+      margin-top: 15px;
+      display: none;
+      float: right;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 252, ../sass/notice.scss */
+      body#tt-body-notice nav.tiny a#menuToggle:hover {
+        text-decoration: none;
+        color: #26d673;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 259, ../sass/notice.scss */
+    body#tt-body-notice nav.tiny div.mobileMenu {
+      display: none;
+      position: absolute;
+      margin: 0;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 0px;
+      top: 60px;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid rgba(34, 34, 34, 0.2); }
+      /* line 274, ../sass/notice.scss */
+      body#tt-body-notice nav.tiny div.mobileMenu ul {
+        margin: 0;
+        padding-top: 10px;
+        list-style: none;
+        text-align: center; }
+        /* line 279, ../sass/notice.scss */
+        body#tt-body-notice nav.tiny div.mobileMenu ul li {
+          margin-bottom: 18px; }
+          /* line 281, ../sass/notice.scss */
+          body#tt-body-notice nav.tiny div.mobileMenu ul li a {
+            background: #222222;
+            padding: 8px 20px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px; }
+            /* line 288, ../sass/notice.scss */
+            body#tt-body-notice nav.tiny div.mobileMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              background: #26d673; }
+  /* line 299, ../sass/notice.scss */
+  body#tt-body-notice div.mainBody {
+    margin-top: 100px;
+    position: relative;
+    width: 100%; }
+  /* line 305, ../sass/notice.scss */
+  body#tt-body-notice header {
+    width: 100%;
+    height: 400px;
+    background: url(../bkgd.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding-top: 200px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 315, ../sass/notice.scss */
+    body#tt-body-notice header h2 {
+      margin: 0;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: 0px; }
+      /* line 321, ../sass/notice.scss */
+      body#tt-body-notice header h2 a {
+        text-decoration: none;
+        color: #fff;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 326, ../sass/notice.scss */
+        body#tt-body-notice header h2 a:hover {
+          text-shadow: white 0 0 10px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+  /* line 334, ../sass/notice.scss */
+  body#tt-body-notice img.profilePic {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: block;
+    z-index: 100;
+    margin-top: -60px; }
+  /* line 345, ../sass/notice.scss */
+  body#tt-body-notice h3.ownerName {
+    text-align: center;
+    font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 100;
+    margin: 0; }
+  /* line 353, ../sass/notice.scss */
+  body#tt-body-notice p.ownerInfo {
+    text-align: center;
+    font-weight: 400;
+    color: #A3A3A3;
+    font-size: 18px;
+    margin: 0; }
+  /* line 360, ../sass/notice.scss */
+  body#tt-body-notice p.contact {
+    text-align: center;
+    font-weight: 400;
+    color: #A3A3A3;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 0px; }
+    /* line 367, ../sass/notice.scss */
+    body#tt-body-notice p.contact a {
+      text-decoration: none;
+      color: #A3A3A3;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 372, ../sass/notice.scss */
+      body#tt-body-notice p.contact a:hover {
+        color: #26D673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 380, ../sass/notice.scss */
+  body#tt-body-notice div.articleBody {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    clear: both;
+    width: 100%; }
+  /* line 388, ../sass/notice.scss */
+  body#tt-body-notice div.metaWidget {
+    clear: both;
+    margin: 20px 0;
+    width: 804px;
+    margin: 20px auto; }
+    /* line 393, ../sass/notice.scss */
+    body#tt-body-notice div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px;
+      margin: 0;
+      float: left; }
+    /* line 400, ../sass/notice.scss */
+    body#tt-body-notice div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px;
+      margin: 0;
+      float: right; }
+  /* line 409, ../sass/notice.scss */
+  body#tt-body-notice div.admin {
+    position: fixed;
+    background: rgba(34, 34, 34, 0.5);
+    top: 20%;
+    width: 50px;
+    overflow: hidden;
+    left: 0;
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 999;
+    border-top: 2px solid #222222;
+    border-right: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* !구글		 */ }
+    /* line 425, ../sass/notice.scss */
+    body#tt-body-notice div.admin a {
+      color: white;
+      text-decoration: none;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 430, ../sass/notice.scss */
+      body#tt-body-notice div.admin a:hover {
+        color: #26D673;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 437, ../sass/notice.scss */
+  body#tt-body-notice div.google {
+    width: 728px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    margin: 20px auto; }
+  /* line 495, ../sass/notice.scss */
+  body#tt-body-notice div.article {
+    margin-top: 30px;
+    font-weight: 400; }
+  /* line 500, ../sass/notice.scss */
+  body#tt-body-notice div.tagTrail {
+    font-weight: 400;
+    text-align: center;
+    clear: both; }
+  /* line 506, ../sass/notice.scss */
+  body#tt-body-notice aside#sidebar {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    /* 			!사이드바 프로필 */
+    /* !검색창		 */
+    /* !구글광고		 */
+    /* !카테고리		 */
+    /* !사이드바 제목		 */
+    /* !공지사이드바		 */
+    /* !최근포스팅		 */
+    /* !아카이브		 */
+    /* !달력		 */
+    /*
+    		div#calendar {
+    			display: inline-block;
+    			width: 30%;
+    			font-size: 18px;
+    			font-weight: 100;
+    		}
+    */
+    /* !링크		 */ }
+    /* line 512, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar h1.blogName {
+      display: none; }
+    /* line 516, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div.profileSide {
+      position: relative;
+      float: none;
+      clear: both; }
+      /* line 520, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div.profileSide img {
+        margin: 0 auto;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        position: relative;
+        clear: both;
+        display: block;
+        width: 120px;
+        height: 120px;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 529, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div.profileSide img:hover {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+      /* line 534, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div.profileSide h3.ownerName {
+        text-align: center;
+        color: #222222;
+        font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo ,cursive;
+        font-size: 36px;
+        margin: 0px; }
+      /* line 541, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div.profileSide p.ownerInfo {
+        color: #A3A3A3;
+        font-weight: 400;
+        text-align: center;
+        margin: 0; }
+      /* line 547, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div.profileSide p.contact {
+        text-align: center;
+        font-weight: 400;
+        color: #A3A3A3;
+        font-size: 32px;
+        margin: 0;
+        margin-bottom: 0px;
+        line-height: 34px; }
+        /* line 555, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div.profileSide p.contact a {
+          text-decoration: none;
+          color: #A3A3A3;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+          /* line 560, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div.profileSide p.contact a:hover {
+            color: #26d673;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+    /* line 570, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div#search input {
+      width: 50%;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      border-radius: 20px;
+      height: 40px;
+      background: #E5E5E5;
+      margin: 20px auto;
+      border: 0;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+      font-style: italic;
+      display: block;
+      outline: 0;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in; }
+      /* line 586, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#search input:focus {
+        background: #26D673;
+        color: #fff;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+      /* line 593, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#search input:hover {
+        box-shadow: #26D673 0 0 0 2px;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in; }
+    /* line 601, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div.googleSide {
+      width: 100%; }
+      /* line 603, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div.googleSide img {
+        width: 100%; }
+    /* line 608, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar a#categoryToggle {
+      display: none;
+      margin: 10px 0;
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      list-style: none;
+      color: #222222;
+      display: block;
+      line-height: 36px;
+      border-top: #E5E5E5 1px solid;
+      border-bottom: #E5E5E5 1px solid;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition-property: background, color;
+      -moz-transition-property: background, color;
+      -o-transition-property: background, color;
+      transition-property: background, color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 626, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar a#categoryToggle:hover {
+        color: #26d673;
+        text-decoration: none;
+        background: #E5E5E5;
+        border-left: 1px #26d673 solid;
+        padding-right: 1px;
+        -webkit-transition-property: background, color;
+        -moz-transition-property: background, color;
+        -o-transition-property: background, color;
+        transition-property: background, color;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 637, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div#category {
+      text-align: center;
+      display: none; }
+      /* line 640, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#category ul {
+        list-style: none;
+        margin: 0; }
+        /* line 643, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div#category ul li {
+          font-weight: 600; }
+          /* line 646, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div#category ul li a {
+            color: #222222;
+            border-bottom: 1px solid #c5c5c5;
+            width: 100%;
+            display: block; }
+            /* line 651, ../sass/notice.scss */
+            body#tt-body-notice aside#sidebar div#category ul li a:hover {
+              color: #26d673;
+              text-decoration: none;
+              background: #f4f4f4; }
+          /* line 658, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div#category ul li ul li {
+            font-weight: 400;
+            width: auto; }
+            /* line 661, ../sass/notice.scss */
+            body#tt-body-notice aside#sidebar div#category ul li ul li ul {
+              -moz-column-count: 4;
+              /* Firefox */
+              -webkit-column-count: 4;
+              /* Safari and Chrome */
+              column-count: 4;
+              -moz-column-gap: 40px;
+              /* Firefox */
+              -webkit-column-gap: 40px;
+              /* Safari and Chrome */
+              column-gap: 40px;
+              -moz-column-rule: 1px outset #26d673;
+              /* Firefox */
+              -webkit-column-rule: 1px outset #26d673;
+              /* Safari and Chrome */
+              column-rule: 1px outset #26d673; }
+              /* line 673, ../sass/notice.scss */
+              body#tt-body-notice aside#sidebar div#category ul li ul li ul li {
+                font-weight: 200; }
+    /* line 683, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar h3.sideTitle {
+      font-size: 40px;
+      font-weight: 200;
+      border-bottom: 1px solid #ddd; }
+      /* line 687, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar h3.sideTitle::first-letter {
+        font-weight: 400; }
+    /* line 692, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 30%; }
+      /* line 695, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#noticeSide ul {
+        list-style: none; }
+        /* line 697, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div#noticeSide ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 700, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div#noticeSide ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 704, ../sass/notice.scss */
+            body#tt-body-notice aside#sidebar div#noticeSide ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 710, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 30%; }
+      /* line 713, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#recentPost ul {
+        list-style: none; }
+        /* line 715, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div#recentPost ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 718, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div#recentPost ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 722, ../sass/notice.scss */
+            body#tt-body-notice aside#sidebar div#recentPost ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 728, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div#archive {
+      display: inline-block;
+      width: 30%; }
+      /* line 731, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#archive ul {
+        list-style: none; }
+        /* line 733, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div#archive ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 736, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div#archive ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 740, ../sass/notice.scss */
+            body#tt-body-notice aside#sidebar div#archive ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 758, ../sass/notice.scss */
+    body#tt-body-notice aside#sidebar div#link {
+      display: inline-block;
+      width: 30%; }
+      /* line 761, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#link ul {
+        list-style: none; }
+        /* line 763, ../sass/notice.scss */
+        body#tt-body-notice aside#sidebar div#link ul li {
+          font-size: 16px;
+          font-weight: 400; }
+          /* line 766, ../sass/notice.scss */
+          body#tt-body-notice aside#sidebar div#link ul li a {
+            color: #222222;
+            text-decoration: none;
+            -webkit-transition-duration: 0.2s;
+            -moz-transition-duration: 0.2s;
+            -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 770, ../sass/notice.scss */
+            body#tt-body-notice aside#sidebar div#link ul li a:hover {
+              color: #26D673;
+              -webkit-transition-duration: 0.2s;
+              -moz-transition-duration: 0.2s;
+              -o-transition-duration: 0.2s;
+              transition-duration: 0.2s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+      /* line 777, ../sass/notice.scss */
+      body#tt-body-notice aside#sidebar div#link select {
+        background: transparent;
+        color: #222222;
+        border: 5px solid #222222;
+        height: 40px;
+        padding: 2px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        outline: 0;
+        -webkit-appearance: none; }
+  /* line 792, ../sass/notice.scss */
+  body#tt-body-notice div#paging {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 0; }
+    /* line 800, ../sass/notice.scss */
+    body#tt-body-notice div#paging a {
+      color: #222222;
+      text-decoration: none;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 804, ../sass/notice.scss */
+      body#tt-body-notice div#paging a:hover {
+        color: #26D673;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+    /* line 806, ../sass/notice.scss */
+    body#tt-body-notice div#paging a#prevPage, body#tt-body-notice div#paging a#nextPage {
+      font-family: 'entypo', sans-serif; }
+  /* line 811, ../sass/notice.scss */
+  body#tt-body-notice footer {
+    background: #222222;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    position: relative;
+    display: block;
+    display: block;
+    max-width: 1920px;
+    position: relative;
+    display: block;
+    margin: auto;
+    /* !카운터		 */
+    /* !저작권		 */
+    /* !구분선												 */
+    /* !소셜 아이콘 리스트		 */
+    /* !소셜 SVG	 */ }
+    /* line 825, ../sass/notice.scss */
+    body#tt-body-notice footer hr {
+      display: none; }
+    /* line 828, ../sass/notice.scss */
+    body#tt-body-notice footer h1.blogName {
+      font-size: 45px;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-weight: 100;
+      text-align: center;
+      margin: 0; }
+      /* line 834, ../sass/notice.scss */
+      body#tt-body-notice footer h1.blogName a {
+        color: white !important;
+        text-decoration: none !important;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 838, ../sass/notice.scss */
+        body#tt-body-notice footer h1.blogName a:hover {
+          color: #26d673 !important;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 845, ../sass/notice.scss */
+    body#tt-body-notice footer p.counter {
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+      font-size: 22px;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+      margin-top: -5px;
+      margin-bottom: 20px; }
+    /* line 855, ../sass/notice.scss */
+    body#tt-body-notice footer p {
+      text-align: center;
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 400;
+      margin: 0; }
+    /* line 862, ../sass/notice.scss */
+    body#tt-body-notice footer a {
+      text-align: center; }
+    /* line 866, ../sass/notice.scss */
+    body#tt-body-notice footer div.line {
+      width: 60%;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.5);
+      position: relative;
+      margin: 10px auto; }
+    /* line 875, ../sass/notice.scss */
+    body#tt-body-notice footer div.socialIcon {
+      width: 100%;
+      position: relative;
+      display: block;
+      text-align: center;
+      margin-top: 20px; }
+      /* line 881, ../sass/notice.scss */
+      body#tt-body-notice footer div.socialIcon a.social {
+        display: inline-block;
+        text-align: center; }
+        /* line 884, ../sass/notice.scss */
+        body#tt-body-notice footer div.socialIcon a.social .icon {
+          width: 60px;
+          height: 68px; }
+        /* line 888, ../sass/notice.scss */
+        body#tt-body-notice footer div.socialIcon a.social path#hex {
+          fill: #fff;
+          opacity: .8; }
+        /* line 892, ../sass/notice.scss */
+        body#tt-body-notice footer div.socialIcon a.social path#icon {
+          fill: #222; }
+        /* line 896, ../sass/notice.scss */
+        body#tt-body-notice footer div.socialIcon a.social:hover path#hex {
+          opacity: 1; }
+  /* line 904, ../sass/notice.scss */
+  body#tt-body-notice a.gtt {
+    text-align: center;
+    color: #222222;
+    position: relative;
+    display: block;
+    font-size: 28px;
+    background: white;
+    width: 60px;
+    margin: 0 auto;
+    padding-top: 2px;
+    height: 45px;
+    width: 90px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 920, ../sass/notice.scss */
+    body#tt-body-notice a.gtt:hover {
+      color: #26d673;
+      text-decoration: none;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+
+@media only screen {
+  /* line 9, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.mainBody {
+    margin-top: 40px; }
+  /* line 12, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav {
+    height: 40px; }
+    /* line 14, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav h1.blogName {
+      font-size: 20px; }
+    /* line 17, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 21, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 25, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 30, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav.tiny {
+    height: 40px; }
+    /* line 32, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny h1.blogName {
+      font-size: 20px; }
+    /* line 35, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.blogMenu {
+      margin-top: 10px;
+      display: none; }
+    /* line 39, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 5px; }
+    /* line 43, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.mobileMenu {
+      display: none;
+      top: 40px; }
+  /* line 48, ../sass/_mquery-notice.scss */
+  body#tt-body-notice header {
+    height: 250px;
+    padding-top: 115px; }
+    /* line 51, ../sass/_mquery-notice.scss */
+    body#tt-body-notice header h2 {
+      font-size: 20px; }
+  /* line 55, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.category {
+    font-size: 16px; }
+  /* line 58, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleDate {
+    float: none;
+    clear: both;
+    margin-top: 10px;
+    height: 30px; }
+    /* line 63, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.articleDate div.time {
+      float: left; }
+  /* line 67, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 71, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.metaWidget {
+    width: 320px; }
+    /* line 73, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 77, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 82, ../sass/_mquery-notice.scss */
+  body#tt-body-notice aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%; }
+    /* line 85, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 89, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 93, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 97, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 101, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#link {
+      display: inline-block;
+      width: 250px; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 112, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.mainBody {
+    margin-top: 60px; }
+  /* line 115, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav {
+    height: 60px; }
+    /* line 117, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav h1.blogName {
+      font-size: 30px; }
+    /* line 120, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 124, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 128, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 133, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav.tiny {
+    height: 60px; }
+    /* line 135, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 138, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.blogMenu {
+      margin-top: 15px;
+      display: none; }
+    /* line 142, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny a#menuToggle {
+      display: inline-block;
+      margin-top: 15px; }
+    /* line 146, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.mobileMenu {
+      display: none;
+      top: 60px; }
+  /* line 151, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.category {
+    font-size: 18px; }
+  /* line 154, ../sass/_mquery-notice.scss */
+  body#tt-body-notice header {
+    height: 325px;
+    padding-top: 165px; }
+    /* line 157, ../sass/_mquery-notice.scss */
+    body#tt-body-notice header h2 {
+      font-size: 30px; }
+  /* line 161, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleDate {
+    float: right;
+    margin-top: -35px; }
+    /* line 164, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.articleDate div.time {
+      float: right; }
+  /* line 168, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 172, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.metaWidget {
+    width: 402px; }
+    /* line 174, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 178, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 183, ../sass/_mquery-notice.scss */
+  body#tt-body-notice aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    /*
+    			div.categoryList {
+    				width: 50%;
+    				ul {
+    					li {
+    						a{
+    							
+    						}
+    						ul{
+    							right:20%;							
+    						}	
+    					}
+    				}				
+    			}
+    */ }
+    /* line 186, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#noticeSide {
+      display: inline-block;
+      width: 250px; }
+    /* line 190, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#recentPost {
+      display: inline-block;
+      width: 250px; }
+    /* line 194, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#archive {
+      display: inline-block;
+      width: 250px; }
+    /* line 198, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#calendar {
+      display: inline-block;
+      width: 250px; }
+    /* line 202, ../sass/_mquery-notice.scss */
+    body#tt-body-notice aside#sidebar div#link {
+      display: inline-block;
+      width: 250px; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 228, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.mainBody {
+    margin-top: 80px; }
+  /* line 231, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav {
+    height: 80px; }
+    /* line 233, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav h1.blogName {
+      font-size: 45px; }
+    /* line 236, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.blogMenu {
+      margin-top: 25px;
+      display: block; }
+      /* line 241, ../sass/_mquery-notice.scss */
+      body#tt-body-notice nav div.blogMenu ul li a {
+        padding-bottom: 15px; }
+        /* line 243, ../sass/_mquery-notice.scss */
+        body#tt-body-notice nav div.blogMenu ul li a:hover {
+          border-bottom: 2px solid #26D673; }
+    /* line 250, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav a#menuToggle {
+      display: none; }
+    /* line 253, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.mobileMenu {
+      display: none; }
+  /* line 257, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav.tiny {
+    height: 60px; }
+    /* line 259, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 262, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.blogMenu {
+      margin-top: 15px;
+      display: block; }
+    /* line 266, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny a#menuToggle {
+      display: none; }
+    /* line 269, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.mobileMenu {
+      display: none; }
+  /* line 273, ../sass/_mquery-notice.scss */
+  body#tt-body-notice header {
+    height: 350px;
+    padding-top: 175px; }
+    /* line 276, ../sass/_mquery-notice.scss */
+    body#tt-body-notice header h2 {
+      font-size: 40px; }
+  /* line 280, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.category {
+    font-size: 24px; }
+  /* line 283, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleBody {
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 287, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.metaWidget {
+    width: 804px; }
+    /* line 289, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 293, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 298, ../sass/_mquery-notice.scss */
+  body#tt-body-notice aside#sidebar {
+    padding-left: 5%;
+    padding-right: 5%;
+    /*
+    			div.categoryList {
+    				width: 100%;
+    				ul {
+    					li {
+    						a{
+    							
+    						}
+    						ul{
+    							right:90%;							
+    						}	
+    					}
+    				}
+    			}	
+    */ } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 324, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.mainBody {
+    margin-top: 100px; }
+  /* line 327, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav {
+    height: 100px; }
+    /* line 329, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav h1.blogName {
+      font-size: 58px; }
+    /* line 332, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav div.blogMenu {
+      margin-top: 35px; }
+      /* line 336, ../sass/_mquery-notice.scss */
+      body#tt-body-notice nav div.blogMenu ul li a {
+        padding-bottom: 15px; }
+        /* line 338, ../sass/_mquery-notice.scss */
+        body#tt-body-notice nav div.blogMenu ul li a:hover {
+          border-bottom: 2px solid #26D673; }
+  /* line 346, ../sass/_mquery-notice.scss */
+  body#tt-body-notice nav.tiny {
+    height: 60px; }
+    /* line 348, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny h1.blogName {
+      font-size: 30px; }
+    /* line 351, ../sass/_mquery-notice.scss */
+    body#tt-body-notice nav.tiny div.blogMenu {
+      margin-top: 15px; }
+      /* line 355, ../sass/_mquery-notice.scss */
+      body#tt-body-notice nav.tiny div.blogMenu ul li a {
+        padding-bottom: 20px; }
+        /* line 357, ../sass/_mquery-notice.scss */
+        body#tt-body-notice nav.tiny div.blogMenu ul li a:hover {
+          border-bottom: 2px solid #26D673; }
+  /* line 365, ../sass/_mquery-notice.scss */
+  body#tt-body-notice header {
+    height: 400px;
+    padding-top: 190px; }
+    /* line 368, ../sass/_mquery-notice.scss */
+    body#tt-body-notice header h2 {
+      font-size: 60px; }
+  /* line 372, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.category {
+    font-size: 36px; }
+  /* line 375, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleBody {
+    padding-left: 10%;
+    padding-right: 10%; }
+  /* line 379, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.metaWidget {
+    width: 804px; }
+    /* line 381, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaDaum {
+      width: 100%;
+      max-width: 402px; }
+    /* line 385, ../sass/_mquery-notice.scss */
+    body#tt-body-notice div.metaWidget div.metaMix {
+      width: 100%;
+      max-width: 402px; }
+  /* line 390, ../sass/_mquery-notice.scss */
+  body#tt-body-notice aside#sidebar {
+    padding-left: 10%;
+    padding-right: 10%; }
+  /* line 395, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div#paging {
+    width: 100%; }
+  /* line 398, ../sass/_mquery-notice.scss */
+  body#tt-body-notice footer {
+    width: 100%; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  /* line 407, ../sass/_mquery-notice.scss */
+  body#tt-body-notice div.articleBody {
+    padding-left: 15%;
+    padding-right: 15%; }
+  /* line 411, ../sass/_mquery-notice.scss */
+  body#tt-body-notice aside#sidebar {
+    padding-left: 15%;
+    padding-right: 15%; } }
+/* min-width 1921px, xlarge screens */

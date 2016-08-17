@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* line 7, ../sass/Timeline.scss */
+body.Timeline {
+  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+  font-weight: lighter;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  position: relative; }
+  /* line 10, ../sass/Timeline.scss */
+  body.Timeline a {
+    color: #26d673;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Timeline a:visited {
+      color: #979dac; }
+    /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Timeline a:focus {
+      color: #35ceb7; }
+    /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Timeline a:hover {
+      color: #35ceb7; }
+    /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    body.Timeline a:active {
+      color: #356ece; }
+    /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+    body.Timeline a:hover {
+      text-decoration: underline; }
+  /* line 17, ../sass/Timeline.scss */
+  body.Timeline h1, body.Timeline h2, body.Timeline h3, body.Timeline h4, body.Timeline h5, body.Timeline h6 {
+    font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif; }
+  /* line 22, ../sass/Timeline.scss */
+  body.Timeline ::selection {
+    color: white;
+    background: #26d673; }
+  /* line 23, ../sass/Timeline.scss */
+  body.Timeline ::-moz-selection {
+    color: white;
+    background: #26d673; }
+  /* line 29, ../sass/Timeline.scss */
+  body.Timeline div.row {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background: url(../addon/skingallery.png);
+    background: url(skingallery.png);
+    background-color: #181818;
+    margin: 0; }
+  /* line 39, ../sass/Timeline.scss */
+  body.Timeline div#content {
+    padding: 0;
+    width: 100%;
+    height: 100%; }
+  /* line 44, ../sass/Timeline.scss */
+  body.Timeline div.tt_article_useless_p_margin {
+    width: 100%; }
+    /* line 47, ../sass/Timeline.scss */
+    body.Timeline div.tt_article_useless_p_margin div.white {
+      width: 50%;
+      background: white;
+      float: right; }
+      /* line 51, ../sass/Timeline.scss */
+      body.Timeline div.tt_article_useless_p_margin div.white h1 {
+        font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+        font-size: 76px;
+        text-align: right;
+        padding-left: 1em;
+        margin: 0;
+        margin: 5px 40px; }
+      /* line 62, ../sass/Timeline.scss */
+      body.Timeline div.tt_article_useless_p_margin div.white div.desc {
+        background: #F5F5F5;
+        padding: 20px 0;
+        margin-bottom: 60px;
+        display: block; }
+        /* line 68, ../sass/Timeline.scss */
+        body.Timeline div.tt_article_useless_p_margin div.white div.desc div.imgbox {
+          width: 100%;
+          left: -100%;
+          position: absolute; }
+          /* line 72, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.imgbox img {
+            width: 100%; }
+        /* line 76, ../sass/Timeline.scss */
+        body.Timeline div.tt_article_useless_p_margin div.white div.desc h2 {
+          text-align: center;
+          font-size: 55px; }
+          /* line 79, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc h2 span {
+            color: #222;
+            border: 5px solid #222;
+            padding: 2px 5px;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            text-align: center;
+            font-weight: 500; }
+          /* line 88, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc h2:after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 15px 15px 15px 0;
+            border-color: transparent #F5F5F5;
+            display: block;
+            width: 0;
+            z-index: 1;
+            margin-top: -15px;
+            left: -15px;
+            top: 70px; }
+        /* line 102, ../sass/Timeline.scss */
+        body.Timeline div.tt_article_useless_p_margin div.white div.desc p.date {
+          text-align: center;
+          font-weight: 400; }
+          /* line 105, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc p.date span {
+            background: white;
+            font-size: 26px;
+            padding: 5px 10px;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;
+            -ms-border-radius: 40px;
+            -o-border-radius: 40px;
+            border-radius: 40px; }
+        /* line 112, ../sass/Timeline.scss */
+        body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update {
+          width: 35%;
+          height: 100%;
+          padding: 20px 10px;
+          background: #222;
+          color: white;
+          position: relative; }
+          /* line 119, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update h3 {
+            color: white;
+            font-weight: 200;
+            font-size: 36px; }
+          /* line 124, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update h4 {
+            color: white;
+            font-weight: 200; }
+          /* line 128, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update h5 {
+            color: white;
+            font-weight: 900; }
+          /* line 132, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update p {
+            margin: 0; }
+            /* line 134, ../sass/Timeline.scss */
+            body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update p span {
+              margin-right: 5px; }
+          /* line 138, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update a {
+            color: #26d673;
+            font-weight: 400;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 142, ../sass/Timeline.scss */
+            body.Timeline div.tt_article_useless_p_margin div.white div.desc div.update a:hover {
+              color: #00a441;
+              text-decoration: none;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+        /* line 149, ../sass/Timeline.scss */
+        body.Timeline div.tt_article_useless_p_margin div.white div.desc div.behind {
+          width: 65%;
+          position: relative;
+          padding: 20px 20px; }
+          /* line 153, ../sass/Timeline.scss */
+          body.Timeline div.tt_article_useless_p_margin div.white div.desc div.behind h3 {
+            font-weight: 200;
+            font-size: 36px; }
+  /* line 162, ../sass/Timeline.scss */
+  body.Timeline footer {
+    clear: both;
+    float: none;
+    background: #F5F5F5; }
+    /* line 167, ../sass/Timeline.scss */
+    body.Timeline footer h1 {
+      text-align: center;
+      margin: 0;
+      font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo; }
+      /* line 171, ../sass/Timeline.scss */
+      body.Timeline footer h1 a {
+        color: #222;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 174, ../sass/Timeline.scss */
+        body.Timeline footer h1 a:hover {
+          color: #26d673;
+          text-decoration: none;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 182, ../sass/Timeline.scss */
+    body.Timeline footer hr {
+      display: none; }
+    /* line 186, ../sass/Timeline.scss */
+    body.Timeline footer div {
+      display: none; }
+    /* line 190, ../sass/Timeline.scss */
+    body.Timeline footer p {
+      display: none; }
+    /* line 194, ../sass/Timeline.scss */
+    body.Timeline footer ul {
+      display: none; }
+  /* line 199, ../sass/Timeline.scss */
+  body.Timeline header#nav {
+    display: none; }
+  /* line 202, ../sass/Timeline.scss */
+  body.Timeline nav#sidebar {
+    display: none; }
+  /* line 205, ../sass/Timeline.scss */
+  body.Timeline div#paging {
+    display: none; }

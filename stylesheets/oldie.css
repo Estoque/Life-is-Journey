@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* line 6, ../sass/oldie.scss */
+html#ie6, #ie7, #ie5 {
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  /* HTML5 display-role reset for older browsers */ }
+  /* line 24, ../sass/oldie.scss */
+  html#ie6 html, html#ie6 body, html#ie6 div, html#ie6 span, html#ie6 applet, html#ie6 object, html#ie6 iframe,
+  html#ie6 h1, html#ie6 h2, html#ie6 h3, html#ie6 h4, html#ie6 h5, html#ie6 h6, html#ie6 p, html#ie6 blockquote, html#ie6 pre,
+  html#ie6 a, html#ie6 abbr, html#ie6 acronym, html#ie6 address, html#ie6 big, html#ie6 cite, html#ie6 code,
+  html#ie6 del, html#ie6 dfn, html#ie6 em, html#ie6 img, html#ie6 ins, html#ie6 kbd, html#ie6 q, html#ie6 s, html#ie6 samp,
+  html#ie6 small, html#ie6 strike, html#ie6 strong, html#ie6 sub, html#ie6 sup, html#ie6 tt, html#ie6 var,
+  html#ie6 b, html#ie6 u, html#ie6 i, html#ie6 center,
+  html#ie6 dl, html#ie6 dt, html#ie6 dd, html#ie6 ol, html#ie6 ul, html#ie6 li,
+  html#ie6 fieldset, html#ie6 form, html#ie6 label, html#ie6 legend,
+  html#ie6 table, html#ie6 caption, html#ie6 tbody, html#ie6 tfoot, html#ie6 thead, html#ie6 tr, html#ie6 th, html#ie6 td,
+  html#ie6 article, html#ie6 aside, html#ie6 canvas, html#ie6 details, html#ie6 embed,
+  html#ie6 figure, html#ie6 figcaption, html#ie6 footer, html#ie6 header, html#ie6 hgroup,
+  html#ie6 menu, html#ie6 nav, html#ie6 output, html#ie6 ruby, html#ie6 section, html#ie6 summary,
+  html#ie6 time, html#ie6 mark, html#ie6 audio, html#ie6 video, #ie7 html, #ie7 body, #ie7 div, #ie7 span, #ie7 applet, #ie7 object, #ie7 iframe,
+  #ie7 h1, #ie7 h2, #ie7 h3, #ie7 h4, #ie7 h5, #ie7 h6, #ie7 p, #ie7 blockquote, #ie7 pre,
+  #ie7 a, #ie7 abbr, #ie7 acronym, #ie7 address, #ie7 big, #ie7 cite, #ie7 code,
+  #ie7 del, #ie7 dfn, #ie7 em, #ie7 img, #ie7 ins, #ie7 kbd, #ie7 q, #ie7 s, #ie7 samp,
+  #ie7 small, #ie7 strike, #ie7 strong, #ie7 sub, #ie7 sup, #ie7 tt, #ie7 var,
+  #ie7 b, #ie7 u, #ie7 i, #ie7 center,
+  #ie7 dl, #ie7 dt, #ie7 dd, #ie7 ol, #ie7 ul, #ie7 li,
+  #ie7 fieldset, #ie7 form, #ie7 label, #ie7 legend,
+  #ie7 table, #ie7 caption, #ie7 tbody, #ie7 tfoot, #ie7 thead, #ie7 tr, #ie7 th, #ie7 td,
+  #ie7 article, #ie7 aside, #ie7 canvas, #ie7 details, #ie7 embed,
+  #ie7 figure, #ie7 figcaption, #ie7 footer, #ie7 header, #ie7 hgroup,
+  #ie7 menu, #ie7 nav, #ie7 output, #ie7 ruby, #ie7 section, #ie7 summary,
+  #ie7 time, #ie7 mark, #ie7 audio, #ie7 video, #ie5 html, #ie5 body, #ie5 div, #ie5 span, #ie5 applet, #ie5 object, #ie5 iframe,
+  #ie5 h1, #ie5 h2, #ie5 h3, #ie5 h4, #ie5 h5, #ie5 h6, #ie5 p, #ie5 blockquote, #ie5 pre,
+  #ie5 a, #ie5 abbr, #ie5 acronym, #ie5 address, #ie5 big, #ie5 cite, #ie5 code,
+  #ie5 del, #ie5 dfn, #ie5 em, #ie5 img, #ie5 ins, #ie5 kbd, #ie5 q, #ie5 s, #ie5 samp,
+  #ie5 small, #ie5 strike, #ie5 strong, #ie5 sub, #ie5 sup, #ie5 tt, #ie5 var,
+  #ie5 b, #ie5 u, #ie5 i, #ie5 center,
+  #ie5 dl, #ie5 dt, #ie5 dd, #ie5 ol, #ie5 ul, #ie5 li,
+  #ie5 fieldset, #ie5 form, #ie5 label, #ie5 legend,
+  #ie5 table, #ie5 caption, #ie5 tbody, #ie5 tfoot, #ie5 thead, #ie5 tr, #ie5 th, #ie5 td,
+  #ie5 article, #ie5 aside, #ie5 canvas, #ie5 details, #ie5 embed,
+  #ie5 figure, #ie5 figcaption, #ie5 footer, #ie5 header, #ie5 hgroup,
+  #ie5 menu, #ie5 nav, #ie5 output, #ie5 ruby, #ie5 section, #ie5 summary,
+  #ie5 time, #ie5 mark, #ie5 audio, #ie5 video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+  /* line 34, ../sass/oldie.scss */
+  html#ie6 article, html#ie6 aside, html#ie6 details, html#ie6 figcaption, html#ie6 figure,
+  html#ie6 footer, html#ie6 header, html#ie6 hgroup, html#ie6 menu, html#ie6 nav, html#ie6 section, #ie7 article, #ie7 aside, #ie7 details, #ie7 figcaption, #ie7 figure,
+  #ie7 footer, #ie7 header, #ie7 hgroup, #ie7 menu, #ie7 nav, #ie7 section, #ie5 article, #ie5 aside, #ie5 details, #ie5 figcaption, #ie5 figure,
+  #ie5 footer, #ie5 header, #ie5 hgroup, #ie5 menu, #ie5 nav, #ie5 section {
+    display: block; }
+  /* line 37, ../sass/oldie.scss */
+  html#ie6 body, #ie7 body, #ie5 body {
+    line-height: 1;
+    text-align: center; }
+  /* line 41, ../sass/oldie.scss */
+  html#ie6 ol, html#ie6 ul, #ie7 ol, #ie7 ul, #ie5 ol, #ie5 ul {
+    list-style: none; }
+  /* line 44, ../sass/oldie.scss */
+  html#ie6 blockquote, html#ie6 q, #ie7 blockquote, #ie7 q, #ie5 blockquote, #ie5 q {
+    quotes: none; }
+  /* line 48, ../sass/oldie.scss */
+  html#ie6 blockquote:before, html#ie6 blockquote:after,
+  html#ie6 q:before, html#ie6 q:after, #ie7 blockquote:before, #ie7 blockquote:after,
+  #ie7 q:before, #ie7 q:after, #ie5 blockquote:before, #ie5 blockquote:after,
+  #ie5 q:before, #ie5 q:after {
+    content: '';
+    content: none; }
+  /* line 52, ../sass/oldie.scss */
+  html#ie6 table, #ie7 table, #ie5 table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  /* line 57, ../sass/oldie.scss */
+  html#ie6 body, #ie7 body, #ie5 body {
+    font-style: "Gulim", 굴림;
+    background: url(fc3-fond-repeat-01.gif);
+    color: yellow; }
+  /* line 63, ../sass/oldie.scss */
+  html#ie6 h1, html#ie6 h2, html#ie6 h3, html#ie6 h4, html#ie6 h5, html#ie6 h6, #ie7 h1, #ie7 h2, #ie7 h3, #ie7 h4, #ie7 h5, #ie7 h6, #ie5 h1, #ie5 h2, #ie5 h3, #ie5 h4, #ie5 h5, #ie5 h6 {
+    font-family: "Gungsuh", 궁서, Batang, 바탕;
+    text-shadow: #ff00f0 5px 5px 0px;
+    text-decoration: underline;
+    background: black; }
+  /* line 70, ../sass/oldie.scss */
+  html#ie6 h1, #ie7 h1, #ie5 h1 {
+    font-style: "궁서", gungseoh, cursive; }
+  /* line 75, ../sass/oldie.scss */
+  html#ie6 h1.blogName, #ie7 h1.blogName, #ie5 h1.blogName {
+    text-align: center;
+    color: #ff00f6;
+    margin: 20px; }
+  /* line 77, ../sass/oldie.scss */
+  html#ie6 h1.blogName a, #ie7 h1.blogName a, #ie5 h1.blogName a {
+    color: #FF00FF; }
+  /* line 79, ../sass/oldie.scss */
+  html#ie6 div.blogMenu, #ie7 div.blogMenu, #ie5 div.blogMenu {
+    width: 500px;
+    margin: auto;
+    background: blue; }
+  /* line 81, ../sass/oldie.scss */
+  html#ie6 div.blogMenu ul, #ie7 div.blogMenu ul, #ie5 div.blogMenu ul {
+    list-style-type: square; }
+  /* line 83, ../sass/oldie.scss */
+  html#ie6 div.blogMenu ul li a, #ie7 div.blogMenu ul li a, #ie5 div.blogMenu ul li a {
+    color: #00ff1e;
+    font-weight: bold; }
+  /* line 85, ../sass/oldie.scss */
+  html#ie6 header#nav, #ie7 header#nav, #ie5 header#nav {
+    display: block;
+    width: 100px; }
+  /* line 87, ../sass/oldie.scss */
+  html#ie6 div, #ie7 div, #ie5 div {
+    border: outset lime; }
+  /* line 89, ../sass/oldie.scss */
+  html#ie6 a#menuToggle, #ie7 a#menuToggle, #ie5 a#menuToggle {
+    display: none; }
+  /* line 91, ../sass/oldie.scss */
+  html#ie6 div.mobileMenu, #ie7 div.mobileMenu, #ie5 div.mobileMenu {
+    display: none; }
+  /* line 93, ../sass/oldie.scss */
+  html#ie6 .row, #ie7 .row, #ie5 .row {
+    width: 960px;
+    margin: auto;
+    border: ridge #fff;
+    background: darkblue;
+    color: yellow; }
+  /* line 101, ../sass/oldie.scss */
+  html#ie6 .row, #ie7 .row, #ie5 .row {
+    text-align: justify; }
+  /* line 103, ../sass/oldie.scss */
+  html#ie6 #sidebar, #ie7 #sidebar, #ie5 #sidebar {
+    background: red; }
+  /* line 105, ../sass/oldie.scss */
+  html#ie6 #content, #ie7 #content, #ie5 #content {
+    width: 740px; }
+  /* line 109, ../sass/oldie.scss */
+  html#ie6 span, #ie7 span, #ie5 span {
+    font-style: italic; }
+  /* line 111, ../sass/oldie.scss */
+  html#ie6 #content, #ie7 #content, #ie5 #content {
+    width: 960px;
+    margin: auto;
+    border: ridge red; }
+  /* line 117, ../sass/oldie.scss */
+  html#ie6 a, #ie7 a, #ie5 a {
+    color: cyan;
+    font-weight: bold; }
+  /* line 122, ../sass/oldie.scss */
+  html#ie6 a:hover, #ie7 a:hover, #ie5 a:hover {
+    color: yellow; }

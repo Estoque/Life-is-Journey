@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* line 10, ../sass/article-black.scss */
+body#tt-body-page {
+  /* !네비게이션	 */
+  /* !이미지헤더 배경	 */
+  /* !바디	 */ }
+  /* line 16, ../sass/article-black.scss */
+  body#tt-body-page nav h1.blogName a {
+    color: #222222; }
+    /* line 18, ../sass/article-black.scss */
+    body#tt-body-page nav h1.blogName a:hover {
+      color: #26d673; }
+  /* line 23, ../sass/article-black.scss */
+  body#tt-body-page nav div.blogMenu {
+    color: rgba(34, 34, 34, 0.8); }
+    /* line 27, ../sass/article-black.scss */
+    body#tt-body-page nav div.blogMenu ul li a {
+      color: rgba(34, 34, 34, 0.8); }
+      /* line 29, ../sass/article-black.scss */
+      body#tt-body-page nav div.blogMenu ul li a:hover {
+        color: #222222;
+        border-color: #222222; }
+  /* line 37, ../sass/article-black.scss */
+  body#tt-body-page nav a#menuToggle {
+    color: rgba(34, 34, 34, 0.8); }
+    /* line 39, ../sass/article-black.scss */
+    body#tt-body-page nav a#menuToggle:hover {
+      color: #26d673; }
+  /* line 47, ../sass/article-black.scss */
+  body#tt-body-page header {
+    width: 100%;
+    height: 400px;
+    /* 		background: url(../addon/column.jpg) no-repeat center top; */
+    background: url(http://cfile8.uf.tistory.com/image/267873335432EA232829E7) no-repeat center 30%;
+    /*
+    		background: url(../addon/Free%20stock/IE.jpg) no-repeat center center;
+    		background: url(../addon/Free%20stock/Safari.jpg) no-repeat center center;
+    		background: url(../addon/Free%20stock/Opera.jpg) no-repeat center center;
+    		background: url(../addon/Free%20stock/Firefox.jpg) no-repeat center center;
+    */
+    /* 		background: url(../addon/topgear.jpg) no-repeat center center ; */
+    /* 		background: url(../addon/diary.jpg) no-repeat center center ; */
+    /* 		background: url(../Free%20Image/unsplash_52b6b4db7397c_1.JPG) no-repeat center center; */
+    background-size: cover; }
+    /* line 64, ../sass/article-black.scss */
+    body#tt-body-page header h2.articleTitle a {
+      text-decoration: none;
+      color: #222222; }
+      /* line 67, ../sass/article-black.scss */
+      body#tt-body-page header h2.articleTitle a:hover {
+        color: #26d673;
+        text-shadow: white 0 0 0px; }
