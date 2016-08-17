@@ -1,0 +1,42 @@
+/* TEAM */
+Admin: Estoque
+Designer: Estoque
+Illustrator: Estoque
+Developer: Estoque
+SEO: Estoque
+SMO: Estoque
+
+Site: http://est0que.tistory.com
+Contact: incusx@naver.com
+Twitter: @Est0que /* Twitter is wast of life */
+From: Republic of Korea
+							
+/* THANKS */
+Author of the Masonry Script: Yongzz
+Website: www.yongzz.com
+
+gplus youtube embed: Arun
+Website: http://www.skipser.com
+
+Disqus Asynchronous loader: christian-fei
+Website: http://christian-fei.com
+
+highlight.js 
+Website: highlightjs.org/
+
+Masonry: David DeSandro
+Website: masonry.desandro.com/
+
+Modernizr: Modernizr Team
+Website: http://modernizr.com/
+
+Fastclick: ftlabs
+Website: https://github.com/ftlabs/fastclick
+                           
+/* SITE */
+Last update: 2014/05/22
+Standards: HTML5, CSS3 / CSS2 (IE fallback)
+Components: Modernizr, jQuery, Foundation 5, gplus youtube embed, Highlight.js, Masonry, Fastclick, Disqus Asynchronous loader.
+Language: English / Korean
+Doctype: HTML5 
+Software: Coda 2, Notepad++, Compass, Codekit, Photoshop, Illustrator, HTML Compressor, ImageOptim, YUI compressor, SVG Compressor, VMware, Chrome

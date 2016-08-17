@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>Life is Journey</name> 
+		<version>1.0</version>
+		<description>
+		<![CDATA[ 페이지별 스킨 적용 ]]>
+		</description>
+		<license>
+		<![CDATA[무단수정 금지 / 재배포 금지 / 라이센스 문의 incusx@naver.com ]]>
+		</license>
+	</information> 
+	<author>
+		<name>Estoque(에스토크)</name>
+		<homepage>http://est0que.tistory.com/</homepage>
+		<email>incusx@naver.com</email>
+	</author> 
+	<default>
+		<expandComment>1</expandComment>
+		<recentEntries>5</recentEntries> 
+		<recentComments>5</recentComments>
+		<recentTrackbacks>5</recentTrackbacks>
+		<itemsOnGuestbook>15</itemsOnGuestbook>
+		<tagsInCloud>20</tagsInCloud>
+		<sortInCloud>1</sortInCloud> 		
+		<expandTrackback>1</expandTrackback> 
+		<lengthOfRecentNotice>25</lengthOfRecentNotice>
+		<lengthOfRecentEntry>27</lengthOfRecentEntry>
+		<lengthOfRecentComment>30</lengthOfRecentComment> 
+		<lengthOfRecentTrackback>30</lengthOfRecentTrackback> 
+		<lengthOfLink>30</lengthOfLink>
+		<showListOnCategory>0</showListOnCategory>
+		<showListOnArchive>0</showListOnArchive> 
+
+		<tree>
+			<color>000000</color> 
+			<bgColor>ffffff</bgColor>
+			<activeColor>000000</activeColor> 
+			<activeBgColor>eeeeee</activeBgColor>
+			<labelLength>27</labelLength> 
+			<showValue>0</showValue>
+		</tree>
+		<contentWidth>1000</contentWidth>
+	</default>
+</skin>

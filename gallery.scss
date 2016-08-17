@@ -1,0 +1,65 @@
+div.tt-gallery-box {
+	text-align: center;
+	width: 125%;
+	height: auto;
+	background: black;;
+	right: 0;
+	margin-left: -12.5%;
+	margin-right: auto;
+	max-width: 125%;
+	position: relative;	
+	div.galleryControl {
+		margin-bottom: 10px;
+		font-style: normal;
+		font-variant: normal;
+		line-height: normal;
+		font-family: Raleway, sans-serif;
+		position: absolute;
+		width: 100%;
+		background: rgba(0,0,0,.5);
+		height: 50%;
+		overflow: auto;
+		margin: auto;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		font-size: 55px;
+		color: white;
+		font-weight: 100;		
+		a {
+			border: 0px;
+			background: red;
+			width: 250px;
+			height: 250px;
+			display: block;
+			
+			&:first-child {
+				float: left;
+			}
+			&:nth-child(2) {
+				margin: auto;
+			}
+			
+			&:last-child {
+				float: right;
+				margin-top: -250px;				
+			}
+						
+			img {
+				display: none;
+			}
+		}		
+	}	
+}
+
+span.imageblock {
+	display: inline-block;
+	width: 125%;
+	position: relative;
+	height: auto;
+	right: 0;
+	margin-left: -12.5%;
+	margin-right: auto;
+	max-width: 125%;	
+}
