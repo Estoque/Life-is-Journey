@@ -1,0 +1,526 @@
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playball'), local('Playball-Regular'), url(http://themes.googleusercontent.com/static/fonts/playball/v4/QS5qjU-Gc2sqWEq5kDfWQXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Titillium WebThin'), local('TitilliumWeb-Thin'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr-K9kSItTeDn2USN0q77Oh4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wprx3QmhlKDgQgT1VN2Ed1WFo.woff) format('woff');
+}
+$lime-green: #FF008D;
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body.Music {
+	width: 100%;
+	height: 100%;
+	position: relative;
+/* 	background: url(../addon/music.jpg) no-repeat center center fixed; */
+	background: url(http://cfile27.uf.tistory.com/image/270878355328CB8F38D3EE) no-repeat center center fixed;
+	font-family: "Titillium Web" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	position: relative;
+	cursor: default;	
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Titillium Web" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	}			
+	
+	p {
+		color: rgba(white,.8);
+	}	
+	
+	a {
+		@include link-colors($lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	::selection {color:white;background:$lime-green;}
+	::-moz-selection {color:white;background:$lime-green;}	
+
+/* !상단네비바 */
+	nav {
+		margin: 0;
+		background: rgba(black,.5);
+		width: 50%;
+		margin-left: 10%;
+		height: 40px;
+		color: #fff;
+		clear: both;
+		position: relative;
+		h1.blogName {
+			display: none;
+		}
+		div.blogMenu {
+			display: block;
+			padding-top: 10px;
+			font-weight: 400;
+			text-transform: uppercase;
+			text-align: center;
+			position: relative;
+			margin: auto;			
+			ul {
+				list-style: none;
+				position: relative;
+				margin: auto;
+				clear: both;
+				display: inline-block; 
+				float: none;
+				li {
+					float: left;
+					display: block;
+					margin-left: 1em;
+					text-align: center;
+					a {
+						color: rgba(white,.8);
+						@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+						&:hover {
+							color: $lime-green;
+							text-decoration: none;
+							@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+						}
+					}
+				}
+			}
+		}
+		a#menuToggle {
+			display: none;
+		}
+		div.mobileMenu {
+			display: none;
+		}
+	}
+/* !전체 열	 */
+	div.row {
+		background: rgba(black,.5);
+		width: 50%;
+		margin-left: 10%;
+		position: relative;
+		z-index: 10;
+				
+	}
+/* !글영역	 */
+	article.articleBody {
+		padding: 0 4%;
+	}
+/* !제목	 */
+	header {
+		position: relative;
+		margin: 0;	
+		padding: 20px;
+		background: none;
+		h2.articleTitle {
+			font-family: "Playball", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+			font-size: 55px;
+			a {
+				color: rgba(white,.8);
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				&:hover {
+					color:$lime-green;
+					text-decoration: none;
+					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}
+		}
+		a.disqus_count {
+			position: absolute;
+			background: rgba(white,.5);
+			width: 60px;
+			height: 60px;
+			@include border-radius (50%);
+			color: black;
+			text-align: center;
+			font-size: 28px;
+			font-weight: 200;
+			padding-top: 15px;
+			left: -30px;
+			top:0;
+			@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+			z-index: 1;
+			&:hover {
+				background: #f4f4f4;
+				color: $lime-green;
+				text-decoration: none;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+			}
+		}		
+	}
+/* !프로필 레이어	 */
+	div.profileLayer {
+		display: none;
+	}
+/* !관리도구	 */
+	div.admin {
+		position: fixed;
+		background: rgba(white,.5);
+		top:0;
+		width: 50px;
+		overflow: hidden;
+		left: 0;
+		color: white;
+		font-size: 8px;
+		padding: 2px;
+		z-index: 999;
+		border-top:2px solid #fff;
+		border-right: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		@include border-top-right-radius(10px);
+		@include border-bottom-right-radius(10px);
+		a {
+			color: white;
+			text-decoration: none;
+			@include transition-property(color);
+			@include transition-duration(.2s); @include transition-timing-function(ease);
+			&:hover {
+				color: $lime-green;
+				@include transition-duration(.2s); @include transition-timing-function(ease);				
+			}			
+		}
+	}
+/* !카테고리	 */
+	div.category {
+		font-size: 24px;
+		font-weight: 400;
+		text-transform: uppercase;
+		display: block;
+		margin-top: 10px;
+		a {
+			color: rgba(white,.8);
+			text-decoration: none;
+			@include transition-property(all);
+			@include transition-duration(.2s); @include transition-timing-function(ease);
+			&:hover {
+				color: $lime-green;
+				@include transition-duration(.2s); @include transition-timing-function(ease);
+			}
+		}
+	}
+/* !글작성날짜	 */
+	div.articleDate {
+		margin-top: 10px;
+		display: block;
+		div.year {
+			font-size: 12px;
+			font-weight: 200;
+		}
+		div.date {
+			font-size: 24px;
+			font-weight: 200;
+		}
+		div.time {
+			font-size: 36px;
+			font-weight: 200;
+		}
+	}	
+/* !본문	 */
+	div.article {
+		margin-top: 20px;
+		h1,h2,h3,h4,h5,h6 {
+			color: rgba(white,.8);
+			font-weight: 400;
+		}		
+		p {
+			font-size: 18px;
+			font-weight: 400;			
+		}
+		div.tt_article_useless_p_margin {
+			-webkit-font-smoothing: subpixel-antialiased;
+			font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+			h1,h2,h3,h4,h5,h6 {
+				-webkit-font-smoothing: subpixel-antialiased;
+				font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+			}
+		}		
+	}	
+	
+/* !소셜 도구	 */
+	div#share-buttons {
+		position: relative;
+		display: block;
+		margin: 10px auto;
+		text-align: center;
+		a {
+			color: rgba(white,.8);
+			font-size: 22px;
+			padding-top: 8px;
+			display: inline-block;
+			background: rgba(black,.5);
+			width: 40px;
+			height: 40px;
+			@include border-radius (50%);
+			@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+			&:hover {
+				color: white;
+				background: $lime-green;
+				text-decoration: none;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+			}
+		}
+	}
+/*
+	div.more {
+		position: relative;
+		margin: 20px;
+		p {
+			text-align: center;
+			font-size: 28px;
+			background: rgba(white,.8);
+			width: 100px;
+			margin: auto;
+			@include border-radius(40px);
+			color: #000;
+			a {
+				color: #000;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				&:hover {
+					color: $lime-green;
+					text-decoration: none;
+					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}			
+		}
+
+	}
+*/
+/* !버튼형 위젯	 */
+	div#thumbsUp {
+		display: none;
+		margin: 0;
+		padding: 0;
+		iframe {
+			height: 30px;
+		}
+	}
+/* !태그	 */
+	div.tagTrail {
+		margin: 20px 0;
+		font-weight: 200;
+		text-align: center;
+		clear: both;
+		display: none;
+		font-size: 12px;
+		a{
+			color: rgba(white,.8);
+			@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+			&:hover {
+				color: $lime-green;
+				text-decoration: none;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+			}
+			
+		}
+	}
+/* !티스토리 기본댓글 */
+	div.TcommentList {
+		ul {
+			list-style: none;
+			margin: 0;
+		}
+		div.Tcomment {
+			width: 100%;
+			padding-left: 80px;
+			display: block;
+			position: relative;
+			img.defaultPic {
+				position: absolute;
+				left: 0;
+				@include border-radius (50%);
+			}
+			span.Tname {
+				font-weight: 600;
+			}
+			span.Tdate {
+				font-weight: 200;
+			}
+		}
+		div.TRcomment {
+			width: 100%;
+			padding-left: 160px;
+			display: block;
+			position: relative;
+			img.defaultPic {
+				position: absolute;
+				left: 80px;
+				@include border-radius (50%);
+			}
+			span.Tname {
+				font-weight: 600;
+			}
+			span.Tdate {
+				font-weight: 200;
+			}
+		}		
+	}
+
+/* !페이징	 */
+	div#paging {
+	    position: relative;
+	    width: 100%; 
+		display: block;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 400;
+		padding: 20px 10px;
+		a {
+			color: rgba(white,.8);
+			text-decoration: none;
+			@include transition-duration(.5s); @include transition-timing-function(ease);
+			&:hover {color: $lime-green; @include transition-duration(.5s); @include transition-timing-function(ease);}
+		}
+		a#prevPage, a#nextPage {
+			font-family: 'entypo', sans-serif;
+		}		
+	}
+	aside#sidebar {
+		display: none;
+	}	
+/* !푸터	 */
+	footer {
+		hr {
+			display: none;
+		}
+		h1 {
+			font-size: 48px;
+			font-family: "Playball", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+			font-weight: 200;
+			text-align: right;
+			margin: 0;
+			position: fixed;
+			right: 10px;
+			bottom: 5px;
+			a{
+				color: rgba(white,.8) !important;
+				text-decoration: none;
+				@include transition-duration(.5s); @include transition-timing-function(ease);
+				&:hover {
+					color: rgba(white,1) !important;
+					text-decoration: none;
+					@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}			
+		}
+/* !저작권		 */
+		p {
+			display: none;
+		}
+/* !구분선												 */
+		div.line {
+			display: none;
+		}
+/* !소셜 아이콘 리스트		 */
+		div.socialIcon {
+			display: none;
+		}		
+		a.gtt {
+			display: none;
+		}
+	}	
+/* !맨위로		 */
+	div.gtt {
+		position: fixed;
+		top: 50%;
+		width: 4%;
+		left: 0.5%;
+		opacity: .5;
+		@include transition-property(opacity); 
+		@include transition-duration(.5s);
+		@include transition-timing-function(ease);
+		&:hover {
+			opacity: 1;
+			@include transition-duration(.5s);
+			@include transition-timing-function(ease);			
+		}				
+	}	
+/* !바디끝	 */
+}
+
+// Small screens 모바일
+@media only screen { 
+	body.Music {
+		nav {
+			width: 90%;
+			margin-left: 2%;			
+		}
+		div.row {
+			width: 90%;
+			margin-left: 2%;			
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body.Music {
+		nav {
+			width: 80%;
+			margin-left: 5%;			
+		}
+		div.row {
+			width: 80%;
+			margin-left: 5%;			
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body.Music {
+		nav {
+			width: 60%;
+			margin-left: 8%;			
+		}
+		div.row {
+			width: 60%;
+			margin-left: 8%;			
+		}
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body.Music {
+		nav {
+			width: 50%;
+			margin-left: 10%;			
+		}
+		div.row {
+			width: 50%;
+			margin-left: 10%;			
+		}
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body.Music {
+
+	}
+} /* min-width 1921px, xlarge screens */

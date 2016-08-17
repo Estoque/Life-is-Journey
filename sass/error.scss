@@ -1,0 +1,206 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+
+$lime-green: #26D673;
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* #tt-body-tags, #tt-body-tag */
+
+body#tt-body-media {
+	color: black;
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	position: relative;
+	cursor: default;
+	
+/* 	background: url(../pattern.png), url(../addon/404.jpg) no-repeat center center fixed; */
+	background: url(pattern.png), url(http://cfile4.uf.tistory.com/image/2328333B5328CB86309F09) no-repeat center center fixed;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+	position:relative;
+	color: white;
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	}	
+	
+	a {
+		@include link-colors($lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	::selection {color:white;background:$lime-green;}
+	::-moz-selection {color:white;background:$lime-green;}	
+	
+	nav {
+		display: none;
+	}
+	aside#sidebar {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+	div.mainBody {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		padding-top: 5%;
+		div.error {
+			position: relative;
+			display: block;
+			margin: auto;
+			width: 50%;
+			text-align: center;
+			h1.snap {
+				font-size: 140px;
+				line-height: 140px;
+				font-family: 'Damion', 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, cursive;				
+				color: white;
+				margin: 0;
+				display: inline;
+			}
+			p.eng {
+				font-family: 'Damion', 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, cursive;
+				font-size: 72px;
+				line-height: 72px;
+			}
+			p.kor {
+				font-family: 'Raleway', 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, cursive;
+				font-size: 55px;
+				line-height: 55px;
+				font-weight: 600;
+			}
+			a.homeButton {
+				display: inline-block;
+				margin-top: 20px;
+				border: 10px solid white;
+				padding: 10px 20px 20px 20px;
+				font-size: 48px;
+				font-weight: 600;
+				color: white;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				&:hover {
+					color: $lime-green;
+					text-decoration: none;
+					border-color: $lime-green;
+					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}
+		}
+	}
+	div#paging {
+		display: none;
+	}
+}
+
+// Small screens 모바일
+@media only screen { 
+	body#tt-body-media {
+		div.mainBody {
+			div.error {
+				h1.snap {
+					font-size: 50px;
+					line-height: 50px;
+				}
+				p.eng {
+					font-size: 32px;
+					line-height: 32px;	
+				}
+				p.kor {
+					font-size: 18px;
+					line-height: 18px;		
+				}
+				a.homeButton {
+					font-size: 18px;
+					margin-top: 5px;
+					border: 2.5px solid white;
+					padding: 2.5px 5px 5px 5px;	
+				}	
+			}	
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body#tt-body-media {
+		div.mainBody {
+			div.error {
+				h1.snap {
+					font-size: 100px;
+					line-height: 100px;
+				}
+				p.eng {
+					font-size: 64px;
+					line-height: 64px;	
+				}
+				p.kor {
+					font-size: 28px;
+					line-height: 28px;		
+				}
+				a.homeButton {
+					font-size: 36px;
+					margin-top: 10px;
+					border: 5px solid white;
+					padding: 5px 10px 10px 10px;	
+				}	
+			}	
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body#tt-body-media {
+		div.mainBody {
+			div.error {
+				h1.snap {
+					font-size: 140px;
+					line-height: 140px;
+				}
+				p.eng {
+					font-size: 72px;
+					line-height: 72px;	
+				}
+				p.kor {
+					font-size: 38px;
+					line-height: 38px;		
+				}
+				a.homeButton {
+					font-size: 48px;
+					margin-top: 20px;
+					border: 10px solid white;
+					padding: 10px 20px 20px 20px;	
+				}	
+			}	
+		}
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body#tt-body-media {
+
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-media {
+
+	}
+} /* min-width 1921px, xlarge screens */	

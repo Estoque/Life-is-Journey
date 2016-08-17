@@ -1,0 +1,231 @@
+
+// Small screens 모바일
+@media only screen { 
+	body#tt-body-page {
+		span.imageblock {
+			display: inline-block;
+			width: 111%;
+			height: auto;
+			max-width: 111%;
+			position: relative;
+			right: 0;
+			margin-left: -5.5%;
+			margin-right: 0;
+			padding: 0;
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body#tt-body-page {
+		span.imageblock {
+			display: inline-block;
+			width: 111.5%;
+			height: auto;
+			position: relative;
+			right: 0;
+			margin-left: -6%;
+			margin-right: 0;
+			max-width: 111.5%;
+			padding: 0;
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body#tt-body-page {
+		span.imageblock {
+			display: inline-block;
+			width: 111.2%;
+			height: auto;
+			position: relative;
+			right: 0;
+			margin-left: -5.55%;
+			margin-right: 0;
+			max-width: 111.1%;
+			padding: 0;	
+		}
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body#tt-body-page {
+		span.imageblock {
+			display: inline-block;
+			width: 125% !important;
+			position: relative;
+			height: auto;
+			right: 0;
+			margin-left: -12.5%;
+			margin-right: auto;
+			max-width: 125%;	
+		}
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-page {
+
+	}
+} /* min-width 1921px, xlarge screens */	
+
+/* !슬라이더 */
+div.tt-gallery-box {
+	text-align: center !important;
+	width: 125% !important;
+	height: auto;
+	background: black;
+	right: 0;
+	margin-left: -12.5%;
+	margin-right: auto;
+	max-width: 125%;
+	position: relative;	
+	&:hover {
+		div.galleryControl {
+			display: block;
+		}
+	}
+	
+	div.galleryControl {
+		font-family: Raleway, sans-serif !important;
+		position: absolute;
+		width: 100%;
+		background: rgba(0,0,0,.5);
+		height: 200px;
+		overflow: auto;
+		margin: auto !important;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		font-size: 55px !important;
+		color: white;
+		font-weight: 100 !important;	
+		display: none;
+		padding: 0 20%	;
+		a {
+			width: 100px;
+			height: 100px;
+			display: block;
+			
+			&:first-child {
+				float: left;
+				position: absolute;
+				background: url(left.png);
+			}
+			&:nth-child(2) {
+				margin: auto;
+				background: url(zoom.png);
+			}
+			
+			&:last-child {
+				float: right;
+				margin-top: -100px;
+				background: url(right.png);				
+			}
+			&:hover {
+				@include box-shadow (0 0 1px 2px $lime-green);
+			}			
+						
+			img {
+				display: none;
+			}
+		}		
+	}
+	img {
+		width: 100%;
+	}
+	div.galleryCaption {
+		display: none;
+	}	
+}
+
+// Small screens 모바일
+@media only screen { 
+	body#tt-body-page {
+		div.tt-gallery-box {
+			width: 111% !important;
+			height: auto;
+			max-width: 111%;
+			position: relative;
+			right: 0;
+			margin-left: -5.5%;
+			margin-right: auto;
+			padding: 0;		
+			
+			div.galleryControl {
+				height: 170px;	
+			}			
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body#tt-body-page {
+		div.tt-gallery-box {
+			width: 111.5% !important;
+			height: auto;
+			position: relative;
+			right: 0;
+			margin-left: -6%;
+			margin-right: auto;
+			max-width: 111.5%;
+			padding: 0;			
+			
+			div.galleryControl {
+				height: 170px;	
+			}			
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body#tt-body-page {
+		div.tt-gallery-box {
+			width: 111.2% !important;
+			height: auto;
+			position: relative;
+			right: 0;
+			margin-left: -5.55%;
+			margin-right: auto;
+			max-width: 111.1%;
+			padding: 0;	
+			
+			div.galleryControl {
+				height: 170px;	
+			}			
+		}
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body#tt-body-page {
+		div.tt-gallery-box {
+			width: 125% !important;
+			height: auto;
+			right: 0;
+			margin-left: -12.5%;
+			margin-right: auto;
+			max-width: 125%;
+			position: relative;
+						
+			div.galleryControl {
+				height: 200px;					
+			}				
+		}
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-page {
+
+	}
+} /* min-width 1921px, xlarge screens */

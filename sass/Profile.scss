@@ -1,0 +1,255 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+
+$lime-green: #26D673;
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body.Profile {
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+	font-weight: normal;
+	a {
+		@include link-colors($lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+	}
+	
+	
+	::selection {color:white;background:$lime-green;}
+	::-moz-selection {color:white;background:$lime-green;}
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	position: relative;
+	div.off-canvas-wrap {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding: 0;
+	}	
+	
+	div.inner-wrap {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding: 0;
+	}		
+	
+	div.row {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding: 0;
+	}
+	
+	div#content {
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	div.tt_article_useless_p_margin {
+		width: 100%;
+		height: 100%;
+		-webkit-font-smoothing: subpixel-antialiased;	
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+		div.hero {
+/* 			background: url(../addon/Profile.jpg) no-repeat center center ; */
+			background: url(http://cfile7.uf.tistory.com/image/2612B9355328CB9136E60B) no-repeat center center ;
+			background-size: cover;
+			width: 100%;
+			height: 50%;
+			display: block;
+			position: relative;
+			div.title {
+			  width: 75%;
+			  height: 60%;
+/* 			  overflow: auto; */
+			  margin: auto;
+			  position: absolute;
+			  top: 0; left: 0; bottom: 0; right: 0;		
+			  h1 {
+				  text-align: center;
+				  font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo !important;
+				  font-size: 150px;				  
+				  line-height: 180px;
+				  color: white;
+				  margin: 0;
+			  }		
+			  h3 {
+				  font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;		  
+				  font-weight: 400;
+				  text-align: center;
+				  color: white;
+				  display: block;
+				  span {
+					  border: 5px solid white;
+					  padding: 8px;
+				  }
+			  }
+			}
+		}
+		div.white {
+			width: 100%;
+			padding: 40px 5%;
+			font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+			h3 {
+				font-weight: 200;
+				font-size: 55px;
+				line-height: 90px;
+				font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+			}
+			p {
+				font-size: 1.2em;
+			}
+		}
+		
+		div.black {
+			width: 100%;
+			padding: 40px 5%;
+			background: #222;
+			color: #fff;
+			font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+			h3 {
+				font-weight: 200;
+				font-size: 55px;
+				line-height: 90px;
+				color: #fff;
+				font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+			}
+			p {
+				font-size: 1.2em;
+			}
+		}
+		
+	}
+	
+	nav {
+		h1 {
+			display: none;
+		}
+		a#menuToggle {
+			display: none;
+		}
+		div.mobileMenu {
+			display: none;
+		}
+		div.blogMenu {
+			font-weight: 400;
+			color: rgba(white,.8);
+			text-transform: uppercase;
+			font-size: 22px;
+			margin-top: 15px;
+			margin-bottom: 10px;
+			text-align: center;
+			position: absolute;
+			width: 100%;
+			z-index: 100;
+				@include transition-property(all);
+				@include transition-duration(.5s); @include transition-timing-function(ease);				
+			ul {
+				list-style: none;
+				position: relative;
+				margin: auto;
+				clear: both;
+				display: inline-block; 
+				float: none;
+				padding: 0 20px;
+				li {
+					float: left;
+					margin-right: 1em;
+					a {
+						color: rgba(white,.8);
+						&:hover {
+							color: white;
+							text-decoration: none;
+							@include transition-property(all);
+							@include transition-duration(.5s); @include transition-timing-function(ease);
+						}
+					}
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+	
+	aside#sidebar {
+		display: none;
+	}
+	div#paging {
+		display: none;
+	}	
+	footer {
+		display: none;
+	}
+}
+
+// Small screens 모바일
+@media only screen { 
+	body.Profile {
+		div.tt_article_useless_p_margin {
+			div.hero {
+				div.title {
+					h1 {
+					  font-size: 100px;				  
+					  line-height: 130px;						
+					}
+					h3 {
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body.Profile {
+		div.tt_article_useless_p_margin {
+			div.hero {
+				div.title {
+					h1 {
+					  font-size: 150px;				  
+					  line-height: 180px;						
+					}
+					h3 {
+						font-size: 27px;
+					}
+				}
+			}
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body.Profile {
+
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body.Profile {
+
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body.Profile {
+
+	}
+} /* min-width 1921px, xlarge screens */

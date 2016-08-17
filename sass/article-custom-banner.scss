@@ -1,0 +1,28 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+
+/* !패턴있음 */
+body#tt-body-page {
+	header {
+		background: url(http://cfs.tistory.com/custom/blog/151/1516157/skin/images/pattern4.png), 
+		url(http://cfile27.uf.tistory.com/image/223E3D4F52FA472F2F5983) no-repeat center center ;
+		  -webkit-background-size: auto, cover ;
+		  -moz-background-size: auto, cover ;
+		  -o-background-size: auto, cover ;		
+		background-size: auto, cover ;		
+	}
+}
+
+/* !패턴 없음 */
+body#tt-body-page {
+	header {
+		background: 
+		url(http://cfile1.uf.tistory.com/original/266EC94152754C2C192881) no-repeat center center ;
+		  -webkit-background-size: cover ;
+		  -moz-background-size: cover ;
+		  -o-background-size: cover ;		
+		background-size: cover ;
+	}	
+}

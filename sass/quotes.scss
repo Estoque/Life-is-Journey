@@ -1,0 +1,130 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+$lime-green: #26D673;
+
+
+body.Quotes {
+	a {
+		@include link-colors($lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	}	
+	
+	::selection {color:white;background:$lime-green;}
+	::-moz-selection {color:white;background:$lime-green;}
+	
+/* 	background: url(../addon/parallax1.jpg) no-repeat center center fixed; */
+	background: url(http://cfile4.uf.tistory.com/image/2426EF355328CB8F3585E8) no-repeat center center fixed;
+	background-size: cover;
+	
+	div.row {
+		width: 100%;
+		max-width: 960px;
+		margin: auto;
+		position: relative;
+	}
+	
+	div.tt_article_useless_p_margin {
+		margin-top: 10%;
+		-webkit-font-smoothing: subpixel-antialiased;
+		blockquote.tx-quote-tistory {
+			background: rgba(black,.5);
+			color: white ;
+			font-family: 'Nanum Myeongjo', 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, serif;
+			font-family: serif;
+			border: 0;
+			@include border-radius (30px);
+			padding: 60px 20px;
+			margin-bottom: 100px;
+			position: relative;
+			z-index: 100;
+			@include transition-property(background);@include transition-duration(.5s); @include transition-timing-function(ease);
+			&:hover {
+				background: black;
+				@include transition-property(background);@include transition-duration(.5s); @include transition-timing-function(ease);
+			}
+			p {
+				color: white;
+				text-align: center;
+				font-size: 22px;
+				font-weight: 400;
+				margin: 0;
+				font-style: italic;
+				font-family: Nanum Myeongjo, serif;
+				font-weight: normal;				
+			}
+			&:before {
+				content: '“';
+				font-size: 180px;
+				margin: 0;
+				line-height: 220px;
+				padding: 0 5px;
+				color: $lime-green;
+				position: absolute;
+				font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+				background: white;
+				display: block;
+				width: 80px;
+				height: 80px;
+				@include border-radius (50%);
+				top: -40px;
+				left: 50%;
+				margin-left: -40px;
+			}
+		}
+		div.entry-ccl {
+			display: none;
+		}
+
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	aside#sidebar {
+		display: none;
+	}
+	div#paging {
+		display: none;
+	}
+	footer {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		z-index: 0;
+		h1 {
+			text-align: center;
+			font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+			font-weight: 100;
+			a {
+				color: white !important;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				&:hover {
+					text-decoration: none;
+					color: $lime-green;
+					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}
+		}
+		hr, p, ul {
+			display: none;
+		}
+		div.socialIcon {
+			display: none;
+		}
+	}
+}

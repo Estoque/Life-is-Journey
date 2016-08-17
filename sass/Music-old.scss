@@ -1,0 +1,458 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+
+$pink: #FF008D;
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+}
+
+body {
+	color: black;
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+	line-height: 1;
+	position: relative;
+	cursor: default;
+/* 	background: white;	 */
+}
+
+/*
+@keyframes wall {
+	0% {background: url(../addon/music.jpg) no-repeat center center fixed;}
+	50% {background: url(../addon/music2.jpg) no-repeat center center fixed;}
+	100% {background: url(../addon/music.jpg) no-repeat center center fixed;}
+}
+
+@-webkit-keyframes wall {
+	0% {background: url(../addon/music.jpg) no-repeat center center fixed;}
+	50% {background: url(../addon/music2.jpg) no-repeat center center fixed;}
+	100% {background: url(../addon/music.jpg) no-repeat center center fixed;}
+}
+*/
+
+body.Music {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: url(../addon/music2.jpg) no-repeat center center fixed;
+	background: url(music2.jpg) no-repeat center center fixed;
+/* 	background: url(music.jpg) no-repeat center center fixed; */
+/*
+	background: url(../addon/parallax1.jpg) no-repeat center center fixed;
+	animation:wall 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation: wall 10s;
+	-webkit-animation-iteration-count: infinite;	
+*/
+	background-size: cover;
+	color: white;
+	
+
+	
+	a {
+		@include link-colors($pink, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	
+	::selection {color:white;background:$pink;}
+	::-moz-selection {color:white;background:$pink;}		
+	
+	header {
+		position: relative;
+		width: 25%;
+		margin-right: 5%;
+		background: rgba(#535353,.5);
+		float: right;
+		clear: both;
+		h1.blogName {
+			font-family: "Damion", cursive;
+			text-align: center;
+			width: 100%;
+			font-size: 55px;
+			a {
+				color: $pink;
+				&:hover {
+					color: white;
+					text-decoration: none;
+				}
+			}
+		}
+		div.blogMenu {
+			padding: 10px;
+			ul {
+				list-style: none;
+				margin: 0;
+				text-transform: uppercase;
+				font-size: 18px;
+				li {
+					float: left;
+					margin-right: 1em;
+					
+					a {
+						color: white;
+						@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+						&:hover {
+							color: $pink;
+							text-decoration: none;
+							@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+						}
+					}
+				}
+			}
+		}
+		
+		a#menuToggle {
+			display: none;			
+		}
+		div.mobileMenu {
+			display: none;
+			ul#mMenu {
+				display: none;
+			}
+		}
+		
+	}
+	
+	div.row {
+		position: relative;
+		width: 25%;
+		margin-right: 5%;;
+		background: rgba(#535353,.5);
+		float: right;
+		clear: both;
+	}
+	
+	section.header {
+		h2 {
+			font-weight: 200;
+			font-size: 28px;
+			padding: 0;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 0;
+			a {
+				color: $pink;
+				&:hover {
+					color: white;
+					text-decoration: none;					
+				}
+			}
+		}
+	}
+	
+	div.google {
+		display: none;
+	}
+	
+	
+	div.gtt {
+		display: none;
+	}
+	
+	div.category {
+		font-weight: 200;
+		margin: 20px 0 0px 0;
+		padding: 10px 0;
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+		border-top: 1px solid $pink;
+		border-bottom: 1px solid $pink;
+	}
+	div.articleDate {
+		display: block;
+		position: relative;
+		padding: 10px;
+		clear: both;
+		width: 160px;
+		margin: auto;
+		margin-bottom: 20px;
+		div.year {
+			font-weight: 200;
+			font-size: 16px;
+			color: $pink;
+			float: left;
+			&:after {
+				content: "·"			
+			}
+		}
+		
+		div.date {
+			font-weight: 200;
+			font-size: 16px;
+			color: $pink;
+			float: left;
+			&:after {
+				content: "·"			
+			}		
+		}
+		
+		div.time {
+			font-weight: 200;
+			font-size: 16px;
+			color: $pink;
+			float: left;		
+		}		
+	}
+	
+	div.article {
+		color: #fff;
+		display: block;
+		clear: both;
+		font-weight: normal;
+		div.metaWidget {
+			margin-top: 20px;
+		}
+	}
+	
+	div.tagTrail {
+		color: #fff;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+		a {
+			
+		}
+	}
+
+	
+	div.profileLayer {
+		display: none;
+	}
+	
+	div.admin {
+		background: rgba(white,.5);
+		position: fixed;
+		top:0;
+		left: 0;
+		@include border-bottom-right-radius (20px);
+		a {
+			color: black;
+		}
+	}
+	
+	nav#sidebar {
+		position: relative;
+		width: 100%;
+		margin-bottom: 20px;
+		h1.blogName {
+			display: none;
+		}
+
+		div.profileSide {
+			img.profilePic {
+				width: 120px;
+				height: 120px;
+				@include border-radius(50%);
+				border: 2px solid white;
+				margin: auto;
+				display: block;
+			}
+			h3 {
+				font-family: "Damion", cursive;
+				color: white;
+				font-size: 36px;
+				text-align: center;
+			}
+			p.ownerInfo {
+				color: white;
+				text-align: center;
+				margin: 0;
+			}
+			p.contact {
+				color: white;
+				text-align: center;
+				a {
+					color: white;
+					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+					&:hover {
+						color: $pink;
+						@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+					}
+				}
+			}
+		}
+
+		div#search {
+			input {
+				width: 80%;
+				@include border-radius(20px);
+				height: 40px;
+				background: #E5E5E5;
+				margin: 20px auto;
+				border: 0;
+				padding: 5px 10px;
+				font-size: 16px;
+				font-weight: 200;
+				font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;
+				font-style: italic;
+				display: block;
+				outline: 0;						
+				  @include transition-duration(0.2s);
+				  @include transition-timing-function(ease-in);
+				&:focus {
+					background: $pink;
+					color: #fff;
+					@include transition-property(all);
+				  @include transition-duration(0.2s);
+				  @include transition-timing-function(ease-in);
+				}
+				&:hover {
+					box-shadow: $pink 0 0 0 2px;
+				  @include transition-duration(0.2s);
+				  @include transition-timing-function(ease-in);					
+				}				
+			}
+		}
+		div.googleSide {
+
+		}
+		
+		div#category {
+			display: none;
+		}
+		div#noticeSide {
+			display: none;
+		}
+		div#recentPost {
+			display: none;
+		}
+		div#archive {
+			display: none;
+		}
+		div#calendar {
+			display: none;
+		}
+		div#link {
+			display: none;
+		}
+		div.module {
+			display: none;
+		}		
+	}
+	
+	div#paging {
+		color: white;
+		text-align: center;
+		a {
+			color: white;
+		}
+	}	
+	footer {
+		position: relative;
+		width: 25%;
+		margin-right: 5%;
+		background: rgba(#535353,.5);
+		float: right;
+		clear:both;
+		padding: 20px;
+		h1 {
+			display: none;
+		}
+		p {
+			color: #fff;
+			margin: 0;
+			text-align: center;
+		}
+		div.line {
+			display: none;
+		}
+		ul.social {
+			display: none;
+		}
+	}
+}
+
+// Small screens 모바일
+@media only screen { 
+	body.Music {
+		header {
+			width: 90%;
+			margin-right: 5%;
+		}
+		div.row {
+			width: 90%;
+			margin-right: 5%;		
+		}
+		footer {
+			width: 90%;
+			margin-right: 5%;		
+		}
+		div.metaMix {
+			display: none;
+		}		
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body.Music {
+		header {
+			width: 55%;
+			margin-right: 5%;
+		}
+		div.row {
+			width: 55%;
+			margin-right: 5%;		
+		}
+		footer {
+			width: 55%;
+			margin-right: 5%;		
+		}
+		div.metaMix {
+			display: block;
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body.Music {
+		header {
+			width: 30%;
+			margin-right: 5%;
+		}
+		div.row {
+			width: 30%;
+			margin-right: 5%;		
+		}
+		footer {
+			width: 30%;
+			margin-right: 5%;		
+		}
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body.Music {
+		header {
+			width: 25%;
+			margin-right: 5%;
+		}
+		div.row {
+			width: 25%;
+			margin-right: 5%;		
+		}
+		footer {
+			width: 25%;
+			margin-right: 5%;		
+		}
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-page {
+
+	}
+} /* min-width 1921px, xlarge screens */

@@ -1,0 +1,230 @@
+// Small screens 모바일
+@media only screen { 
+	body.GAME {
+		nav {
+			width: 30px;
+			
+			h1.blogName {
+				font-size: 15px;
+				left: -37px;
+			}
+			div.blogMenu {
+				ul {
+					display: none;
+				}				
+			}			
+		}
+		div.category {
+			font-size: 16px;
+		}
+		div.articleDate {
+			float: none;
+			clear: both;
+			margin-top: 10px;
+			height: 30px;
+			div.time {
+				float: left;
+			}			
+		}
+		div.row {		
+			padding-left: 30px;
+			margin-left: 0;
+			width: 100%;
+		}	
+		aside#sidebar {
+			div#noticeSide {
+				width: 99%;
+				padding: 10px;
+			}
+			div#recentPost {
+				width: 99%;		
+				padding: 10px;			
+			}
+			div#archive {
+				width: 99%;	
+				padding: 10px;				
+			}
+			div#link {
+				width: 99%;	
+				padding: 10px;		
+			}
+		}	
+		footer {
+			padding-left: 30px;
+			margin-left: 0;
+			width: 100%;	
+		    
+		    ul.social, div.line {
+				display: none;    
+		    }
+		}			
+/* 	end	 */		
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body.GAME {
+		nav {
+			width: 60px;
+			
+			h1.blogName {
+				font-size: 30px;
+				left: -72px;
+			}
+			div.blogMenu {
+				ul {
+					display: block;
+				}				
+			}			
+		}
+		div.category {
+			font-size: 18px;
+		}				
+		div.articleDate {
+			float: right;
+			margin-top: -35px;
+			div.time {
+				float: right;
+			}
+		}
+		div.row {
+			padding-left: 0;		
+			margin-left: 62px;
+			width: 90%;
+		}	
+		aside#sidebar {
+			div#noticeSide {
+				width: 49%;
+				padding: 10px;
+			}
+			div#recentPost {
+				width: 49%;		
+				padding: 10px;			
+			}
+			div#archive {
+				width: 49%;	
+				padding: 10px;				
+			}
+			div#link {
+				width: 49%;	
+				padding: 10px;		
+			}
+		}	
+		footer {
+		    width: 90%; 
+			padding-left: 0;		
+			margin-left: 62px;		
+		    
+		    ul.social, div.line {
+				display: block;    
+		    }
+		}			
+/* 	end	 */
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body.GAME {
+		div.category {
+			font-size: 24px;
+		}
+		div.row {		
+			margin-left: 120px;
+			width: 80%;
+		}	
+		aside#sidebar {
+			div#noticeSide {
+				width: 24%;
+				padding: 10px;
+			}
+			div#recentPost {
+				width: 24%;		
+				padding: 10px;			
+			}
+			div#archive {
+				width: 24%;	
+				padding: 10px;				
+			}
+			div#calendar {
+				width: 25%;	
+				display: none;		
+			}
+			div#link {
+				width: 24%;	
+				padding: 10px;		
+			}
+		}	
+		footer {
+		    width: 80%; 
+		    margin-left: 120px;			
+		}			
+/* 	end	 */
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body.GAME {
+		div.category {
+			font-size: 36px;
+		}
+		div.row {		
+			margin-left: 120px;
+			width: 70%;
+		}
+		aside#sidebar {
+			div#noticeSide {
+				width: 24%;
+				padding: 10px;
+			}
+			div#recentPost {
+				width: 24%;		
+				padding: 10px;			
+			}
+			div#archive {
+				width: 24%;	
+				padding: 10px;				
+			}
+			div#link {
+				width: 24%;	
+				padding: 10px;		
+			}
+		}
+		footer {
+		    width: 70%; 
+		    margin-left: 120px;			
+		}
+/* 	end	 */
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body.GAME {
+/* 	end	 */
+	}
+} /* min-width 1921px, xlarge screens */
+
+@media only screen { 
+	body.GAME {
+		nav { 
+			div.blogMenu {
+				display: none;
+			}
+		}
+/* 	end	 */
+	}
+}
+
+@media only screen and (min-height: 680px) { 
+	body.GAME {
+		nav { 
+			div.blogMenu {
+				display: block;
+			}
+		}
+/* 	end	 */
+	}
+}

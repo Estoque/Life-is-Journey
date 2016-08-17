@@ -1,0 +1,23 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+@import 'compass/css3/filter';
+
+$lime-green: #26D673;
+
+
+
+a.line {
+	color: transparent;
+	background-color: #222 !important;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIyMnB4IiBoZWlnaHQ9IjIycHgiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjIgMjIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMSwwLjg4OWMtNi4wNDYsMC0xMC45NDgsMy44NzEtMTAuOTQ4LDguNjQ4YzAsMy4wNjksMi4wMyw1Ljc2NSw1LjA3OSw3LjMwMkw0LjEsMjAuNjg4CgkJCWMtMC4wNCwwLjExOS0wLjAwNiwwLjI0NCwwLjA3OSwwLjMyOWMwLjA1OSwwLjA2LDAuMTM4LDAuMDk0LDAuMjIzLDAuMDk0YzAuMDY2LDAsMC4xMzEtMC4wMjgsMC4xOS0wLjA3NGw0LjQzNi0yLjk5NQoJCQljMC42NDQsMC4wOTEsMS4zMDEsMC4xNDUsMS45NzEsMC4xNDVjNi4wNDYsMCwxMC45NDktMy44NzIsMTAuOTQ5LTguNjQ5UzE3LjA0NiwwLjg4OSwxMSwwLjg4OXoiLz4KCTwvZz4KPC9nPgo8L3N2Zz4=);
+	background-position: center center;
+	background-repeat: no-repeat;
+	span {
+		color: transparent;
+	}
+	&:hover {
+		background-color: $lime-green !important;
+	}
+}

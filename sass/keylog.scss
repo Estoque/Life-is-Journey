@@ -1,0 +1,97 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+@import 'compass/css3/filter';
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+$lime-green: #26D673;
+$black: #222222;
+
+div#keyword {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+	box-sizing: border-box; 
+	color: $black;
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	}	
+	h1:first-child {
+		background: #222;
+		color: #fff;
+		padding: 8px 2%;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 200;
+		text-align: center;
+		margin: 0;
+		margin-bottom: 1em;
+		font-size: 2.125rem;
+		height: auto !important;
+		line-height: 1.4;
+	}
+	p {
+		-webkit-font-smoothing: subpixel-antialiased;
+		font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, Microsoft NeoGothic,  Droid sans, sans-serif !important;		
+		margin: 0;
+	}
+	a {
+		@include link-colors($lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	::selection {color:white;background:$lime-green;}
+	::-moz-selection {color:white;background:$lime-green;}		
+	
+	div.view {
+		padding: 0 5%;
+	}
+	div.footnotes {
+		font-family: 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, Microsoft NeoGothic,  Droid sans, sans-serif !important;	
+	}
+	ul {
+		font-size: 1em !important;
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+	}
+	fieldset.list {
+		background: #F5F5F5;
+		padding: 16px 5%;
+		color: #222;
+		border: none;
+		margin: 0;
+		font-weight: 400;
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+		legend {
+			margin: 0;
+			padding: 0;
+			padding-top: 50px;
+			font-weight: 800;
+			span.title {
+				font-size: 1.1em !important;
+			}
+		}
+		div.entry {
+			ul {
+				list-style: none;
+				li {
+					span.date {
+						font-weight: 600;
+						margin-right: 1em !important;
+					}
+					a {
+						color: $black;
+						&:hover {
+							color: $lime-green;
+						}
+					}
+				}
+			}
+		}
+	}
+}

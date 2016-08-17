@@ -1,0 +1,417 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+
+// Small screens 모바일
+@media only screen { 
+	body#tt-body-notice {
+		div.mainBody {
+			margin-top: 40px;
+		}	
+		nav {
+			height: 40px;
+			h1.blogName {
+				font-size: 20px;
+			}
+			div.blogMenu {
+				margin-top: 10px;
+				display: none;
+			}
+			a#menuToggle {
+				display: inline-block;
+				margin-top: 5px;
+			}			
+			div.mobileMenu {
+				display: none;
+				top:40px;
+			}									
+		}
+		nav.tiny {
+			height: 40px;
+			h1.blogName {
+				font-size: 20px;
+			}
+			div.blogMenu {
+				margin-top: 10px;
+				display: none;
+			}
+			a#menuToggle {
+				display: inline-block;
+				margin-top: 5px;
+			}			
+			div.mobileMenu {
+				display: none;
+				top:40px;
+			}						
+		}				
+		header {
+			height: 250px;
+			padding-top: 115px;
+			h2 {
+				font-size: 20px;
+			}
+		}
+		div.category {
+			font-size: 16px;
+		}
+		div.articleDate {
+			float: none;
+			clear: both;
+			margin-top: 10px;
+			height: 30px;
+			div.time {
+				float: left;
+			}			
+		}						
+		div.articleBody {
+			padding-left: 5%;
+			padding-right: 5%;		
+		}
+		div.metaWidget {
+			width: 320px;
+			div.metaDaum {
+				width: 100%;
+				max-width: 402px;				
+			}
+			div.metaMix	{
+				width: 100%;
+				max-width: 402px;
+			}		
+		}		
+	aside#sidebar {
+			padding-left: 5%;
+			padding-right:5%;
+			div#noticeSide {
+				display:inline-block;
+				width: 250px;
+			}
+			div#recentPost {
+				display:inline-block;
+				width: 250px;				
+			}
+			div#archive {
+				display:inline-block;
+				width: 250px;					
+			}
+			div#calendar {
+				display:inline-block;
+				width: 250px;				
+			}
+			div#link {
+				display:inline-block;
+				width: 250px;				
+			}				
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body#tt-body-notice {
+		div.mainBody {
+			margin-top: 60px;
+		}	
+		nav {
+			height: 60px;
+			h1.blogName {
+				font-size: 30px;
+			}
+			div.blogMenu {
+				margin-top: 15px;
+				display: none;				
+			}	
+			a#menuToggle {
+				display: inline-block;
+				margin-top: 15px;
+			}			
+			div.mobileMenu {
+				display: none;
+				top:60px;
+			}								
+		}
+		nav.tiny {
+			height: 60px;
+			h1.blogName {
+				font-size: 30px;
+			}
+			div.blogMenu {
+				margin-top: 15px;
+				display: none;
+			}
+			a#menuToggle {
+				display: inline-block;
+				margin-top: 15px;
+			}			
+			div.mobileMenu {
+				display: none;
+				top:60px;
+			}						
+		}
+		div.category {
+			font-size: 18px;
+		}				
+		header {
+			height: 325px;
+			padding-top: 165px;
+			h2 {
+				font-size: 30px;
+			}
+		}
+		div.articleDate {
+			float: right;
+			margin-top: -35px;
+			div.time {
+				float: right;
+			}
+		}					
+		div.articleBody {
+			padding-left: 5%;
+			padding-right: 5%;				
+		}
+		div.metaWidget {
+			width: 402px;
+			div.metaDaum {
+				width: 100%;
+				max-width: 402px;				
+			}
+			div.metaMix	{
+				width: 100%;
+				max-width: 402px;
+			}		
+		}		
+		aside#sidebar {
+			padding-left: 5%;
+			padding-right:5%;			
+			div#noticeSide {
+				display:inline-block;
+				width: 250px;
+			}
+			div#recentPost {
+				display:inline-block;
+				width: 250px;				
+			}
+			div#archive {
+				display:inline-block;
+				width: 250px;					
+			}
+			div#calendar {
+				display:inline-block;
+				width: 250px;				
+			}
+			div#link {
+				display:inline-block;
+				width: 250px;				
+			}
+/*
+			div.categoryList {
+				width: 50%;
+				ul {
+					li {
+						a{
+							
+						}
+						ul{
+							right:20%;							
+						}	
+					}
+				}				
+			}
+*/			
+		}
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body#tt-body-notice {
+		div.mainBody {
+			margin-top: 80px;
+		}	
+		nav {
+			height: 80px;
+			h1.blogName {
+				font-size: 45px;
+			}
+			div.blogMenu {
+				margin-top: 25px;
+				display: block;
+				ul {
+					li {
+						a {
+							padding-bottom: 15px;
+							&:hover {
+								border-bottom: 2px solid #26D673;
+							}
+						}
+					}
+				}				
+			}
+			a#menuToggle {
+				display: none;
+			}			
+			div.mobileMenu {
+				display: none;
+			}									
+		}
+		nav.tiny {
+			height: 60px;
+			h1.blogName {
+				font-size: 30px;
+			}
+			div.blogMenu {
+				margin-top: 15px;
+				display: block;
+			}
+			a#menuToggle {
+				display: none;
+			}			
+			div.mobileMenu {
+				display: none;
+			}						
+		}		
+		header {
+			height: 350px;
+			padding-top: 175px;
+			h2 {
+				font-size: 40px;
+			}
+		}
+		div.category {
+			font-size: 24px;
+		}					
+		div.articleBody {
+			padding-left: 5%;
+			padding-right: 5%;			
+		}
+		div.metaWidget {
+			width: 804px;
+			div.metaDaum {
+				width: 100%;
+				max-width: 402px;				
+			}
+			div.metaMix	{
+				width: 100%;
+				max-width: 402px;
+			}		
+		}		
+		aside#sidebar {
+			padding-left: 5%;
+			padding-right: 5%;			
+			
+/*
+			div.categoryList {
+				width: 100%;
+				ul {
+					li {
+						a{
+							
+						}
+						ul{
+							right:90%;							
+						}	
+					}
+				}
+			}	
+*/		
+		}
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body#tt-body-notice {
+		div.mainBody {
+			margin-top: 100px;
+		}	
+		nav {
+			height: 100px;
+			h1.blogName {
+				font-size: 58px;
+			}
+			div.blogMenu {
+				margin-top: 35px;
+				ul {
+					li {
+						a {
+							padding-bottom: 15px;
+							&:hover {
+								border-bottom: 2px solid #26D673;
+							}
+						}
+					}
+				}
+			}
+		}
+		nav.tiny {
+			height: 60px;
+			h1.blogName {
+				font-size: 30px;
+			}
+			div.blogMenu {
+				margin-top: 15px;
+				ul {
+					li {
+						a {
+							padding-bottom: 20px;
+							&:hover {
+								border-bottom: 2px solid #26D673;
+							}
+						}
+					}
+				}				
+			}					
+		}
+		header {
+			height: 400px;
+			padding-top: 190px;
+			h2 {
+				font-size: 60px;
+			}
+		}
+		div.category {
+			font-size: 36px;
+		}		
+		div.articleBody {
+		padding-left: 10%;
+		padding-right: 10%;
+		}
+		div.metaWidget {
+			width: 804px;
+			div.metaDaum {
+				width: 100%;
+				max-width: 402px;				
+			}
+			div.metaMix	{
+				width: 100%;
+				max-width: 402px;
+			}		
+		}
+		aside#sidebar {
+		padding-left: 10%;
+		padding-right: 10%;			
+
+		}
+		div#paging {
+			width: 100%;
+		}
+		footer {
+			width: 100%;
+		}
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-notice {
+		div.articleBody {
+		padding-left: 15%;
+		padding-right: 15%;
+		}
+	aside#sidebar {
+		padding-left: 15%;
+		padding-right: 15%;
+		}
+	
+	}
+} /* min-width 1921px, xlarge screens */

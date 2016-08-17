@@ -1,0 +1,219 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+$lime-green: #26D673;
+
+body.Gallery {
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+	font-weight: lighter;
+	a {
+		@include link-colors($lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+	}
+	
+	
+	::selection {color:white;background:$lime-green;}
+	::-moz-selection {color:white;background:$lime-green;}
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	position: relative;
+	
+	div.row {
+		width: 100%;
+		position: relative;
+		padding: 0;
+/* 		background: url(../addon/skingallery.png); */
+		background: url(skingallery.png);
+		background-color: #181818;
+		margin: 0;
+	}
+	
+	div#content {
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+	div.tt_article_useless_p_margin {
+		width: 100%;	
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+		h1,h2,h3,h4,h5,h6 {
+			font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif !important;
+		}
+		
+		div.entry-ccl {
+			display: none;
+		}
+		div.white {
+			width: 50%;
+			background: white;
+			float: right;
+			h1 {
+				font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo !important;
+				font-size: 76px;
+				text-align: right;
+				padding-left: 1em;
+				margin: 0;
+				margin: 5px 40px;	
+
+								
+			}
+			
+			div.desc {
+				background: #F5F5F5;
+				padding: 20px 0;
+				margin-bottom: 60px;
+				display: block;
+				
+				div.imgbox {
+					width: 100%;
+					left: -100%;
+					position: absolute;
+					img {
+						width: 100%;
+					}
+				}
+				h2 {
+					text-align: center;
+					font-size: 50px;					
+					span {
+						color: #222;
+						border: 5px solid #222;
+						padding: 2px 5px;
+						text-transform: uppercase;
+						letter-spacing: 10px;
+						text-align: center;
+						font-weight: 500;
+					}
+					&:after {
+						content: '';
+						position: absolute;
+						border-style: solid;
+						border-width: 15px 15px 15px 0;
+						border-color: transparent #F5F5F5;
+						display: block;
+						width: 0;
+						z-index: 1;
+						margin-top: -15px;
+						left: -15px;
+						top: 70px;				
+					}					
+				}
+				p.date {
+					text-align: center;	
+					font-weight: 400;	
+					span {
+						background: white;
+						font-size: 26px;
+						padding: 5px 10px;
+						@include border-radius (40px);										
+					}
+				}
+				div.update {
+					width: 35%;
+					height: 100%;
+					padding: 20px 10px;
+					background: #222;
+					color: white;
+					position: relative;
+					h3 {
+						color: white;
+						font-weight: 200;
+						font-size: 36px;
+					}
+					h4 {
+						color: white;
+						font-weight: 200;
+					}
+					h5 {
+						color: white;
+						font-weight: 900;
+					}
+					p {
+						margin: 0;
+						span {
+							margin-right: 5px;
+						}
+					}
+					a {
+						color: $lime-green;
+						font-weight: 400;
+						@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+						&:hover {
+							color: $lime-green - 50;
+							text-decoration: none;
+							@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+						} 
+					}
+				}
+				div.behind {
+					width: 65%;
+					position: relative;
+					padding: 20px 20px;
+					h3 {
+						font-weight: 200;
+						font-size: 36px;
+					}					
+				}
+			}
+		}
+		div#disqus_thread {
+			padding: 0 20px;
+		}		
+	}
+	
+	footer {
+		clear: both;
+		float: none;	
+		background: #F5F5F5;	
+		
+		h1 {
+			text-align: center;
+			margin: 0;
+			font-family: "Damion", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo !important;
+			a {
+				color: #222 !important;
+				@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				&:hover {
+					color: $lime-green !important;
+					text-decoration: none;
+					@include transition-property(all);@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}
+		}
+		
+		hr {
+			display: none;
+		}
+		
+		div {
+			display: none;
+		}
+		
+		p {
+			display: none;
+		}
+		
+		ul {
+			display: none;
+		}
+	}
+	
+	nav {
+		display: none;
+	}
+	aside#sidebar {
+		display: none;
+	}
+	div#paging {
+		display: none;
+	}		
+	
+}

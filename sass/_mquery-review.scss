@@ -1,0 +1,213 @@
+// Small screens 모바일
+@media only screen { 
+	body.Review {
+		nav {
+			display: block;
+		}
+		div.hero {
+			margin-right: 0px;
+		}				
+		div.mainBody {
+			width: 100%;
+			padding-right: 0px;
+			div.blogMenu {
+				display: block;
+			}			
+		}
+		header {
+			h2 {
+				font-size: 24px;
+			}
+		}
+		div.articleDate {
+			float: none;
+			clear: both;
+			margin-top: 10px;
+			height: 30px;
+			div.time {
+				float: left;
+			}			
+		}				
+		aside#sidebar {
+			display: none;
+		}
+		div#paging {
+			padding: 20px 0px 20px 0;
+			width: 100%;			
+		}
+		footer {
+			width: 100%;
+			padding-right: 0px;
+			ul.social {
+				display: none;
+			}		
+		}
+		div.article {
+			div.tt_article_useless_p_margin {
+				div.magellan-container {
+					padding-right: 4%;
+				}
+				h3 {
+					font-size: 24px;	
+				}				
+			}
+		}
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body.Review {
+		nav {
+			display: block;
+		}
+		div.hero {
+			margin-right: 0px;
+		}				
+		div.mainBody {
+			width: 100%;
+			padding-right: 0px;
+			div.blogMenu {
+				display: block;
+			}			
+		}
+		header {
+			h2 {
+				font-size: 24px;
+			}
+		}
+		div.articleDate {
+			float: right;
+			margin-top: -35px;
+			div.time {
+				float: right;
+			}
+		}					
+		aside#sidebar {
+			display: none;
+		}
+		div#paging {
+			padding: 20px 0px 20px 0;
+			width: 100%;			
+		}
+		footer {
+			width: 100%;
+			padding-right: 0px;
+			ul.social {
+				display: block;
+			}		
+		}
+		div.article {
+			div.tt_article_useless_p_margin {
+				div.magellan-container {
+					padding-right: 4%;
+				}
+				h3 {
+					font-size: 36px;	
+				}				
+			}
+		}		
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body.Review {
+		nav {
+			display: none;
+		}
+		div.hero {
+			margin-right: 320px;
+		}				
+		div.mainBody {
+			width: 100%;
+			padding-right: 320px;
+			div.blogMenu {
+				display: block;
+			}			
+		}
+		header {
+			h2 {
+				font-size: 36px;
+			}
+		}		
+		aside#sidebar {
+			display: block;
+		}
+		div#paging {
+			padding: 20px 320px 20px 0;
+			width: 100%;			
+		}
+		footer {
+			width: 100%;
+			padding-right: 320px;
+			ul.social {
+				display: block;
+			}		
+		}
+		div.article {
+			div.tt_article_useless_p_margin {
+				div.magellan-container {
+					padding-right: 320px;
+
+				}
+				h3 {
+					font-size: 48px;	
+				}
+			}
+		}		
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body.Review {
+		nav {
+			display: none;
+		}
+		div.hero {
+			margin-right: 320px;
+		}		
+		div.mainBody {
+			width: 100%;
+			padding-right: 320px;
+			div.blogMenu {
+				display: block;
+			}			
+		}
+		header {
+			h2 {
+				font-size: 48px;
+			}
+		}
+		aside#sidebar {
+			display: block;
+		}
+		div#paging {
+			padding: 20px 320px 20px 0;
+			width: 100%;			
+		}
+		footer {
+			width: 100%;
+			padding-right: 320px;
+			ul.social {
+				display: block;
+			}		
+		}
+		div.article {
+			div.tt_article_useless_p_margin {
+				div.magellan-container {
+					padding-right: 320px;
+				}
+
+			}
+		}	
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body.Review {
+
+	}
+} /* min-width 1921px, xlarge screens */

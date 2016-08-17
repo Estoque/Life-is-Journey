@@ -1,0 +1,252 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import 'compass';
+@import 'compass/css3';
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/poiretone/v2/HrI4ZJpJ3Fh0wa5ofYMK8b3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+$lime-green: #26D673;
+$black: #222;
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body#tt-body-guestbook {
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	position: relative;
+	cursor: default;
+
+	height: 100%;
+/* 	background: url(../pattern.png), url(../addon/guestbook.jpg) no-repeat center center fixed; */
+/* 	background: url(pattern.png), url(http://cfile26.uf.tistory.com/image/24523C3B5328CB8B2C4BAF) no-repeat center center fixed; */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI1cHgiIGhlaWdodD0iNXB4IiB2aWV3Qm94PSIwIDAgNSA1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1IDUiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cmVjdCBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjQiIHk9IjEuMDE2IiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjMuMDE2IiB5PSIyIiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjIuMDMxIiB5PSIzIiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+CjxyZWN0IHg9IjEuMDQ3IiB5PSI0IiBvcGFjaXR5PSIwLjEiIHdpZHRoPSIwLjk4NCIgaGVpZ2h0PSIxIi8+Cjwvc3ZnPg==), url(http://cfile26.uf.tistory.com/image/24523C3B5328CB8B2C4BAF) no-repeat center center fixed;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+	position:relative;
+	color: white;
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Raleway" , 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, 돋움, dotum, sans-serif;
+	}	
+	
+	a {
+		@include link-colors( $lime-green, #35ceb7, #356ece, #979DAC, #35ceb7);
+		@include hover-link;
+		@include transition-property(color);
+		@include transition-duration(.2s); @include transition-timing-function(ease);
+	}
+	
+	::selection {color:white;background: $lime-green;}
+	::-moz-selection {color:white;background: $lime-green;}	
+	
+	article#guestbook {
+		@include background-image(linear-gradient(rgba($black,.8), rgba($black,.2)));
+		position: relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	    float: none;
+	    margin-top: 5%;
+	    margin-bottom: 5%;
+	    width: 78%;
+	    height: 50%;
+	    @include box-shadow(rgba($black,.55) 0px 10px 32px 0px);
+	    border: 1.5px solid $black;
+	    padding: 15px 20px 10px 20px;
+		h1.title {
+			margin: 0;
+			font-size: 62px;
+			font-family: "Poiret One", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+			font-weight: 100;
+			font-style: normal;
+			float: left;
+			color: white;
+			margin-bottom: 20px;
+			@include transition-property(all);
+			@include transition-duration(.5s); @include transition-timing-function(ease);	
+		}
+		a.right-off-canvas-toggle {
+			float: right;
+			display: inline-block;
+			color: rgba(white,.8);
+			margin-top: 15px;
+			font-size: 22px;
+			font-weight: 400;
+			text-transform: uppercase;		
+			&:hover {
+				text-decoration: none;
+				color: $lime-green;			
+			}			
+		}
+		div.google {
+			float: right;
+			display: inline-block;
+			max-width: 100%;
+			margin-bottom: 10px;
+		}
+		hr {
+			margin: 10px 0;
+			clear: both;
+			color: white;
+			border-color: white;
+			background-color: white;
+		}
+		p.pwd {
+			text-align: right;
+			font-weight: 200;
+			color: white;
+		}
+		h3.blogName {
+			margin: 0;
+			font-size: 38px;
+			font-family: "Poiret One", 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo;
+			font-weight: 100;
+			float: left;
+			a{
+				color: white;
+				
+				text-decoration: none;
+				@include transition-property(all);
+				@include transition-duration(.5s); @include transition-timing-function(ease);	
+				&:hover {
+					text-shadow: white 0 0 5px;
+					@include transition-duration(.5s); @include transition-timing-function(ease);
+				}
+			}
+		}
+		div.blogMenu {
+			float: right;
+			margin: 0;
+			font-weight: 400;
+			color: rgba(white,.8);
+			text-transform: uppercase;
+			font-size: 22px;
+			margin-top: 23px;
+			text-align: left;
+				@include transition-property(all);
+				@include transition-duration(.5s); @include transition-timing-function(ease);				
+			ul {
+				list-style: none;
+				li {
+					float: left;
+					margin-right: 1em;
+					a {
+						color: rgba(white,.8);
+						padding-bottom: 13px;
+						&:hover {
+							color: white;
+							text-decoration: none;
+							border-bottom: 2px solid white;
+							@include transition-property(all);
+							@include transition-duration(.5s); @include transition-timing-function(ease);
+						}
+					}
+				}
+			}
+		}
+		nav.menuContainer {
+			display: block;
+			
+		}			    
+	}  
+	nav {
+		display: none;
+	}
+	
+	footer {
+		display: none;
+	}	
+	aside#sidebar {
+		display: none;
+	}
+	div#paging {
+		display: none;
+	}
+}
+
+// Small screens 모바일
+@media only screen { 
+	body#tt-body-guestbook {
+		nav.blogMenu {
+			display: none;
+		}
+		h1.title {
+			font-size: 45px;
+		}		
+		div#guestbook {
+			width: 90%;
+			@include transition-property(all);
+			@include transition-duration(.5s); @include transition-timing-function(ease);
+			div.google {
+				display: none;
+			}						
+		}
+		
+	}
+} /* Define mobile styles */
+
+// Medium screens 테블릿
+@media only screen and (min-width: 40.063em) {
+	body#tt-body-guestbook {
+		nav.blogMenu {
+			display: none;
+		}
+		h1.title {
+			font-size: 62px;
+		}
+		article#guestbook {
+			width: 90%;
+			@include transition-property(all);
+			@include transition-duration(.5s); @include transition-timing-function(ease);
+		}		
+	}
+ } /* min-width 641px, medium screens */
+
+// Large screens 작은 컴퓨터
+@media only screen and (min-width: 64.063em) { 
+	body#tt-body-guestbook {
+		nav.blogMenu {
+			display: block;
+		}
+		article#guestbook {
+			width: 80%;
+			@include transition-property(all);
+			@include transition-duration(.5s); @include transition-timing-function(ease);
+			div.google {
+				display: block;
+			}			
+		}
+		
+	}
+} /* min-width 1025px, large screens */
+
+// XLarge screens 기본사이즈
+@media only screen and (min-width: 90.063em) { 
+	body#tt-body-guestbook {
+		nav.blogMenu {
+			display: block;
+		}
+		article#guestbook {
+			width: 78%;
+			@include transition-property(all);
+			@include transition-duration(.5s); @include transition-timing-function(ease);			
+		}
+	}
+} /* min-width 1441px, xlarge screens */
+
+// XXLarge screens 와이드 스크린
+@media only screen and (min-width: 120.063em) { 
+	body#tt-body-guestbook {
+
+	}
+} /* min-width 1921px, xlarge screens */
